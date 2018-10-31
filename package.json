@@ -1,0 +1,26 @@
+{
+  "name": "costestimator",
+  "version": "1.0.0",
+  "description": "Cost Estimator app that will be completed in GDP 1 and GDP 2",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwoolery/CostEstimator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwoolery/CostEstimator/issues"
+  },
+  "homepage": "https://github.com/mwoolery/CostEstimator#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
