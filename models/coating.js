@@ -23,12 +23,12 @@ const CoatingSchema = new mongoose.Schema({
     required: false,
     default: [
       {
-        itemName: 'Mom',
+        itemName: 'Limestone',
         quantity: 5,
         
       },
       {
-        itemName: 'Dad',
+        itemName: 'Varnish',
         quantity: 5,
         
       }
