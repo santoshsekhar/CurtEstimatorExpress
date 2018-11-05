@@ -25,7 +25,7 @@ Following must be downloaded, installed, and configured according to the product
 Clone this repo to your local machine. If Windows, 
 
 - Right-click on parent folder and select:
-- git clone https://bitbucket.org/professorcase/node-express-mvc-ejs-start
+- git clone https://github.com/mwoolery/CostEstimator.git
 
 # Live updates
 
@@ -52,7 +52,7 @@ In Windows, right-click on the project folder and "Open Command Window Here as A
 > nodemon app.js
 ```
 
-Open your browser to the location displayed, e.g. http://localhost:8089/
+Open your browser to the location displayed, e.g. http://localhost:3000/
 
 # Building and editing the code
 
