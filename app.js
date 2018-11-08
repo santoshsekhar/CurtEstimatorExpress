@@ -43,7 +43,7 @@ app.set('views', path.join(__dirname, 'views'))
 
 // specify desired view engine
 app.set('view engine', 'ejs')
-//app.engine('ejs', engines.ejs)
+// app.engine('ejs', engines.ejs)
 
 // configure middleware.....................................................
 // app.use(favicon(path.join(__dirname, '/public/images/favicon.ico')))
@@ -67,7 +67,7 @@ const routes = require('./routes/index.js')
 app.use('/', routes)  // load routing
 // LOG.info('Loaded routing.')
 
-// app.use((req, res) => { res.status(404).render('404.ejs') }) // handle page not found errors
+app.use((req, res) => { res.status(404).render('404.ejs') }) // handle page not found errors
 
 // initialize data ............................................
 // require('./utils/seeder.js')(app)  // load seed data
