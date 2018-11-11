@@ -35,4 +35,5 @@ const CoatingSchema = new mongoose.Schema({
     ]
   }
 })
+
 module.exports = mongoose.model('Coating', CoatingSchema)
