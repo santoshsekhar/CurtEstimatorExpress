@@ -21,6 +21,9 @@ router.get('/', (req, res, next) => {
 
 // Defer path requests to a particular controller
 router.use('/about', require('../controllers/about.js'))
+router.use('/coating',require('../controllers/coating.js'))
 
+
+ 
 
 module.exports = router

@@ -119,4 +119,4 @@ default: 0.30, min: 0, max: 1.00
 },
 
 })
-module.exports = mongoose.model('Estimate', CoatingsEstimateSchema)
+module.exports = mongoose.model('coatings', CoatingsEstimateSchema)
