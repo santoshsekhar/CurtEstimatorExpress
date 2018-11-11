@@ -22,7 +22,7 @@ const bodyParser = require('body-parser')
 //const mongoose = require('mongoose')
 //const expressValidator = require('express-validator')
 //const expressStatusMonitor = require('express-status-monitor')
-//const LOG = require('./utils/logger.js')
+
 
 // Load environment variables from .env file, where API keys and passwords are configured.
 // dotenv.load({ path: '.env.example' })
@@ -50,10 +50,10 @@ app.set('view engine', 'ejs')
 // app.use(expressStatusMonitor())
 
 // log calls
-// app.use((req, res, next) => {
-  // LOG.debug('%s %s', req.method, req.url)
-  // next()
-// })
+//  app.use((req, res, next) => {
+//    LOG.debug('%s %s', req.method, req.url)
+//    next()
+//  })
 
 // specify various resources and apply them to our application
 // app.use(bodyParser.json())
