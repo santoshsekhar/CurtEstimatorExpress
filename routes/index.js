@@ -22,11 +22,9 @@ router.get('/', (req, res, next) => {
 // Defer path requests to a particular controller
 router.use('/about', require('../controllers/about.js'))
 router.use('/coating',require('../controllers/coating.js'))
-<<<<<<< HEAD
 router.use('/account',require('../controllers/user.js'))
-=======
 router.use('/register',require('../controllers/register.js'))
->>>>>>> c1500271db4532a039f9fefbfa59a98764ebf81f
+
 
 
  
