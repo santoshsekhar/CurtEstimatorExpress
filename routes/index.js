@@ -8,7 +8,9 @@
  */
 
 const express = require('express')
+const LOG = require('../utils/logger.js')
 
+LOG.debug('START routing')
 
 
 const router = express.Router()
@@ -20,7 +22,7 @@ router.get('/', (req, res, next) => {
 })
 
 router.get('/contact', (request, response, next) => {
-
+  LOG.debug('Request to /')
   response.render('contact.ejs')
 })
 
@@ -35,5 +37,5 @@ router.use('/register',require('../controllers/register.js'))
 
 
  
-
+LOG.debug('END routing')
 module.exports = router
