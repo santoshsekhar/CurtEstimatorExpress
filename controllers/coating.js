@@ -13,15 +13,7 @@ api.get('/', function (request, response) {
    })
 
    api.get('/create', (req, res) => {
-    LOG.info(`Handling GET /create${req}`)
-    const item = new Model()
-    LOG.debug(JSON.stringify(item))
-    res.render('coating/create',
-      {
-        title: 'Create Estimate',
-        layout: 'layout.ejs',
-        flight: item
-      })
+    res.render("coating/create.ejs");
   })
 
 module.exports=api;
