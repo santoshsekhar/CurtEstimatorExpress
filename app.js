@@ -44,7 +44,7 @@ if (isProduction) {
 }
 // mongoose.connect(url)
 var promise = mongoose.connect(url, {
-  useMongoClient: true
+  // useMongoClient: true
   /* other options */
 })
 promise.then(function (db) {

@@ -10271,3 +10271,479 @@ Error: Cannot find module '../controllers/about.js'
 {"message":"START routing","level":"debug"}
 {"message":"END routing","level":"debug"}
 >>>>>>> cea7a50174bcc5c4ff9cd43bc9ceab371e9c56b3
+2018-12-03T03:37:46.001Z - info: Environment isProduction =  true
+2018-12-03T03:37:46.283Z - error: uncaughtException: Unexpected token << date=Sun Dec 02 2018 21:37:46 GMT-0600 (Central Standard Time), pid=92245, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimator, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimator/app.js], rss=59518976, heapTotal=39124992, heapUsed=26604072, external=37411183, loadavg=[1.94677734375, 1.578125, 1.50634765625], uptime=1073709
+/Users/santosh/Desktop/CostEstimator/routes/index.js:2
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimator/app.js:144:16)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2018-12-03T03:37:46.887Z - info: Starting controllers/user.js.
+2018-12-03T03:37:46.887Z - info: START seeder.
+2018-12-03T03:37:46.892Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:37:47.301Z - info: User with email: cgeadmin@mail.com successfully registered.
+2018-12-03T03:37:57.494Z - info: Environment isProduction =  true
+2018-12-03T03:37:57.602Z - error: uncaughtException: Unexpected token << date=Sun Dec 02 2018 21:37:57 GMT-0600 (Central Standard Time), pid=92277, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimator, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimator/app.js], rss=59150336, heapTotal=40697856, heapUsed=25891360, external=37261555, loadavg=[1.86767578125, 1.57470703125, 1.50537109375], uptime=1073720
+/Users/santosh/Desktop/CostEstimator/routes/index.js:2
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimator/app.js:144:16)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2018-12-03T03:37:58.098Z - info: Starting controllers/user.js.
+2018-12-03T03:37:58.099Z - info: START seeder.
+2018-12-03T03:37:58.103Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:37:58.511Z - debug: User already exists:  cgeadmin@mail.com
+2018-12-03T03:38:16.241Z - info: Environment isProduction =  true
+2018-12-03T03:38:16.351Z - error: uncaughtException: Unexpected token << date=Sun Dec 02 2018 21:38:16 GMT-0600 (Central Standard Time), pid=92311, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimator, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimator/app.js], rss=59387904, heapTotal=39124992, heapUsed=26624672, external=37411183, loadavg=[1.63916015625, 1.537109375, 1.49267578125], uptime=1073739
+/Users/santosh/Desktop/CostEstimator/routes/index.js:2
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimator/app.js:144:16)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2018-12-03T03:38:16.870Z - info: Starting controllers/user.js.
+2018-12-03T03:38:16.870Z - info: START seeder.
+2018-12-03T03:38:16.875Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:38:17.286Z - info: User with email: cgeadmin@mail.com successfully registered.
+2018-12-03T03:38:42.541Z - info: Environment isProduction =  true
+2018-12-03T03:38:42.686Z - error: uncaughtException: Unexpected token > date=Sun Dec 02 2018 21:38:42 GMT-0600 (Central Standard Time), pid=92361, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimator, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimator/app.js], rss=61390848, heapTotal=43319296, heapUsed=22361800, external=36112903, loadavg=[1.5390625, 1.52392578125, 1.4892578125], uptime=1073765
+/Users/santosh/Desktop/CostEstimator/controllers/about.js:45
+  <br/>
+      ^
+
+SyntaxError: Unexpected token >
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimator/routes/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2018-12-03T03:38:42.646Z - debug: START routing
+2018-12-03T03:38:43.206Z - info: Starting controllers/user.js.
+2018-12-03T03:38:43.207Z - info: START seeder.
+2018-12-03T03:38:43.211Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:38:43.636Z - debug: User already exists:  cgeadmin@mail.com
+2018-12-03T03:38:52.478Z - info: Environment isProduction =  true
+2018-12-03T03:38:52.626Z - error: uncaughtException: Unexpected token > date=Sun Dec 02 2018 21:38:52 GMT-0600 (Central Standard Time), pid=92392, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimator, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimator/app.js], rss=59744256, heapTotal=40697856, heapUsed=26476840, external=37394319, loadavg=[1.529296875, 1.5224609375, 1.4892578125], uptime=1073775
+/Users/santosh/Desktop/CostEstimator/controllers/about.js:45
+  <br/>
+      ^
+
+SyntaxError: Unexpected token >
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimator/routes/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2018-12-03T03:38:52.586Z - debug: START routing
+2018-12-03T03:38:53.157Z - info: Starting controllers/user.js.
+2018-12-03T03:38:53.157Z - info: START seeder.
+2018-12-03T03:38:53.162Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:38:53.570Z - info: User with email: cgeadmin@mail.com successfully registered.
+2018-12-03T03:39:11.852Z - info: Environment isProduction =  true
+2018-12-03T03:39:12.016Z - error: uncaughtException: Unexpected token > date=Sun Dec 02 2018 21:39:11 GMT-0600 (Central Standard Time), pid=92425, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimator, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimator/app.js], rss=61419520, heapTotal=41746432, heapUsed=22408960, external=36136751, loadavg=[1.4462890625, 1.50390625, 1.4833984375], uptime=1073794
+/Users/santosh/Desktop/CostEstimator/controllers/about.js:45
+  <br/>
+      ^
+
+SyntaxError: Unexpected token >
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimator/routes/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2018-12-03T03:39:11.981Z - debug: START routing
+2018-12-03T03:39:12.493Z - info: Starting controllers/user.js.
+2018-12-03T03:39:12.493Z - info: START seeder.
+2018-12-03T03:39:12.498Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:39:12.903Z - debug: User already exists:  cgeadmin@mail.com
+2018-12-03T03:39:16.514Z - info: Environment isProduction =  true
+2018-12-03T03:39:16.625Z - error: uncaughtException: Unexpected token > date=Sun Dec 02 2018 21:39:16 GMT-0600 (Central Standard Time), pid=92447, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimator, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimator/app.js], rss=58798080, heapTotal=40173568, heapUsed=26220040, external=37359168, loadavg=[1.490234375, 1.51171875, 1.486328125], uptime=1073799
+/Users/santosh/Desktop/CostEstimator/controllers/about.js:45
+  <br/>
+      ^
+
+SyntaxError: Unexpected token >
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimator/routes/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2018-12-03T03:39:16.621Z - debug: START routing
+2018-12-03T03:39:17.144Z - info: Starting controllers/user.js.
+2018-12-03T03:39:17.144Z - info: START seeder.
+2018-12-03T03:39:17.149Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:39:17.541Z - info: User with email: cgeadmin@mail.com successfully registered.
+2018-12-03T03:39:19.687Z - info: Environment isProduction =  true
+2018-12-03T03:39:19.824Z - error: uncaughtException: Unexpected token > date=Sun Dec 02 2018 21:39:19 GMT-0600 (Central Standard Time), pid=92466, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimator, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimator/app.js], rss=59412480, heapTotal=40173568, heapUsed=26646928, external=37402991, loadavg=[1.53076171875, 1.51953125, 1.4892578125], uptime=1073802
+/Users/santosh/Desktop/CostEstimator/controllers/about.js:46
+  <br/>
+      ^
+
+SyntaxError: Unexpected token >
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimator/routes/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2018-12-03T03:39:19.790Z - debug: START routing
+2018-12-03T03:39:20.292Z - info: Starting controllers/user.js.
+2018-12-03T03:39:20.293Z - info: START seeder.
+2018-12-03T03:39:20.297Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:39:20.690Z - debug: User already exists:  cgeadmin@mail.com
+2018-12-03T03:39:21.589Z - info: Environment isProduction =  true
+2018-12-03T03:39:21.709Z - error: uncaughtException: Unexpected token > date=Sun Dec 02 2018 21:39:21 GMT-0600 (Central Standard Time), pid=92489, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimator, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimator/app.js], rss=61833216, heapTotal=43319296, heapUsed=22160984, external=36104711, loadavg=[1.53076171875, 1.51953125, 1.4892578125], uptime=1073804
+/Users/santosh/Desktop/CostEstimator/controllers/about.js:46
+  <br/>
+      ^
+
+SyntaxError: Unexpected token >
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimator/routes/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2018-12-03T03:39:21.698Z - debug: START routing
+2018-12-03T03:39:22.216Z - info: Starting controllers/user.js.
+2018-12-03T03:39:22.216Z - info: START seeder.
+2018-12-03T03:39:22.221Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:39:22.627Z - info: User with email: cgeadmin@mail.com successfully registered.
+2018-12-03T03:39:27.781Z - info: Environment isProduction =  true
+2018-12-03T03:39:27.994Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Sun Dec 02 2018 21:39:27 GMT-0600 (Central Standard Time), pid=92529, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimator, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimator/app.js], rss=60878848, heapTotal=59006976, heapUsed=24065080, external=36759149, loadavg=[1.48779296875, 1.5107421875, 1.486328125], uptime=1073810
+Error: listen EADDRINUSE :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at Function.listen (/Users/santosh/Desktop/CostEstimator/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimator/app.js:156:5)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+2018-12-03T03:39:27.912Z - debug: START routing
+2018-12-03T03:39:27.913Z - debug: END routing
+2018-12-03T03:39:27.957Z - info: Starting controllers/user.js.
+2018-12-03T03:39:27.962Z - debug: START user routing
+2018-12-03T03:39:27.964Z - debug: END user routing
+2018-12-03T03:39:27.964Z - info: Loaded routing.
+2018-12-03T03:39:28.466Z - info: START seeder.
+2018-12-03T03:39:28.470Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:39:28.866Z - debug: User already exists:  cgeadmin@mail.com
+2018-12-03T03:39:40.634Z - info: Environment isProduction =  true
+2018-12-03T03:39:40.844Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Sun Dec 02 2018 21:39:40 GMT-0600 (Central Standard Time), pid=92562, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimator, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimator/app.js], rss=61231104, heapTotal=59006976, heapUsed=24136424, external=36759149, loadavg=[1.822265625, 1.58251953125, 1.51220703125], uptime=1073823
+Error: listen EADDRINUSE :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at Function.listen (/Users/santosh/Desktop/CostEstimator/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimator/app.js:156:5)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+2018-12-03T03:39:40.783Z - debug: START routing
+2018-12-03T03:39:40.784Z - debug: END routing
+2018-12-03T03:39:40.828Z - info: Starting controllers/user.js.
+2018-12-03T03:39:40.829Z - debug: START user routing
+2018-12-03T03:39:40.830Z - debug: END user routing
+2018-12-03T03:39:40.830Z - info: Loaded routing.
+2018-12-03T03:39:41.341Z - info: START seeder.
+2018-12-03T03:39:41.346Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:39:41.766Z - info: User with email: cgeadmin@mail.com successfully registered.
+2018-12-03T03:41:49.297Z - info: Environment isProduction =  true
+2018-12-03T03:41:49.489Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Sun Dec 02 2018 21:41:49 GMT-0600 (Central Standard Time), pid=92743, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimator, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimator/app.js], rss=62676992, heapTotal=60592128, heapUsed=24038864, external=36555453, loadavg=[1.47607421875, 1.60302734375, 1.5322265625], uptime=1073952
+Error: listen EADDRINUSE :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at Function.listen (/Users/santosh/Desktop/CostEstimator/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimator/app.js:156:5)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+2018-12-03T03:41:49.392Z - debug: START routing
+2018-12-03T03:41:49.393Z - debug: END routing
+2018-12-03T03:41:49.439Z - info: Starting controllers/user.js.
+2018-12-03T03:41:49.441Z - debug: START user routing
+2018-12-03T03:41:49.441Z - debug: END user routing
+2018-12-03T03:41:49.442Z - info: Loaded routing.
+2018-12-03T03:41:49.997Z - info: START seeder.
+2018-12-03T03:41:50.002Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:41:50.423Z - debug: User already exists:  cgeadmin@mail.com
+2018-12-03T03:41:57.156Z - info: Environment isProduction =  true
+2018-12-03T03:41:57.346Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Sun Dec 02 2018 21:41:57 GMT-0600 (Central Standard Time), pid=92763, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimator, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimator/app.js], rss=61460480, heapTotal=57446400, heapUsed=24842944, external=37780392, loadavg=[1.802734375, 1.66552734375, 1.5546875], uptime=1073960
+Error: listen EADDRINUSE :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at Function.listen (/Users/santosh/Desktop/CostEstimator/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimator/app.js:156:5)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+2018-12-03T03:41:57.255Z - debug: START routing
+2018-12-03T03:41:57.255Z - debug: END routing
+2018-12-03T03:41:57.303Z - info: Starting controllers/user.js.
+2018-12-03T03:41:57.306Z - debug: START user routing
+2018-12-03T03:41:57.306Z - debug: END user routing
+2018-12-03T03:41:57.306Z - info: Loaded routing.
+2018-12-03T03:41:57.822Z - info: START seeder.
+2018-12-03T03:41:57.826Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:41:58.234Z - info: User with email: cgeadmin@mail.com successfully registered.
+2018-12-03T03:42:23.417Z - info: Environment isProduction =  true
+2018-12-03T03:42:23.617Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Sun Dec 02 2018 21:42:23 GMT-0600 (Central Standard Time), pid=92812, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimator, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimator/app.js], rss=63213568, heapTotal=62164992, heapUsed=22938008, external=36417344, loadavg=[1.8056640625, 1.67529296875, 1.56103515625], uptime=1073986
+Error: listen EADDRINUSE :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at Function.listen (/Users/santosh/Desktop/CostEstimator/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimator/app.js:156:5)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+2018-12-03T03:42:23.555Z - debug: START routing
+2018-12-03T03:42:23.556Z - debug: END routing
+2018-12-03T03:42:23.607Z - info: Starting controllers/user.js.
+2018-12-03T03:42:23.609Z - debug: START user routing
+2018-12-03T03:42:23.609Z - debug: END user routing
+2018-12-03T03:42:23.609Z - info: Loaded routing.
+2018-12-03T03:42:24.094Z - info: START seeder.
+2018-12-03T03:42:24.098Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:42:24.503Z - debug: User already exists:  cgeadmin@mail.com
+2018-12-03T03:42:56.899Z - info: Environment isProduction =  true
+2018-12-03T03:42:57.076Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Sun Dec 02 2018 21:42:57 GMT-0600 (Central Standard Time), pid=92874, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimator, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimator/app.js], rss=61206528, heapTotal=58482688, heapUsed=24057584, external=36759149, loadavg=[1.59912109375, 1.62744140625, 1.54638671875], uptime=1074020
+Error: listen EADDRINUSE :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at Function.listen (/Users/santosh/Desktop/CostEstimator/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimator/app.js:156:5)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+2018-12-03T03:42:57.016Z - debug: START routing
+2018-12-03T03:42:57.017Z - debug: END routing
+2018-12-03T03:42:57.066Z - info: Starting controllers/user.js.
+2018-12-03T03:42:57.069Z - debug: START user routing
+2018-12-03T03:42:57.069Z - debug: END user routing
+2018-12-03T03:42:57.070Z - info: Loaded routing.
+2018-12-03T03:42:57.552Z - info: START seeder.
+2018-12-03T03:42:57.557Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:42:57.970Z - info: User with email: cgeadmin@mail.com successfully registered.
+2018-12-03T03:46:09.429Z - info: Environment isProduction =  true
+2018-12-03T03:46:09.675Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Sun Dec 02 2018 21:46:09 GMT-0600 (Central Standard Time), pid=93107, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimator, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimator/app.js], rss=61063168, heapTotal=59006976, heapUsed=24171608, external=36869000, loadavg=[1.27294921875, 1.47119140625, 1.48828125], uptime=1074212
+Error: listen EADDRINUSE :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at Function.listen (/Users/santosh/Desktop/CostEstimator/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimator/app.js:156:5)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+2018-12-03T03:46:09.594Z - debug: START routing
+2018-12-03T03:46:09.596Z - debug: END routing
+2018-12-03T03:46:09.662Z - info: Starting controllers/user.js.
+2018-12-03T03:46:09.666Z - debug: START user routing
+2018-12-03T03:46:09.667Z - debug: END user routing
+2018-12-03T03:46:09.667Z - info: Loaded routing.
+2018-12-03T03:46:10.172Z - info: START seeder.
+2018-12-03T03:46:10.176Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:46:10.574Z - info: User with email: cgeadmin@mail.com successfully registered.
+2018-12-03T03:46:53.991Z - info: Environment isProduction =  true
+2018-12-03T03:46:54.144Z - debug: START routing
+2018-12-03T03:46:54.146Z - debug: END routing
+2018-12-03T03:46:54.211Z - info: Starting controllers/user.js.
+2018-12-03T03:46:54.215Z - debug: START user routing
+2018-12-03T03:46:54.215Z - debug: END user routing
+2018-12-03T03:46:54.215Z - info: Loaded routing.
+2018-12-03T03:46:54.757Z - info: START seeder.
+2018-12-03T03:46:54.763Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:46:55.178Z - debug: User already exists:  cgeadmin@mail.com
+2018-12-03T03:47:04.806Z - info: Environment isProduction =  true
+2018-12-03T03:47:04.918Z - debug: START routing
+2018-12-03T03:47:04.919Z - debug: END routing
+2018-12-03T03:47:04.957Z - info: Starting controllers/user.js.
+2018-12-03T03:47:04.960Z - debug: START user routing
+2018-12-03T03:47:04.960Z - debug: END user routing
+2018-12-03T03:47:04.960Z - info: Loaded routing.
+2018-12-03T03:47:05.463Z - info: START seeder.
+2018-12-03T03:47:05.470Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:47:05.888Z - info: User with email: cgeadmin@mail.com successfully registered.
+2018-12-03T03:47:08.166Z - debug: GET /
+2018-12-03T03:47:08.229Z - debug: Request to /
+2018-12-03T03:47:20.960Z - info: Environment isProduction =  true
+2018-12-03T03:47:21.148Z - debug: START routing
+2018-12-03T03:47:21.150Z - debug: END routing
+2018-12-03T03:47:21.208Z - info: Starting controllers/user.js.
+2018-12-03T03:47:21.213Z - debug: START user routing
+2018-12-03T03:47:21.213Z - debug: END user routing
+2018-12-03T03:47:21.213Z - info: Loaded routing.
+2018-12-03T03:47:21.718Z - info: START seeder.
+2018-12-03T03:47:21.723Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:47:22.141Z - debug: User already exists:  cgeadmin@mail.com
+2018-12-03T03:47:25.864Z - info: Environment isProduction =  true
+2018-12-03T03:47:25.997Z - debug: START routing
+2018-12-03T03:47:25.998Z - debug: END routing
+2018-12-03T03:47:26.046Z - info: Starting controllers/user.js.
+2018-12-03T03:47:26.048Z - debug: START user routing
+2018-12-03T03:47:26.049Z - debug: END user routing
+2018-12-03T03:47:26.049Z - info: Loaded routing.
+2018-12-03T03:47:26.533Z - info: START seeder.
+2018-12-03T03:47:26.538Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:47:26.939Z - info: User with email: cgeadmin@mail.com successfully registered.
+2018-12-03T03:47:40.147Z - info: Environment isProduction =  true
+2018-12-03T03:47:41.308Z - debug: START routing
+2018-12-03T03:47:41.309Z - debug: END routing
+2018-12-03T03:47:41.394Z - info: Starting controllers/user.js.
+2018-12-03T03:47:41.398Z - debug: START user routing
+2018-12-03T03:47:41.399Z - debug: END user routing
+2018-12-03T03:47:41.399Z - info: Loaded routing.
+2018-12-03T03:47:41.945Z - info: START seeder.
+2018-12-03T03:47:41.950Z - debug: Registering cgeadmin@mail.com
+2018-12-03T03:47:42.368Z - debug: User already exists:  cgeadmin@mail.com

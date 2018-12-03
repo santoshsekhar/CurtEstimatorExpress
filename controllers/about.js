@@ -40,17 +40,7 @@ api.get('/t1', (req, res) => {
   module.exports = api
   
   
-  about/t1/index.ejs
-  
-  <br/>
-  <br/>
-  <br/>
-  <h1> EJS Team </h1>
-  <h2>Software Developers</h2>
-  
-  
-  <br/>
-  <br/>
+ 
   
   
   
