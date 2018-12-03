@@ -9555,6 +9555,7 @@ MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefin
     at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
     at startup (internal/bootstrap/node.js:285:19)
     at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+<<<<<<< HEAD
 2018-12-03T02:13:36.998Z - info: Environment isProduction =  true
 2018-12-03T02:13:37.110Z - debug: START routing
 2018-12-03T02:13:37.111Z - debug: END routing
@@ -9734,3 +9735,539 @@ Error: Cannot find module '../controllers/about.js'
 2018-12-03T02:41:29.393Z - info: START seeder.
 2018-12-03T02:41:29.399Z - debug: Registering cgeadmin@mail.com
 2018-12-03T02:41:29.811Z - debug: User already exists:  cgeadmin@mail.com
+=======
+2018-11-04T21:46:02.404Z - info: Environment variables loaded.
+2018-11-04T21:46:02.408Z - debug: START routing
+2018-11-04T21:46:02.427Z - debug: END routing
+2018-11-04T21:46:06.582Z - debug: Request to /
+2018-11-04T21:46:07.310Z - debug: Request to /
+2018-11-04T21:46:16.199Z - info: Environment variables loaded.
+2018-11-04T21:46:16.203Z - debug: START routing
+2018-11-04T21:46:16.223Z - debug: END routing
+2018-11-04T21:46:18.122Z - debug: Request to /
+2018-11-04T21:46:18.844Z - debug: Request to /
+2018-11-04T21:46:25.211Z - info: Environment variables loaded.
+2018-11-04T21:46:25.214Z - debug: START routing
+2018-11-04T21:46:25.236Z - debug: END routing
+2018-11-04T21:46:27.323Z - debug: Request to /
+2018-11-04T21:46:28.045Z - debug: Request to /
+2018-11-04T21:46:29.320Z - debug: Request to /
+2018-11-04T21:46:50.283Z - info: Environment variables loaded.
+2018-11-04T21:46:50.286Z - debug: START routing
+2018-11-04T21:46:50.305Z - debug: END routing
+2018-11-04T21:46:52.896Z - debug: Request to /
+2018-11-04T21:46:53.731Z - debug: Request to /
+2018-11-04T21:46:54.727Z - debug: Request to /
+2018-11-04T21:47:00.334Z - debug: Request to /
+2018-11-04T21:47:16.146Z - info: Environment variables loaded.
+2018-11-04T21:47:16.149Z - debug: START routing
+2018-11-04T21:47:16.171Z - debug: END routing
+2018-11-04T21:47:19.291Z - info: Environment variables loaded.
+2018-11-04T21:47:19.294Z - debug: START routing
+2018-11-04T21:47:19.313Z - debug: END routing
+2018-11-04T21:47:27.804Z - info: Environment variables loaded.
+2018-11-04T21:47:27.807Z - debug: START routing
+2018-11-04T21:47:27.827Z - debug: END routing
+2018-11-04T21:47:37.400Z - debug: Request to /
+2018-11-04T21:48:08.373Z - debug: Request to /
+2018-11-04T21:48:38.901Z - debug: Request to /
+2018-11-04T21:49:24.892Z - debug: Request to /
+2018-11-04T21:49:25.747Z - debug: Request to /
+2018-11-04T21:49:26.131Z - debug: Request to /
+2018-11-04T21:49:39.100Z - debug: Request to /
+2018-11-04T21:50:21.553Z - debug: Request to /
+2018-11-04T21:51:37.345Z - debug: Request to /
+2018-11-04T21:52:00.416Z - debug: Request to /
+2018-11-04T21:52:16.089Z - debug: Request to /
+2018-11-04T21:52:32.967Z - debug: Request to /
+2018-11-04T21:53:11.627Z - debug: Request to /
+2018-11-04T21:53:57.273Z - debug: Request to /
+2018-11-04T21:54:46.866Z - debug: Request to /
+2018-11-04T21:55:06.424Z - debug: Request to /
+2018-11-04T21:55:46.054Z - debug: Request to /
+2018-11-04T21:56:22.502Z - debug: Request to /
+2018-11-04T21:56:32.379Z - debug: Request to /
+2018-11-04T21:56:33.203Z - debug: Request to /
+2018-11-04T21:58:00.849Z - debug: Request to /
+2018-11-04T21:58:25.164Z - debug: Request to /
+2018-11-04T21:58:25.930Z - debug: Request to /
+2018-11-04T21:59:42.035Z - info: Environment variables loaded.
+2018-11-04T21:59:42.039Z - debug: START routing
+2018-11-04T21:59:42.040Z - debug: END routing
+2018-11-04T21:59:44.180Z - debug: Request to /
+2018-11-04T21:59:44.933Z - debug: Request to /
+2018-11-04T21:59:48.538Z - debug: Request to /
+2018-11-04T22:00:24.038Z - info: Environment variables loaded.
+2018-11-04T22:00:24.041Z - debug: START routing
+2018-11-04T22:00:24.043Z - debug: END routing
+2018-11-04T22:00:27.873Z - info: Environment variables loaded.
+2018-11-04T22:00:27.876Z - debug: START routing
+2018-11-04T22:00:27.878Z - debug: END routing
+2018-11-04T22:00:31.065Z - info: Environment variables loaded.
+2018-11-04T22:00:31.069Z - debug: START routing
+2018-11-04T22:00:31.070Z - debug: END routing
+2018-11-04T22:00:38.429Z - info: Environment variables loaded.
+2018-11-04T22:00:38.433Z - debug: START routing
+2018-11-04T22:00:38.434Z - debug: END routing
+2018-11-04T22:00:39.428Z - info: Environment variables loaded.
+2018-11-04T22:00:39.431Z - debug: START routing
+2018-11-04T22:00:39.432Z - debug: END routing
+2018-11-04T22:00:46.000Z - info: Environment variables loaded.
+2018-11-04T22:00:46.003Z - debug: START routing
+2018-11-04T22:00:46.005Z - debug: END routing
+2018-11-04T22:00:48.117Z - debug: Request to /
+2018-11-04T22:00:48.837Z - debug: Request to /
+2018-11-04T22:00:51.787Z - debug: Request to /
+2018-11-04T22:01:10.929Z - info: Environment variables loaded.
+2018-11-04T22:01:10.932Z - debug: START routing
+2018-11-04T22:01:10.933Z - debug: END routing
+2018-11-04T22:01:12.016Z - debug: Request to /
+2018-11-04T22:01:12.623Z - debug: Request to /
+2018-11-04T22:01:14.290Z - debug: Request to /
+2018-11-04T22:04:10.450Z - debug: Request to /
+2018-11-04T22:04:11.272Z - debug: Request to /
+2018-11-04T22:54:27.026Z - debug: Request to /
+2018-11-04T22:54:27.889Z - debug: Request to /
+2018-11-04T22:55:20.174Z - debug: Request to /
+2018-11-04T22:57:47.327Z - debug: Request to /
+2018-11-04T22:57:48.060Z - debug: Request to /
+2018-11-04T22:58:39.504Z - debug: Request to /
+2018-11-04T22:59:46.095Z - info: Environment variables loaded.
+2018-11-04T22:59:46.098Z - debug: START routing
+2018-11-04T22:59:46.100Z - debug: END routing
+2018-11-04T22:59:48.408Z - debug: Request to /
+2018-11-04T23:02:24.655Z - debug: Request to /
+2018-11-04T23:06:23.265Z - info: Environment variables loaded.
+2018-11-04T23:06:23.269Z - debug: START routing
+2018-11-04T23:06:23.271Z - debug: END routing
+2018-11-04T23:06:26.430Z - info: Environment variables loaded.
+2018-11-04T23:06:26.436Z - debug: START routing
+2018-11-04T23:06:26.438Z - debug: END routing
+2018-11-04T23:06:28.469Z - info: Environment variables loaded.
+2018-11-04T23:06:28.472Z - debug: START routing
+2018-11-04T23:06:28.473Z - debug: END routing
+2018-11-04T23:06:34.503Z - info: Environment variables loaded.
+2018-11-04T23:06:34.510Z - debug: START routing
+2018-11-04T23:06:34.512Z - debug: END routing
+2018-11-04T23:06:36.195Z - info: Environment variables loaded.
+2018-11-04T23:06:36.199Z - debug: START routing
+2018-11-04T23:06:36.200Z - debug: END routing
+2018-11-04T23:06:46.639Z - info: Environment variables loaded.
+2018-11-04T23:06:46.642Z - debug: START routing
+2018-11-04T23:06:46.644Z - debug: END routing
+2018-11-04T23:06:47.824Z - info: Environment variables loaded.
+2018-11-04T23:06:47.828Z - debug: START routing
+2018-11-04T23:06:47.829Z - debug: END routing
+2018-11-04T23:06:51.397Z - info: Environment variables loaded.
+2018-11-04T23:06:51.400Z - debug: START routing
+2018-11-04T23:06:51.402Z - debug: END routing
+2018-11-04T23:06:53.585Z - info: Environment variables loaded.
+2018-11-04T23:06:53.589Z - debug: START routing
+2018-11-04T23:06:53.590Z - debug: END routing
+2018-11-04T23:06:54.783Z - info: Environment variables loaded.
+2018-11-04T23:06:54.787Z - debug: START routing
+2018-11-04T23:06:54.788Z - debug: END routing
+2018-11-04T23:06:57.143Z - info: Environment variables loaded.
+2018-11-04T23:06:57.146Z - debug: START routing
+2018-11-04T23:06:57.148Z - debug: END routing
+2018-11-04T23:07:04.362Z - debug: Request to /
+2018-11-04T23:07:29.123Z - info: Environment variables loaded.
+2018-11-04T23:07:29.126Z - debug: START routing
+2018-11-04T23:07:29.128Z - debug: END routing
+2018-11-04T23:07:36.932Z - info: Environment variables loaded.
+2018-11-04T23:07:36.936Z - debug: START routing
+2018-11-04T23:07:36.938Z - debug: END routing
+2018-11-04T23:07:43.005Z - debug: Request to /
+2018-11-04T23:18:01.071Z - info: Environment variables loaded.
+2018-11-04T23:18:01.074Z - debug: START routing
+2018-11-04T23:18:01.076Z - debug: END routing
+2018-11-04T23:18:02.979Z - debug: Request to /
+2018-11-04T23:18:17.497Z - info: Environment variables loaded.
+2018-11-04T23:18:17.500Z - debug: START routing
+2018-11-04T23:18:17.502Z - debug: END routing
+2018-11-04T23:19:17.361Z - debug: Request to /
+2018-11-04T23:19:40.264Z - debug: Request to /
+2018-11-04T23:21:35.038Z - info: Environment variables loaded.
+2018-11-04T23:21:35.041Z - debug: START routing
+2018-11-04T23:21:35.043Z - debug: END routing
+2018-11-04T23:21:35.935Z - info: Environment variables loaded.
+2018-11-04T23:21:35.938Z - debug: START routing
+2018-11-04T23:21:35.940Z - debug: END routing
+2018-11-04T23:21:37.513Z - info: Environment variables loaded.
+2018-11-04T23:21:37.516Z - debug: START routing
+2018-11-04T23:21:37.517Z - debug: END routing
+2018-11-04T23:21:41.863Z - info: Environment variables loaded.
+2018-11-04T23:21:41.867Z - debug: START routing
+2018-11-04T23:21:41.869Z - debug: END routing
+2018-11-04T23:21:48.659Z - debug: Request to /
+2018-11-04T23:21:49.258Z - debug: Request to /
+2018-11-04T23:22:04.243Z - info: Environment variables loaded.
+2018-11-04T23:22:04.246Z - debug: START routing
+2018-11-04T23:22:04.248Z - debug: END routing
+2018-11-04T23:22:07.776Z - info: Environment variables loaded.
+2018-11-04T23:22:07.779Z - debug: START routing
+2018-11-04T23:22:07.781Z - debug: END routing
+2018-11-04T23:22:09.414Z - info: Environment variables loaded.
+2018-11-04T23:22:09.417Z - debug: START routing
+2018-11-04T23:22:09.418Z - debug: END routing
+2018-11-04T23:22:11.015Z - info: Environment variables loaded.
+2018-11-04T23:22:11.019Z - debug: START routing
+2018-11-04T23:22:11.020Z - debug: END routing
+2018-11-04T23:22:13.735Z - debug: Request to /
+2018-11-04T23:22:43.183Z - info: Environment variables loaded.
+2018-11-04T23:22:43.186Z - debug: START routing
+2018-11-04T23:22:43.187Z - debug: END routing
+2018-11-04T23:22:47.057Z - debug: Request to /
+2018-11-04T23:23:03.855Z - info: Environment variables loaded.
+2018-11-04T23:23:03.859Z - debug: START routing
+2018-11-04T23:23:03.860Z - debug: END routing
+2018-11-04T23:23:07.753Z - info: Environment variables loaded.
+2018-11-04T23:23:07.756Z - debug: START routing
+2018-11-04T23:23:07.757Z - debug: END routing
+2018-11-04T23:23:09.837Z - info: Environment variables loaded.
+2018-11-04T23:23:09.840Z - debug: START routing
+2018-11-04T23:23:09.842Z - debug: END routing
+2018-11-04T23:23:16.972Z - info: Environment variables loaded.
+2018-11-04T23:23:16.975Z - debug: START routing
+2018-11-04T23:23:16.977Z - debug: END routing
+2018-11-04T23:23:19.459Z - info: Environment variables loaded.
+2018-11-04T23:23:19.462Z - debug: START routing
+2018-11-04T23:23:19.464Z - debug: END routing
+2018-11-04T23:23:29.346Z - debug: Request to /
+2018-11-04T23:23:49.971Z - info: Environment variables loaded.
+2018-11-04T23:23:49.974Z - debug: START routing
+2018-11-04T23:23:49.975Z - debug: END routing
+2018-11-04T23:23:55.196Z - debug: Request to /
+2018-11-04T23:25:01.159Z - info: Environment variables loaded.
+2018-11-04T23:25:01.163Z - debug: START routing
+2018-11-04T23:25:01.165Z - debug: END routing
+2018-11-04T23:25:14.153Z - info: Environment variables loaded.
+2018-11-04T23:25:14.157Z - debug: START routing
+2018-11-04T23:25:14.158Z - debug: END routing
+2018-11-04T23:25:15.823Z - info: Environment variables loaded.
+2018-11-04T23:25:15.826Z - debug: START routing
+2018-11-04T23:25:15.828Z - debug: END routing
+2018-11-04T23:25:20.751Z - info: Environment variables loaded.
+2018-11-04T23:25:20.754Z - debug: START routing
+2018-11-04T23:25:20.756Z - debug: END routing
+2018-11-04T23:25:25.875Z - info: Environment variables loaded.
+2018-11-04T23:25:25.878Z - debug: START routing
+2018-11-04T23:25:25.879Z - debug: END routing
+2018-11-04T23:25:26.876Z - info: Environment variables loaded.
+2018-11-04T23:25:26.879Z - debug: START routing
+2018-11-04T23:25:26.880Z - debug: END routing
+2018-11-04T23:29:23.740Z - info: Environment variables loaded.
+2018-11-04T23:29:23.744Z - debug: START routing
+2018-11-04T23:29:23.746Z - debug: END routing
+2018-11-04T23:30:04.886Z - debug: Request to /
+2018-11-04T23:30:24.431Z - info: Environment variables loaded.
+2018-11-04T23:30:24.434Z - debug: START routing
+2018-11-04T23:30:24.436Z - debug: END routing
+2018-11-04T23:30:39.569Z - info: Environment variables loaded.
+2018-11-04T23:30:39.572Z - debug: START routing
+2018-11-04T23:30:39.574Z - debug: END routing
+2018-11-04T23:30:42.882Z - info: Environment variables loaded.
+2018-11-04T23:30:42.885Z - debug: START routing
+2018-11-04T23:30:42.887Z - debug: END routing
+2018-11-04T23:30:49.375Z - info: Environment variables loaded.
+2018-11-04T23:30:49.379Z - debug: START routing
+2018-11-04T23:30:49.381Z - debug: END routing
+2018-11-04T23:30:56.186Z - info: Environment variables loaded.
+2018-11-04T23:30:56.189Z - debug: START routing
+2018-11-04T23:30:56.192Z - debug: END routing
+2018-11-04T23:31:08.009Z - info: Environment variables loaded.
+2018-11-04T23:31:08.013Z - debug: START routing
+2018-11-04T23:31:08.015Z - debug: END routing
+2018-11-04T23:31:10.047Z - info: Environment variables loaded.
+2018-11-04T23:31:10.051Z - debug: START routing
+2018-11-04T23:31:10.053Z - debug: END routing
+2018-11-04T23:31:12.793Z - info: Environment variables loaded.
+2018-11-04T23:31:12.797Z - debug: START routing
+2018-11-04T23:31:12.798Z - debug: END routing
+2018-11-04T23:31:33.290Z - info: Environment variables loaded.
+2018-11-04T23:31:33.295Z - debug: START routing
+2018-11-04T23:31:33.296Z - debug: END routing
+2018-11-04T23:31:35.956Z - info: Environment variables loaded.
+2018-11-04T23:31:35.960Z - debug: START routing
+2018-11-04T23:31:35.962Z - debug: END routing
+2018-11-04T23:31:40.139Z - info: Environment variables loaded.
+2018-11-04T23:31:40.142Z - debug: START routing
+2018-11-04T23:31:40.144Z - debug: END routing
+2018-11-04T23:31:42.208Z - info: Environment variables loaded.
+2018-11-04T23:31:42.212Z - debug: START routing
+2018-11-04T23:31:42.214Z - debug: END routing
+2018-11-04T23:31:43.879Z - info: Environment variables loaded.
+2018-11-04T23:31:43.883Z - debug: START routing
+2018-11-04T23:31:43.885Z - debug: END routing
+2018-11-04T23:31:46.445Z - info: Environment variables loaded.
+2018-11-04T23:31:46.448Z - debug: START routing
+2018-11-04T23:31:46.450Z - debug: END routing
+2018-11-04T23:31:49.336Z - info: Environment variables loaded.
+2018-11-04T23:31:49.340Z - debug: START routing
+2018-11-04T23:31:49.342Z - debug: END routing
+2018-11-04T23:31:52.247Z - info: Environment variables loaded.
+2018-11-04T23:31:52.251Z - debug: START routing
+2018-11-04T23:31:52.253Z - debug: END routing
+2018-11-04T23:31:54.365Z - info: Environment variables loaded.
+2018-11-04T23:31:54.369Z - debug: START routing
+2018-11-04T23:31:54.371Z - debug: END routing
+2018-11-04T23:32:00.624Z - debug: Request to /
+2018-11-04T23:32:31.050Z - debug: Request to /
+2018-11-04T23:32:58.052Z - info: Environment variables loaded.
+2018-11-04T23:32:58.056Z - debug: START routing
+2018-11-04T23:32:58.057Z - debug: END routing
+2018-11-04T23:33:04.403Z - info: Environment variables loaded.
+2018-11-04T23:33:04.406Z - debug: START routing
+2018-11-04T23:33:04.407Z - debug: END routing
+2018-11-04T23:33:58.876Z - info: Environment variables loaded.
+2018-11-04T23:33:58.879Z - debug: START routing
+2018-11-04T23:33:58.880Z - debug: END routing
+2018-11-04T23:34:06.288Z - info: Environment variables loaded.
+2018-11-04T23:34:06.291Z - debug: START routing
+2018-11-04T23:34:06.292Z - debug: END routing
+2018-11-04T23:34:11.659Z - info: Environment variables loaded.
+2018-11-04T23:34:11.663Z - debug: START routing
+2018-11-04T23:34:11.664Z - debug: END routing
+2018-11-04T23:34:20.360Z - debug: Request to /
+2018-11-04T23:34:29.344Z - info: Environment variables loaded.
+2018-11-04T23:34:29.348Z - debug: START routing
+2018-11-04T23:34:29.349Z - debug: END routing
+2018-11-04T23:34:31.328Z - info: Environment variables loaded.
+2018-11-04T23:34:31.331Z - debug: START routing
+2018-11-04T23:34:31.332Z - debug: END routing
+2018-11-04T23:34:34.148Z - info: Environment variables loaded.
+2018-11-04T23:34:34.151Z - debug: START routing
+2018-11-04T23:34:34.152Z - debug: END routing
+2018-11-04T23:34:42.892Z - info: Environment variables loaded.
+2018-11-04T23:34:42.896Z - debug: START routing
+2018-11-04T23:34:42.897Z - debug: END routing
+2018-11-04T23:34:52.321Z - info: Environment variables loaded.
+2018-11-04T23:34:52.324Z - debug: START routing
+2018-11-04T23:34:52.324Z - debug: END routing
+2018-11-04T23:35:43.204Z - info: Environment variables loaded.
+2018-11-04T23:35:43.207Z - debug: START routing
+2018-11-04T23:35:43.208Z - debug: END routing
+2018-11-04T23:35:58.658Z - info: Environment variables loaded.
+2018-11-04T23:35:58.661Z - debug: START routing
+2018-11-04T23:35:58.662Z - debug: END routing
+2018-11-04T23:36:00.390Z - debug: Request to /
+2018-11-04T23:36:01.725Z - debug: Request to /
+2018-11-04T23:36:30.939Z - info: Environment variables loaded.
+2018-11-04T23:36:30.944Z - debug: START routing
+2018-11-04T23:36:30.947Z - debug: END routing
+2018-11-04T23:36:32.566Z - debug: Request to /
+2018-11-04T23:36:33.833Z - debug: Request to /
+2018-11-04T23:37:17.674Z - debug: Request to /
+2018-11-04T23:40:02.050Z - debug: Request to /
+2018-11-04T23:40:02.792Z - debug: Request to /
+2018-11-04T23:40:03.716Z - debug: Request to /
+2018-11-04T23:41:56.589Z - debug: Request to /
+2018-11-04T23:42:32.896Z - info: Environment variables loaded.
+2018-11-04T23:42:32.899Z - debug: START routing
+2018-11-04T23:42:32.900Z - debug: END routing
+2018-11-04T23:42:34.898Z - debug: Request to /
+2018-11-04T23:42:35.610Z - debug: Request to /
+2018-11-04T23:42:36.442Z - debug: Request to /
+2018-11-04T23:42:58.071Z - debug: Request to /
+2018-11-04T23:43:27.539Z - debug: Request to /
+2018-11-04T23:49:30.750Z - debug: Request to /
+2018-11-04T23:49:37.091Z - info: Environment variables loaded.
+2018-11-04T23:49:37.095Z - debug: START routing
+2018-11-04T23:49:37.100Z - debug: END routing
+2018-11-04T23:49:39.626Z - debug: Request to /
+2018-11-04T23:50:29.874Z - info: Environment variables loaded.
+2018-11-04T23:50:29.878Z - debug: START routing
+2018-11-04T23:50:29.879Z - debug: END routing
+2018-11-04T23:50:31.751Z - debug: Request to /
+2018-11-04T23:51:00.851Z - info: Environment variables loaded.
+2018-11-04T23:51:00.855Z - debug: START routing
+2018-11-04T23:51:00.855Z - debug: END routing
+2018-11-04T23:51:03.047Z - debug: Request to /
+2018-11-04T23:51:04.507Z - debug: Request to /
+2018-11-04T23:51:07.550Z - debug: Request to /
+2018-11-04T23:51:08.204Z - debug: Request to /
+2018-11-04T23:51:17.178Z - debug: Request to /
+2018-11-04T23:51:30.065Z - info: Environment variables loaded.
+2018-11-04T23:51:30.068Z - debug: START routing
+2018-11-04T23:51:30.069Z - debug: END routing
+2018-11-04T23:51:31.702Z - debug: Request to /
+2018-11-04T23:51:32.470Z - debug: Request to /
+2018-11-04T23:52:19.689Z - info: Environment variables loaded.
+2018-11-04T23:52:19.693Z - debug: START routing
+2018-11-04T23:52:19.694Z - debug: END routing
+2018-11-04T23:52:22.819Z - debug: Request to /
+2018-11-04T23:52:23.418Z - debug: Request to /
+2018-11-04T23:53:44.725Z - info: Environment variables loaded.
+2018-11-04T23:53:44.728Z - debug: START routing
+2018-11-04T23:53:44.729Z - debug: END routing
+2018-11-04T23:53:49.057Z - debug: Request to /
+2018-11-04T23:54:20.738Z - info: Environment variables loaded.
+2018-11-04T23:54:20.742Z - debug: START routing
+2018-11-04T23:54:20.744Z - debug: END routing
+2018-11-04T23:54:22.611Z - debug: Request to /
+2018-11-04T23:55:25.162Z - info: Environment variables loaded.
+2018-11-04T23:55:25.165Z - debug: START routing
+2018-11-04T23:55:25.166Z - debug: END routing
+2018-11-04T23:55:27.574Z - debug: Request to /
+2018-11-04T23:55:29.023Z - debug: Request to /
+2018-11-04T23:55:29.631Z - debug: Request to /
+2018-11-04T23:55:45.550Z - info: Environment variables loaded.
+2018-11-04T23:55:45.553Z - debug: START routing
+2018-11-04T23:55:45.555Z - debug: END routing
+2018-11-04T23:57:12.506Z - info: Environment variables loaded.
+2018-11-04T23:57:12.509Z - debug: START routing
+2018-11-04T23:57:12.510Z - debug: END routing
+2018-11-04T23:57:16.278Z - debug: Request to /
+2018-11-04T23:59:36.004Z - info: Environment variables loaded.
+2018-11-04T23:59:36.008Z - debug: START routing
+2018-11-04T23:59:36.010Z - debug: END routing
+2018-11-04T23:59:37.791Z - debug: Request to /
+2018-11-05T00:03:44.987Z - info: Environment variables loaded.
+2018-11-05T00:03:44.990Z - debug: START routing
+2018-11-05T00:03:44.991Z - debug: END routing
+2018-11-05T00:03:49.784Z - debug: Request to /
+2018-11-05T00:10:47.384Z - info: Environment variables loaded.
+2018-11-05T00:10:47.387Z - debug: START routing
+2018-11-05T00:10:47.388Z - debug: END routing
+2018-11-05T00:10:49.281Z - info: Environment variables loaded.
+2018-11-05T00:10:49.284Z - debug: START routing
+2018-11-05T00:10:49.285Z - debug: END routing
+2018-11-05T00:10:56.298Z - info: Environment variables loaded.
+2018-11-05T00:10:56.301Z - debug: START routing
+2018-11-05T00:10:56.302Z - debug: END routing
+2018-11-05T00:11:01.101Z - info: Environment variables loaded.
+2018-11-05T00:11:01.104Z - debug: START routing
+2018-11-05T00:11:01.105Z - debug: END routing
+2018-11-05T00:11:05.847Z - info: Environment variables loaded.
+2018-11-05T00:11:05.850Z - debug: START routing
+2018-11-05T00:11:05.851Z - debug: END routing
+2018-11-05T00:11:19.960Z - info: Environment variables loaded.
+2018-11-05T00:11:19.963Z - debug: START routing
+2018-11-05T00:11:19.964Z - debug: END routing
+2018-11-05T00:11:22.382Z - info: Environment variables loaded.
+2018-11-05T00:11:22.386Z - debug: START routing
+2018-11-05T00:11:22.387Z - debug: END routing
+2018-11-05T00:11:26.965Z - info: Environment variables loaded.
+2018-11-05T00:11:26.968Z - debug: START routing
+2018-11-05T00:11:26.970Z - debug: END routing
+2018-11-05T00:11:36.947Z - info: Environment variables loaded.
+2018-11-05T00:11:36.950Z - debug: START routing
+2018-11-05T00:11:36.951Z - debug: END routing
+2018-11-05T00:11:38.662Z - info: Environment variables loaded.
+2018-11-05T00:11:38.665Z - debug: START routing
+2018-11-05T00:11:38.667Z - debug: END routing
+2018-11-05T00:11:44.490Z - info: Environment variables loaded.
+2018-11-05T00:11:44.493Z - debug: START routing
+2018-11-05T00:11:44.494Z - debug: END routing
+2018-11-05T00:12:00.635Z - info: Environment variables loaded.
+2018-11-05T00:12:00.639Z - debug: START routing
+2018-11-05T00:12:00.640Z - debug: END routing
+2018-11-05T00:12:02.819Z - info: Environment variables loaded.
+2018-11-05T00:12:02.823Z - debug: START routing
+2018-11-05T00:12:02.824Z - debug: END routing
+2018-11-05T00:12:11.895Z - info: Environment variables loaded.
+2018-11-05T00:12:11.899Z - debug: START routing
+2018-11-05T00:12:11.900Z - debug: END routing
+2018-11-05T00:12:16.904Z - info: Environment variables loaded.
+2018-11-05T00:12:16.907Z - debug: START routing
+2018-11-05T00:12:16.909Z - debug: END routing
+2018-11-05T00:12:20.598Z - info: Environment variables loaded.
+2018-11-05T00:12:20.601Z - debug: START routing
+2018-11-05T00:12:20.602Z - debug: END routing
+2018-11-05T00:14:11.646Z - info: Environment variables loaded.
+2018-11-05T00:14:11.649Z - debug: START routing
+2018-11-05T00:14:11.650Z - debug: END routing
+2018-11-05T00:14:15.047Z - info: Environment variables loaded.
+2018-11-05T00:14:15.051Z - debug: START routing
+2018-11-05T00:14:15.052Z - debug: END routing
+2018-11-05T00:14:19.145Z - info: Environment variables loaded.
+2018-11-05T00:14:19.148Z - debug: START routing
+2018-11-05T00:14:19.149Z - debug: END routing
+2018-11-05T00:14:21.484Z - info: Environment variables loaded.
+2018-11-05T00:14:21.487Z - debug: START routing
+2018-11-05T00:14:21.488Z - debug: END routing
+2018-11-05T00:14:23.462Z - debug: Request to /
+2018-11-05T00:14:24.679Z - debug: Request to /
+2018-11-05T00:14:28.332Z - debug: Request to /
+2018-11-05T00:14:52.946Z - info: Environment variables loaded.
+2018-11-05T00:14:52.949Z - debug: START routing
+2018-11-05T00:14:52.950Z - debug: END routing
+2018-11-05T00:14:54.922Z - info: Environment variables loaded.
+2018-11-05T00:14:54.927Z - debug: START routing
+2018-11-05T00:14:54.928Z - debug: END routing
+2018-11-05T00:14:59.377Z - info: Environment variables loaded.
+2018-11-05T00:14:59.380Z - debug: START routing
+2018-11-05T00:14:59.382Z - debug: END routing
+2018-11-05T00:15:01.738Z - info: Environment variables loaded.
+2018-11-05T00:15:01.741Z - debug: START routing
+2018-11-05T00:15:01.742Z - debug: END routing
+2018-11-05T00:15:06.484Z - debug: Request to /
+2018-11-05T00:15:15.699Z - info: Environment variables loaded.
+2018-11-05T00:15:15.702Z - debug: START routing
+2018-11-05T00:15:15.703Z - debug: END routing
+2018-11-05T00:15:44.363Z - info: Environment variables loaded.
+2018-11-05T00:15:44.366Z - debug: START routing
+2018-11-05T00:15:44.368Z - debug: END routing
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"Handling GET /create[object Object]","level":"info"}
+{"message":"{\"name\":\"Job name\",\"location\":\"location\",\"squareFeet\":10000,\"materials\":[{\"product\":\"A\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"B\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"C\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300}],\"numberOfPeople\":2,\"numberOfDays\":2,\"hoursWorkedPerDay\":8,\"laborDollarsPerHour\":25,\"numberHotelNights\":2,\"hotelDollarsPerNight\":85,\"foodDollarsPerDay\":25,\"numberOfVehicles\":2,\"milesPerVehicle\":50,\"dollarsPerMile\":0.5,\"miscellaneous\":[{\"misc\":\"A\",\"cost\":10},{\"misc\":\"B\",\"cost\":10},{\"misc\":\"C\",\"cost\":10}],\"multiplier\":0.3}","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"error":{},"level":"error","message":"uncaughtException: Unexpected token :\nC:\\Users\\s531369\\Desktop\\GDP 2(Estimator)\\CostEstimator\\controllers\\coating.js:24\n        : item\n        ^\n\nSyntaxError: Unexpected token :\n    at new Script (vm.js:73:7)\n    at createScript (vm.js:245:10)\n    at Object.runInThisContext (vm.js:297:10)\n    at Module._compile (internal/modules/cjs/loader.js:657:28)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (internal/modules/cjs/helpers.js:20:18)","stack":"C:\\Users\\s531369\\Desktop\\GDP 2(Estimator)\\CostEstimator\\controllers\\coating.js:24\n        : item\n        ^\n\nSyntaxError: Unexpected token :\n    at new Script (vm.js:73:7)\n    at createScript (vm.js:245:10)\n    at Object.runInThisContext (vm.js:297:10)\n    at Module._compile (internal/modules/cjs/loader.js:657:28)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (internal/modules/cjs/helpers.js:20:18)","exception":true,"date":"Sun Dec 02 2018 17:38:54 GMT-0600 (Central Standard Time)","process":{"pid":11200,"uid":null,"gid":null,"cwd":"C:\\Users\\s531369\\Desktop\\GDP 2(Estimator)\\CostEstimator","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v10.9.0","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\s531369\\Desktop\\GDP 2(Estimator)\\CostEstimator\\app.js"],"memoryUsage":{"rss":35971072,"heapTotal":21217280,"heapUsed":10178440,"external":25071}},"os":{"loadavg":[0,0,0],"uptime":283844},"trace":[{"column":7,"file":"vm.js","function":"new Script","line":73,"method":null,"native":false},{"column":10,"file":"vm.js","function":"createScript","line":245,"method":null,"native":false},{"column":10,"file":"vm.js","function":"Object.runInThisContext","line":297,"method":"runInThisContext","native":false},{"column":28,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":657,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":700,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":599,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":538,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":530,"method":"_load","native":false},{"column":17,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":637,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":20,"method":null,"native":false}]}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"Handling GET /create[object Object]","level":"info"}
+{"message":"{\"name\":\"Job name\",\"location\":\"location\",\"squareFeet\":10000,\"materials\":[{\"product\":\"A\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"B\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"C\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300}],\"numberOfPeople\":2,\"numberOfDays\":2,\"hoursWorkedPerDay\":8,\"laborDollarsPerHour\":25,\"numberHotelNights\":2,\"hotelDollarsPerNight\":85,\"foodDollarsPerDay\":25,\"numberOfVehicles\":2,\"milesPerVehicle\":50,\"dollarsPerMile\":0.5,\"miscellaneous\":[{\"misc\":\"A\",\"cost\":10},{\"misc\":\"B\",\"cost\":10},{\"misc\":\"C\",\"cost\":10}],\"multiplier\":0.3}","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"Handling GET /create[object Object]","level":"info"}
+{"message":"{\"name\":\"Job name\",\"location\":\"location\",\"squareFeet\":10000,\"materials\":[{\"product\":\"A\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"B\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"C\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300}],\"numberOfPeople\":2,\"numberOfDays\":2,\"hoursWorkedPerDay\":8,\"laborDollarsPerHour\":25,\"numberHotelNights\":2,\"hotelDollarsPerNight\":85,\"foodDollarsPerDay\":25,\"numberOfVehicles\":2,\"milesPerVehicle\":50,\"dollarsPerMile\":0.5,\"miscellaneous\":[{\"misc\":\"A\",\"cost\":10},{\"misc\":\"B\",\"cost\":10},{\"misc\":\"C\",\"cost\":10}],\"multiplier\":0.3}","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"error":{},"level":"error","message":"uncaughtException: Identifier 'find' has already been declared\nC:\\Users\\s531369\\Desktop\\GDP 2(Estimator)\\CostEstimator\\controllers\\coating.js:12\nconst find = require('lodash.find')\n      ^\n\nSyntaxError: Identifier 'find' has already been declared\n    at new Script (vm.js:73:7)\n    at createScript (vm.js:245:10)\n    at Object.runInThisContext (vm.js:297:10)\n    at Module._compile (internal/modules/cjs/loader.js:657:28)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (internal/modules/cjs/helpers.js:20:18)","stack":"C:\\Users\\s531369\\Desktop\\GDP 2(Estimator)\\CostEstimator\\controllers\\coating.js:12\nconst find = require('lodash.find')\n      ^\n\nSyntaxError: Identifier 'find' has already been declared\n    at new Script (vm.js:73:7)\n    at createScript (vm.js:245:10)\n    at Object.runInThisContext (vm.js:297:10)\n    at Module._compile (internal/modules/cjs/loader.js:657:28)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (internal/modules/cjs/helpers.js:20:18)","exception":true,"date":"Sun Dec 02 2018 17:48:44 GMT-0600 (Central Standard Time)","process":{"pid":7548,"uid":null,"gid":null,"cwd":"C:\\Users\\s531369\\Desktop\\GDP 2(Estimator)\\CostEstimator","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v10.9.0","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\s531369\\Desktop\\GDP 2(Estimator)\\CostEstimator\\app.js"],"memoryUsage":{"rss":35786752,"heapTotal":21217280,"heapUsed":10160592,"external":25071}},"os":{"loadavg":[0,0,0],"uptime":284434},"trace":[{"column":7,"file":"vm.js","function":"new Script","line":73,"method":null,"native":false},{"column":10,"file":"vm.js","function":"createScript","line":245,"method":null,"native":false},{"column":10,"file":"vm.js","function":"Object.runInThisContext","line":297,"method":"runInThisContext","native":false},{"column":28,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":657,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":700,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":599,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":538,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":530,"method":"_load","native":false},{"column":17,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":637,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":20,"method":null,"native":false}]}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"Handling GET /create[object Object]","level":"info"}
+{"message":"{\"name\":\"Job name\",\"location\":\"location\",\"squareFeet\":10000,\"materials\":[{\"product\":\"A\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"B\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"C\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300}],\"numberOfPeople\":2,\"numberOfDays\":2,\"hoursWorkedPerDay\":8,\"laborDollarsPerHour\":25,\"numberHotelNights\":2,\"hotelDollarsPerNight\":85,\"foodDollarsPerDay\":25,\"numberOfVehicles\":2,\"milesPerVehicle\":50,\"dollarsPerMile\":0.5,\"miscellaneous\":[{\"misc\":\"A\",\"cost\":10},{\"misc\":\"B\",\"cost\":10},{\"misc\":\"C\",\"cost\":10}],\"multiplier\":0.3}","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"Handling GET /create[object Object]","level":"info"}
+{"message":"{\"name\":\"Job name\",\"location\":\"location\",\"squareFeet\":10000,\"materials\":[{\"product\":\"A\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"B\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"C\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300}],\"numberOfPeople\":2,\"numberOfDays\":2,\"hoursWorkedPerDay\":8,\"laborDollarsPerHour\":25,\"numberHotelNights\":2,\"hotelDollarsPerNight\":85,\"foodDollarsPerDay\":25,\"numberOfVehicles\":2,\"milesPerVehicle\":50,\"dollarsPerMile\":0.5,\"miscellaneous\":[{\"misc\":\"A\",\"cost\":10},{\"misc\":\"B\",\"cost\":10},{\"misc\":\"C\",\"cost\":10}],\"multiplier\":0.3}","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"Handling GET /create[object Object]","level":"info"}
+{"message":"{\"name\":\"Job name\",\"location\":\"location\",\"squareFeet\":10000,\"materials\":[{\"product\":\"A\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"B\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"C\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300}],\"numberOfPeople\":2,\"numberOfDays\":2,\"hoursWorkedPerDay\":8,\"laborDollarsPerHour\":25,\"numberHotelNights\":2,\"hotelDollarsPerNight\":85,\"foodDollarsPerDay\":25,\"numberOfVehicles\":2,\"milesPerVehicle\":50,\"dollarsPerMile\":0.5,\"miscellaneous\":[{\"misc\":\"A\",\"cost\":10},{\"misc\":\"B\",\"cost\":10},{\"misc\":\"C\",\"cost\":10}],\"multiplier\":0.3}","level":"debug"}
+{"message":"Handling GET /create[object Object]","level":"info"}
+{"message":"{\"name\":\"Job name\",\"location\":\"location\",\"squareFeet\":10000,\"materials\":[{\"product\":\"A\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"B\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"C\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300}],\"numberOfPeople\":2,\"numberOfDays\":2,\"hoursWorkedPerDay\":8,\"laborDollarsPerHour\":25,\"numberHotelNights\":2,\"hotelDollarsPerNight\":85,\"foodDollarsPerDay\":25,\"numberOfVehicles\":2,\"milesPerVehicle\":50,\"dollarsPerMile\":0.5,\"miscellaneous\":[{\"misc\":\"A\",\"cost\":10},{\"misc\":\"B\",\"cost\":10},{\"misc\":\"C\",\"cost\":10}],\"multiplier\":0.3}","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+{"message":"Handling GET /create[object Object]","level":"info"}
+{"message":"{\"name\":\"Job name\",\"location\":\"location\",\"squareFeet\":10000,\"materials\":[{\"product\":\"A\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"B\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"C\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300}],\"numberOfPeople\":2,\"numberOfDays\":2,\"hoursWorkedPerDay\":8,\"laborDollarsPerHour\":25,\"numberHotelNights\":2,\"hotelDollarsPerNight\":85,\"foodDollarsPerDay\":25,\"numberOfVehicles\":2,\"milesPerVehicle\":50,\"dollarsPerMile\":0.5,\"miscellaneous\":[{\"misc\":\"A\",\"cost\":10},{\"misc\":\"B\",\"cost\":10},{\"misc\":\"C\",\"cost\":10}],\"multiplier\":0.3}","level":"debug"}
+{"message":"Handling GET /create[object Object]","level":"info"}
+{"message":"{\"name\":\"Job name\",\"location\":\"location\",\"squareFeet\":10000,\"materials\":[{\"product\":\"A\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"B\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300},{\"product\":\"C\",\"unitcost\":65,\"coverageSquareFeetPerUnit\":300}],\"numberOfPeople\":2,\"numberOfDays\":2,\"hoursWorkedPerDay\":8,\"laborDollarsPerHour\":25,\"numberHotelNights\":2,\"hotelDollarsPerNight\":85,\"foodDollarsPerDay\":25,\"numberOfVehicles\":2,\"milesPerVehicle\":50,\"dollarsPerMile\":0.5,\"miscellaneous\":[{\"misc\":\"A\",\"cost\":10},{\"misc\":\"B\",\"cost\":10},{\"misc\":\"C\",\"cost\":10}],\"multiplier\":0.3}","level":"debug"}
+{"message":"START routing","level":"debug"}
+{"message":"END routing","level":"debug"}
+>>>>>>> cea7a50174bcc5c4ff9cd43bc9ceab371e9c56b3

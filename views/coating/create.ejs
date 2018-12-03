@@ -1,0 +1,44 @@
+<head>
+  <% include ../header.ejs %> 
+
+</head>
+
+<div class="container-fluid">
+    <div class=row>
+      <div class="col col-md-12">
+        
+        <br/>
+        <h2>Create a new coating estimate </h2>
+        <br/>
+        
+
+        <div class="content">
+          <div>
+            <form name="estimate" method="POST" action="/estimate/save">
+
+              <div class="form-group" id=frm>
+                <label for="_id">ID</label>
+                <input type="number" class="form-control" id="_id" name="_id" value="" required readonly>
+              </div>
+
+              <%include partial_edit.ejs%>
+
+              <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+              </div>
+          </form>
+
+          <br/>
+
+          <form method="get" action="/estimate">
+            <input type="submit" value="Return to list" class="btn btn-caution" />
+          </form>
+          </div>
+         
+          </div>
+          </div>
+             
+            </div>
+            <hr>
+
+            <% include ../footer.ejs %>
