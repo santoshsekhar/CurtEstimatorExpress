@@ -1,16 +1,26 @@
 
-<html>
-
-    <head>
-      <% include ../header.ejs %> 
-    </head>
-    
-    <body>
-
 <div class="custom-container" ng-controller="UserLoginCtrl">
     <div class="page-header">
       <h3>Sign in</h3>
     </div>
+  
+    <%if(messages.failure){%>
+      <div class="alert alert-danger">
+        <%=messages.failure%>
+      </div>
+      <%}%>
+        <%if(messages.success){%>
+          <div class="alert alert-success">
+            <%=messages.success%>
+          </div>
+          <%}%>
+            <%if(messages.errors){%>
+              <% for (var x=0;x<messages.errors.length;x++) {%>
+                <div class="alert alert-danger">
+                  <%= messages.errors[x].msg %>
+                </div>
+                <%}%>
+                  <%}%>
                     <form novalidate method="POST" action="/login" name="loginForm">
   
                       <div class="row">
@@ -26,8 +36,8 @@
                             />
                           </div>
                           <div class="form-group">
-                            <button type="submit" class="btn btn-primary" ng-disabled="loginForm.$invalid" onclick="err()">
-                              <i class="fa fa-user" ></i>Login
+                            <button type="submit" class="btn btn-primary" ng-disabled="loginForm.$invalid">
+                              <i class="fa fa-user"></i>Login
                             </button>
                             <a href="/forgot" class="btn btn-link">Forgot your password?</a>
                           </div>
@@ -35,10 +45,5 @@
                         <div class="col-sm-4 col-sm-offset-1">
                         </div>
                       </div>
-                     
                     </form>
   </div>
-    </body>
-</html>
-<% include ../footer.ejs %>
-  
