@@ -1,0 +1,9 @@
+[
+  {
+    "email": "cgeadmin@mail.com",
+    "password": "admin123",
+    "profile": {
+      "name": "Admin"
+    }
+  }
+]

@@ -1,0 +1,90 @@
+/**
+ *
+ *      +----------------------------------------------------------------------------------------------------------------+
+ *      |                                             Copyright - Northest Missouri State University                  | 
+*       |-----------------------------------------------------------------------------------------------------------------|
+ *      |Team #5                                                                                                                          | 
+ *      |Unit #5  : Santhosh Dulam,Sai Varun,Keerthi                                                                                        | 
+ *      |-----------------------------------------------------------------------------------------------------------------|
+ *      |Description: This page styles about page.                                                                     | 
+ *      |-----------------------------------------------------------------------------------------------------------------|
+ *      |    NAME                            VERSION                       CHANGES                                    |
+ *      |-----------------------------------------------------------------------------------------------------------------|
+ *      |   Keerthi Chiduruppa            0.0.1(Initial)                   updated              | 
+ *      |                                                                                                                                       | 
+ *      |                                                                                                                                       | 
+ *      +-----------------------------------------------------------------------------------------------------------------+
+ */
+
+body{		margin: 0;
+    background-image: url("\images\aboutme\t5b\749510_white-light-plain-backgrounds-wallpapers-image-2-puzzle-play_1920x1080_h.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ }
+
+
+footer {
+text-align:center;
+color:#09065A;
+}
+
+ul.topnav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #073054;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+display: block;;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #0E0000;}
+
+ul.topnav li a.active {background-color: #6066FF;}
+
+@media screen and (max-width: 600px){
+ul.topnav li {float: none;}
+}
+
+img {
+border-radius: 50%;
+float:left;
+
+}
+
+
+
+.video{
+float:right;
+}
+
+a.fb{
+float: right;
+}
+
+a.fb2{
+float: right;
+}
+a.fb1{
+float: right;
+}
+
+.head{
+color:#030051;
+}
+p{
+color:#183784;
+}
+
+.header1{
+color:#030051;
+}
