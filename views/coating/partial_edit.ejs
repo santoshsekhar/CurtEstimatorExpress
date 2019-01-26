@@ -1,0 +1,95 @@
+
+<div class=row>
+    <div class="col col-xs-12">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" value="" required>
+        </div>
+        <div class="form-group">
+            <label for="location">Location</label>
+            <input type="text" class="form-control" id="location" name="location" value="">
+        </div>
+        <div class="form-group">
+            <label for="squareFeet">Square Feet</label>
+            <input onchange="onEstimateChange()" type="number" class="form-control" id="squareFeet" name="squareFeet" value=""
+                required>
+        </div>
+    </div>
+</div>
+<hr>
+
+<p></p>
+<div id="materialList">
+  
+    <span id="materialCount">
+      
+    </span> Material Entries
+   
+      <div id="oneMaterial">
+        <p></p>
+        <div class=row>
+          <div class="col col-xs-4">
+            <div class="form-group">
+              <label for="product" name="productLabel">Material </label>
+              <input type="text" class="form-control" id="" name="product" value="">
+            </div>
+          </div>
+          <div class="col col-xs-4">
+            <div class="form-group">
+              <label for="unitcost" name="unitcostLabel">$/unit</label>
+              <input onchange="onEstimateChange()" type="number" class="form-control" id="" name="unitcost" step="1" value=""
+                min=0 max=500000>
+            </div>
+          </div>
+          <div class="col col-xs-4">
+            <div class="form-group">
+              <label for="coverageSquareFeetPerUnit" name="coverageLabel">Sqft/unit</label>
+              <input onchange="onEstimateChange()" type="number" class="form-control" id="" step="1"
+                value="" name="coverageSquareFeetPerUnit" min=1 max=50000>
+            </div>
+          </div>
+        </div>
+        <span id=""></span> units =
+        <span id=""></span>
+        <p></p>
+      </div>
+     
+</div>
+<br/>
+<h4>
+  Material Cost =
+  <span id="materialCost"></span>
+  
+    
+  
+</h4>
+<hr>
+
+<div class=row>
+    <div class="col col-xs-12">
+        <div class="form-group">
+            <label for="numberOfPeople">Number of People</label>
+            <input onchange="onLaborCost()" type="number" class="form-control" id="numberOfPeople" name="numberOfPeople" value=""
+                required>
+        </div>
+        <div class="form-group">
+            <label for="numberOfDays">Number of Days</label>
+            <input onchange="onLaborCost()" type="number" class="form-control" id="numberOfDays" name="numberOfDays" value="">
+        </div>
+        <div class="form-group">
+            <label for="hoursWorkedPerDay">Hours Worked Per Day</label>
+            <input onchange="onLaborCost()" type="number" class="form-control" id="hoursWorkedPerDay" name="hoursWorkedPerDay" value=""
+                required>
+        </div>
+        <div class="form-group">
+            <label for="laborDollarsPerHour">Labor Dollar Per Hour</label>
+            <input onchange="onLaborCost()" type="number" class="form-control" id="laborDollarsPerHour" name="laborDollarsPerHour" value=""
+                required>
+        </div>
+    </div>
+</div>
+<h4>
+    Total Labor Cost =
+    <span id="laborCost"></span>
+</h4>
+<hr>
