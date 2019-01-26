@@ -18,4 +18,20 @@ api.get('/print/:id',  passport.isAuthenticated, function  (req,  res) {
 
 })
 
+api.get('/',  (req, res) => {
+  res.render('estimate/index.ejs')
+})
+
+api.get('/create',  (req, res) => {
+  LOG.info(`Handling GET /create${req}`)
+  const item = new Model()
+  LOG.debug(JSON.stringify(item))
+  res.render('estimate/create.ejs',
+    {
+      title: 'Create estimate',
+      layout: 'layout.ejs',
+      estimate: item
+    })
+})
+
 module.exports = api
