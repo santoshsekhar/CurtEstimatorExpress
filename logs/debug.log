@@ -11251,3 +11251,13 @@ Error: listen EADDRINUSE :::3000
 2019-01-26T03:22:56.251Z - debug: Request to /
 2019-01-26T03:22:57.925Z - debug: GET /logout
 2019-01-26T03:22:58.056Z - debug: GET /login
+2019-01-26T04:08:14.060Z - info: Environment isProduction =  true
+2019-01-26T04:08:14.507Z - debug: START routing
+2019-01-26T04:08:14.510Z - debug: END routing
+2019-01-26T04:08:14.639Z - info: Starting controllers/user.js.
+2019-01-26T04:08:14.649Z - debug: START user routing
+2019-01-26T04:08:14.650Z - debug: END user routing
+2019-01-26T04:08:14.650Z - info: Loaded routing.
+2019-01-26T04:08:15.274Z - info: START seeder.
+2019-01-26T04:08:15.282Z - debug: Registering cgeadmin@mail.com
+2019-01-26T04:08:15.691Z - info: User with email: cgeadmin@mail.com successfully registered.
