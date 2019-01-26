@@ -49,4 +49,20 @@ api.get('/delete/:id',  (req, res) => {
     })
 })
 
+api.get('/details/:id',  (req, res) => {
+  LOG.info(`Handling GET /details/:id ${req}`)
+  const id = parseInt(req.params.id, 10) // base 10
+  console.log(req.app.locals.estimates)
+  const data = req.app.locals.estimates.query
+  const item = find(data, { _id: id })
+  if (!item) { return res.end(notfoundstring) }
+  LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
+  return res.render('estimate/details.ejs',
+    {
+      title: 'Estimate Details',
+      layout: 'layout.ejs',
+      estimate: item
+    })
+})
+
 module.exports = api
