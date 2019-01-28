@@ -18,6 +18,15 @@ router.get('/contact',  (req, res) =>{
       })    
     })
 
+router.use('/coating',require('../controllers/coating.js'))   
+ 
+    router.get('/coating',(req,res)=>{
+        res.render('coating/index',{
+                title:'Estimates'
+        })
+        
+    })
+
 
 LOG.debug('END routing')
 module.exports = router

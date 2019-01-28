@@ -11261,3 +11261,386 @@ Error: listen EADDRINUSE :::3000
 2019-01-26T04:08:15.274Z - info: START seeder.
 2019-01-26T04:08:15.282Z - debug: Registering cgeadmin@mail.com
 2019-01-26T04:08:15.691Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T15:29:15.924Z - info: Environment isProduction =  true
+2019-01-28T15:29:16.641Z - debug: START routing
+2019-01-28T15:29:16.653Z - debug: END routing
+2019-01-28T15:29:16.902Z - info: Starting controllers/user.js.
+2019-01-28T15:29:16.913Z - debug: START user routing
+2019-01-28T15:29:16.914Z - debug: END user routing
+2019-01-28T15:29:16.914Z - info: Loaded routing.
+2019-01-28T15:29:17.503Z - info: START seeder.
+2019-01-28T15:29:17.524Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:29:17.897Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T15:29:21.514Z - debug: GET /
+2019-01-28T15:29:21.542Z - debug: Request to /
+2019-01-28T15:29:24.701Z - debug: GET /estimate
+2019-01-28T15:29:26.612Z - debug: GET /login
+2019-01-28T15:29:28.496Z - debug: POST /login
+2019-01-28T15:29:28.803Z - error: 
+2019-01-28T15:29:28.830Z - debug: GET /
+2019-01-28T15:29:29.138Z - debug: Request to /
+2019-01-28T15:29:31.411Z - debug: GET /estimate
+2019-01-28T15:29:33.272Z - debug: GET /contact
+2019-01-28T15:29:34.802Z - debug: GET /estimate
+2019-01-28T15:29:36.496Z - debug: GET /login
+2019-01-28T15:29:41.749Z - debug: POST /login
+2019-01-28T15:29:41.868Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-01-28T15:29:41.873Z - debug: GET /login
+2019-01-28T15:30:09.625Z - info: Environment isProduction =  true
+2019-01-28T15:30:10.041Z - debug: START routing
+2019-01-28T15:30:10.047Z - debug: END routing
+2019-01-28T15:30:10.174Z - info: Starting controllers/user.js.
+2019-01-28T15:30:10.180Z - debug: START user routing
+2019-01-28T15:30:10.181Z - debug: END user routing
+2019-01-28T15:30:10.181Z - info: Loaded routing.
+2019-01-28T15:30:10.784Z - info: START seeder.
+2019-01-28T15:30:10.799Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:30:11.151Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T15:30:14.336Z - debug: GET /
+2019-01-28T15:30:14.412Z - debug: Request to /
+2019-01-28T15:30:19.391Z - debug: GET /login
+2019-01-28T15:30:21.229Z - debug: POST /login
+2019-01-28T15:30:21.517Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-01-28T15:30:21.546Z - debug: GET /login
+2019-01-28T15:30:50.250Z - info: Environment isProduction =  true
+2019-01-28T15:30:50.786Z - debug: START routing
+2019-01-28T15:30:50.792Z - debug: END routing
+2019-01-28T15:30:50.990Z - info: Starting controllers/user.js.
+2019-01-28T15:30:50.998Z - debug: START user routing
+2019-01-28T15:30:50.999Z - debug: END user routing
+2019-01-28T15:30:50.999Z - info: Loaded routing.
+2019-01-28T15:30:51.482Z - info: START seeder.
+2019-01-28T15:30:51.498Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:30:51.845Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T15:30:54.395Z - debug: GET /
+2019-01-28T15:30:54.462Z - debug: Request to /
+2019-01-28T15:30:57.645Z - debug: GET /login
+2019-01-28T15:30:59.719Z - debug: POST /login
+2019-01-28T15:30:59.992Z - error: 
+2019-01-28T15:31:00.013Z - debug: GET /
+2019-01-28T15:31:00.329Z - debug: Request to /
+2019-01-28T15:31:02.695Z - debug: GET /estimate
+2019-01-28T15:31:06.675Z - debug: GET /estimate
+2019-01-28T15:31:10.018Z - debug: GET /estimate
+2019-01-28T15:31:10.620Z - debug: GET /estimate
+2019-01-28T15:31:12.700Z - debug: GET /estimate
+2019-01-28T15:31:42.002Z - info: Environment isProduction =  true
+2019-01-28T15:31:42.413Z - debug: START routing
+2019-01-28T15:31:42.419Z - debug: END routing
+2019-01-28T15:31:42.572Z - info: Starting controllers/user.js.
+2019-01-28T15:31:42.579Z - debug: START user routing
+2019-01-28T15:31:42.580Z - debug: END user routing
+2019-01-28T15:31:42.580Z - info: Loaded routing.
+2019-01-28T15:31:43.389Z - info: START seeder.
+2019-01-28T15:31:43.426Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:31:43.787Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T15:32:05.385Z - info: Environment isProduction =  true
+2019-01-28T15:32:05.624Z - debug: START routing
+2019-01-28T15:32:05.627Z - debug: END routing
+2019-01-28T15:32:05.744Z - info: Starting controllers/user.js.
+2019-01-28T15:32:05.751Z - debug: START user routing
+2019-01-28T15:32:05.752Z - debug: END user routing
+2019-01-28T15:32:05.752Z - info: Loaded routing.
+2019-01-28T15:32:06.262Z - info: START seeder.
+2019-01-28T15:32:06.279Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:32:06.641Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T15:32:08.847Z - debug: GET /
+2019-01-28T15:32:08.960Z - debug: Request to /
+2019-01-28T15:32:12.084Z - debug: GET /login
+2019-01-28T15:32:13.978Z - debug: POST /login
+2019-01-28T15:32:14.190Z - error: 
+2019-01-28T15:32:14.224Z - debug: GET /
+2019-01-28T15:32:14.536Z - debug: Request to /
+2019-01-28T15:32:16.600Z - debug: GET /estimate
+2019-01-28T15:34:33.291Z - info: Environment isProduction =  true
+2019-01-28T15:34:33.668Z - debug: START routing
+2019-01-28T15:34:33.672Z - debug: END routing
+2019-01-28T15:34:33.871Z - info: Starting controllers/user.js.
+2019-01-28T15:34:33.881Z - debug: START user routing
+2019-01-28T15:34:33.882Z - debug: END user routing
+2019-01-28T15:34:33.883Z - info: Loaded routing.
+2019-01-28T15:34:34.480Z - info: START seeder.
+2019-01-28T15:34:34.500Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:34:34.868Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T15:34:51.200Z - info: Environment isProduction =  true
+2019-01-28T15:34:51.749Z - error: uncaughtException: Router.use() requires a middleware function date=Mon Jan 28 2019 09:34:51 GMT-0600 (Central Standard Time), pid=1184, uid=null, gid=null, cwd=C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v10.9.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\app.js], rss=60059648, heapTotal=57958400, heapUsed=23578768, external=37116537, loadavg=[0, 0, 0], uptime=246392
+TypeError: Router.use() requires a middleware function
+    at Function.use (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\node_modules\express\lib\router\index.js:451:11)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\routes\index.js:21:8)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\app.js:144:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+2019-01-28T15:34:51.715Z - debug: START routing
+2019-01-28T15:34:52.452Z - info: Starting controllers/user.js.
+2019-01-28T15:34:52.452Z - info: START seeder.
+2019-01-28T15:34:52.459Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:34:52.793Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T15:35:00.579Z - info: Environment isProduction =  true
+2019-01-28T15:35:00.855Z - error: uncaughtException: Router.use() requires a middleware function date=Mon Jan 28 2019 09:35:00 GMT-0600 (Central Standard Time), pid=8348, uid=null, gid=null, cwd=C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v10.9.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\app.js], rss=63160320, heapTotal=59047936, heapUsed=31038808, external=37429480, loadavg=[0, 0, 0], uptime=246401
+TypeError: Router.use() requires a middleware function
+    at Function.use (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\node_modules\express\lib\router\index.js:451:11)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\routes\index.js:21:8)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\app.js:144:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+2019-01-28T15:35:00.834Z - debug: START routing
+2019-01-28T15:35:01.665Z - info: Starting controllers/user.js.
+2019-01-28T15:35:01.669Z - info: START seeder.
+2019-01-28T15:35:01.699Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:35:02.110Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T15:35:09.841Z - info: Environment isProduction =  true
+2019-01-28T15:35:10.171Z - debug: START routing
+2019-01-28T15:35:10.174Z - debug: END routing
+2019-01-28T15:35:10.331Z - info: Starting controllers/user.js.
+2019-01-28T15:35:10.343Z - debug: START user routing
+2019-01-28T15:35:10.345Z - debug: END user routing
+2019-01-28T15:35:10.345Z - info: Loaded routing.
+2019-01-28T15:35:17.316Z - info: Environment isProduction =  true
+2019-01-28T15:35:17.734Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Mon Jan 28 2019 09:35:17 GMT-0600 (Central Standard Time), pid=8216, uid=null, gid=null, cwd=C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v10.9.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\app.js], rss=59793408, heapTotal=57958400, heapUsed=23195008, external=37071127, loadavg=[0, 0, 0], uptime=246418
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\node_modules\express\lib\router\index.js:458:13)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\routes\index.js:21:8)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\app.js:144:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+2019-01-28T15:35:17.707Z - debug: START routing
+2019-01-28T15:35:18.298Z - info: Starting controllers/user.js.
+2019-01-28T15:35:18.299Z - info: START seeder.
+2019-01-28T15:35:18.308Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:35:18.678Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T15:35:21.611Z - info: Environment isProduction =  true
+2019-01-28T15:35:21.922Z - error: uncaughtException: Cannot find module '../con' date=Mon Jan 28 2019 09:35:21 GMT-0600 (Central Standard Time), pid=6020, uid=null, gid=null, cwd=C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v10.9.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\app.js], rss=62169088, heapTotal=59047936, heapUsed=30566504, external=37380938, loadavg=[0, 0, 0], uptime=246422
+Error: Cannot find module '../con'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\routes\index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\app.js:144:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+2019-01-28T15:35:21.895Z - debug: START routing
+2019-01-28T15:35:25.854Z - info: Environment isProduction =  true
+2019-01-28T15:35:26.245Z - error: uncaughtException: Cannot find module '../controllers' date=Mon Jan 28 2019 09:35:26 GMT-0600 (Central Standard Time), pid=7924, uid=null, gid=null, cwd=C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v10.9.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\app.js], rss=62124032, heapTotal=59047936, heapUsed=30141032, external=37339191, loadavg=[0, 0, 0], uptime=246426
+Error: Cannot find module '../controllers'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\routes\index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\app.js:144:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+2019-01-28T15:35:26.216Z - debug: START routing
+2019-01-28T15:35:27.008Z - info: Starting controllers/user.js.
+2019-01-28T15:35:27.008Z - info: START seeder.
+2019-01-28T15:35:27.015Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:35:28.572Z - info: Environment isProduction =  true
+2019-01-28T15:35:28.925Z - error: uncaughtException: Cannot find module '../controllers/' date=Mon Jan 28 2019 09:35:28 GMT-0600 (Central Standard Time), pid=4548, uid=null, gid=null, cwd=C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v10.9.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\app.js], rss=61276160, heapTotal=58482688, heapUsed=22886968, external=37062935, loadavg=[0, 0, 0], uptime=246429
+Error: Cannot find module '../controllers/'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\routes\index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\app.js:144:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+2019-01-28T15:35:28.908Z - debug: START routing
+2019-01-28T15:35:29.616Z - info: Starting controllers/user.js.
+2019-01-28T15:35:29.625Z - info: START seeder.
+2019-01-28T15:35:29.650Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:35:30.111Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T15:35:35.760Z - info: Environment isProduction =  true
+2019-01-28T15:35:36.170Z - error: uncaughtException: Cannot find module '../models/coating.js' date=Mon Jan 28 2019 09:35:36 GMT-0600 (Central Standard Time), pid=5688, uid=null, gid=null, cwd=C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v10.9.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\app.js], rss=60829696, heapTotal=57958400, heapUsed=22639768, external=36995180, loadavg=[0, 0, 0], uptime=246436
+Error: Cannot find module '../models/coating.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\controllers\coating.js:4:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\routes\index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+2019-01-28T15:35:36.112Z - debug: START routing
+2019-01-28T15:35:37.086Z - info: Starting controllers/user.js.
+2019-01-28T15:35:37.088Z - info: START seeder.
+2019-01-28T15:35:37.102Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:35:37.469Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T15:36:17.626Z - info: Environment isProduction =  true
+2019-01-28T15:36:17.949Z - error: uncaughtException: Cannot find module '../models/coating.js' date=Mon Jan 28 2019 09:36:17 GMT-0600 (Central Standard Time), pid=9384, uid=null, gid=null, cwd=C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v10.9.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\app.js], rss=62394368, heapTotal=59572224, heapUsed=30589584, external=37380938, loadavg=[0, 0, 0], uptime=246478
+Error: Cannot find module '../models/coating.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\controllers\coating.js:4:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2\CostEstimatorExpress\routes\index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+2019-01-28T15:36:17.928Z - debug: START routing
+2019-01-28T15:36:18.678Z - info: Starting controllers/user.js.
+2019-01-28T15:36:18.679Z - info: START seeder.
+2019-01-28T15:36:18.696Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:36:19.070Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T15:37:23.404Z - info: Environment isProduction =  true
+2019-01-28T15:37:23.681Z - debug: START routing
+2019-01-28T15:37:23.752Z - debug: END routing
+2019-01-28T15:37:23.936Z - info: Starting controllers/user.js.
+2019-01-28T15:37:23.953Z - debug: START user routing
+2019-01-28T15:37:23.956Z - debug: END user routing
+2019-01-28T15:37:23.958Z - info: Loaded routing.
+2019-01-28T15:37:24.804Z - info: START seeder.
+2019-01-28T15:37:24.820Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:37:25.272Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T15:37:28.713Z - debug: GET /
+2019-01-28T15:37:28.869Z - debug: Request to /
+2019-01-28T15:37:32.166Z - debug: GET /login
+2019-01-28T15:37:34.269Z - debug: POST /login
+2019-01-28T15:37:34.522Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-01-28T15:37:34.547Z - debug: GET /login
+2019-01-28T15:37:37.000Z - debug: GET /estimate
+2019-01-28T15:37:38.285Z - debug: GET /estimate
+2019-01-28T15:37:39.314Z - debug: GET /login
+2019-01-28T15:37:40.900Z - debug: POST /login
+2019-01-28T15:37:41.073Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-01-28T15:37:41.082Z - debug: GET /login
+2019-01-28T15:37:51.116Z - info: Environment isProduction =  true
+2019-01-28T15:37:51.550Z - debug: START routing
+2019-01-28T15:37:51.630Z - debug: END routing
+2019-01-28T15:37:51.769Z - info: Starting controllers/user.js.
+2019-01-28T15:37:51.782Z - debug: START user routing
+2019-01-28T15:37:51.784Z - debug: END user routing
+2019-01-28T15:37:51.785Z - info: Loaded routing.
+2019-01-28T15:37:52.329Z - info: START seeder.
+2019-01-28T15:37:52.344Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:37:52.682Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T15:37:54.890Z - debug: GET /
+2019-01-28T15:37:54.965Z - debug: Request to /
+2019-01-28T15:37:58.314Z - debug: GET /login
+2019-01-28T15:38:00.328Z - debug: POST /login
+2019-01-28T15:38:00.624Z - error: 
+2019-01-28T15:38:00.643Z - debug: GET /
+2019-01-28T15:38:01.043Z - debug: Request to /
+2019-01-28T15:38:03.056Z - debug: GET /estimate
+2019-01-28T15:38:04.940Z - debug: GET /estimate
+2019-01-28T15:38:07.523Z - debug: GET /estimate
+2019-01-28T15:41:00.961Z - debug: GET /estimate
+2019-01-28T15:41:31.863Z - info: Environment isProduction =  true
+2019-01-28T15:41:32.408Z - debug: START routing
+2019-01-28T15:41:32.495Z - debug: END routing
+2019-01-28T15:41:32.641Z - info: Starting controllers/user.js.
+2019-01-28T15:41:32.649Z - debug: START user routing
+2019-01-28T15:41:32.650Z - debug: END user routing
+2019-01-28T15:41:32.651Z - info: Loaded routing.
+2019-01-28T15:41:33.273Z - info: START seeder.
+2019-01-28T15:41:33.280Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:41:33.585Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T15:41:35.361Z - debug: GET /
+2019-01-28T15:41:35.438Z - debug: Request to /
+2019-01-28T15:41:38.620Z - debug: GET /contact
+2019-01-28T15:41:41.792Z - debug: GET /contact
+2019-01-28T15:41:43.151Z - debug: GET /
+2019-01-28T15:41:43.192Z - debug: Request to /
+2019-01-28T15:41:44.367Z - debug: GET /contact
+2019-01-28T15:42:48.599Z - debug: GET /estimate
+2019-01-28T15:44:38.052Z - debug: GET /estimate
+2019-01-28T15:44:41.551Z - debug: GET /login
+2019-01-28T15:44:43.385Z - debug: POST /login
+2019-01-28T15:44:43.622Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-01-28T15:44:43.639Z - debug: GET /login
+2019-01-28T15:44:59.612Z - info: Environment isProduction =  true
+2019-01-28T15:45:00.062Z - debug: START routing
+2019-01-28T15:45:00.125Z - debug: END routing
+2019-01-28T15:45:00.267Z - info: Starting controllers/user.js.
+2019-01-28T15:45:00.285Z - debug: START user routing
+2019-01-28T15:45:00.286Z - debug: END user routing
+2019-01-28T15:45:00.287Z - info: Loaded routing.
+2019-01-28T15:45:00.792Z - info: START seeder.
+2019-01-28T15:45:00.808Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:45:01.135Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T15:45:03.040Z - debug: GET /
+2019-01-28T15:45:03.097Z - debug: Request to /
+2019-01-28T15:45:06.705Z - debug: GET /login
+2019-01-28T15:45:08.665Z - debug: POST /login
+2019-01-28T15:45:08.916Z - error: 
+2019-01-28T15:45:08.936Z - debug: GET /
+2019-01-28T15:45:09.281Z - debug: Request to /
+2019-01-28T15:45:11.720Z - debug: GET /estimate
+2019-01-28T15:45:16.948Z - debug: GET /contact
+2019-01-28T15:45:19.469Z - debug: GET /estimate
+2019-01-28T15:45:24.902Z - debug: GET /about/t1/a
+2019-01-28T15:45:29.740Z - debug: GET /estimate
