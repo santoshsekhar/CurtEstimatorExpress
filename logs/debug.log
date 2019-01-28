@@ -11644,3 +11644,635 @@ Error: Cannot find module '../models/coating.js'
 2019-01-28T15:45:19.469Z - debug: GET /estimate
 2019-01-28T15:45:24.902Z - debug: GET /about/t1/a
 2019-01-28T15:45:29.740Z - debug: GET /estimate
+2019-01-28T15:47:26.041Z - info: Environment isProduction =  true
+2019-01-28T15:47:26.193Z - debug: START routing
+2019-01-28T15:47:26.219Z - debug: END routing
+2019-01-28T15:47:26.283Z - info: Starting controllers/user.js.
+2019-01-28T15:47:26.287Z - debug: START user routing
+2019-01-28T15:47:26.288Z - debug: END user routing
+2019-01-28T15:47:26.288Z - info: Loaded routing.
+2019-01-28T15:47:27.272Z - info: START seeder.
+2019-01-28T15:47:27.278Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:47:27.547Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T15:47:30.625Z - debug: GET /
+2019-01-28T15:47:30.669Z - debug: Request to /
+2019-01-28T15:47:32.289Z - debug: GET /estimate
+2019-01-28T15:47:33.250Z - debug: GET /login
+2019-01-28T15:47:36.313Z - debug: POST /login
+2019-01-28T15:47:36.416Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-01-28T15:47:36.435Z - debug: GET /login
+2019-01-28T15:47:48.980Z - info: Environment isProduction =  true
+2019-01-28T15:47:49.113Z - debug: START routing
+2019-01-28T15:47:49.146Z - debug: END routing
+2019-01-28T15:47:49.184Z - info: Starting controllers/user.js.
+2019-01-28T15:47:49.186Z - debug: START user routing
+2019-01-28T15:47:49.186Z - debug: END user routing
+2019-01-28T15:47:49.186Z - info: Loaded routing.
+2019-01-28T15:47:49.533Z - info: START seeder.
+2019-01-28T15:47:49.539Z - debug: Registering cgeadmin@mail.com
+2019-01-28T15:47:49.809Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T15:47:52.305Z - debug: GET /
+2019-01-28T15:47:52.373Z - debug: Request to /
+2019-01-28T15:47:55.209Z - debug: GET /login
+2019-01-28T15:47:58.398Z - debug: POST /login
+2019-01-28T15:47:58.518Z - error: 
+2019-01-28T15:47:58.528Z - debug: GET /
+2019-01-28T15:47:58.821Z - debug: Request to /
+2019-01-28T15:48:00.022Z - debug: GET /estimate
+2019-01-28T15:48:14.385Z - debug: GET /contact
+2019-01-28T15:48:26.075Z - debug: GET /estimate
+2019-01-28T15:48:27.639Z - debug: GET /logout
+2019-01-28T15:48:27.737Z - debug: GET /login
+2019-01-28T18:15:19.839Z - info: Environment isProduction =  true
+2019-01-28T18:15:20.031Z - debug: START routing
+2019-01-28T18:15:20.059Z - debug: END routing
+2019-01-28T18:15:20.132Z - info: Starting controllers/user.js.
+2019-01-28T18:15:20.137Z - debug: START user routing
+2019-01-28T18:15:20.137Z - debug: END user routing
+2019-01-28T18:15:20.137Z - info: Loaded routing.
+2019-01-28T18:15:20.614Z - info: START seeder.
+2019-01-28T18:15:20.620Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:15:20.895Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T18:15:22.681Z - debug: GET /
+2019-01-28T18:15:22.687Z - debug: Request to /
+2019-01-28T18:15:24.327Z - debug: GET /login
+2019-01-28T18:15:27.182Z - debug: POST /login
+2019-01-28T18:15:27.299Z - error: 
+2019-01-28T18:15:27.308Z - debug: GET /
+2019-01-28T18:15:27.602Z - debug: Request to /
+2019-01-28T18:15:31.713Z - debug: GET /estimate
+2019-01-28T18:15:33.571Z - debug: GET /logout
+2019-01-28T18:15:33.655Z - debug: GET /login
+2019-01-28T18:17:51.579Z - debug: GET /login
+2019-01-28T18:18:51.427Z - debug: GET /login
+2019-01-28T18:18:55.641Z - debug: POST /login
+2019-01-28T18:18:55.737Z - error: 
+2019-01-28T18:18:55.744Z - debug: GET /
+2019-01-28T18:18:55.818Z - debug: Request to /
+2019-01-28T18:18:58.974Z - debug: GET /logout
+2019-01-28T18:18:59.056Z - debug: GET /login
+2019-01-28T18:20:27.632Z - info: Environment isProduction =  true
+2019-01-28T18:20:27.815Z - debug: START routing
+2019-01-28T18:20:27.845Z - debug: END routing
+2019-01-28T18:20:27.917Z - info: Starting controllers/user.js.
+2019-01-28T18:20:27.922Z - debug: START user routing
+2019-01-28T18:20:27.923Z - debug: END user routing
+2019-01-28T18:20:27.923Z - info: Loaded routing.
+2019-01-28T18:20:28.604Z - info: START seeder.
+2019-01-28T18:20:28.609Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:20:28.897Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T18:20:31.643Z - debug: GET /
+2019-01-28T18:20:31.686Z - debug: Request to /
+2019-01-28T18:20:33.477Z - debug: GET /estimate
+2019-01-28T18:20:34.546Z - debug: GET /login
+2019-01-28T18:20:37.296Z - debug: POST /login
+2019-01-28T18:20:37.397Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-01-28T18:20:37.409Z - debug: GET /login
+2019-01-28T18:20:44.169Z - debug: POST /login
+2019-01-28T18:20:44.246Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-01-28T18:20:44.254Z - debug: GET /login
+2019-01-28T18:26:01.535Z - info: Environment isProduction =  true
+2019-01-28T18:26:01.687Z - debug: START routing
+2019-01-28T18:26:01.719Z - debug: END routing
+2019-01-28T18:26:01.783Z - info: Starting controllers/user.js.
+2019-01-28T18:26:01.783Z - debug: START user routing
+2019-01-28T18:26:01.784Z - debug: END user routing
+2019-01-28T18:26:01.784Z - info: Loaded routing.
+2019-01-28T18:26:02.274Z - info: START seeder.
+2019-01-28T18:26:02.280Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:26:02.571Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T18:26:09.599Z - debug: GET /login
+2019-01-28T18:26:13.354Z - debug: POST /login
+2019-01-28T18:26:13.480Z - error: 
+2019-01-28T18:26:13.491Z - debug: GET /
+2019-01-28T18:26:13.798Z - debug: Request to /
+2019-01-28T18:26:22.272Z - debug: GET /estimate
+2019-01-28T18:26:24.940Z - debug: GET /estimate
+2019-01-28T18:26:26.404Z - debug: GET /
+2019-01-28T18:26:26.406Z - debug: Request to /
+2019-01-28T18:26:26.480Z - debug: GET /images/apple-icon-180x180.png
+2019-01-28T18:27:05.623Z - info: Environment isProduction =  true
+2019-01-28T18:27:05.854Z - debug: START routing
+2019-01-28T18:27:05.917Z - debug: END routing
+2019-01-28T18:27:06.000Z - info: Starting controllers/user.js.
+2019-01-28T18:27:06.001Z - debug: START user routing
+2019-01-28T18:27:06.002Z - debug: END user routing
+2019-01-28T18:27:06.002Z - info: Loaded routing.
+2019-01-28T18:27:06.617Z - info: START seeder.
+2019-01-28T18:27:06.623Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:27:07.083Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T18:27:17.702Z - debug: GET /logout
+2019-01-28T18:27:17.807Z - debug: GET /login
+2019-01-28T18:27:18.132Z - debug: GET /images/apple-icon-180x180.png
+2019-01-28T18:27:19.449Z - debug: GET /contact
+2019-01-28T18:27:20.054Z - debug: GET /
+2019-01-28T18:27:20.094Z - debug: Request to /
+2019-01-28T18:27:21.280Z - debug: GET /contact
+2019-01-28T18:27:49.779Z - info: Environment isProduction =  true
+2019-01-28T18:27:49.875Z - debug: START routing
+2019-01-28T18:27:49.905Z - debug: END routing
+2019-01-28T18:27:49.932Z - info: Starting controllers/user.js.
+2019-01-28T18:27:49.933Z - debug: START user routing
+2019-01-28T18:27:49.933Z - debug: END user routing
+2019-01-28T18:27:49.933Z - info: Loaded routing.
+2019-01-28T18:27:50.386Z - info: START seeder.
+2019-01-28T18:27:50.393Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:27:50.672Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T18:27:52.117Z - info: Environment isProduction =  true
+2019-01-28T18:27:52.217Z - debug: START routing
+2019-01-28T18:27:52.249Z - debug: END routing
+2019-01-28T18:27:52.280Z - info: Starting controllers/user.js.
+2019-01-28T18:27:52.281Z - debug: START user routing
+2019-01-28T18:27:52.281Z - debug: END user routing
+2019-01-28T18:27:52.281Z - info: Loaded routing.
+2019-01-28T18:27:52.630Z - info: START seeder.
+2019-01-28T18:27:52.635Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:27:52.907Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T18:28:01.311Z - info: Environment isProduction =  true
+2019-01-28T18:28:01.427Z - debug: START routing
+2019-01-28T18:28:01.452Z - debug: END routing
+2019-01-28T18:28:01.484Z - info: Starting controllers/user.js.
+2019-01-28T18:28:01.485Z - debug: START user routing
+2019-01-28T18:28:01.485Z - debug: END user routing
+2019-01-28T18:28:01.485Z - info: Loaded routing.
+2019-01-28T18:28:01.875Z - info: START seeder.
+2019-01-28T18:28:01.882Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:28:02.148Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T18:29:36.593Z - info: Environment isProduction =  true
+2019-01-28T18:29:36.756Z - error: uncaughtException: Invalid or unexpected token date=Mon Jan 28 2019 12:29:36 GMT-0600 (Central Standard Time), pid=55385, uid=501, gid=20, cwd=/Users/santosh/Desktop/ss/CostEstimatorExpress, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/ss/CostEstimatorExpress/app.js], rss=63311872, heapTotal=60055552, heapUsed=22427120, external=36476146, loadavg=[1.31201171875, 1.5029296875, 1.4794921875], uptime=5965619
+/Users/santosh/Desktop/ss/CostEstimatorExpress/controllers/coating.js:15
+api.get("/', function (request, response) {
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/ss/CostEstimatorExpress/routes/index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2019-01-28T18:29:36.735Z - debug: START routing
+2019-01-28T18:29:37.427Z - info: Starting controllers/user.js.
+2019-01-28T18:29:37.427Z - info: START seeder.
+2019-01-28T18:29:37.432Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:29:37.722Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T18:29:38.251Z - info: Environment isProduction =  true
+2019-01-28T18:29:38.347Z - debug: START routing
+2019-01-28T18:29:38.377Z - debug: END routing
+2019-01-28T18:29:38.406Z - info: Starting controllers/user.js.
+2019-01-28T18:29:38.406Z - debug: START user routing
+2019-01-28T18:29:38.407Z - debug: END user routing
+2019-01-28T18:29:38.407Z - info: Loaded routing.
+2019-01-28T18:29:38.760Z - info: START seeder.
+2019-01-28T18:29:38.764Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:29:39.048Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T18:29:48.752Z - info: Environment isProduction =  true
+2019-01-28T18:29:48.892Z - error: uncaughtException: missing ) after argument list date=Mon Jan 28 2019 12:29:48 GMT-0600 (Central Standard Time), pid=55405, uid=501, gid=20, cwd=/Users/santosh/Desktop/ss/CostEstimatorExpress, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/ss/CostEstimatorExpress/app.js], rss=63082496, heapTotal=60055552, heapUsed=21614288, external=36148249, loadavg=[1.23583984375, 1.47705078125, 1.470703125], uptime=5965631
+/Users/santosh/Desktop/ss/CostEstimatorExpress/controllers/coating.js:15
+api.get("/", (request, response) {
+                               ^
+
+SyntaxError: missing ) after argument list
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/ss/CostEstimatorExpress/routes/index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2019-01-28T18:29:48.888Z - debug: START routing
+2019-01-28T18:29:49.294Z - info: Starting controllers/user.js.
+2019-01-28T18:29:49.294Z - info: START seeder.
+2019-01-28T18:29:49.299Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:29:49.570Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T18:29:50.840Z - info: Environment isProduction =  true
+2019-01-28T18:29:50.956Z - error: uncaughtException: missing ) after argument list date=Mon Jan 28 2019 12:29:50 GMT-0600 (Central Standard Time), pid=55415, uid=501, gid=20, cwd=/Users/santosh/Desktop/ss/CostEstimatorExpress, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/ss/CostEstimatorExpress/app.js], rss=62636032, heapTotal=60579840, heapUsed=21747680, external=36344416, loadavg=[1.23583984375, 1.47705078125, 1.470703125], uptime=5965633
+/Users/santosh/Desktop/ss/CostEstimatorExpress/controllers/coating.js:15
+api.get("/", pass(request, response) {
+                                   ^
+
+SyntaxError: missing ) after argument list
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/ss/CostEstimatorExpress/routes/index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2019-01-28T18:29:50.942Z - debug: START routing
+2019-01-28T18:29:51.323Z - info: Starting controllers/user.js.
+2019-01-28T18:29:51.323Z - info: START seeder.
+2019-01-28T18:29:51.327Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:29:51.701Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T18:29:55.120Z - info: Environment isProduction =  true
+2019-01-28T18:29:55.234Z - error: uncaughtException: missing ) after argument list date=Mon Jan 28 2019 12:29:55 GMT-0600 (Central Standard Time), pid=55425, uid=501, gid=20, cwd=/Users/santosh/Desktop/ss/CostEstimatorExpress, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/ss/CostEstimatorExpress/app.js], rss=63119360, heapTotal=60055552, heapUsed=21930968, external=36344416, loadavg=[1.296875, 1.4853515625, 1.4736328125], uptime=5965638
+/Users/santosh/Desktop/ss/CostEstimatorExpress/controllers/coating.js:15
+api.get("/", passport(request, response) {
+                                       ^
+
+SyntaxError: missing ) after argument list
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/ss/CostEstimatorExpress/routes/index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2019-01-28T18:29:55.220Z - debug: START routing
+2019-01-28T18:29:55.636Z - info: Starting controllers/user.js.
+2019-01-28T18:29:55.636Z - info: START seeder.
+2019-01-28T18:29:55.640Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:29:55.940Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T18:29:58.423Z - info: Environment isProduction =  true
+2019-01-28T18:29:58.536Z - error: uncaughtException: missing ) after argument list date=Mon Jan 28 2019 12:29:58 GMT-0600 (Central Standard Time), pid=55428, uid=501, gid=20, cwd=/Users/santosh/Desktop/ss/CostEstimatorExpress, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/ss/CostEstimatorExpress/app.js], rss=63000576, heapTotal=61104128, heapUsed=21776080, external=36344416, loadavg=[1.59326171875, 1.54345703125, 1.494140625], uptime=5965641
+/Users/santosh/Desktop/ss/CostEstimatorExpress/controllers/coating.js:15
+api.get("/", passport.i(request, response) {
+                                         ^
+
+SyntaxError: missing ) after argument list
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/ss/CostEstimatorExpress/routes/index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2019-01-28T18:29:58.525Z - debug: START routing
+2019-01-28T18:29:58.959Z - info: Starting controllers/user.js.
+2019-01-28T18:29:58.959Z - info: START seeder.
+2019-01-28T18:29:58.963Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:29:59.242Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T18:30:00.510Z - info: Environment isProduction =  true
+2019-01-28T18:30:00.618Z - error: uncaughtException: missing ) after argument list date=Mon Jan 28 2019 12:30:00 GMT-0600 (Central Standard Time), pid=55438, uid=501, gid=20, cwd=/Users/santosh/Desktop/ss/CostEstimatorExpress, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/ss/CostEstimatorExpress/app.js], rss=62648320, heapTotal=59047936, heapUsed=26809384, external=36914519, loadavg=[1.59326171875, 1.54345703125, 1.494140625], uptime=5965643
+/Users/santosh/Desktop/ss/CostEstimatorExpress/controllers/coating.js:15
+api.get("/", passport.isAuthenticated(request, response) {
+                                                       ^
+
+SyntaxError: missing ) after argument list
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/ss/CostEstimatorExpress/routes/index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2019-01-28T18:30:00.612Z - debug: START routing
+2019-01-28T18:30:01.005Z - info: Starting controllers/user.js.
+2019-01-28T18:30:01.005Z - info: START seeder.
+2019-01-28T18:30:01.009Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:30:01.734Z - info: Environment isProduction =  true
+2019-01-28T18:30:01.851Z - error: uncaughtException: missing ) after argument list date=Mon Jan 28 2019 12:30:01 GMT-0600 (Central Standard Time), pid=55442, uid=501, gid=20, cwd=/Users/santosh/Desktop/ss/CostEstimatorExpress, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/ss/CostEstimatorExpress/app.js], rss=62963712, heapTotal=58523648, heapUsed=26825848, external=36933297, loadavg=[1.59326171875, 1.54345703125, 1.494140625], uptime=5965644
+/Users/santosh/Desktop/ss/CostEstimatorExpress/controllers/coating.js:15
+api.get("/", passport.isAuthenticated,(request, response) {
+                                                        ^
+
+SyntaxError: missing ) after argument list
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/ss/CostEstimatorExpress/routes/index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2019-01-28T18:30:01.834Z - debug: START routing
+2019-01-28T18:30:02.283Z - info: Starting controllers/user.js.
+2019-01-28T18:30:02.283Z - info: START seeder.
+2019-01-28T18:30:02.288Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:30:02.581Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T18:30:11.155Z - info: Environment isProduction =  true
+2019-01-28T18:30:11.266Z - error: uncaughtException: Invalid left-hand side in assignment date=Mon Jan 28 2019 12:30:11 GMT-0600 (Central Standard Time), pid=55452, uid=501, gid=20, cwd=/Users/santosh/Desktop/ss/CostEstimatorExpress, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/ss/CostEstimatorExpress/app.js], rss=63602688, heapTotal=60620800, heapUsed=25029208, external=36344416, loadavg=[1.427734375, 1.5087890625, 1.482421875], uptime=5965654
+/Users/santosh/Desktop/ss/CostEstimatorExpress/controllers/coating.js:15
+api.get("/", passport.isAuthenticated,(request, response) ={
+                                      ^^^^^^^^^^^^^^^^^^^
+
+ReferenceError: Invalid left-hand side in assignment
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/ss/CostEstimatorExpress/routes/index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2019-01-28T18:30:11.261Z - debug: START routing
+2019-01-28T18:30:11.636Z - info: Starting controllers/user.js.
+2019-01-28T18:30:11.637Z - info: START seeder.
+2019-01-28T18:30:11.641Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:30:12.367Z - info: Environment isProduction =  true
+2019-01-28T18:30:12.468Z - debug: START routing
+2019-01-28T18:30:12.500Z - debug: END routing
+2019-01-28T18:30:12.532Z - info: Starting controllers/user.js.
+2019-01-28T18:30:12.533Z - debug: START user routing
+2019-01-28T18:30:12.533Z - debug: END user routing
+2019-01-28T18:30:12.533Z - info: Loaded routing.
+2019-01-28T18:30:12.910Z - info: START seeder.
+2019-01-28T18:30:12.916Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:30:13.583Z - info: Environment isProduction =  true
+2019-01-28T18:30:13.677Z - debug: START routing
+2019-01-28T18:30:13.707Z - debug: END routing
+2019-01-28T18:30:13.738Z - info: Starting controllers/user.js.
+2019-01-28T18:30:13.739Z - debug: START user routing
+2019-01-28T18:30:13.740Z - debug: END user routing
+2019-01-28T18:30:13.740Z - info: Loaded routing.
+2019-01-28T18:30:14.132Z - info: START seeder.
+2019-01-28T18:30:14.137Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:30:14.410Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T18:30:42.363Z - info: Environment isProduction =  true
+2019-01-28T18:30:42.459Z - debug: START routing
+2019-01-28T18:30:42.493Z - debug: END routing
+2019-01-28T18:30:42.524Z - info: Starting controllers/user.js.
+2019-01-28T18:30:42.525Z - debug: START user routing
+2019-01-28T18:30:42.525Z - debug: END user routing
+2019-01-28T18:30:42.526Z - info: Loaded routing.
+2019-01-28T18:30:42.910Z - info: START seeder.
+2019-01-28T18:30:42.915Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:30:43.190Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T18:30:50.641Z - debug: GET /contact
+2019-01-28T18:30:51.824Z - debug: GET /estimate
+2019-01-28T18:31:27.917Z - info: Environment isProduction =  true
+2019-01-28T18:31:28.045Z - error: uncaughtException: Unexpected token ( date=Mon Jan 28 2019 12:31:28 GMT-0600 (Central Standard Time), pid=55530, uid=501, gid=20, cwd=/Users/santosh/Desktop/ss/CostEstimatorExpress, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/ss/CostEstimatorExpress/app.js], rss=62820352, heapTotal=61104128, heapUsed=21538168, external=36148249, loadavg=[1.52783203125, 1.51171875, 1.4853515625], uptime=5965731
+/Users/santosh/Desktop/ss/CostEstimatorExpress/controllers/coating.js:19
+   api.get('/create', passport(req, res) => {
+                              ^
+
+SyntaxError: Unexpected token (
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/ss/CostEstimatorExpress/routes/index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2019-01-28T18:31:28.041Z - debug: START routing
+2019-01-28T18:31:28.532Z - info: Starting controllers/user.js.
+2019-01-28T18:31:28.532Z - info: START seeder.
+2019-01-28T18:31:28.536Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:31:28.816Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T18:31:30.769Z - info: Environment isProduction =  true
+2019-01-28T18:31:30.876Z - error: uncaughtException: Unexpected token . date=Mon Jan 28 2019 12:31:30 GMT-0600 (Central Standard Time), pid=55540, uid=501, gid=20, cwd=/Users/santosh/Desktop/ss/CostEstimatorExpress, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/ss/CostEstimatorExpress/app.js], rss=63311872, heapTotal=58523648, heapUsed=26195752, external=36700872, loadavg=[1.5654296875, 1.51953125, 1.48828125], uptime=5965733
+/Users/santosh/Desktop/ss/CostEstimatorExpress/controllers/coating.js:19
+   api.get('/create', passport.isAuthenticated(req, res) => {
+                              ^
+
+SyntaxError: Unexpected token .
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/ss/CostEstimatorExpress/routes/index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+2019-01-28T18:31:30.861Z - debug: START routing
+2019-01-28T18:31:31.275Z - info: Starting controllers/user.js.
+2019-01-28T18:31:31.275Z - info: START seeder.
+2019-01-28T18:31:31.280Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:31:31.559Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T18:31:32.868Z - info: Environment isProduction =  true
+2019-01-28T18:31:32.967Z - debug: START routing
+2019-01-28T18:31:32.991Z - debug: END routing
+2019-01-28T18:31:33.018Z - info: Starting controllers/user.js.
+2019-01-28T18:31:33.019Z - debug: START user routing
+2019-01-28T18:31:33.019Z - debug: END user routing
+2019-01-28T18:31:33.019Z - info: Loaded routing.
+2019-01-28T18:31:33.422Z - info: START seeder.
+2019-01-28T18:31:33.427Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:31:33.703Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T18:32:12.143Z - info: Environment isProduction =  true
+2019-01-28T18:32:12.240Z - debug: START routing
+2019-01-28T18:32:12.264Z - debug: END routing
+2019-01-28T18:32:12.290Z - info: Starting controllers/user.js.
+2019-01-28T18:32:12.291Z - debug: START user routing
+2019-01-28T18:32:12.291Z - debug: END user routing
+2019-01-28T18:32:12.292Z - info: Loaded routing.
+2019-01-28T18:32:12.669Z - info: START seeder.
+2019-01-28T18:32:12.675Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:32:12.957Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T18:32:27.458Z - debug: GET /estimate
+2019-01-28T18:32:29.071Z - debug: GET /estimate
+2019-01-28T18:32:30.090Z - debug: GET /login
+2019-01-28T18:32:32.888Z - debug: POST /login
+2019-01-28T18:32:32.991Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-01-28T18:32:33.003Z - debug: GET /login
+2019-01-28T18:32:40.517Z - info: Environment isProduction =  true
+2019-01-28T18:32:40.612Z - debug: START routing
+2019-01-28T18:32:40.641Z - debug: END routing
+2019-01-28T18:32:40.676Z - info: Starting controllers/user.js.
+2019-01-28T18:32:40.676Z - debug: START user routing
+2019-01-28T18:32:40.677Z - debug: END user routing
+2019-01-28T18:32:40.677Z - info: Loaded routing.
+2019-01-28T18:32:41.035Z - info: START seeder.
+2019-01-28T18:32:41.041Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:32:41.315Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T18:32:42.724Z - debug: GET /login
+2019-01-28T18:32:46.409Z - debug: POST /login
+2019-01-28T18:32:46.524Z - error: 
+2019-01-28T18:32:46.534Z - debug: GET /
+2019-01-28T18:32:46.969Z - debug: Request to /
+2019-01-28T18:32:48.059Z - debug: GET /estimate
+2019-01-28T18:33:45.366Z - info: Environment isProduction =  true
+2019-01-28T18:33:45.538Z - debug: START routing
+2019-01-28T18:33:45.577Z - debug: END routing
+2019-01-28T18:33:45.624Z - info: Starting controllers/user.js.
+2019-01-28T18:33:45.625Z - debug: START user routing
+2019-01-28T18:33:45.625Z - debug: END user routing
+2019-01-28T18:33:45.625Z - info: Loaded routing.
+2019-01-28T18:33:45.988Z - info: START seeder.
+2019-01-28T18:33:45.993Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:33:46.264Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T18:33:52.289Z - debug: GET /logout
+2019-01-28T18:33:52.398Z - debug: GET /login
+2019-01-28T18:33:53.685Z - debug: GET /coating
+2019-01-28T18:33:53.738Z - debug: GET /login
+2019-01-28T18:33:54.955Z - debug: GET /coating
+2019-01-28T18:33:55.007Z - debug: GET /login
+2019-01-28T18:33:55.581Z - debug: GET /login
+2019-01-28T18:33:58.678Z - debug: POST /login
+2019-01-28T18:33:58.783Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-01-28T18:33:58.791Z - debug: GET /login
+2019-01-28T18:34:04.389Z - info: Environment isProduction =  true
+2019-01-28T18:34:04.559Z - debug: START routing
+2019-01-28T18:34:04.613Z - debug: END routing
+2019-01-28T18:34:04.676Z - info: Starting controllers/user.js.
+2019-01-28T18:34:04.677Z - debug: START user routing
+2019-01-28T18:34:04.678Z - debug: END user routing
+2019-01-28T18:34:04.678Z - info: Loaded routing.
+2019-01-28T18:34:05.216Z - info: START seeder.
+2019-01-28T18:34:05.223Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:34:05.491Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T18:34:07.470Z - debug: GET /login
+2019-01-28T18:34:10.777Z - debug: POST /login
+2019-01-28T18:34:10.893Z - error: 
+2019-01-28T18:34:10.903Z - debug: GET /
+2019-01-28T18:34:11.666Z - debug: Request to /
+2019-01-28T18:34:12.468Z - debug: GET /coating
+2019-01-28T18:34:16.172Z - debug: GET /coating/create
+2019-01-28T18:34:16.250Z - info: Handling GET /create[object Object]
+2019-01-28T18:34:16.251Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.3}
+2019-01-28T18:34:23.615Z - debug: GET /logout
+2019-01-28T18:34:23.705Z - debug: GET /login
+2019-01-28T18:34:24.863Z - debug: GET /coating
+2019-01-28T18:34:24.921Z - debug: GET /login
+2019-01-28T18:34:25.991Z - debug: GET /
+2019-01-28T18:34:26.030Z - debug: Request to /
+2019-01-28T18:34:26.968Z - debug: GET /contact
+2019-01-28T18:34:27.610Z - debug: GET /coating
+2019-01-28T18:34:27.662Z - debug: GET /login
+2019-01-28T18:34:29.876Z - debug: GET /login
+2019-01-28T18:34:32.545Z - debug: POST /login
+2019-01-28T18:34:32.644Z - error: 
+2019-01-28T18:34:32.652Z - debug: GET /
+2019-01-28T18:34:32.725Z - debug: Request to /
+2019-01-28T18:34:35.214Z - debug: GET /coating
+2019-01-28T18:34:37.737Z - debug: GET /coating
+2019-01-28T18:34:38.460Z - debug: GET /coating
+2019-01-28T18:34:39.073Z - debug: GET /coating
+2019-01-28T18:34:40.048Z - debug: GET /coating/create
+2019-01-28T18:34:40.123Z - info: Handling GET /create[object Object]
+2019-01-28T18:34:40.124Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.3}
+2019-01-28T18:34:45.772Z - debug: GET /estimate?
+2019-01-28T18:34:51.650Z - debug: GET /coating
+2019-01-28T18:35:17.550Z - info: Environment isProduction =  true
+2019-01-28T18:35:17.723Z - debug: START routing
+2019-01-28T18:35:17.777Z - debug: END routing
+2019-01-28T18:35:17.832Z - info: Starting controllers/user.js.
+2019-01-28T18:35:17.832Z - debug: START user routing
+2019-01-28T18:35:17.833Z - debug: END user routing
+2019-01-28T18:35:17.833Z - info: Loaded routing.
+2019-01-28T18:35:18.193Z - info: START seeder.
+2019-01-28T18:35:18.200Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:35:18.617Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T18:35:21.846Z - debug: GET /
+2019-01-28T18:35:21.928Z - debug: Request to /
+2019-01-28T18:35:25.859Z - debug: GET /login
+2019-01-28T18:35:28.817Z - debug: POST /login
+2019-01-28T18:35:28.921Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-01-28T18:35:28.934Z - debug: GET /login
+2019-01-28T18:35:37.340Z - info: Environment isProduction =  true
+2019-01-28T18:35:37.441Z - debug: START routing
+2019-01-28T18:35:37.469Z - debug: END routing
+2019-01-28T18:35:37.500Z - info: Starting controllers/user.js.
+2019-01-28T18:35:37.500Z - debug: START user routing
+2019-01-28T18:35:37.501Z - debug: END user routing
+2019-01-28T18:35:37.501Z - info: Loaded routing.
+2019-01-28T18:35:37.862Z - info: START seeder.
+2019-01-28T18:35:37.867Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:35:38.147Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T18:35:40.012Z - debug: GET /login
+2019-01-28T18:35:43.185Z - debug: POST /login
+2019-01-28T18:35:43.299Z - error: 
+2019-01-28T18:35:43.308Z - debug: GET /
+2019-01-28T18:35:43.612Z - debug: Request to /
+2019-01-28T18:35:45.467Z - debug: GET /logout
+2019-01-28T18:35:45.557Z - debug: GET /login
+2019-01-28T18:35:46.360Z - debug: GET /coating
+2019-01-28T18:35:46.412Z - debug: GET /login
+2019-01-28T18:35:47.642Z - debug: GET /coating
+2019-01-28T18:35:47.692Z - debug: GET /login
+2019-01-28T18:35:49.256Z - debug: GET /coating
+2019-01-28T18:35:49.310Z - debug: GET /login
+2019-01-28T18:35:49.932Z - debug: GET /login
+2019-01-28T18:35:53.527Z - debug: POST /login
+2019-01-28T18:35:53.627Z - error: 
+2019-01-28T18:35:53.634Z - debug: GET /
+2019-01-28T18:35:53.705Z - debug: Request to /
+2019-01-28T18:35:55.078Z - debug: GET /coating
+2019-01-28T18:35:59.049Z - debug: GET /coating
+2019-01-28T18:35:59.634Z - debug: GET /coating
+2019-01-28T18:36:00.050Z - debug: GET /coating
+2019-01-28T18:36:00.883Z - debug: GET /coating/create
+2019-01-28T18:36:00.959Z - info: Handling GET /create[object Object]
+2019-01-28T18:36:00.960Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.3}
+2019-01-28T18:36:06.263Z - debug: GET /logout
+2019-01-28T18:36:06.346Z - debug: GET /login
+2019-01-28T18:36:07.708Z - debug: GET /coating
+2019-01-28T18:36:07.762Z - debug: GET /login
