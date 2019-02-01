@@ -57,7 +57,7 @@
 </div>
 <br/>
 <h4>
-  Material Cost =
+  Material Cost
   <span id="materialCost"></span>
   
     
@@ -89,7 +89,125 @@
     </div>
 </div>
 <h4>
-    Total Labor Cost =
+    Total Labor Cost
     <span id="laborCost"></span>
 </h4>
 <hr>
+
+
+<div class=row>
+    <div class="col col-xs-12">
+        <div class="form-group">
+            <label for="numberHotelRooms">Number of Hotel Rooms</label>
+            <input onchange="onHotelCost()" type="number" class="form-control" id="numberHotelRooms" name="numberHotelRooms" value="">
+        </div>
+        <div class="form-group">
+            <label for="numberHotelNights">Number of Hotel Night</label>
+            <input onchange="onHotelCost()" type="number" class="form-control" id="numberHotelNights" name="numberHotelNights" value=""
+                required>
+        </div>
+        <div class="form-group">
+            <label for="hotelDollarsPerNight">Dollar per Night</label>
+            <input onchange="onHotelCost()" type="number" class="form-control" id="hotelDollarsPerNight" name="hotelDollarsPerNight"
+                value="" required>
+        </div>
+    </div>
+</div>
+<br/>
+<h4>
+    Total Hotel Cost
+    <span id="hotelCost"></span>
+</h4>
+<hr>
+
+<div class=row>
+    <div class="col col-xs-12">
+        <div class="form-group">
+            <label for="numberOfPeople">Number of People</label>
+            <input onchange="onFoodCost()" type="number" class="form-control" id="numberOfPeople" name="numberOfPeople" value=""
+                required>
+        </div>
+        <div class="form-group">
+            <label for="numberOfDays">Number of Days</label>
+            <input onchange="onFoodCost()" type="number" class="form-control" id="numberOfDays" name="numberOfDays" value="">
+        </div>
+        <div class="form-group">
+            <label for="foodDollarsPerDay">Dollar spend on Food per Day</label>
+            <input onchange="onFoodCost()" type="number" class="form-control" id="foodDollarsPerDay" name="foodDollarsPerDay" value=""
+                required>
+        </div>
+    </div>
+</div>
+<br/>
+<h4>
+    Total Food Cost
+    <span id="foodCost"></span>
+</h4>
+<hr>
+
+<div class=row>
+    <div class="col col-xs-12">
+        <div class="form-group">
+            <label for="numberOfVehicles">Number of Vehicle</label>
+            <input onchange="onVehicleCost()" type="number" class="form-control" id="numberOfVehicles" name="numberOfVehicles" value=""
+                required>
+        </div>
+        <div class="form-group">
+            <label for="milesPerVehicle">Mile Per Vehicle</label>
+            <input onchange="onVehicleCost()" type="number" class="form-control" id="milesPerVehicle" name="milesPerVehicle" value=""
+                required>
+        </div>
+        <div class="form-group">
+            <label for="dollarsPerMile">Dollar Per Vehicle</label>
+            <input onchange="onVehicleCost()" type="number" class="form-control" id="dollarsPerMile" name="dollarsPerMile" value=""
+                required>
+        </div>
+    </div>
+</div>
+<br/>
+<h4>
+    Total Vehicle Cost
+    <span id="vehicleCost"></span>
+</h4>
+<hr>
+
+<p></p>
+<div id="miscellaneousList">
+        <span id="miscellaneousCount">
+        
+        </span> Miscellaneous Entries
+       
+            <div id="oneEntry">
+                <p></p>
+                <div class=row>
+                    <div class="col col-xs-4">
+                        <div class="form-group">
+                            <label for="miscellaneousName" name="miscellaneousNameLabel">Miscellaneous Name </label>
+                            <input type="text" class="form-control" id="" name="miscellaneousName" value="">
+                        </div>
+                    </div>
+                    <div class="col col-xs-4">
+                        <div class="form-group">
+                            <label for="Cost" name="CostLabel">miscCount</label>
+                            <input onchange="onMissChange()" type="number" class="form-control" id="" name="Cost" value=""
+                                required>
+                        </div>
+                    </div>
+                </div>
+                <p></p>
+            </div>
+           
+</div>
+<br/>
+<h4>
+    Total Miscellaneous Cost
+    <span id="miscCost"></span>
+</h4>
+<hr>
+
+<div class="form-group">
+    <label for="multiplier">Multiplier</label>
+    <input onchange="totalCost()" type="number" class="form-control" id="multiplier" name="multiplier" value=""
+        placeholder="0.40" step="0.05" min="0.1" max="1.0" required>
+</div>
+

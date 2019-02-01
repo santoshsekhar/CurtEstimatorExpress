@@ -12276,3 +12276,242 @@ SyntaxError: Unexpected token .
 2019-01-28T18:36:06.346Z - debug: GET /login
 2019-01-28T18:36:07.708Z - debug: GET /coating
 2019-01-28T18:36:07.762Z - debug: GET /login
+2019-01-28T18:41:20.978Z - info: Environment isProduction =  true
+2019-01-28T18:41:21.435Z - debug: START routing
+2019-01-28T18:41:21.560Z - debug: END routing
+2019-01-28T18:41:21.719Z - info: Starting controllers/user.js.
+2019-01-28T18:41:21.722Z - debug: START user routing
+2019-01-28T18:41:21.724Z - debug: END user routing
+2019-01-28T18:41:21.724Z - info: Loaded routing.
+2019-01-28T18:41:22.407Z - info: START seeder.
+2019-01-28T18:41:22.420Z - debug: Registering cgeadmin@mail.com
+2019-01-28T18:41:22.749Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T18:41:25.569Z - debug: GET /
+2019-01-28T18:41:25.611Z - debug: Request to /
+2019-01-28T18:41:28.412Z - debug: GET /login
+2019-01-28T18:41:30.497Z - debug: POST /login
+2019-01-28T18:41:30.757Z - error: 
+2019-01-28T18:41:30.766Z - debug: GET /
+2019-01-28T18:41:31.093Z - debug: Request to /
+2019-01-28T18:41:33.059Z - debug: GET /coating
+2019-01-28T18:41:35.591Z - debug: GET /coating/create
+2019-01-28T18:41:35.691Z - info: Handling GET /create[object Object]
+2019-01-28T18:41:35.697Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.3}
+2019-01-28T18:41:43.928Z - debug: GET /
+2019-01-28T18:41:44.012Z - debug: Request to /
+2019-01-28T18:41:46.256Z - debug: GET /contact
+2019-01-28T18:41:50.823Z - debug: GET /coating
+2019-01-28T18:41:55.295Z - debug: GET /coating/create
+2019-01-28T18:41:55.391Z - info: Handling GET /create[object Object]
+2019-01-28T18:41:55.396Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.3}
+2019-01-28T18:42:35.430Z - debug: GET /coating/create
+2019-01-28T18:42:35.517Z - info: Handling GET /create[object Object]
+2019-01-28T18:42:35.519Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.3}
+2019-01-28T18:42:36.690Z - debug: GET /images/favicon-32x32.png
+2019-01-28T18:42:36.724Z - debug: GET /images/favicon-16x16.png
+2019-01-28T18:42:36.739Z - debug: GET /images/favicon-96x96.png
+2019-01-28T18:42:36.760Z - debug: GET /images/android-icon-192x192.png
+2019-01-28T19:02:48.560Z - debug: GET /coating/create
+2019-01-28T19:02:48.661Z - debug: GET /login
+2019-01-28T19:02:51.996Z - debug: POST /login
+2019-01-28T19:02:52.154Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-01-28T19:02:52.164Z - debug: GET /login
+2019-01-28T19:03:03.450Z - debug: GET /coating
+2019-01-28T19:03:03.505Z - debug: GET /login
+2019-01-28T19:03:06.476Z - debug: POST /login
+2019-01-28T19:03:06.572Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-01-28T19:03:06.582Z - debug: GET /login
+2019-01-28T19:03:25.085Z - info: Environment isProduction =  true
+2019-01-28T19:03:25.516Z - debug: START routing
+2019-01-28T19:03:25.640Z - debug: END routing
+2019-01-28T19:03:25.812Z - info: Starting controllers/user.js.
+2019-01-28T19:03:25.813Z - debug: START user routing
+2019-01-28T19:03:25.814Z - debug: END user routing
+2019-01-28T19:03:25.815Z - info: Loaded routing.
+2019-01-28T19:03:26.464Z - info: START seeder.
+2019-01-28T19:03:26.488Z - debug: Registering cgeadmin@mail.com
+2019-01-28T19:03:26.837Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T19:03:29.538Z - debug: GET /
+2019-01-28T19:03:29.609Z - debug: Request to /
+2019-01-28T19:03:33.834Z - debug: GET /login
+2019-01-28T19:03:36.037Z - debug: POST /login
+2019-01-28T19:03:36.315Z - error: 
+2019-01-28T19:03:36.343Z - debug: GET /
+2019-01-28T19:03:36.679Z - debug: Request to /
+2019-01-28T19:03:38.994Z - debug: GET /coating
+2019-01-28T19:03:42.686Z - debug: GET /coating/create
+2019-01-28T19:03:42.779Z - info: Handling GET /create[object Object]
+2019-01-28T19:03:42.785Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.3}
+2019-01-28T19:05:06.703Z - debug: GET /coating/create
+2019-01-28T19:05:06.799Z - info: Handling GET /create[object Object]
+2019-01-28T19:05:06.806Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.3}
+2019-01-28T19:05:07.209Z - debug: GET /images/favicon-32x32.png
+2019-01-28T19:05:24.877Z - info: Environment isProduction =  true
+2019-01-28T19:05:25.419Z - debug: START routing
+2019-01-28T19:05:25.512Z - debug: END routing
+2019-01-28T19:05:25.653Z - info: Starting controllers/user.js.
+2019-01-28T19:05:25.656Z - debug: START user routing
+2019-01-28T19:05:25.659Z - debug: END user routing
+2019-01-28T19:05:25.660Z - info: Loaded routing.
+2019-01-28T19:05:26.332Z - info: START seeder.
+2019-01-28T19:05:26.349Z - debug: Registering cgeadmin@mail.com
+2019-01-28T19:05:26.708Z - debug: User already exists:  cgeadmin@mail.com
+2019-01-28T19:05:29.046Z - debug: GET /
+2019-01-28T19:05:29.163Z - debug: Request to /
+2019-01-28T19:05:34.307Z - debug: GET /login
+2019-01-28T19:05:36.340Z - debug: POST /login
+2019-01-28T19:05:36.569Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-01-28T19:05:36.587Z - debug: GET /login
+2019-01-28T19:05:48.946Z - info: Environment isProduction =  true
+2019-01-28T19:05:49.184Z - debug: START routing
+2019-01-28T19:05:49.250Z - debug: END routing
+2019-01-28T19:05:49.346Z - info: Starting controllers/user.js.
+2019-01-28T19:05:49.348Z - debug: START user routing
+2019-01-28T19:05:49.349Z - debug: END user routing
+2019-01-28T19:05:49.350Z - info: Loaded routing.
+2019-01-28T19:05:49.972Z - info: START seeder.
+2019-01-28T19:05:49.983Z - debug: Registering cgeadmin@mail.com
+2019-01-28T19:05:50.302Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T19:05:55.267Z - debug: GET /
+2019-01-28T19:05:55.355Z - debug: Request to /
+2019-01-28T19:05:58.700Z - debug: GET /login
+2019-01-28T19:06:00.919Z - debug: POST /login
+2019-01-28T19:06:01.205Z - error: 
+2019-01-28T19:06:01.225Z - debug: GET /
+2019-01-28T19:06:01.545Z - debug: Request to /
+2019-01-28T19:06:03.562Z - debug: GET /coating
+2019-01-28T19:06:05.598Z - debug: GET /coating/create
+2019-01-28T19:06:05.689Z - info: Handling GET /create[object Object]
+2019-01-28T19:06:05.694Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.3}
+2019-01-28T19:06:40.554Z - debug: POST /login
+2019-01-28T19:06:40.746Z - error: 
+2019-01-28T19:06:40.755Z - debug: GET /
+2019-01-28T19:06:40.843Z - debug: Request to /
+2019-01-28T19:10:22.178Z - info: Environment isProduction =  true
+2019-01-28T19:10:22.395Z - debug: START routing
+2019-01-28T19:10:22.450Z - debug: END routing
+2019-01-28T19:10:22.518Z - info: Starting controllers/user.js.
+2019-01-28T19:10:22.520Z - debug: START user routing
+2019-01-28T19:10:22.521Z - debug: END user routing
+2019-01-28T19:10:22.521Z - info: Loaded routing.
+2019-01-28T19:10:22.962Z - info: START seeder.
+2019-01-28T19:10:22.968Z - debug: Registering cgeadmin@mail.com
+2019-01-28T19:10:23.261Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-01-28T19:10:25.939Z - debug: GET /
+2019-01-28T19:10:26.078Z - debug: Request to /
+2019-01-28T19:10:28.400Z - debug: GET /login
+2019-01-28T19:10:30.059Z - debug: POST /login
+2019-01-28T19:10:30.195Z - error: 
+2019-01-28T19:10:30.204Z - debug: GET /
+2019-01-28T19:10:30.515Z - debug: Request to /
+2019-01-28T19:10:32.044Z - debug: GET /coating
+2019-01-28T19:10:34.082Z - debug: GET /coating/create
+2019-01-28T19:10:34.159Z - info: Handling GET /create[object Object]
+2019-01-28T19:10:34.161Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.3}
+2019-01-28T19:10:38.348Z - debug: GET /coating?
+2019-01-28T19:17:16.222Z - info: Environment isProduction =  true
+2019-01-28T19:17:16.581Z - debug: START routing
+2019-01-28T19:17:16.653Z - debug: END routing
+2019-01-28T19:17:16.774Z - info: Starting controllers/user.js.
+2019-01-28T19:17:16.776Z - debug: START user routing
+2019-01-28T19:17:16.777Z - debug: END user routing
+2019-01-28T19:17:16.778Z - info: Loaded routing.
+2019-01-28T19:17:17.522Z - info: START seeder.
+2019-01-28T19:17:17.562Z - debug: Registering cgeadmin@mail.com
+2019-01-28T19:17:17.908Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-01T15:16:46.726Z - info: Environment isProduction =  true
+2019-02-01T15:16:47.181Z - debug: START routing
+2019-02-01T15:16:47.317Z - debug: END routing
+2019-02-01T15:16:47.492Z - info: Starting controllers/user.js.
+2019-02-01T15:16:47.494Z - debug: START user routing
+2019-02-01T15:16:47.496Z - debug: END user routing
+2019-02-01T15:16:47.496Z - info: Loaded routing.
+2019-02-01T15:16:48.201Z - info: START seeder.
+2019-02-01T15:16:48.223Z - debug: Registering cgeadmin@mail.com
+2019-02-01T15:16:48.596Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-01T15:16:50.969Z - debug: GET /
+2019-02-01T15:16:50.991Z - debug: Request to /
+2019-02-01T15:16:54.205Z - debug: GET /coating
+2019-02-01T15:16:54.279Z - debug: GET /login
+2019-02-01T15:16:56.920Z - debug: POST /login
+2019-02-01T15:16:57.189Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-02-01T15:16:57.198Z - debug: GET /login
+2019-02-01T15:17:07.954Z - info: Environment isProduction =  true
+2019-02-01T15:17:08.304Z - debug: START routing
+2019-02-01T15:17:08.403Z - debug: END routing
+2019-02-01T15:17:08.525Z - info: Starting controllers/user.js.
+2019-02-01T15:17:08.528Z - debug: START user routing
+2019-02-01T15:17:08.530Z - debug: END user routing
+2019-02-01T15:17:08.533Z - info: Loaded routing.
+2019-02-01T15:17:09.136Z - info: START seeder.
+2019-02-01T15:17:09.160Z - debug: Registering cgeadmin@mail.com
+2019-02-01T15:17:09.541Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-01T15:17:12.486Z - debug: GET /login
+2019-02-01T15:17:13.147Z - debug: GET /images/favicon-32x32.png
+2019-02-01T15:17:15.248Z - debug: POST /login
+2019-02-01T15:17:15.558Z - error: 
+2019-02-01T15:17:15.588Z - debug: GET /
+2019-02-01T15:17:15.903Z - debug: Request to /
+2019-02-01T15:17:18.180Z - debug: GET /coating
+2019-02-01T15:17:20.581Z - debug: GET /coating/create
+2019-02-01T15:17:20.668Z - info: Handling GET /create[object Object]
+2019-02-01T15:17:20.674Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.3}
+2019-02-01T15:20:35.489Z - info: Environment isProduction =  true
+2019-02-01T15:20:36.007Z - debug: START routing
+2019-02-01T15:20:36.103Z - debug: END routing
+2019-02-01T15:20:36.181Z - info: Starting controllers/user.js.
+2019-02-01T15:20:36.183Z - debug: START user routing
+2019-02-01T15:20:36.184Z - debug: END user routing
+2019-02-01T15:20:36.184Z - info: Loaded routing.
+2019-02-01T15:20:36.844Z - info: START seeder.
+2019-02-01T15:20:36.865Z - debug: Registering cgeadmin@mail.com
+2019-02-01T15:20:37.246Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-01T15:20:40.999Z - debug: GET /coating/create
+2019-02-01T15:20:41.167Z - debug: GET /login
+2019-02-01T15:20:45.164Z - debug: POST /login
+2019-02-01T15:20:45.421Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-02-01T15:20:45.428Z - debug: GET /login
+2019-02-01T15:21:00.393Z - info: Environment isProduction =  true
+2019-02-01T15:21:00.734Z - debug: START routing
+2019-02-01T15:21:00.814Z - debug: END routing
+2019-02-01T15:21:00.942Z - info: Starting controllers/user.js.
+2019-02-01T15:21:00.944Z - debug: START user routing
+2019-02-01T15:21:00.947Z - debug: END user routing
+2019-02-01T15:21:00.948Z - info: Loaded routing.
+2019-02-01T15:21:01.564Z - info: START seeder.
+2019-02-01T15:21:01.579Z - debug: Registering cgeadmin@mail.com
+2019-02-01T15:21:01.931Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-01T15:21:23.431Z - debug: GET /login
+2019-02-01T15:21:24.547Z - debug: GET /images/favicon-32x32.png
+2019-02-01T15:21:26.057Z - debug: POST /login
+2019-02-01T15:21:26.312Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-02-01T15:21:26.336Z - debug: GET /login
+2019-02-01T15:21:56.339Z - info: Environment isProduction =  true
+2019-02-01T15:21:56.713Z - debug: START routing
+2019-02-01T15:21:56.811Z - debug: END routing
+2019-02-01T15:21:56.946Z - info: Starting controllers/user.js.
+2019-02-01T15:21:56.949Z - debug: START user routing
+2019-02-01T15:21:56.950Z - debug: END user routing
+2019-02-01T15:21:56.950Z - info: Loaded routing.
+2019-02-01T15:21:57.568Z - info: START seeder.
+2019-02-01T15:21:57.585Z - debug: Registering cgeadmin@mail.com
+2019-02-01T15:21:57.904Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-01T15:22:00.548Z - debug: GET /
+2019-02-01T15:22:00.644Z - debug: Request to /
+2019-02-01T15:22:04.179Z - debug: GET /login
+2019-02-01T15:22:06.183Z - debug: POST /login
+2019-02-01T15:22:06.461Z - error: 
+2019-02-01T15:22:06.481Z - debug: GET /
+2019-02-01T15:22:06.801Z - debug: Request to /
+2019-02-01T15:22:08.669Z - debug: GET /coating
+2019-02-01T15:22:10.161Z - debug: GET /coating/create
+2019-02-01T15:22:10.249Z - info: Handling GET /create[object Object]
+2019-02-01T15:22:10.255Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.3}
+2019-02-01T15:22:34.497Z - debug: GET /coating?
+2019-02-01T15:22:42.959Z - debug: GET /coating/create
+2019-02-01T15:22:43.044Z - info: Handling GET /create[object Object]
+2019-02-01T15:22:43.048Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.3}
+2019-02-01T15:22:45.736Z - debug: GET /coating?
+2019-02-01T15:22:47.785Z - debug: GET /coating/create
+2019-02-01T15:22:47.868Z - info: Handling GET /create[object Object]
+2019-02-01T15:22:47.872Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.3}
