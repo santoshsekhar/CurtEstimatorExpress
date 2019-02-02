@@ -5,12 +5,12 @@
     <div class="col col-md-12">
       <h2>Edit estimate </h2>
       <div class="content">
-        <form method="POST" action="/estimate/save/<%= estimate._id %>">
+        <form method="POST" action="/coating/save/<%= coating._id %>">
           <div class="form-group" id=frm>
             <label for="_id">ID</label>
-            <input type="number" class="form-control" id="_id" name="_id" value="<%= estimate._id %>" required disabled>
+            <input type="number" class="form-control" id="_id" name="_id" value="<%= coating._id %>" required disabled>
           </div>
-          <% var sqft = estimate.squareFeet %>
+          <% var sqft = coating.squareFeet %>
 
             <!-- COMMON TO EDIT AND CREATE -->
             <%include partial_edit.ejs %>
@@ -18,7 +18,7 @@
         </form>
         <br/>
 
-        <form method="get" action="/estimate">
+        <form method="get" action="/coating">
           <input type="submit" value="Return to list" class="btn btn-caution" />
         </form>
       </div>
