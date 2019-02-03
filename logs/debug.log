@@ -12620,3 +12620,75 @@ SyntaxError: Unexpected token .
 2019-01-28T19:16:33.029Z - debug: GET /coating
 2019-01-28T19:16:33.119Z - debug: GET /login
 >>>>>>> 777a14913e535ae1b23035f09e000b869f59d13d
+2019-02-01T15:29:48.591Z - info: Environment isProduction =  true
+2019-02-01T15:29:48.993Z - debug: START routing
+2019-02-01T15:29:49.099Z - debug: END routing
+2019-02-01T15:29:49.193Z - info: Starting controllers/user.js.
+2019-02-01T15:29:49.195Z - debug: START user routing
+2019-02-01T15:29:49.196Z - debug: END user routing
+2019-02-01T15:29:49.197Z - info: Loaded routing.
+2019-02-01T15:29:49.873Z - info: START seeder.
+2019-02-01T15:29:49.894Z - debug: Registering cgeadmin@mail.com
+2019-02-01T15:29:50.272Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-01T15:30:00.104Z - info: Environment isProduction =  true
+2019-02-01T15:30:00.596Z - debug: START routing
+2019-02-01T15:30:00.733Z - debug: END routing
+2019-02-01T15:30:00.940Z - info: Starting controllers/user.js.
+2019-02-01T15:30:00.943Z - debug: START user routing
+2019-02-01T15:30:00.945Z - debug: END user routing
+2019-02-01T15:30:00.946Z - info: Loaded routing.
+2019-02-01T15:30:01.637Z - info: START seeder.
+2019-02-01T15:30:01.663Z - debug: Registering cgeadmin@mail.com
+2019-02-01T15:30:02.007Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-01T15:30:05.250Z - debug: GET /
+2019-02-01T15:30:05.357Z - debug: Request to /
+2019-02-01T15:30:10.324Z - debug: GET /login
+2019-02-01T15:30:12.335Z - debug: POST /login
+2019-02-01T15:30:12.539Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-02-01T15:30:12.548Z - debug: GET /login
+2019-02-01T15:30:18.175Z - debug: GET /login
+2019-02-01T15:30:18.624Z - debug: GET /images/favicon-32x32.png
+2019-02-01T15:30:20.371Z - debug: POST /login
+2019-02-01T15:30:20.463Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-02-01T15:30:20.468Z - debug: GET /login
+2019-02-01T15:30:27.313Z - info: Environment isProduction =  true
+2019-02-01T15:30:27.761Z - debug: START routing
+2019-02-01T15:30:27.804Z - debug: END routing
+2019-02-01T15:30:27.875Z - info: Starting controllers/user.js.
+2019-02-01T15:30:27.876Z - debug: START user routing
+2019-02-01T15:30:27.881Z - debug: END user routing
+2019-02-01T15:30:27.881Z - info: Loaded routing.
+2019-02-01T15:30:28.362Z - info: START seeder.
+2019-02-01T15:30:28.380Z - debug: Registering cgeadmin@mail.com
+2019-02-01T15:30:28.702Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-01T15:30:33.183Z - debug: GET /
+2019-02-01T15:30:33.251Z - debug: Request to /
+2019-02-01T15:30:40.484Z - debug: GET /login
+2019-02-01T15:30:42.681Z - debug: POST /login
+2019-02-01T15:30:42.922Z - info:  msg=Email cgeadmin@mail.com not found.
+2019-02-01T15:30:42.947Z - debug: GET /login
+2019-02-01T15:30:51.583Z - debug: GET /login
+2019-02-01T15:30:52.232Z - debug: GET /images/favicon-32x32.png
+2019-02-01T15:30:53.080Z - debug: GET /coating
+2019-02-01T15:30:53.148Z - debug: GET /login
+2019-02-01T15:30:55.050Z - debug: GET /coating
+2019-02-01T15:30:55.099Z - debug: GET /login
+2019-02-01T15:30:59.112Z - debug: POST /login
+2019-02-01T15:30:59.273Z - error: 
+2019-02-01T15:30:59.282Z - debug: GET /
+2019-02-01T15:30:59.369Z - debug: Request to /
+2019-02-01T15:31:01.407Z - debug: GET /coating
+2019-02-01T15:31:04.112Z - debug: GET /coating/create
+2019-02-01T15:31:04.199Z - info: Handling GET /create[object Object]
+2019-02-01T15:31:04.205Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.3}
+2019-02-01T15:31:12.765Z - debug: GET /coating?
+2019-02-01T17:10:40.170Z - info: Environment isProduction =  true
+2019-02-01T17:10:40.780Z - debug: START routing
+2019-02-01T17:10:40.870Z - debug: END routing
+2019-02-01T17:10:40.993Z - info: Starting controllers/user.js.
+2019-02-01T17:10:40.995Z - debug: START user routing
+2019-02-01T17:10:40.996Z - debug: END user routing
+2019-02-01T17:10:40.997Z - info: Loaded routing.
+2019-02-01T17:10:41.654Z - info: START seeder.
+2019-02-01T17:10:41.666Z - debug: Registering cgeadmin@mail.com
+2019-02-01T17:10:41.961Z - debug: User already exists:  cgeadmin@mail.com
