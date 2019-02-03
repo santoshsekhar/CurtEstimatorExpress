@@ -1,59 +1,83 @@
 
 
-<html>
-
-<head>
-  <% include ../header.ejs %> 
-</head>
-
-<body>
-  
-  
-  <br/>
+<br/>
 <br/>
 <div class="container-fluid">
   <div class=row>
     <div class="col col-md-12">
-      <a href="coating/create" class="btn btn-primary new">
+      <a href="/coating/create" class="btn btn-primary new">
         Create a new estimate
       </a>
       <h2>Recent estimate entries</h2>
       <p>There are
-       
+        <%= coating.query.length %> coating.
           <br/>
-
       </p>
-
-
-
-    
-     
-      
-        <div class="panel panel-default">
-          <div class="panel-heading"></div>
-          <div class="text-muted pull-right"></div>
-          <div class="panel-body">
+      <% for(var i = coating.query.length-1; i >= 0; i--)
+        { est = coating.query[i]; %>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <hr/>
             ID:
-            
-              <br> Name:
-              
-                <br/> location:
-               
-                  <br/> squareFeet (years):
-                  
-                   <br>
-                   <br>
-
-                  
-                          <a href="" class="btn btn-danger"> Delete </a>
-                          <a href="" class="btn btn-info"> Details </a>
-                          <a href="" class="btn btn-warning"> Edit </a>
+            <%=  est._id %> (
+            <%=est.name%>)
+            <br> Location:
+            <%=est.location%>
+            <br/> Square Feet:
+            <%=est.squareFeet%> sf
+            <br/>
+            <br/>
+            <%=est.materials.length%> Materials Required:
+              <% for(let j = 0; j <  est.materials.length; j++)
+              { mat = est.materials[j]; %>
+                <br/> Material 
+                <%=j+1%>:
+                <%=mat.product%>, $
+                <%=mat.unitcost%> /sf for 
+                <%=mat.coverageSquareFeetPerUnit%> sf
+              <% } %> 
+            <br/> 
+            <!-- <br/> Required Labor:
+            <%=est.numberOfPeople%> workers -->
+            <br/> Duration:
+            <%=est.numberOfDays%> days at
+            <%=est.hoursWorkedPerDay%> hrs/day
+            <br/> Wage Rate: $
+            <%=est.laborDollarsPerHour%> /hr
+            <br/>
+            <br/> Hotel Requirements:
+            <%=est.numberHotelRooms%> rooms for
+            <%=est.numberHotelNights%> nights
+            <br/> Hotel Cost: $
+            <%=est.hotelDollarsPerNight%> /night
+            <br/> Food Cost: $
+            <%=est.foodDollarsPerDay%> /day
+            <br/>
+            <br/> Vehicle Requirements:
+            <%=est.numberOfVehicles%> vehicles with 
+            <%=est.milesPerVehicle%> miles/vehicle
+            <br/> Vehicle Cost: $
+            <%=est.dollarsPerMile%> /mile
+            <br/>
+            <br/>  
+            <%=est.miscellaneous.length%> Misc. Cost:
+            <% for(let k = 0; k <  est.miscellaneous.length; k++)
+            { mis = est.miscellaneous[k]; %>
+              <br/>
+              <%=mis.desc%> - $
+              <%=mis.dollars%>
+            <% } %>  
+            <br/>
+            <br/> Multiplier:
+            <%=est.multiplier%>
+            <br/>
+            <br/>
+            <a href="/coating/delete/<%= est._id  %>" class="btn btn-danger"> Delete </a>
+            <a href="/coating/details/<%= est._id %>" class="btn btn-info"> Details </a>
+            <a href="/coating/edit/<%= est._id %>" class="btn btn-warning"> Edit </a>
           </div>
-        </div>
-      
-
+        </div>                     
+      <% } %>             
     </div>
   </div>
 </div>
-
-<% include ../footer.ejs %>

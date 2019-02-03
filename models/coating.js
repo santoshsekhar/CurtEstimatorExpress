@@ -26,27 +26,27 @@ type: Array,
 required: false,
 default: [
 {
-product: 'A',
+product: "A",
 unitcost: 65,
 coverageSquareFeetPerUnit: 300
 },
 {
-product: 'B',
+product: "B",
 unitcost: 65,
 coverageSquareFeetPerUnit: 300
 },
 {
-product: 'C',
+product: "C",
 unitcost: 65,
 coverageSquareFeetPerUnit: 300
 }
 ]
 },
-numberOfPeople: {
-type: Number,
-required: true,
-default: 2, min: 0, max: 10
-},
+// numberOfPeople: {
+// type: Number,
+// required: true,
+// default: 2, min: 0, max: 10
+// },
 numberOfDays: {
 type: Number,
 required: true,
@@ -61,6 +61,11 @@ laborDollarsPerHour: {
 type: Number,
 required: true,
 default: 25, min: 0, max: 50
+},
+numberHotelRooms: { 
+type: Number,
+required: true,
+default: 2, min:0, max: 20
 },
 numberHotelNights: { 
 type: Number,
@@ -99,16 +104,16 @@ type: Array,
 required: false,
 default: [
 {
-misc: 'A',
-cost: 10
+desc: "A",
+dollars: 10
 },
 {
-misc: 'B',
-cost: 10
+desc: "B",
+dollars: 10
 },
 {
-misc: 'C',
-cost: 10
+desc: "C",
+dollars: 10
 }
 ]
 },
@@ -120,4 +125,4 @@ default: 0.30, min: 0, max: 1.00
 },
 
 })
-module.exports = mongoose.model('coating', CoatingsEstimateSchema)
+module.exports = mongoose.model('Coating', CoatingsEstimateSchema)
