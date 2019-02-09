@@ -103,6 +103,75 @@ api.get("/edit/:id", passport.isAuthenticated, (req, res) => {
   })
 })
 
+// update       api.post('/save/:id'
+// POST update
+api.post("/save/:id", (req, res) => {
+  LOG.info(`Handling SAVE request ${req}`)
+  const id = parseInt(req.params.id, 10) // base 10
+  LOG.info(`Handling SAVING ID=${id}`)
+  const data = req.app.locals.coating.query
+  const item = find(data, { _id: id })
+  if (!item) {
+    return res.end(notfoundstring)
+  }
+  LOG.info(`ORIGINAL VALUES ${JSON.stringify(item)}`)
+  LOG.info(`UPDATED VALUES: ${JSON.stringify(req.body)}`)
+  item.name = req.body.name
+  item.location = req.body.location
+  item.squarefeet = parseInt(req.body.squarefeet, 10)
+  item.numberOfDays = parseInt(req.body.numberOfDays, 10)
+  item.hoursWorkedPerDay = parseInt(req.body.hoursWorkedPerDay, 10)
+  item.laborDollarsPerHour = parseInt(req.body.laborDollarsPerHour, 10)
+  item.numberHotelRooms = parseInt(req.body.numberHotelRooms, 10)
+  item.numberHotelNights = parseInt(req.body.numberHotelNights, 10)
+  item.hotelDollarsPerNight = parseInt(req.body.hotelDollarsPerNight, 10)
+  item.foodDollarsPerDay = parseInt(req.body.foodDollarsPerDay, 10)
+  item.numberOfVehicles = parseInt(req.body.numberOfVehicles, 10)
+  item.milesPerVehicle = parseInt(req.body.milesPerVehicle, 10)
+  item.dollarsPerMile = parseFloat(req.body.dollarsPerMile, 10)
+  item.multiplier = parseFloat(req.body.multiplier)
+  item.materials = []
+  item.materials.length = 0 // replace with new array
+  if (req.body.product.length > 0) {
+    for (let count = 0; count < req.body.product.length; count++) {
+      if (
+        typeof parseInt(req.body.unitcost[count], 10) === "number" &&
+        typeof parseInt(req.body.coverageSquareFeetPerUnit[count], 10) ===
+        "number"
+      ) {
+        item.materials.push({
+          product: req.body.product[count],
+          unitcost: parseInt(req.body.unitcost[count], 10),
+          coverageSquareFeetPerUnit: parseInt(
+            req.body.coverageSquareFeetPerUnit[count],
+            10
+          )
+        })
+      }
+    }
+  }
+  item.miscellaneous = []
+  item.miscellaneous.length = 0 // replace with new array
+  if (req.body.desc.length > 1) {
+    for (let count = 0; count < req.body.desc.length; count++) {
+      if (
+        typeof parseInt(req.body.dollars[count], 10) === "number" &&
+        parseInt(req.body.dollars[count], 10) > 0
+      ) {
+        item.miscellaneous.push({
+          misc: req.body.desc[count],
+          cost: parseInt(req.body.dollars[count], 10)
+        })
+      }
+    }
+  }
+  LOG.info(`SAVING UPDATED ESTIMATE ${JSON.stringify(item)}`)
+  return res.redirect("/coating")
+})
+
+
+
+
 module.exports=api;
 
    

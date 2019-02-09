@@ -16464,3 +16464,208 @@ SyntaxError: Unexpected token (
 2019-02-09T01:16:42.582Z - info: Handling GET /edit/:id [object Object]
 2019-02-09T01:16:42.583Z - info: RETURNING VIEW FOR{"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"product":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"product":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":0.5,"miscellaneous":[{"desc":"lift","dollars":1500},{"desc":"homedepot","dollars":300},{"desc":"aircomp","dollars":300}],"multiplier":0.4}
 2019-02-09T01:16:42.742Z - debug: GET /favicon.ico
+2019-02-09T01:32:54.559Z - info: Environment isProduction =  true
+2019-02-09T01:32:54.653Z - debug: START routing
+2019-02-09T01:32:54.683Z - debug: END routing
+2019-02-09T01:32:54.713Z - info: Starting controllers/user.js.
+2019-02-09T01:32:54.714Z - debug: START user routing
+2019-02-09T01:32:54.714Z - debug: END user routing
+2019-02-09T01:32:54.714Z - info: Loaded routing.
+2019-02-09T01:32:55.206Z - info: START seeder.
+2019-02-09T01:32:55.211Z - debug: Registering cgeadmin@mail.com
+2019-02-09T01:32:55.216Z - debug: 3 estimates seeded
+2019-02-09T01:32:55.216Z - debug: 1 users registered
+2019-02-09T01:32:55.616Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-09T01:33:02.981Z - debug: GET /coating
+2019-02-09T01:33:04.407Z - debug: GET /coating/create
+2019-02-09T01:33:04.410Z - debug: GET /favicon.ico
+2019-02-09T01:33:04.467Z - info: Handling GET /create[object Object]
+2019-02-09T01:33:04.469Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"desc":"A","dollars":10},{"desc":"B","dollars":10},{"desc":"C","dollars":10}],"multiplier":0.3}
+2019-02-09T01:37:32.333Z - info: Environment isProduction =  true
+2019-02-09T01:37:32.426Z - debug: START routing
+2019-02-09T01:37:32.457Z - debug: END routing
+2019-02-09T01:37:32.489Z - info: Starting controllers/user.js.
+2019-02-09T01:37:32.490Z - debug: START user routing
+2019-02-09T01:37:32.490Z - debug: END user routing
+2019-02-09T01:37:32.490Z - info: Loaded routing.
+2019-02-09T01:37:33.058Z - info: START seeder.
+2019-02-09T01:37:33.516Z - info: Environment isProduction =  true
+2019-02-09T01:37:33.616Z - debug: START routing
+2019-02-09T01:37:33.646Z - debug: END routing
+2019-02-09T01:37:33.681Z - info: Starting controllers/user.js.
+2019-02-09T01:37:33.681Z - debug: START user routing
+2019-02-09T01:37:33.682Z - debug: END user routing
+2019-02-09T01:37:33.682Z - info: Loaded routing.
+2019-02-09T01:37:34.170Z - info: START seeder.
+2019-02-09T01:37:34.175Z - debug: Registering cgeadmin@mail.com
+2019-02-09T01:37:34.181Z - debug: 3 estimates seeded
+2019-02-09T01:37:34.181Z - debug: 1 users registered
+2019-02-09T01:37:34.601Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-09T01:37:36.319Z - info: Environment isProduction =  true
+2019-02-09T01:37:36.427Z - debug: START routing
+2019-02-09T01:37:36.453Z - debug: END routing
+2019-02-09T01:37:36.482Z - info: Starting controllers/user.js.
+2019-02-09T01:37:36.482Z - debug: START user routing
+2019-02-09T01:37:36.483Z - debug: END user routing
+2019-02-09T01:37:36.483Z - info: Loaded routing.
+2019-02-09T01:37:36.964Z - info: START seeder.
+2019-02-09T01:37:36.970Z - debug: Registering cgeadmin@mail.com
+2019-02-09T01:37:36.976Z - debug: 3 estimates seeded
+2019-02-09T01:37:36.976Z - debug: 1 users registered
+2019-02-09T01:37:37.541Z - info: Environment isProduction =  true
+2019-02-09T01:37:37.641Z - debug: START routing
+2019-02-09T01:37:37.673Z - debug: END routing
+2019-02-09T01:37:37.699Z - info: Starting controllers/user.js.
+2019-02-09T01:37:37.699Z - debug: START user routing
+2019-02-09T01:37:37.699Z - debug: END user routing
+2019-02-09T01:37:37.699Z - info: Loaded routing.
+2019-02-09T01:37:38.146Z - info: START seeder.
+2019-02-09T01:37:38.151Z - debug: Registering cgeadmin@mail.com
+2019-02-09T01:37:38.157Z - debug: 3 estimates seeded
+2019-02-09T01:37:38.157Z - debug: 1 users registered
+2019-02-09T01:37:38.562Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-09T01:37:41.475Z - debug: GET /
+2019-02-09T01:37:41.545Z - debug: Request to /
+2019-02-09T01:37:45.030Z - debug: GET /coating
+2019-02-09T01:37:46.042Z - debug: GET /coating/create
+2019-02-09T01:37:46.046Z - debug: GET /favicon.ico
+2019-02-09T01:37:46.091Z - info: Handling GET /create[object Object]
+2019-02-09T01:37:46.092Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"desc":"A","dollars":10},{"desc":"B","dollars":10},{"desc":"C","dollars":10}],"multiplier":0.3}
+2019-02-09T01:38:18.341Z - info: Environment isProduction =  true
+2019-02-09T01:38:18.470Z - error: uncaughtException: Invalid left-hand side in assignment date=Fri Feb 08 2019 19:38:18 GMT-0600 (Central Standard Time), pid=54345, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimatorExpress, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimatorExpress/app.js], rss=63827968, heapTotal=60633088, heapUsed=28018176, external=36985884, loadavg=[1.42578125, 1.67431640625, 1.61767578125], uptime=902491
+ReferenceError: Invalid left-hand side in assignment
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimatorExpress/controllers/coating.js:90:5)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimatorExpress/routes/index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+2019-02-09T01:38:18.434Z - debug: START routing
+2019-02-09T01:38:18.937Z - info: Starting controllers/user.js.
+2019-02-09T01:38:18.938Z - info: START seeder.
+2019-02-09T01:38:18.942Z - debug: Registering cgeadmin@mail.com
+2019-02-09T01:38:18.948Z - debug: 3 estimates seeded
+2019-02-09T01:38:18.948Z - debug: 1 users registered
+2019-02-09T01:38:19.551Z - info: Environment isProduction =  true
+2019-02-09T01:38:19.678Z - error: uncaughtException: Invalid left-hand side in assignment date=Fri Feb 08 2019 19:38:19 GMT-0600 (Central Standard Time), pid=54352, uid=501, gid=20, cwd=/Users/santosh/Desktop/CostEstimatorExpress, execPath=/usr/local/bin/node, version=v10.13.0, argv=[/usr/local/bin/node, /Users/santosh/Desktop/CostEstimatorExpress/app.js], rss=62193664, heapTotal=59006976, heapUsed=24632384, external=37138285, loadavg=[1.42578125, 1.67431640625, 1.61767578125], uptime=902492
+ReferenceError: Invalid left-hand side in assignment
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimatorExpress/controllers/coating.js:90:5)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/santosh/Desktop/CostEstimatorExpress/routes/index.js:21:23)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+2019-02-09T01:38:19.651Z - debug: START routing
+2019-02-09T01:38:20.149Z - info: Starting controllers/user.js.
+2019-02-09T01:38:20.149Z - info: START seeder.
+2019-02-09T01:38:20.155Z - debug: Registering cgeadmin@mail.com
+2019-02-09T01:38:20.161Z - debug: 3 estimates seeded
+2019-02-09T01:38:20.161Z - debug: 1 users registered
+2019-02-09T01:38:20.564Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-09T01:38:23.572Z - info: Environment isProduction =  true
+2019-02-09T01:38:23.672Z - debug: START routing
+2019-02-09T01:38:23.701Z - debug: END routing
+2019-02-09T01:38:23.731Z - info: Starting controllers/user.js.
+2019-02-09T01:38:23.731Z - debug: START user routing
+2019-02-09T01:38:23.732Z - debug: END user routing
+2019-02-09T01:38:23.732Z - info: Loaded routing.
+2019-02-09T01:38:24.198Z - info: START seeder.
+2019-02-09T01:38:24.204Z - debug: Registering cgeadmin@mail.com
+2019-02-09T01:38:24.210Z - debug: 3 estimates seeded
+2019-02-09T01:38:24.210Z - debug: 1 users registered
+2019-02-09T01:38:24.835Z - info: Environment isProduction =  true
+2019-02-09T01:38:24.938Z - debug: START routing
+2019-02-09T01:38:24.966Z - debug: END routing
+2019-02-09T01:38:24.996Z - info: Starting controllers/user.js.
+2019-02-09T01:38:24.997Z - debug: START user routing
+2019-02-09T01:38:24.997Z - debug: END user routing
+2019-02-09T01:38:24.997Z - info: Loaded routing.
+2019-02-09T01:38:25.443Z - info: START seeder.
+2019-02-09T01:38:25.447Z - debug: Registering cgeadmin@mail.com
+2019-02-09T01:38:25.453Z - debug: 3 estimates seeded
+2019-02-09T01:38:25.453Z - debug: 1 users registered
+2019-02-09T01:38:25.845Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-09T01:50:44.858Z - info: Environment isProduction =  true
+2019-02-09T01:50:44.950Z - debug: START routing
+2019-02-09T01:50:44.978Z - debug: END routing
+2019-02-09T01:50:45.011Z - info: Starting controllers/user.js.
+2019-02-09T01:50:45.012Z - debug: START user routing
+2019-02-09T01:50:45.012Z - debug: END user routing
+2019-02-09T01:50:45.012Z - info: Loaded routing.
+2019-02-09T01:50:45.539Z - info: START seeder.
+2019-02-09T01:50:45.544Z - debug: Registering cgeadmin@mail.com
+2019-02-09T01:50:45.551Z - debug: 3 estimates seeded
+2019-02-09T01:50:45.551Z - debug: 1 users registered
+2019-02-09T01:50:45.948Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-09T01:50:48.324Z - info: Environment isProduction =  true
+2019-02-09T01:50:48.427Z - debug: START routing
+2019-02-09T01:50:48.457Z - debug: END routing
+2019-02-09T01:50:48.486Z - info: Starting controllers/user.js.
+2019-02-09T01:50:48.486Z - debug: START user routing
+2019-02-09T01:50:48.487Z - debug: END user routing
+2019-02-09T01:50:48.487Z - info: Loaded routing.
+2019-02-09T01:50:48.991Z - info: START seeder.
+2019-02-09T01:50:48.995Z - debug: Registering cgeadmin@mail.com
+2019-02-09T01:50:49.002Z - debug: 3 estimates seeded
+2019-02-09T01:50:49.002Z - debug: 1 users registered
+2019-02-09T01:50:49.412Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-09T01:50:55.930Z - info: Environment isProduction =  true
+2019-02-09T01:50:56.022Z - debug: START routing
+2019-02-09T01:50:56.055Z - debug: END routing
+2019-02-09T01:50:56.083Z - info: Starting controllers/user.js.
+2019-02-09T01:50:56.083Z - debug: START user routing
+2019-02-09T01:50:56.084Z - debug: END user routing
+2019-02-09T01:50:56.084Z - info: Loaded routing.
+2019-02-09T01:50:56.562Z - info: START seeder.
+2019-02-09T01:50:56.568Z - debug: Registering cgeadmin@mail.com
+2019-02-09T01:50:56.573Z - debug: 3 estimates seeded
+2019-02-09T01:50:56.573Z - debug: 1 users registered
+2019-02-09T01:50:56.970Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-09T01:50:59.237Z - debug: GET /
+2019-02-09T01:50:59.314Z - debug: Request to /
+2019-02-09T01:51:03.120Z - debug: GET /coating
+2019-02-09T01:51:04.192Z - debug: GET /coating/create
+2019-02-09T01:51:04.196Z - debug: GET /favicon.ico
+2019-02-09T01:51:04.256Z - info: Handling GET /create[object Object]
+2019-02-09T01:51:04.258Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"desc":"A","dollars":10},{"desc":"B","dollars":10},{"desc":"C","dollars":10}],"multiplier":0.3}
+2019-02-09T01:51:11.246Z - debug: GET /coating/delete/3
+2019-02-09T01:51:11.324Z - debug: GET /login
+2019-02-09T01:51:13.485Z - debug: GET /coating/details/3
+2019-02-09T01:51:13.547Z - info: Handling GET /details/:id [object Object]
+2019-02-09T01:51:13.665Z - debug: GET /favicon.ico
+2019-02-09T01:51:15.728Z - debug: GET /coating/edit/3
+2019-02-09T01:51:15.798Z - debug: GET /login
+2019-02-09T01:51:18.957Z - debug: GET /login
+2019-02-09T01:51:22.395Z - debug: POST /login
+2019-02-09T01:51:22.556Z - error: 
+2019-02-09T01:51:22.562Z - debug: GET /
+2019-02-09T01:51:22.681Z - debug: Request to /
+2019-02-09T01:51:24.035Z - debug: GET /coating
+2019-02-09T01:51:24.971Z - debug: GET /coating/create
+2019-02-09T01:51:24.973Z - debug: GET /favicon.ico
+2019-02-09T01:51:25.092Z - info: Handling GET /create[object Object]
+2019-02-09T01:51:25.093Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"desc":"A","dollars":10},{"desc":"B","dollars":10},{"desc":"C","dollars":10}],"multiplier":0.3}
+2019-02-09T01:51:28.243Z - debug: GET /logout
+2019-02-09T01:51:28.376Z - debug: GET /login
+2019-02-09T01:51:28.506Z - debug: GET /
+2019-02-09T01:51:28.619Z - debug: Request to /
