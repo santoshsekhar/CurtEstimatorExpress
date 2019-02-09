@@ -16425,3 +16425,42 @@ SyntaxError: Unexpected token (
 2019-02-08T16:57:03.577Z - debug: GET /coating/details/2
 2019-02-08T16:57:03.633Z - info: Handling GET /details/:id [object Object]
 >>>>>>> afb6f7763f99fe768d660c5e310a2a86f2477d70
+2019-02-09T01:16:07.358Z - info: Environment isProduction =  true
+2019-02-09T01:16:07.534Z - debug: START routing
+2019-02-09T01:16:07.563Z - debug: END routing
+2019-02-09T01:16:07.610Z - info: Starting controllers/user.js.
+2019-02-09T01:16:07.611Z - debug: START user routing
+2019-02-09T01:16:07.611Z - debug: END user routing
+2019-02-09T01:16:07.611Z - info: Loaded routing.
+2019-02-09T01:16:08.211Z - info: START seeder.
+2019-02-09T01:16:08.217Z - debug: Registering cgeadmin@mail.com
+2019-02-09T01:16:08.223Z - debug: 3 estimates seeded
+2019-02-09T01:16:08.223Z - debug: 1 users registered
+2019-02-09T01:16:08.660Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-09T01:16:12.641Z - debug: GET /
+2019-02-09T01:16:12.647Z - debug: Request to /
+2019-02-09T01:16:15.086Z - debug: GET /coating
+2019-02-09T01:16:17.072Z - debug: GET /coating/edit/3
+2019-02-09T01:16:17.148Z - debug: GET /login
+2019-02-09T01:16:24.327Z - debug: POST /login
+2019-02-09T01:16:24.517Z - error: 
+2019-02-09T01:16:24.523Z - debug: GET /
+2019-02-09T01:16:24.578Z - debug: Request to /
+2019-02-09T01:16:25.997Z - debug: GET /coating
+2019-02-09T01:16:27.905Z - debug: GET /coating/edit/3
+2019-02-09T01:16:27.979Z - debug: GET /login
+2019-02-09T01:16:29.717Z - debug: GET /login
+2019-02-09T01:16:33.580Z - debug: POST /login
+2019-02-09T01:16:33.708Z - error: 
+2019-02-09T01:16:33.715Z - debug: GET /
+2019-02-09T01:16:33.767Z - debug: Request to /
+2019-02-09T01:16:35.478Z - debug: GET /login
+2019-02-09T01:16:38.693Z - debug: POST /login
+2019-02-09T01:16:38.827Z - error: 
+2019-02-09T01:16:38.834Z - debug: GET /
+2019-02-09T01:16:38.964Z - debug: Request to /
+2019-02-09T01:16:40.251Z - debug: GET /coating
+2019-02-09T01:16:42.456Z - debug: GET /coating/edit/3
+2019-02-09T01:16:42.582Z - info: Handling GET /edit/:id [object Object]
+2019-02-09T01:16:42.583Z - info: RETURNING VIEW FOR{"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"product":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"product":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":0.5,"miscellaneous":[{"desc":"lift","dollars":1500},{"desc":"homedepot","dollars":300},{"desc":"aircomp","dollars":300}],"multiplier":0.4}
+2019-02-09T01:16:42.742Z - debug: GET /favicon.ico

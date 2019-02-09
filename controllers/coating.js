@@ -87,6 +87,22 @@ api.get("/delete/:id", passport.isAuthenticated, (req, res) => {
   })
 })
 
+api.get("/edit/:id", passport.isAuthenticated, (req, res) => {
+  LOG.info(`Handling GET /edit/:id ${req}`)
+  const id = parseInt(req.params.id, 10) // base 10
+  const data = req.app.locals.coating.query
+  const item = find(data, { _id: id })
+  if (!item) {
+    return res.end(notfoundstring)
+  }
+  LOG.info(`RETURNING VIEW FOR${JSON.stringify(item)}`)
+  return res.render("coating/edit.ejs", {
+    title: "estimates",
+    layout: "layout.ejs",
+    estimate: item
+  })
+})
+
 module.exports=api;
 
    
