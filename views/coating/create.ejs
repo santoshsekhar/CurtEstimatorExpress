@@ -11,6 +11,9 @@
           <br/>
           <h2>Create a new coating estimate </h2>
           <br/>
+          <% maxID=0; for (var i=0; i < coating.query.length; i++) {
+            if(coating.query[i]._id > maxID) { maxID=coating.query[i]._id;   }
+            var unitcost = coating.query[i].unitcost;}%>
           
   
           <div class="content">

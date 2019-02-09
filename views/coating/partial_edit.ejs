@@ -3,15 +3,15 @@
     <div class="col col-xs-12">
         <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" class="form-control" id="name" name="name" value="" required>
+            <input type="text" class="form-control" id="name" name="name" value="<% = coating.name %>" required>
         </div>
         <div class="form-group">
             <label for="location">Location</label>
-            <input type="text" class="form-control" id="location" name="location" value="">
+            <input type="text" class="form-control" id="location" name="location" value="<% = coating.location%>">
         </div>
         <div class="form-group">
             <label for="squareFeet">Square Feet</label>
-            <input onchange="onEstimateChange()" type="number" class="form-control" id="squareFeet" name="squareFeet" value=""
+            <input onchange="onEstimateChange()" type="number" class="form-control" id="squareFeet" name="squareFeet" value="<% = coating.squareFeet%>"
                 required>
         </div>
     </div>
