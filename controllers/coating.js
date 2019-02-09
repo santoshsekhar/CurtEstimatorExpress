@@ -169,7 +169,64 @@ api.post("/save/:id", (req, res) => {
   return res.redirect("/coating")
 })
 
-
+// insert new   api.post('/save'  
+api.post("/save", passport.isAuthenticated, (req, res) => {
+  res.setHeader("Content-Type", "application/json")
+  LOG.info(`Handling POST ${req}`)
+  LOG.debug(JSON.stringify(req.body))
+  const data = req.app.locals.coating.query
+  const item = new Model()
+  LOG.info(`NEW ID ${req.body._id}`)
+  item._id = parseInt(req.body._id, 10) // base 10
+  item.name = req.body.name
+  item.location = req.body.location
+  item.squareFeet = parseInt(req.body.squareFeet, 10)
+  item.numberOfDays = parseInt(req.body.numberOfDays, 10)
+  item.hoursWorkedPerDay = parseInt(req.body.hoursWorkedPerDay, 10)
+  item.laborDollarsPerHour = parseInt(req.body.laborDollarsPerHour, 10)
+  item.numberHotelRooms = parseInt(req.body.numberHotelRooms, 10)
+  item.numberHotelNights = parseInt(req.body.numberHotelNights, 10)
+  item.hotelDollarsPerNight = parseInt(req.body.hotelDollarsPerNight, 10)
+  item.foodDollarsPerDay = parseInt(req.body.foodDollarsPerDay, 10)
+  item.numberOfVehicles = parseInt(req.body.numberOfVehicles, 10)
+  item.milesPerVehicle = parseInt(req.body.milesPerVehicle, 10)
+  item.dollarsPerMile = parseFloat(req.body.dollarsPerMile, 10)
+  item.multiplier = parseFloat(req.body.multiplier)
+  item.materials = []
+  item.materials.length = 0
+  if (req.body.product.length > 0) {
+    for (let count = 0; count < req.body.product.length; count++) {
+      if (
+        typeof parseInt(req.body.unitcost[count], 10) === "number" &&
+        typeof parseInt(req.body.coverageSquareFeetPerUnit[count], 10) === "number"
+      ) {
+        item.materials.push({
+          product: req.body.product[count],
+          unitcost: parseInt(req.body.unitcost[count], 10),
+          coverageSquareFeetPerUnit: parseInt(
+            req.body.coverageSquareFeetPerUnit[count], 10)
+        })
+      }
+    }
+  }
+  if (req.body.desc.length > 0) {
+    item.miscellaneous = []
+    item.miscellaneous.length = 0
+    for (
+      let count = 0;
+      count < req.body.desc.length;
+      count++
+    ) {
+      item.miscellaneous.push({
+        name: req.body.desc[count],
+        cost: parseInt(req.body.dollars[count], 10)
+      })
+    }
+  }
+  data.push(item)
+  LOG.info(`SAVING NEW estimate ${JSON.stringify(item)}`)
+  return res.redirect("/coating")
+})
 
 
 module.exports=api;
