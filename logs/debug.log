@@ -17271,3 +17271,82 @@ ReferenceError: Invalid left-hand side in assignment
 =======
 >>>>>>> f35ac7bb1fe779b7edfbc73b01034cfcf3241a3c
 >>>>>>> 5db3aef0fde263db0e388c27ba512793716f2bd4
+2019-02-11T15:50:24.311Z - info: Environment isProduction =  true
+2019-02-11T15:50:24.540Z - debug: START routing
+2019-02-11T15:50:24.631Z - debug: END routing
+2019-02-11T15:50:24.849Z - info: Starting controllers/user.js.
+2019-02-11T15:50:24.855Z - debug: START user routing
+2019-02-11T15:50:24.857Z - debug: END user routing
+2019-02-11T15:50:24.858Z - info: Loaded routing.
+2019-02-11T15:50:25.570Z - info: START seeder.
+2019-02-11T15:50:25.587Z - debug: Registering cgeadmin@mail.com
+2019-02-11T15:50:25.619Z - debug: 3 estimates seeded
+2019-02-11T15:50:25.620Z - debug: 1 users registered
+2019-02-11T15:50:26.025Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-11T15:50:34.752Z - debug: GET /
+2019-02-11T15:50:34.860Z - debug: Request to /
+2019-02-11T15:50:38.274Z - debug: GET /coating
+2019-02-11T15:53:54.530Z - info: Environment isProduction =  true
+2019-02-11T15:53:54.758Z - debug: START routing
+2019-02-11T15:53:54.816Z - debug: END routing
+2019-02-11T15:53:54.942Z - info: Starting controllers/user.js.
+2019-02-11T15:53:54.944Z - debug: START user routing
+2019-02-11T15:53:54.944Z - debug: END user routing
+2019-02-11T15:53:54.945Z - info: Loaded routing.
+2019-02-11T15:53:55.637Z - info: START seeder.
+2019-02-11T15:53:55.652Z - debug: Registering cgeadmin@mail.com
+2019-02-11T15:53:55.669Z - debug: 3 estimates seeded
+2019-02-11T15:53:55.669Z - debug: 1 users registered
+2019-02-11T15:53:56.157Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-11T15:54:00.968Z - debug: GET /coating
+2019-02-11T15:54:04.252Z - debug: GET /images/favicon-32x32.png
+2019-02-11T15:54:08.066Z - debug: GET /coating
+2019-02-11T15:54:12.312Z - debug: GET /images/favicon-32x32.png
+2019-02-11T15:54:26.343Z - debug: GET /coating
+2019-02-11T15:54:29.153Z - debug: GET /images/favicon-32x32.png
+2019-02-11T15:55:09.139Z - debug: GET /coating
+2019-02-11T15:55:12.054Z - debug: GET /images/favicon-32x32.png
+2019-02-11T15:56:33.320Z - debug: GET /coating
+2019-02-11T15:56:37.421Z - debug: GET /images/favicon-32x32.png
+2019-02-11T15:57:00.271Z - debug: GET /coating
+2019-02-11T15:57:04.236Z - debug: GET /images/favicon-32x32.png
+2019-02-11T15:57:13.721Z - debug: GET /coating
+2019-02-11T15:57:14.032Z - debug: GET /coating
+2019-02-11T15:57:14.311Z - debug: GET /coating
+2019-02-11T15:57:14.390Z - debug: GET /coating
+2019-02-11T15:57:14.676Z - debug: GET /coating
+2019-02-11T15:57:14.762Z - debug: GET /coating
+2019-02-11T15:57:14.936Z - debug: GET /coating
+2019-02-11T15:57:15.129Z - debug: GET /coating
+2019-02-11T15:57:15.308Z - debug: GET /coating
+2019-02-11T15:57:23.166Z - debug: GET /css/main.css
+2019-02-11T15:57:27.350Z - debug: GET /coating
+2019-02-11T15:57:31.246Z - debug: GET /images/favicon-32x32.png
+2019-02-11T15:58:09.284Z - info: Environment isProduction =  true
+2019-02-11T15:58:09.532Z - debug: START routing
+2019-02-11T15:58:09.637Z - debug: END routing
+2019-02-11T15:58:09.976Z - info: Starting controllers/user.js.
+2019-02-11T15:58:09.978Z - debug: START user routing
+2019-02-11T15:58:09.980Z - debug: END user routing
+2019-02-11T15:58:09.981Z - info: Loaded routing.
+2019-02-11T15:58:10.677Z - info: START seeder.
+2019-02-11T15:58:10.689Z - debug: Registering cgeadmin@mail.com
+2019-02-11T15:58:10.711Z - debug: 3 estimates seeded
+2019-02-11T15:58:10.713Z - debug: 1 users registered
+2019-02-11T15:58:10.830Z - debug: GET /coating
+2019-02-11T15:58:11.123Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-11T15:58:13.450Z - debug: GET /images/favicon-32x32.png
+2019-02-11T15:58:37.865Z - debug: GET /
+2019-02-11T15:58:37.921Z - debug: Request to /
+2019-02-11T16:54:07.102Z - info: Environment isProduction =  true
+2019-02-11T16:54:07.323Z - debug: START routing
+2019-02-11T16:54:07.375Z - debug: END routing
+2019-02-11T16:54:07.447Z - info: Starting controllers/user.js.
+2019-02-11T16:54:07.451Z - debug: START user routing
+2019-02-11T16:54:07.452Z - debug: END user routing
+2019-02-11T16:54:07.452Z - info: Loaded routing.
+2019-02-11T16:54:07.990Z - info: START seeder.
+2019-02-11T16:54:07.998Z - debug: Registering cgeadmin@mail.com
+2019-02-11T16:54:08.006Z - debug: 3 estimates seeded
+2019-02-11T16:54:08.006Z - debug: 1 users registered
+2019-02-11T16:54:08.375Z - debug: User already exists:  cgeadmin@mail.com
