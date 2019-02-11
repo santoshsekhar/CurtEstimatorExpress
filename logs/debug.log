@@ -17149,3 +17149,23 @@ ReferenceError: Invalid left-hand side in assignment
 2019-02-11T15:06:28.723Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"desc":"A","dollars":10},{"desc":"B","dollars":10},{"desc":"C","dollars":10}],"multiplier":0.3}
 2019-02-11T15:06:29.169Z - debug: GET /favicon.ico
 >>>>>>> 14a89ed865061c3e2275efb589c5643facafd37b
+2019-02-11T15:20:32.557Z - info: Environment isProduction =  true
+2019-02-11T15:20:32.975Z - debug: START routing
+2019-02-11T15:20:33.032Z - debug: END routing
+2019-02-11T15:20:33.383Z - info: Starting controllers/user.js.
+2019-02-11T15:20:33.389Z - debug: START user routing
+2019-02-11T15:20:33.390Z - debug: END user routing
+2019-02-11T15:20:33.392Z - info: Loaded routing.
+2019-02-11T15:20:34.075Z - info: START seeder.
+2019-02-11T15:20:34.112Z - debug: Registering cgeadmin@mail.com
+2019-02-11T15:20:34.157Z - debug: 3 estimates seeded
+2019-02-11T15:20:34.158Z - debug: 1 users registered
+2019-02-11T15:20:34.529Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-11T15:20:34.754Z - debug: GET /coating
+2019-02-11T15:20:36.908Z - debug: GET /images/favicon-32x32.png
+2019-02-11T15:20:39.003Z - debug: GET /coating/details/3
+2019-02-11T15:20:39.055Z - info: Handling GET /details/:id [object Object]
+2019-02-11T15:20:39.061Z - info: RETURNING VIEW FOR {"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"product":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"product":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":0.5,"miscellaneous":[{"desc":"lift","dollars":1500},{"desc":"homedepot","dollars":300},{"desc":"aircomp","dollars":300}],"multiplier":0.4}
+2019-02-11T15:20:42.910Z - debug: GET /
+2019-02-11T15:20:42.953Z - debug: Request to /
+2019-02-11T15:22:27.225Z - debug: GET /coating
