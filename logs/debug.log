@@ -17051,6 +17051,7 @@ ReferenceError: Invalid left-hand side in assignment
 2019-02-09T02:56:17.002Z - debug: User already exists:  cgeadmin@mail.com
 2019-02-09T02:56:21.854Z - debug: GET /
 2019-02-09T02:56:21.985Z - debug: Request to /
+<<<<<<< HEAD
 2019-02-11T14:55:08.982Z - info: Environment isProduction =  true
 2019-02-11T14:55:09.487Z - debug: START routing
 2019-02-11T14:55:09.612Z - debug: END routing
@@ -17122,3 +17123,29 @@ ReferenceError: Invalid left-hand side in assignment
 2019-02-11T15:15:55.248Z - debug: GET /coating/details/3
 2019-02-11T15:15:55.305Z - info: Handling GET /details/:id [object Object]
 2019-02-11T15:15:55.307Z - info: RETURNING VIEW FOR {"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"product":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"product":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":0.5,"miscellaneous":[{"desc":"lift","dollars":1500},{"desc":"homedepot","dollars":300},{"desc":"aircomp","dollars":300}],"multiplier":0.4}
+=======
+2019-02-11T15:00:02.824Z - info: Environment isProduction =  true
+2019-02-11T15:00:03.389Z - debug: START routing
+2019-02-11T15:00:03.485Z - debug: END routing
+2019-02-11T15:00:03.621Z - info: Starting controllers/user.js.
+2019-02-11T15:00:03.624Z - debug: START user routing
+2019-02-11T15:00:03.625Z - debug: END user routing
+2019-02-11T15:00:03.626Z - info: Loaded routing.
+2019-02-11T15:00:04.353Z - info: START seeder.
+2019-02-11T15:00:04.364Z - debug: Registering cgeadmin@mail.com
+2019-02-11T15:00:04.378Z - debug: 3 estimates seeded
+2019-02-11T15:00:04.379Z - debug: 1 users registered
+2019-02-11T15:00:04.845Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-11T15:06:15.911Z - debug: GET /
+2019-02-11T15:06:15.932Z - debug: Request to /
+2019-02-11T15:06:20.634Z - debug: GET /login
+2019-02-11T15:06:23.034Z - debug: POST /login
+2019-02-11T15:06:23.358Z - error: 
+2019-02-11T15:06:23.378Z - debug: GET /
+2019-02-11T15:06:23.745Z - debug: Request to /
+2019-02-11T15:06:26.172Z - debug: GET /coating
+2019-02-11T15:06:28.629Z - debug: GET /coating/create
+2019-02-11T15:06:28.716Z - info: Handling GET /create[object Object]
+2019-02-11T15:06:28.723Z - debug: {"name":"Job name","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":0.5,"miscellaneous":[{"desc":"A","dollars":10},{"desc":"B","dollars":10},{"desc":"C","dollars":10}],"multiplier":0.3}
+2019-02-11T15:06:29.169Z - debug: GET /favicon.ico
+>>>>>>> 14a89ed865061c3e2275efb589c5643facafd37b
