@@ -32,7 +32,7 @@ api.get("/", (request, response) => {
 api.get("/details/:id",  (req, res) => {
   LOG.info(`Handling GET /details/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
-  const data = req.app.locals.estimates.query
+  const data = req.app.locals.coating.query
   const item = find(data, { _id: id })
   if (!item) {
     return res.end(notfoundstring)
