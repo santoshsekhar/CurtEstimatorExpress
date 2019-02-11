@@ -3,15 +3,15 @@
     <div class="col col-xs-12">
         <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" class="form-control" id="name" name="name" value="" required>
+            <input type="text" class="form-control" id="name" name="name" value="<%=coating.name%>" required>
         </div>
         <div class="form-group">
             <label for="location">Location</label>
-            <input type="text" class="form-control" id="location" name="location" value="">
+            <input type="text" class="form-control" id="location" name="location" value="<%=coating.location%>">
         </div>
         <div class="form-group">
             <label for="squareFeet">Square Feet</label>
-            <input onchange="onEstimateChange()" type="number" class="form-control" id="squareFeet" name="squareFeet" value=""
+            <input onchange="onEstimateChange()" type="number" class="form-control" id="squareFeet" name="squareFeet" value="<%=coating.squareFeet%>"
                 required>
         </div>
     </div>
@@ -20,24 +20,24 @@
 
 <p></p>
 <div id="materialList">
-  
+    <% const origmatcount = estimate.materials.length; numUnits=0; var materialCost=0; %>
     <span id="materialCount">
-      
+        <%=origmatcount%>
     </span> Material Entries
-   
+    <% for (var imat=1; imat <= origmatcount; imat++) {  material = estimate.materials[imat-1];  %>
       <div id="oneMaterial">
         <p></p>
         <div class=row>
           <div class="col col-xs-4">
             <div class="form-group">
               <label for="product" name="productLabel">Material </label>
-              <input type="text" class="form-control" id="" name="product" value="">
+              <input type="text" class="form-control" id="" name="product" value="<%=materials.product%>">
             </div>
           </div>
           <div class="col col-xs-4">
             <div class="form-group">
               <label for="unitcost" name="unitcostLabel">$/unit</label>
-              <input onchange="onEstimateChange()" type="number" class="form-control" id="" name="unitcost" step="1" value=""
+              <input onchange="onEstimateChange()" type="number" class="form-control" id="" name="unitcost" step="1" value="<%=materials.unitcost%>"
                 min=0 max=500000>
             </div>
           </div>
@@ -45,7 +45,7 @@
             <div class="form-group">
               <label for="coverageSquareFeetPerUnit" name="coverageLabel">Sqft/unit</label>
               <input onchange="onEstimateChange()" type="number" class="form-control" id="" step="1"
-                value="" name="coverageSquareFeetPerUnit" min=1 max=50000>
+                value="<%=materials.coverageSquareFeetPerUnit%>" name="coverageSquareFeetPerUnit" min=1 max=50000>
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@
         <span id=""></span>
         <p></p>
       </div>
-     
+      <%  }  %>
 </div>
 <br/>
 <h4>
@@ -67,23 +67,23 @@
 
 <div class=row>
     <div class="col col-xs-12">
-        <!-- <div class="form-group">
+        <div class="form-group">
             <label for="numberOfPeople">Number of People</label>
-            <input onchange="onLaborCost()" type="number" class="form-control" id="numberOfPeople" name="numberOfPeople" value=""
+            <input onchange="onLaborCost()" type="number" class="form-control" id="numberOfPeople" name="numberOfPeople" value="<%= coating.numberOfPeople %>"
                 required>
-        </div> -->
+        </div>
         <div class="form-group">
             <label for="numberOfDays">Number of Days</label>
-            <input onchange="onLaborCost()" type="number" class="form-control" id="numberOfDays" name="numberOfDays" value="">
+            <input onchange="onLaborCost()" type="number" class="form-control" id="numberOfDays" name="numberOfDays" value="<%= coating.numberOfDays%>">
         </div>
         <div class="form-group">
             <label for="hoursWorkedPerDay">Hours Worked Per Day</label>
-            <input onchange="onLaborCost()" type="number" class="form-control" id="hoursWorkedPerDay" name="hoursWorkedPerDay" value=""
+            <input onchange="onLaborCost()" type="number" class="form-control" id="hoursWorkedPerDay" name="hoursWorkedPerDay" value="<%= coating.hoursWorkedPerDay %>"
                 required>
         </div>
         <div class="form-group">
             <label for="laborDollarsPerHour">Labor Dollar Per Hour</label>
-            <input onchange="onLaborCost()" type="number" class="form-control" id="laborDollarsPerHour" name="laborDollarsPerHour" value=""
+            <input onchange="onLaborCost()" type="number" class="form-control" id="laborDollarsPerHour" name="laborDollarsPerHour" value="<%= estimate.laborDollarsPerHour %>"
                 required>
         </div>
     </div>
@@ -99,17 +99,17 @@
     <div class="col col-xs-12">
         <div class="form-group">
             <label for="numberHotelRooms">Number of Hotel Rooms</label>
-            <input onchange="onHotelCost()" type="number" class="form-control" id="numberHotelRooms" name="numberHotelRooms" value="">
+            <input onchange="onHotelCost()" type="number" class="form-control" id="numberHotelRooms" name="numberHotelRooms" value="<%= estimate.numberHotelRooms%>">
         </div>
         <div class="form-group">
             <label for="numberHotelNights">Number of Hotel Night</label>
-            <input onchange="onHotelCost()" type="number" class="form-control" id="numberHotelNights" name="numberHotelNights" value=""
+            <input onchange="onHotelCost()" type="number" class="form-control" id="numberHotelNights" name="numberHotelNights" value="<%= estimate.numberHotelNights%>"
                 required>
         </div>
         <div class="form-group">
             <label for="hotelDollarsPerNight">Dollar per Night</label>
             <input onchange="onHotelCost()" type="number" class="form-control" id="hotelDollarsPerNight" name="hotelDollarsPerNight"
-                value="" required>
+                value="<%= estimate.hotelDollarsPerNight %>" required>
         </div>
     </div>
 </div>
@@ -122,18 +122,18 @@
 
 <div class=row>
     <div class="col col-xs-12">
-        <!-- <div class="form-group">
+        <div class="form-group">
             <label for="numberOfPeople">Number of People</label>
-            <input onchange="onFoodCost()" type="number" class="form-control" id="numberOfPeople" name="numberOfPeople" value=""
+            <input onchange="onFoodCost()" type="number" class="form-control" id="numberOfPeople" name="numberOfPeople" value="<%= coating.numberOfPeople %>"
                 required>
-        </div> -->
+        </div>
         <div class="form-group">
             <label for="numberOfDays">Number of Days</label>
-            <input onchange="onFoodCost()" type="number" class="form-control" id="numberOfDays" name="numberOfDays" value="">
+            <input onchange="onFoodCost()" type="number" class="form-control" id="numberOfDays" name="numberOfDays" value="<%= coating.numberOfDays%>">
         </div>
         <div class="form-group">
             <label for="foodDollarsPerDay">Dollar spend on Food per Day</label>
-            <input onchange="onFoodCost()" type="number" class="form-control" id="foodDollarsPerDay" name="foodDollarsPerDay" value=""
+            <input onchange="onFoodCost()" type="number" class="form-control" id="foodDollarsPerDay" name="foodDollarsPerDay" value="<%= coating.foodDollarsPerDay %>"
                 required>
         </div>
     </div>
@@ -149,17 +149,17 @@
     <div class="col col-xs-12">
         <div class="form-group">
             <label for="numberOfVehicles">Number of Vehicle</label>
-            <input onchange="onVehicleCost()" type="number" class="form-control" id="numberOfVehicles" name="numberOfVehicles" value=""
+            <input onchange="onVehicleCost()" type="number" class="form-control" id="numberOfVehicles" name="numberOfVehicles" value="<%= coating.numberOfVehicles %>"
                 required>
         </div>
         <div class="form-group">
             <label for="milesPerVehicle">Mile Per Vehicle</label>
-            <input onchange="onVehicleCost()" type="number" class="form-control" id="milesPerVehicle" name="milesPerVehicle" value=""
+            <input onchange="onVehicleCost()" type="number" class="form-control" id="milesPerVehicle" name="milesPerVehicle" value="<%= coating.milesPerVehicle %>"
                 required>
         </div>
         <div class="form-group">
             <label for="dollarsPerMile">Dollar Per Vehicle</label>
-            <input onchange="onVehicleCost()" type="number" class="form-control" id="dollarsPerMile" name="dollarsPerMile" value=""
+            <input onchange="onVehicleCost()" type="number" class="form-control" id="dollarsPerMile" name="dollarsPerMile" value="<%= coating.dollarsPerMile %>"
                 required>
         </div>
     </div>
@@ -173,30 +173,31 @@
 
 <p></p>
 <div id="miscellaneousList">
+        <% const origMiscellaneousCount = estimate.miscellaneous.length;  %>
         <span id="miscellaneousCount">
-        
+                <%=origMiscellaneousCount%>
         </span> Miscellaneous Entries
-       
+        <% for (var iEntry=1; iEntry <= origMiscellaneousCount; iEntry++) {  misscell = estimate.miscellaneous[iEntry-1];  %>
             <div id="oneEntry">
                 <p></p>
                 <div class=row>
                     <div class="col col-xs-4">
                         <div class="form-group">
                             <label for="miscellaneousName" name="miscellaneousNameLabel">Miscellaneous Name </label>
-                            <input type="text" class="form-control" id="" name="miscellaneousName" value="">
+                            <input type="text" class="form-control" id="" name="miscellaneousName" value="<%= miscellaneous.desc%>">
                         </div>
                     </div>
                     <div class="col col-xs-4">
                         <div class="form-group">
                             <label for="Cost" name="CostLabel">miscCount</label>
-                            <input onchange="onMissChange()" type="number" class="form-control" id="" name="Cost" value=""
+                            <input onchange="onMissChange()" type="number" class="form-control" id="" name="Cost" value="<%=miscellaneous.cost%>"
                                 required>
                         </div>
                     </div>
                 </div>
                 <p></p>
             </div>
-           
+            <%  }  %>
 </div>
 <br/>
 <h4>
@@ -207,10 +208,10 @@
 
 <div class="form-group">
     <label for="multiplier">Multiplier</label>
-    <input onchange="totalCost()" type="number" class="form-control" id="multiplier" name="multiplier" value=""
+    <input onchange="totalCost()" type="number" class="form-control" id="multiplier" name="multiplier" value="<%= coating.multiplier %>"
         placeholder="0.40" step="0.05" min="0.1" max="1.0" required>
 </div>
-
+<!-- 
 
     <script>
     function onVehicleCost() {
@@ -240,4 +241,4 @@
         $("#hotelCost").html(totalHotel.toCurrencyInt());
         totalCost();
     }
-</script>
+</script> -->
