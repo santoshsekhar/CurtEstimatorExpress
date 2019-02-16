@@ -17350,3 +17350,81 @@ ReferenceError: Invalid left-hand side in assignment
 2019-02-11T16:54:08.006Z - debug: 3 estimates seeded
 2019-02-11T16:54:08.006Z - debug: 1 users registered
 2019-02-11T16:54:08.375Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-16T03:17:19.069Z - info: Environment isProduction =  true
+2019-02-16T03:17:19.286Z - debug: START routing
+2019-02-16T03:17:19.330Z - debug: END routing
+2019-02-16T03:17:19.409Z - info: Starting controllers/user.js.
+2019-02-16T03:17:19.410Z - debug: START user routing
+2019-02-16T03:17:19.410Z - debug: END user routing
+2019-02-16T03:17:19.411Z - info: Loaded routing.
+2019-02-16T03:17:19.967Z - info: START seeder.
+2019-02-16T03:17:19.972Z - debug: Registering cgeadmin@mail.com
+2019-02-16T03:17:19.979Z - debug: 3 estimates seeded
+2019-02-16T03:17:19.979Z - debug: 1 users registered
+2019-02-16T03:17:20.363Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-16T03:17:30.782Z - debug: GET /
+2019-02-16T03:17:30.788Z - debug: Request to /
+2019-02-16T03:17:37.198Z - debug: GET /login
+2019-02-16T03:17:39.519Z - debug: POST /login
+2019-02-16T03:17:39.735Z - error: 
+2019-02-16T03:17:39.747Z - debug: GET /
+2019-02-16T03:17:40.216Z - debug: Request to /
+2019-02-16T03:17:42.296Z - debug: GET /contact
+2019-02-16T03:18:35.587Z - debug: GET /account
+2019-02-16T03:18:36.596Z - debug: GET /favicon.ico
+2019-02-16T03:18:40.261Z - debug: GET /contact
+2019-02-16T03:18:40.770Z - debug: GET /images/favicon-32x32.png
+2019-02-16T03:18:42.524Z - debug: GET /
+2019-02-16T03:18:42.632Z - debug: Request to /
+2019-02-16T03:18:44.243Z - debug: GET /contact
+2019-02-16T03:18:46.137Z - debug: GET /coating
+2019-02-16T03:18:51.381Z - debug: GET /logout
+2019-02-16T03:18:51.506Z - debug: GET /login
+2019-02-16T03:18:53.982Z - debug: POST /login
+2019-02-16T03:18:54.105Z - error: 
+2019-02-16T03:18:54.110Z - debug: GET /
+2019-02-16T03:18:54.236Z - debug: Request to /
+2019-02-16T03:18:58.616Z - debug: GET /login
+2019-02-16T03:20:28.108Z - debug: GET /contact
+2019-02-16T03:22:58.947Z - info: Environment isProduction =  true
+2019-02-16T03:22:59.130Z - debug: START routing
+2019-02-16T03:22:59.171Z - debug: END routing
+2019-02-16T03:22:59.239Z - info: Starting controllers/user.js.
+2019-02-16T03:22:59.240Z - debug: START user routing
+2019-02-16T03:22:59.241Z - debug: END user routing
+2019-02-16T03:22:59.241Z - info: Loaded routing.
+2019-02-16T03:22:59.861Z - info: START seeder.
+2019-02-16T03:22:59.866Z - debug: Registering cgeadmin@mail.com
+2019-02-16T03:22:59.874Z - debug: 3 estimates seeded
+2019-02-16T03:22:59.874Z - debug: 1 users registered
+2019-02-16T03:23:00.279Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-16T03:23:03.682Z - debug: GET /contact
+2019-02-16T03:23:04.838Z - debug: GET /images/favicon-32x32.png
+2019-02-16T03:25:13.914Z - info: Environment isProduction =  true
+2019-02-16T03:25:14.075Z - debug: START routing
+2019-02-16T03:25:14.127Z - debug: END routing
+2019-02-16T03:25:14.189Z - info: Starting controllers/user.js.
+2019-02-16T03:25:14.189Z - debug: START user routing
+2019-02-16T03:25:14.189Z - debug: END user routing
+2019-02-16T03:25:14.189Z - info: Loaded routing.
+2019-02-16T03:25:14.798Z - info: START seeder.
+2019-02-16T03:25:14.803Z - debug: Registering cgeadmin@mail.com
+2019-02-16T03:25:14.813Z - debug: 3 estimates seeded
+2019-02-16T03:25:14.813Z - debug: 1 users registered
+2019-02-16T03:25:15.183Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-16T03:25:15.305Z - debug: GET /contact
+2019-02-16T03:25:16.252Z - debug: GET /images/favicon-32x32.png
+2019-02-16T03:29:56.035Z - info: Environment isProduction =  true
+2019-02-16T03:29:56.212Z - debug: START routing
+2019-02-16T03:29:56.251Z - debug: END routing
+2019-02-16T03:29:56.339Z - info: Starting controllers/user.js.
+2019-02-16T03:29:56.342Z - debug: START user routing
+2019-02-16T03:29:56.343Z - debug: END user routing
+2019-02-16T03:29:56.343Z - info: Loaded routing.
+2019-02-16T03:29:56.916Z - info: START seeder.
+2019-02-16T03:29:56.921Z - debug: Registering cgeadmin@mail.com
+2019-02-16T03:29:56.932Z - debug: 3 estimates seeded
+2019-02-16T03:29:56.932Z - debug: 1 users registered
+2019-02-16T03:29:57.332Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-16T03:29:58.132Z - debug: GET /contact
+2019-02-16T03:29:59.120Z - debug: GET /images/favicon-32x32.png
