@@ -17624,3 +17624,17 @@ ReferenceError: Invalid left-hand side in assignment
 2019-02-16T03:59:31.305Z - debug: GET /contact
 2019-02-16T03:59:32.716Z - debug: GET /images/favicon-32x32.png
 2019-02-16T03:59:35.037Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-17T23:30:28.271Z - info: Environment isProduction =  true
+2019-02-17T23:30:28.665Z - debug: START routing
+2019-02-17T23:30:28.771Z - debug: END routing
+2019-02-17T23:30:28.947Z - info: Starting controllers/user.js.
+2019-02-17T23:30:28.949Z - debug: START user routing
+2019-02-17T23:30:28.951Z - debug: END user routing
+2019-02-17T23:30:28.952Z - info: Loaded routing.
+2019-02-17T23:30:29.788Z - info: START seeder.
+2019-02-17T23:30:29.807Z - debug: Registering cgeadmin@mail.com
+2019-02-17T23:30:29.842Z - debug: 3 estimates seeded
+2019-02-17T23:30:29.843Z - debug: 1 users registered
+2019-02-17T23:30:30.297Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-17T23:30:32.949Z - debug: GET /contact
+2019-02-17T23:30:35.049Z - debug: GET /images/favicon-32x32.png
