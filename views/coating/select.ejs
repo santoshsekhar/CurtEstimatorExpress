@@ -1,0 +1,43 @@
+<br/>
+<br/>
+
+            <a href="create" class="btn btn-danger new">
+                return to
+                create
+            </a>
+            <h2>Recent Estimates</h2>
+            <p>There are
+                <%= coating.query.length %> coating.
+                    <br/>
+            </p>
+            <div class="container-fluid">
+                <div class="row">
+                        
+            <% for (var i = coating.query.length-1; i >= 0; i--) {   estimate = coating.query[i]; %>
+                
+                <div class="col">
+                
+                        ID:
+                        <%=  estimate._id %>
+                            <br> Name:
+                            <%=estimate.name%>
+                                <br/> Location:
+                                <%=estimate.location%>
+                                    <br/> SqFt:
+                                    <%=estimate.squareFeet%>
+                                        <br/>
+                                        
+                                                
+                                                <a href="/coating/copyfrom/<%= estimate._id  %>" class="btn btn-success"> Select </a>
+                                                <br>
+                                                <br>
+                                            </div>        
+                  
+                <% } %>
+            
+            
+            </div>
+        </div>
+        <!-- </div>
+    </div>
+</div> -->

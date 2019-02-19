@@ -1,16 +1,21 @@
+<h1> hello</h1>
 <div class="container-fluid">
   <div class=row>
     <div class="col col-md-12">
-      
+      <br>
+      <a href="../coating/select" class="btn btn-success new">
+        Copy from existing estimate
+      </a>
+      <br/>
       <br/>
       <h2>Create a new estimate </h2>
       <br/>
       <% maxID=0; for (var i=0; i < coating.query.length; i++) {
-      if(coating.query[i]._id > maxID) { maxID=coating.query[i]._id;   }
-      var unitcost = coating.query[i].unitcost;}%>
+      if(estimates.query[i]._id > maxID) { maxID=estimates.query[i]._id;   }
+      var sqft = estimates.query[i].squareFeet;}%>
         <div class="content">
           <div>
-            <form name="estimate" method="POST" action="/estimate/save">
+            <form name="estimate" method="POST" action="/coating/save/<%= maxID %> ">
 
               <div class="form-group" id=frm>
                 <label for="_id">ID</label>
@@ -27,7 +32,7 @@
 
             <br/>
 
-            <form method="get" action="/estimate">
+            <form method="get" action="/coating">
               <input type="submit" value="Return to list" class="btn btn-caution" />
             </form>
 

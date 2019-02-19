@@ -1,17 +1,51 @@
-
-<head>
-    <% include ../header.ejs %> 
-  
-  </head>
-  
-  <div class="container-fluid page-content">
-      <div class=row>
-        <div class="col col-md-12">
-          
-          <br/>
-          <h2>Details of the estimate</h2>
-          <br/>
+<br/>
+<div id="printEstimateDetails" style="width:80%">
+<br/>
+<h2>Estimate details</h2>
+<br/>
+<br/> ID:
+<%=  estimate._id %>
+  <br> Name:
+  <%=estimate.name%>
+    <br/> location:
+    <%=estimate.location%>
+      <br/> squareFeet:
+      <%=estimate.squareFeet%>
+        <br/> materials:
+        <br/>
+        <% for (let j = 0; j < estimate.materials.length; j++) { material = estimate.materials[j]; %>
+          <div> name:
+            <%=material.name%>
+              <br/> unitcost:
+              <%=material.unitcost%>
+                <br/> coverageSquareFeetPerUnit:
+                <%=material.coverageSquareFeetPerUnit%>
+                  <br/>
+                  <br/>
+          </div>
         </div>
-      </div>
-  </div>
-          
+          <% } %>
+            <br/>
+            <br/>
+            <form method="get" action="/coating">
+              <input type="submit" value="Return to list" class="btn btn-caution" />
+              <button onclick="printdiv()" class="btn btn-primary">Print this Estimate</button>
+            
+              <p style="width:80%">* Note : Please note total estimate value is calculated based on the expenses & costs of materials when this estimate was generated. The actual cost is subject to chage and may not match with this estimate.</p>
+            </form>             
+            
+            <script>
+                function printdiv(){
+                
+                var content = document.all.item("printEstimateDetails").innerHTML;
+                var oldBody = document.body.innerHTML;
+                document.body.innerHTML = "<html><head><title></title></head><body>"
+                +content
+                +"<p>* Note : Please note total estimate value is calculated based on the expenses & costs of materials when this estimate was generated. The actual cost is subject to chage and may not match with this estimate.</p>"
+                +"</body>";
+                window.print();
+                document.body.innerHTML = oldBody;
+                return false;
+                
+                }
+                </script> 
