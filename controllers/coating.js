@@ -16,6 +16,20 @@ api.get("/", (request, response) => {
     response.render("coating/index.ejs");
    })
 
+   api.get("/findall",  (req, res) => {
+    res.setHeader("Content-Type", "application/json")
+    const data = req.app.locals.coating.query
+    res.send(JSON.stringify(data))
+  })
+
+  api.get("/findone/:id", passport.isAuthenticated, (req, res) => {
+    res.setHeader("Content-Type", "application/json")
+    const id = parseInt(req.params.id, 10)
+    const data = req.app.locals.coating.query
+    const item = find(data, { _id: id })
+    res.send(JSON.stringify(item))
+  })
+
    api.get('/create', (req, res) => {
     LOG.info(`Handling GET /create${req}`)
     const item = new Model()
@@ -62,11 +76,11 @@ api.post('/delete/:id', passport.isAuthenticated, (req, res) => {
     const item = remove(data, { _id: id })
     console.log(`Permanently deleted item ${JSON.stringify(item)}`)
   }
-  return res.redirect("/delete")
+  return res.redirect("/coating")
 })
 
 // select      api.get('/select'---------unit 6
-api.get("/select", passport.isAuthenticated, function (req, res) {
+api.get("/select",  function (req, res) {
   res.render("coating/select.ejs")
 })
 
@@ -226,6 +240,26 @@ api.post("/save", passport.isAuthenticated, (req, res) => {
   data.push(item)
   LOG.info(`SAVING NEW estimate ${JSON.stringify(item)}`)
   return res.redirect("/coating")
+})
+
+// GET copyfrom ID
+api.get('/copyfrom/:id',  (req, res) => {
+  LOG.info(`Handling COPY FROM request ${req}`)
+  const id = parseInt(req.params.id, 10) // base 10
+  LOG.info(`Handling COPYFROM ID=${id}`)
+  const data = req.app.locals.coating.query
+  const item = find(data, { _id: id })
+  item.name = item.name + ' (new)'
+  if (!item) {
+    return res.end(notfoundstring) 
+  }
+  LOG.debug(`Copying from item ${JSON.stringify(item)}`)
+  res.render('coating/create',
+    {
+      title: 'Create From Existing',
+      layout: 'layout.ejs',
+      estimate: item
+    })
 })
 
 

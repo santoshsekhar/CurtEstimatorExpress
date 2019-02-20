@@ -22,11 +22,11 @@
 
 <p></p>
 <div id="materialList">
-  <% const origmatcount = estimate.materials.length; numUnits=0; var materialCost=0; %>
+  <% const origmatcount = coating.materials.length; numUnits=0; var materialCost=0; %>
     <span id="materialCount">
       <%=origmatcount%>
     </span> Material Entries
-    <% for (var imat=1; imat <= origmatcount; imat++) {  material = estimate.materials[imat-1];  %>
+    <% for (var imat=1; imat <= origmatcount; imat++) {  material = coating.materials[imat-1];  %>
       <div id="oneMaterial">
         <p></p>
         <div class=row>
@@ -159,12 +159,12 @@
 
 
 
-<% const origmisccount = estimate.miscellaneous.length; var miscCost=0; %>
+<% const origmisccount = coating.miscellaneous.length; var miscCost=0; %>
 <span id="miscCount">
   <%=origmisccount%>
 </span> Miscellaneous Entries
 <div id="miscList">
-  <% for (var imisc=1; imisc <= origmisccount; imisc++) {  entry = estimate.miscellaneous[imisc-1];  %>
+  <% for (var imisc=1; imisc <= origmisccount; imisc++) {  entry = coating.miscellaneous[imisc-1];  %>
     <div id="oneMiscEntry">
       <p></p>
       <div class=row>
