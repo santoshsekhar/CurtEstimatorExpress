@@ -1,51 +1,69 @@
-<br/>
-<div id="printEstimateDetails" style="width:80%">
-<br/>
-<h2>Estimate details</h2>
-<br/>
-<br/> ID:
-<%=  estimate._id %>
+<div class="container-fluid">
+  <div class=row>
+    <div class="col col-md-12">
+<h2>Estimate Details</h2>
+<div class="panel panel-default">
+  <div class="panel-heading"></div>
+  <div class="text-muted pull-right"></div>
+  <div class="panel-body">
+ID:
+<%=  coating._id %>
   <br> Name:
-  <%=estimate.name%>
-    <br/> location:
-    <%=estimate.location%>
-      <br/> squareFeet:
-      <%=estimate.squareFeet%>
-        <br/> materials:
+  <%=coating.name%>
+    <br/> Location:
+    <%=coating.location%>
+      <br/> SquareFeet :
+      <%=coating.squarefeet%>
         <br/>
-        <% for (let j = 0; j < estimate.materials.length; j++) { material = estimate.materials[j]; %>
-          <div> name:
-            <%=material.name%>
-              <br/> unitcost:
-              <%=material.unitcost%>
-                <br/> coverageSquareFeetPerUnit:
-                <%=material.coverageSquareFeetPerUnit%>
+        <br/>
+        <% for (let j = 0; j < coating.materials.length; j++) { material = coating.materials[j]; %>
+          <div> Name:
+            <%=material.Name%>
+              <br/> Unit Cost:
+              <%=material.UnitCost%>
+                <br/> CoverageSquareFeetPerUnit:
+                <%=material.CoverageSquareFeetPerUnit%> years
                   <br/>
                   <br/>
           </div>
-        </div>
           <% } %>
+          <br/>
+          Num Days:
+          <%=  coating.numberOfDays %>
+          <br>Hrs/Day:
+          <%=  coating.hoursWorkedPerDay %>
+          <br>Labor $/Hr:
+          <%=  coating.laborDollarsPerHour %>
+          <br>Num Rooms:
+          <%=  coating.numberHotelRooms %>
+          <br>Num nights:
+          <%=  coating.numberHotelNights %>
+          <br>Hotel $/night:
+          <%=  coating.hotelDollarsPerNight %>
+          <br>Food $/day:
+          <%=  coating.foodDollarsPerDay %>
+          <br>Num Vehicles:
+          <%=  coating.numberOfVehicles %>
+          <br>Miles/vehicle:
+          <%=  coating.milesPerVehicle %>
+          <br>$/mile:
+          <%=  coating.dollarsPerMile %>
+          <br/>
+          <br/>
+          <% for (let j = 0; j < coating.miscellaneous.length; j++) { miscellaneous = coating.miscellaneous[j]; %>
+            <div class="arrayItem">
+              <%= miscellaneous.name %>
+                = $ 
+                <%= miscellaneous.cost %>
+            </div>
+            <% } %>
+  </div>
+</div>
             <br/>
             <br/>
             <form method="get" action="/coating">
               <input type="submit" value="Return to list" class="btn btn-caution" />
-              <button onclick="printdiv()" class="btn btn-primary">Print this Estimate</button>
-            
-              <p style="width:80%">* Note : Please note total estimate value is calculated based on the expenses & costs of materials when this estimate was generated. The actual cost is subject to chage and may not match with this estimate.</p>
-            </form>             
-            
-            <script>
-                function printdiv(){
-                
-                var content = document.all.item("printEstimateDetails").innerHTML;
-                var oldBody = document.body.innerHTML;
-                document.body.innerHTML = "<html><head><title></title></head><body>"
-                +content
-                +"<p>* Note : Please note total estimate value is calculated based on the expenses & costs of materials when this estimate was generated. The actual cost is subject to chage and may not match with this estimate.</p>"
-                +"</body>";
-                window.print();
-                document.body.innerHTML = oldBody;
-                return false;
-                
-                }
-                </script> 
+            </form>
+  </div>
+</div>
+</div>

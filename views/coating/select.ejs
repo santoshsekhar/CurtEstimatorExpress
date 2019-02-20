@@ -7,28 +7,28 @@
             </a>
             <h2>Recent Estimates</h2>
             <p>There are
-                <%= coating.query.length %> coating.
+                <%= coatings.query.length %> coating.
                     <br/>
             </p>
             <div class="container-fluid">
                 <div class="row">
                         
-            <% for (var i = coating.query.length-1; i >= 0; i--) {   estimate = coating.query[i]; %>
+            <% for (var i = coatings.query.length-1; i >= 0; i--) {   coating = coatings.query[i]; %>
                 
                 <div class="col">
                 
                         ID:
-                        <%=  estimate._id %>
+                        <%=  coating._id %>
                             <br> Name:
-                            <%=estimate.name%>
+                            <%=coating.name%>
                                 <br/> Location:
-                                <%=estimate.location%>
+                                <%=coating.location%>
                                     <br/> SqFt:
-                                    <%=estimate.squareFeet%>
+                                    <%=coating.squareFeet%>
                                         <br/>
                                         
                                                 
-                                                <a href="/coating/copyfrom/<%= estimate._id  %>" class="btn btn-success"> Select </a>
+                                                <a href="/coating/copyfrom/<%= coatings._id  %>" class="btn btn-success"> Select </a>
                                                 <br>
                                                 <br>
                                             </div>        
@@ -38,6 +38,5 @@
             
             </div>
         </div>
-        <!-- </div>
-    </div>
-</div> -->
+
+        
