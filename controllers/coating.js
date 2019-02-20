@@ -40,7 +40,7 @@ api.get('/create',  (req, res) => {
 })
 
 
-api.get('/delete/:id',  (req, res) => {
+api.get('/delete/:id', passport.isAuthenticated, (req, res) => {
   LOG.info(`Handling GET /delete/:id ${req}`)
   const id = parseInt(req.params.id, 10) 
   const data = req.app.locals.coatings.query
@@ -71,7 +71,7 @@ api.get('/details/:id',  (req, res) => {
     })
 })
 
-api.get('/edit/:id',  (req, res) => {
+api.get('/edit/:id', passport.isAuthenticated, (req, res) => {
   LOG.info(`Handling GET /edit/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
   const data = req.app.locals.coatings.query
