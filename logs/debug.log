@@ -6902,3 +6902,54 @@ SyntaxError: Invalid regular expression: missing /
 2019-02-20T15:13:33.164Z - debug: 3 estimates seeded
 2019-02-20T15:13:33.165Z - debug: 1 users registered
 2019-02-20T15:13:33.450Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-24T05:13:39.060Z - info: Environment isProduction =  true
+2019-02-24T05:13:39.336Z - debug: START routing
+2019-02-24T05:13:39.421Z - debug: END routing
+2019-02-24T05:13:39.528Z - info: Starting controllers/user.js.
+2019-02-24T05:13:39.530Z - debug: START user routing
+2019-02-24T05:13:39.531Z - debug: END user routing
+2019-02-24T05:13:39.531Z - info: Loaded routing.
+2019-02-24T05:13:41.017Z - info: START seeder.
+2019-02-24T05:13:41.031Z - debug: Registering cgeadmin@mail.com
+2019-02-24T05:13:41.049Z - debug: 3 estimates seeded
+2019-02-24T05:13:41.049Z - debug: 1 users registered
+2019-02-24T05:13:41.607Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-24T05:13:44.211Z - debug: GET /
+2019-02-24T05:13:44.254Z - debug: Request to /
+2019-02-24T05:13:47.807Z - debug: GET /login
+2019-02-24T05:13:49.807Z - debug: GET /contact
+2019-02-24T08:42:03.909Z - debug: GET /
+2019-02-24T08:42:03.913Z - debug: Request to /
+2019-02-24T08:42:07.178Z - debug: GET /contact
+2019-02-24T08:42:47.711Z - info: Environment isProduction =  true
+2019-02-24T08:42:47.939Z - debug: START routing
+2019-02-24T08:42:47.991Z - debug: END routing
+2019-02-24T08:42:48.066Z - info: Starting controllers/user.js.
+2019-02-24T08:42:48.066Z - debug: START user routing
+2019-02-24T08:42:48.066Z - debug: END user routing
+2019-02-24T08:42:48.066Z - info: Loaded routing.
+2019-02-24T08:42:48.689Z - info: START seeder.
+2019-02-24T08:42:48.693Z - debug: Registering cgeadmin@mail.com
+2019-02-24T08:42:48.699Z - debug: 3 estimates seeded
+2019-02-24T08:42:48.699Z - debug: 1 users registered
+2019-02-24T08:42:49.063Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-24T08:42:53.445Z - debug: GET /contact
+2019-02-24T08:42:54.580Z - debug: GET /images/favicon-32x32.png
+2019-02-24T08:43:24.650Z - debug: POST /contact
+2019-02-24T08:43:25.166Z - debug: GET /contact
+2019-02-24T08:54:54.355Z - info: Environment isProduction =  true
+2019-02-24T08:54:54.547Z - debug: START routing
+2019-02-24T08:54:54.591Z - debug: END routing
+2019-02-24T08:54:54.652Z - info: Starting controllers/user.js.
+2019-02-24T08:54:54.653Z - debug: START user routing
+2019-02-24T08:54:54.654Z - debug: END user routing
+2019-02-24T08:54:54.654Z - info: Loaded routing.
+2019-02-24T08:54:55.291Z - info: START seeder.
+2019-02-24T08:54:55.296Z - debug: Registering cgeadmin@mail.com
+2019-02-24T08:54:55.303Z - debug: 3 estimates seeded
+2019-02-24T08:54:55.303Z - debug: 1 users registered
+2019-02-24T08:54:55.688Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-24T08:55:01.233Z - debug: GET /contact
+2019-02-24T08:55:03.518Z - debug: GET /images/favicon-32x32.png
+2019-02-24T08:55:15.065Z - debug: POST /contact
+2019-02-24T08:55:15.552Z - debug: GET /contact

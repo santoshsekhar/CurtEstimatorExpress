@@ -20,13 +20,13 @@ router.get('/contact',  (req, res) =>{
 
 router.post('/contact', (req, res) => {
     
-    var api_key = '7fe28429b1d67b32778c789be3e12111-9ce9335e-8d6bbe6c';
-var domain = 'sandboxcf55344c2384479cb8b17af63ef0ac4b.mailgun.org';
+    var api_key = 'key-bf36947666ad7ed146a91951252116ed';
+var domain = 'sandbox035d72cee28e4d1dacab0a8ee9079584.mailgun.org';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
  
 var data = {
   from: 'Mailer <s531519@nwmissouri.edu>',
-  to: 'santoshsekhar330@gmail.com',
+  to: 'yashwanth.reddyb94@gmail.com',
   subject: req.body.firstname + ' ' + req.body.lastname,
   html: `<html><h1>
   contact Details
