@@ -28,11 +28,11 @@
                     <br/>
                     <%=coating.materials.length%> materials
                       <% for (let j = 0; j < coating.materials.length; j++) { material = coating.materials[j]; %>
-                        <div class="arrayItem"> Name:
-                          <%= material.name %>
-                            <br/>location:
+                        <div class="arrayItem"> Material name:
+                          <%= material.product %>
+                            <br/>Unit Cost:
                             <%= material.unitcost %>
-                              <br/>squareFeet:
+                              <br/>Sqft/unit
                               <%= material.coversquareFeetSquareFeetPerUnit %>
                         </div>
                         <br/>

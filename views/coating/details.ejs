@@ -17,12 +17,12 @@ ID:
         <br/>
         <br/>
         <% for (let j = 0; j < coating.materials.length; j++) { material = coating.materials[j]; %>
-          <div> Name:
-            <%=material.Name%>
+          <div>Material name:
+            <%=material.product%>
               <br/> Unit Cost:
-              <%=material.UnitCost%>
+              <%=material.unitcost%>
                 <br/> CoverageSquareFeetPerUnit:
-                <%=material.CoverageSquareFeetPerUnit%> years
+                <%=material.coverageSquareFeetPerUnit%> 
                   <br/>
                   <br/>
           </div>
@@ -57,6 +57,8 @@ ID:
                 <%= miscellaneous.cost %>
             </div>
             <% } %>
+            <!-- <br>total cost:
+          <%=  coating.estimateCost %> -->
   </div>
 </div>
             <br/>

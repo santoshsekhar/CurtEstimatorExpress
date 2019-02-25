@@ -44,13 +44,13 @@
           </div>
           <div class="col col-xs-4">
             <div class="form-group">
-              <label for="coverageSquareFeetPerUnit" name="coverageLabel">Sqft/unit</label>
+              <label for="coverageSquareFeetPerUnit" name="coverageLabel">Unit</label>
               <input onchange="onEstimateChange()" type="number" class="form-control" id="coverageSquareFeetPerUnit<%=imat%>" step="1"
                 value="<%= material.coverageSquareFeetPerUnit %>" name="coverageSquareFeetPerUnit" min=1 max=50000>
             </div>
           </div>
         </div>
-        <span id="numUnits<%=imat%>"></span> units =
+       Cost for  <span id="numUnits<%=imat%>"></span> Sqft/unit =
         <span id="oneMaterialCost<%=imat%>"></span>
         <p></p>
       </div>
@@ -191,7 +191,7 @@
                     </div>
                     <div class="col col-xs-4">
                         <div class="form-group">
-                            <label for="Cost" name="CostLabel">miscCount</label>
+                            <label for="Cost" name="CostLabel">Cost</label>
                             <input onchange="onMissChange()" type="number" class="form-control" id="Cost<%=iEntry%>" name="Cost" value="<%= misscell.cost %>"
                                 required>
                         </div>
@@ -213,9 +213,9 @@
     Total Estimate Cost =
     <span id="estimateCost"></span>
 </h4>
-<h4>Cost per square Feet=
+<!-- <h4>Cost per square Feet=
     <span id="squareFeetCost"></span>
-</h4>
+</h4> -->
 
 <!-- Multiplier-->
 <div class="form-group">
@@ -225,13 +225,13 @@
 </div>
 
 <!-- Total Proce -->
-<h4>
+<!-- <h4>
     Bid Price=
     <span id="bidPrice"></span>
 </h4>
 <h4>Bid per square feet=
     <span id="bidPricesqrt"></span>
-</h4>
+</h4> -->
 
 
 
