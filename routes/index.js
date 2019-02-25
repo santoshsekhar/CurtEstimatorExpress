@@ -26,10 +26,10 @@ var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
  
 var data = {
   from: 'Mailer <s531519@nwmissouri.edu>',
-  to: 'yashwanth.reddyb94@gmail.com',
+  to: 'itsmemailer@gmail.com',
   subject: req.body.firstname + ' ' + req.body.lastname,
   html: `<html><h1>
-  contact Details
+  Contact Details
 </h1>
 
 <table>
@@ -40,10 +40,6 @@ var data = {
   <tr>
       <td>Last Name:</td>
       <td>${req.body.lastname}</td>
-  </tr>
-  <tr>
-      <td>Date of Birth</td>
-      <td>${req.body.dob}</td>
   </tr>
   <tr>
       <td>Email</td>
