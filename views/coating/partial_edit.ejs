@@ -44,13 +44,13 @@
           </div>
           <div class="col col-xs-4">
             <div class="form-group">
-              <label for="coverageSquareFeetPerUnit" name="coverageLabel">Sqft/unit</label>
+              <label for="coverageSquareFeetPerUnit" name="coverageLabel">Unit</label>
               <input onchange="onEstimateChange()" type="number" class="form-control" id="coverageSquareFeetPerUnit<%=imat%>" step="1"
                 value="<%= material.coverageSquareFeetPerUnit %>" name="coverageSquareFeetPerUnit" min=1 max=50000>
             </div>
           </div>
         </div>
-        <span id="numUnits<%=imat%>"></span> units =
+       Cost for  <span id="numUnits<%=imat%>"></span> Sqft/unit =
         <span id="oneMaterialCost<%=imat%>"></span>
         <p></p>
       </div>
