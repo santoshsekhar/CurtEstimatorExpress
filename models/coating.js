@@ -98,7 +98,7 @@ hotelDollarsPerNight: {
   dollarsPerMile: {
     type: Number,
     required: false,
-    default: 0.50
+    default: 1
   },
 
 miscellaneous: {
@@ -125,6 +125,12 @@ miscellaneous: {
   required: true,
   default: 0.40
 },
+// estimateCost:{
+//   type:Number,
+//   required:false,
+//   default: 0
+
+// },
 
  })
 module.exports = mongoose.model('Coating', EstimateSchema)

@@ -71,7 +71,7 @@ api.get('/details/:id',  (req, res) => {
     })
 })
 
-api.get('/edit/:id', passport.isAuthenticated, (req, res) => {
+api.get('/edit/:id', passport.isAuthenticated,(req, res) => {
   LOG.info(`Handling GET /edit/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
   const data = req.app.locals.coatings.query
@@ -99,12 +99,12 @@ api.post('/save',  (req, res) => {
   item.squareFeet = parseInt(req.body.squareFeet, 10)
   item.materials = []
   item.materials.length = 0
-  if (req.body.name.length > 0) {
-    for (let count = 0; count < req.body.name.length; count++) {
+  if (req.body.product.length > 0) {
+    for (let count = 0; count < req.body.product.length; count++) {
       item.materials.push(
         {
-          name: req.body.name[count],
-          unitcost: req.body.unitcost,
+          product: req.body.product[count],
+          unitcost: parseInt(req.body.unitcost[count],10),
           coverageSquareFeetPerUnit: parseInt(req.body.coverageSquareFeetPerUnit[count], 10)
         }
       )
@@ -121,18 +121,20 @@ api.post('/save',  (req, res) => {
     item.dollarsPerMile = parseInt(req.body.dollarsPerMile, 10);
     item.miscellaneous = []
     item.miscellaneous.length = 0
+    // console.log("---------------------------------------------"+req.body)
     if (req.body.miscellaneousName.length > 0) {
       for (let count = 0; count < req.body.miscellaneousName.length; count++) {
-        item.materials.push(
+        item.miscellaneous.push(
           {
-            misc: req.body.miscellaneousName[count],
-            cost: parseInt(req.body.cost, 10)
+            name: req.body.miscellaneousName[count],
+            cost: parseInt(req.body.Cost, 10)
 
           }
         )
       }
     }
     item.multiplier = parseInt(req.body.multiplier, 10)
+    //item.estimateCost = parseInt(req.body.estimateCost, 10)
     data.push(item)
     LOG.info(`SAVING NEW estimate ${JSON.stringify(item)}`)
     return res.redirect('/coating')
@@ -162,16 +164,15 @@ api.post('/save/:id',  (req, res) => {
   item.numberOfVehicles = parseInt(req.body.numberOfVehicles, 10)
   item.milesPerVehicle = parseInt(req.body.milesPerVehicle, 10)
   item.dollarsPerMile = parseFloat(req.body.dollarsPerMile, 10)
-  item.multiplier = parseFloat(req.body.multiplier)
   item.materials = []
   item.materials.length = 0
-  if (req.body.name.length > 0) {
-    for (let count = 0; count < req.body.name.length; count++) {
+  if (req.body.product.length > 0) {
+    for (let count = 0; count < req.body.product.length; count++) {
       item.materials.push(
         {
-          name: req.body.name[count],
-          location: req.body.location[count],
-          squareFeet: parseInt(req.body.squareFeet[count], 10)
+          product: req.body.product[count],
+          unitcost: parseInt(req.body.unitcost[count],10),
+          coverageSquareFeetPerUnit: parseInt(req.body.coverageSquareFeetPerUnit[count], 10)
         }
       )
     }
@@ -179,20 +180,22 @@ api.post('/save/:id',  (req, res) => {
 
   item.miscellaneous = []
   item.miscellaneous.length = 0//replacewithnewarray
-  if (req.body.misc.length > 1) {
-    for (letcount = 0; count < req.body.misc.length; count++) {
-      if (typeof (parseInt(req.body.cost[count], 10)) === 'number' && parseInt(req.body.cost[count], 10) > 0) {
+  if (req.body.miscellaneousName.length > 1) {
+    for (let count = 0; count < req.body.miscellaneousName.length; count++) {
+      // if (typeof (parseInt(req.body.cost[count], 10)) === 'number' && parseInt(req.body.cost[count], 10) > 0) {
         item.miscellaneous.push(
           {
-            misc: req.body.misc[count],
-            cost: parseInt(req.body.cost[count], 10)
+            name: req.body.miscellaneousName[count],
+            cost: parseInt(req.body.Cost, 10)
           }
         )
-      }
+      // }
     }
   }
+  item.multiplier = parseFloat(req.body.multiplier)
+  data.push(item)
   LOG.info(`SAVINGUPDATEDESTIMATE${JSON.stringify(item)}`)
-  returnres.redirect('/coating')
+  return res.redirect('/coating')
 })
 
 api.post('/delete/:id',  (req, res) => {
@@ -237,24 +240,24 @@ api.get('/copyfrom/:id',(req,res)=>{
   })
   })
 
-  api.get('/copyfrom/:id',  (req, res) => {
-    LOG.info(`Handling COPY FROM request ${req}`)
-    const id = parseInt(req.params.id, 10) // base 10
-    LOG.info(`Handling COPYFROM ID=${id}`)
-    const data = req.app.locals.coatings.query
-    const item = find(data, { _id: id })
-    item.name = item.name + ' (new)'
-    if (!item) {
-      return res.end(notfoundstring) 
-    }
-    LOG.debug(`Copying from item ${JSON.stringify(item)}`)
-    res.render('coating/create',
-      {
-        title: 'Create From Existing',
-        layout: 'layout.ejs',
-        coating : item
-      })
-  })
+  // api.get('/copyfrom/:id',  (req, res) => {
+  //   LOG.info(`Handling COPY FROM request ${req}`)
+  //   const id = parseInt(req.params.id, 10) // base 10
+  //   LOG.info(`Handling COPYFROM ID=${id}`)
+  //   const data = req.app.locals.coatings.query
+  //   const item = find(data, { _id: id })
+  //   item.name = item.name + ' (new)'
+  //   if (!item) {
+  //     return res.end(notfoundstring) 
+  //   }
+  //   LOG.debug(`Copying from item ${JSON.stringify(item)}`)
+  //   res.render('coating/create',
+  //     {
+  //       title: 'Create From Existing',
+  //       layout: 'layout.ejs',
+  //       coating : item
+  //     })
+  // })
   
 
 
