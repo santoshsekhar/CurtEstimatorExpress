@@ -6447,3 +6447,33 @@ SyntaxError: Unexpected token :
 2019-02-25T05:17:28.750Z - debug: GET /coating
 2019-02-25T05:17:30.354Z - debug: GET /coating
 >>>>>>> 67561a1e8f6daad57408980d33860f49116a1871
+2019-02-25T17:32:21.769Z - info: Environment isProduction =  true
+2019-02-25T17:32:22.140Z - debug: START routing
+2019-02-25T17:32:22.197Z - debug: END routing
+2019-02-25T17:32:22.390Z - info: Starting controllers/user.js.
+2019-02-25T17:32:22.391Z - debug: START user routing
+2019-02-25T17:32:22.392Z - debug: END user routing
+2019-02-25T17:32:22.393Z - info: Loaded routing.
+2019-02-25T17:32:22.910Z - info: START seeder.
+2019-02-25T17:32:22.921Z - debug: Registering cgeadmin@mail.com
+2019-02-25T17:32:22.936Z - debug: 3 estimates seeded
+2019-02-25T17:32:22.936Z - debug: 1 users registered
+2019-02-25T17:32:23.213Z - debug: User already exists:  cgeadmin@mail.com
+2019-02-25T17:32:27.807Z - info: Environment isProduction =  true
+2019-02-25T17:32:28.160Z - debug: START routing
+2019-02-25T17:32:28.224Z - debug: END routing
+2019-02-25T17:32:28.313Z - info: Starting controllers/user.js.
+2019-02-25T17:32:28.314Z - debug: START user routing
+2019-02-25T17:32:28.315Z - debug: END user routing
+2019-02-25T17:32:28.317Z - info: Loaded routing.
+2019-02-25T17:32:28.771Z - info: START seeder.
+2019-02-25T17:32:28.779Z - debug: Registering cgeadmin@mail.com
+2019-02-25T17:32:28.799Z - debug: 3 estimates seeded
+2019-02-25T17:32:28.799Z - debug: 1 users registered
+2019-02-25T17:32:29.082Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-02-25T17:32:32.838Z - debug: GET /
+2019-02-25T17:32:32.879Z - debug: Request to /
+2019-02-25T17:32:33.065Z - debug: GET /css/main.css
+2019-02-25T17:32:33.079Z - debug: GET /css/404.css
+2019-02-25T17:32:34.023Z - debug: GET /images/coating2.jpg
+2019-02-25T17:32:34.120Z - debug: GET /images/manifest.json
