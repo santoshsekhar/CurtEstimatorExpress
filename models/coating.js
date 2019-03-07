@@ -23,6 +23,7 @@ var Schema = mongoose.Schema
  materials: {
   type: Array,
   required: false,
+  positive: true,
   default: [
     {
       product: 'A',
