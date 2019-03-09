@@ -17,7 +17,11 @@ router.get('/contact',  (req, res) =>{
         title: ''
       })   ;
     });
-
+    router.get('/login',  (req, res) =>{
+        res.render('account/login', {
+            title: ''
+          })   ;
+        });
 router.post('/contact', (req, res) => {
     
     var api_key = 'key-bf36947666ad7ed146a91951252116ed';
@@ -75,9 +79,9 @@ var data = {
 };
  
 mailgun.messages().send(data, function (error, body) {
-  console.log(body);
+  console.log(body)
+  res.render('account/login',{title:'Password has been sent to admin'});
 });
-res.redirect('/login')
 })
 
 
