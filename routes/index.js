@@ -14,9 +14,9 @@ router.use('/about', require('../controllers/about.js'))
 
 router.get('/contact',  (req, res) =>{
     res.render('contact/index', {
-        title: 'Contact Us'
-      })    
-    })
+        title: ''
+      })   ;
+    });
 
 router.post('/contact', (req, res) => {
     
@@ -53,9 +53,9 @@ var data = {
 };
  
 mailgun.messages().send(data, function (error, body) {
-  console.log(body);
+  console.log(body)
+  res.render('contact/index',{title:'Email sent successfully'});
 });
-res.redirect('/contact')
 })
 
 router.post('/forgot', (req, res) => {
