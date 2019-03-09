@@ -182,3 +182,149 @@
 2019-03-09T05:33:56.496Z - debug: Request to /
 2019-03-09T05:34:05.354Z - debug: GET /login
 2019-03-09T05:34:08.367Z - debug: POST /forgot
+2019-03-09T05:35:41.205Z - info: Environment isProduction =  true
+2019-03-09T05:35:41.567Z - debug: START routing
+2019-03-09T05:35:41.636Z - debug: END routing
+2019-03-09T05:35:41.751Z - info: Starting controllers/user.js.
+2019-03-09T05:35:41.753Z - debug: START user routing
+2019-03-09T05:35:41.753Z - debug: END user routing
+2019-03-09T05:35:41.754Z - info: Loaded routing.
+2019-03-09T05:35:42.610Z - info: START seeder.
+2019-03-09T05:35:42.622Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:35:42.639Z - debug: 3 estimates seeded
+2019-03-09T05:35:42.639Z - debug: 1 users registered
+2019-03-09T05:35:43.066Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-09T05:35:49.190Z - debug: GET /
+2019-03-09T05:35:49.277Z - debug: Request to /
+2019-03-09T05:35:53.974Z - debug: GET /login
+2019-03-09T05:35:56.555Z - debug: POST /forgot
+2019-03-09T05:36:00.863Z - debug: POST /forgot
+2019-03-09T05:39:28.456Z - info: Environment isProduction =  true
+2019-03-09T05:39:28.932Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Fri Mar 08 2019 23:39:28 GMT-0600 (Central Standard Time), pid=9852, uid=null, gid=null, cwd=C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js], rss=77234176, heapTotal=59183104, heapUsed=36317736, external=37464933, loadavg=[0, 0, 0], uptime=37741.4039936
+Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1351:14)
+    at listenInCluster (net.js:1392:12)
+    at Server.listen (net.js:1476:7)
+    at Function.listen (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js:156:5)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Function.Module.runMain (module.js:684:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+2019-03-09T05:39:28.721Z - debug: START routing
+2019-03-09T05:39:28.772Z - debug: END routing
+2019-03-09T05:39:28.895Z - info: Starting controllers/user.js.
+2019-03-09T05:39:28.897Z - debug: START user routing
+2019-03-09T05:39:28.899Z - debug: END user routing
+2019-03-09T05:39:28.899Z - info: Loaded routing.
+2019-03-09T05:39:30.182Z - info: START seeder.
+2019-03-09T05:39:30.196Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:39:30.220Z - debug: 3 estimates seeded
+2019-03-09T05:39:30.221Z - debug: 1 users registered
+2019-03-09T05:39:30.884Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-09T05:39:53.284Z - debug: GET /
+2019-03-09T05:39:53.344Z - debug: Request to /
+2019-03-09T05:40:00.253Z - debug: GET /contact
+2019-03-09T05:40:18.860Z - debug: POST /contact
+2019-03-09T05:40:32.030Z - debug: GET /login
+2019-03-09T05:40:34.289Z - debug: POST /forgot
+2019-03-09T05:41:12.294Z - info: Environment isProduction =  true
+2019-03-09T05:41:12.855Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Fri Mar 08 2019 23:41:12 GMT-0600 (Central Standard Time), pid=9768, uid=null, gid=null, cwd=C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js], rss=73854976, heapTotal=60231680, heapUsed=33504192, external=36888821, loadavg=[0, 0, 0], uptime=37845.3267105
+Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1351:14)
+    at listenInCluster (net.js:1392:12)
+    at Server.listen (net.js:1476:7)
+    at Function.listen (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js:156:5)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Function.Module.runMain (module.js:684:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+2019-03-09T05:41:12.630Z - debug: START routing
+2019-03-09T05:41:12.702Z - debug: END routing
+2019-03-09T05:41:12.828Z - info: Starting controllers/user.js.
+2019-03-09T05:41:12.830Z - debug: START user routing
+2019-03-09T05:41:12.831Z - debug: END user routing
+2019-03-09T05:41:12.831Z - info: Loaded routing.
+2019-03-09T05:41:13.531Z - info: START seeder.
+2019-03-09T05:41:13.541Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:41:13.557Z - debug: 3 estimates seeded
+2019-03-09T05:41:13.558Z - debug: 1 users registered
+2019-03-09T05:41:13.967Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-03-09T05:41:24.164Z - debug: GET /
+2019-03-09T05:41:24.230Z - debug: Request to /
+2019-03-09T05:41:30.545Z - debug: GET /login
+2019-03-09T05:41:32.514Z - debug: POST /forgot
+2019-03-09T05:43:16.742Z - info: Environment isProduction =  true
+2019-03-09T05:43:17.292Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Fri Mar 08 2019 23:43:17 GMT-0600 (Central Standard Time), pid=4492, uid=null, gid=null, cwd=C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js], rss=77070336, heapTotal=59183104, heapUsed=36302328, external=37464933, loadavg=[0, 0, 0], uptime=37969.7571366
+Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1351:14)
+    at listenInCluster (net.js:1392:12)
+    at Server.listen (net.js:1476:7)
+    at Function.listen (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js:156:5)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Function.Module.runMain (module.js:684:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+2019-03-09T05:43:17.058Z - debug: START routing
+2019-03-09T05:43:17.128Z - debug: END routing
+2019-03-09T05:43:17.250Z - info: Starting controllers/user.js.
+2019-03-09T05:43:17.251Z - debug: START user routing
+2019-03-09T05:43:17.252Z - debug: END user routing
+2019-03-09T05:43:17.252Z - info: Loaded routing.
+2019-03-09T05:43:18.044Z - info: START seeder.
+2019-03-09T05:43:18.062Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:43:18.111Z - debug: 3 estimates seeded
+2019-03-09T05:43:18.112Z - debug: 1 users registered
+2019-03-09T05:43:18.548Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-09T05:43:22.161Z - debug: GET /
+2019-03-09T05:43:22.226Z - debug: Request to /
+2019-03-09T05:43:30.138Z - debug: GET /login
+2019-03-09T05:43:32.543Z - debug: POST /forgot
+2019-03-09T05:46:10.886Z - info: Environment isProduction =  true
+2019-03-09T05:46:11.286Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Fri Mar 08 2019 23:46:11 GMT-0600 (Central Standard Time), pid=10648, uid=null, gid=null, cwd=C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js], rss=74711040, heapTotal=59707392, heapUsed=34177080, external=37006864, loadavg=[0, 0, 0], uptime=38143.7582871
+Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1351:14)
+    at listenInCluster (net.js:1392:12)
+    at Server.listen (net.js:1476:7)
+    at Function.listen (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js:156:5)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Function.Module.runMain (module.js:684:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+2019-03-09T05:46:11.163Z - debug: START routing
+2019-03-09T05:46:11.196Z - debug: END routing
+2019-03-09T05:46:11.265Z - info: Starting controllers/user.js.
+2019-03-09T05:46:11.266Z - debug: START user routing
+2019-03-09T05:46:11.266Z - debug: END user routing
+2019-03-09T05:46:11.267Z - info: Loaded routing.
+2019-03-09T05:46:12.135Z - info: START seeder.
+2019-03-09T05:46:12.144Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:46:12.159Z - debug: 3 estimates seeded
+2019-03-09T05:46:12.159Z - debug: 1 users registered

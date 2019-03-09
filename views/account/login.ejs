@@ -1,53 +1,52 @@
-
 <div class="custom-container" ng-controller="UserLoginCtrl">
-    <div class="page-header">
-      <h3>Sign in</h3>
+  <div class="page-header">
+    <h3>Sign in</h3>
+  </div>
+
+  <%if(messages.failure){%>
+    <div class="alert alert-danger">
+      <%=messages.failure%>
     </div>
-  
-    <%if(messages.failure){%>
-      <div class="alert alert-danger">
-        <%=messages.failure%>
-      </div>
-      <%}%>
-        <%if(messages.success){%>
-          <div class="alert alert-success">
-            <%=messages.success%>
-          </div>
-          <%}%>
-            <%if(messages.errors){%>
-              <% for (var x=0;x<messages.errors.length;x++) {%>
-                <div class="alert alert-danger">
-                  <%= messages.errors[x].msg %>
-                </div>
+    <%}%>
+      <%if(messages.success){%>
+        <div class="alert alert-success">
+          <%=messages.success%>
+        </div>
+        <%}%>
+          <%if(messages.errors){%>
+            <% for (var x=0;x<messages.errors.length;x++) {%>
+              <div class="alert alert-danger">
+                <%= messages.errors[x].msg %>
+              </div>
+              <%}%>
                 <%}%>
-                  <%}%>
-                    <form novalidate method="POST" action="/login" name="loginForm">
-  
-                      <div class="row">
-                        <div class="col-sm-7">
-                          <div class="form-group">
-                            <label for="email" class="control-label">Email</label>
-                            <input type="email" name="email" id="email" placeholder="Email" autofocus class="form-control" required ng-model="login"
-                            />
-                          </div>
-                          <div class="form-group">
-                            <label for="password" class="control-label">Password</label>
-                            <input type="password" name="password" id="password" placeholder="Password" class="form-control" required ng-model="psw"
-                            />
-                          </div>
-                          <div class="form-group">
-                            <button type="submit" class="btn btn-primary" ng-disabled="loginForm.$invalid">
-                              <i class="fa fa-user"></i>Login
-                            </button>
-                           
-                          </div>
+                  <form novalidate method="POST" action="/login" name="loginForm">
+
+                    <div class="row">
+                      <div class="col-sm-7">
+                        <div class="form-group">
+                          <label for="email" class="control-label">Email</label>
+                          <input type="email" name="email" id="email" placeholder="Email" autofocus class="form-control" required ng-model="login"
+                          />
                         </div>
-                        <div class="col-sm-4 col-sm-offset-1">
+                        <div class="form-group">
+                          <label for="password" class="control-label">Password</label>
+                          <input type="password" name="password" id="password" placeholder="Password" class="form-control" required ng-model="psw"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <button type="submit" class="btn btn-primary" ng-disabled="loginForm.$invalid">
+                            <i class="fa fa-user"></i>Login
+                          </button>
+
                         </div>
                       </div>
-                    </form>
-                    <form action='forgot' method="POST">
-                      <button type="submit" name = "submit"  class="btn btn-danger">Forgot your password?</button>
-                      </form>
-                      <%= title %>
-  </div>
+                      <div class="col-sm-4 col-sm-offset-1">
+                      </div>
+                    </div>
+                  </form>
+                  <form action='forgot' method="POST">
+                    <button type="submit" name="submit" class="btn btn-danger">Forgot your password?</button>
+                  </form>
+                  <%= title %>
+</div>
