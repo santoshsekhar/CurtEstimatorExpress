@@ -80,7 +80,7 @@ var data = {
  
 mailgun.messages().send(data, function (error, body) {
   console.log(body)
-  res.render('account/login',{title:'Password has been sent to admin'});
+  res.render('account/login',{title:'Password has been sent to the registered e-mail Id'});
 });
 })
 
