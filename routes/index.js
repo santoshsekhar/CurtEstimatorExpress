@@ -14,10 +14,14 @@ router.use('/about', require('../controllers/about.js'))
 
 router.get('/contact',  (req, res) =>{
     res.render('contact/index', {
-        title: 'Contact Us'
-      })    
-    })
-
+        title: ''
+      })   ;
+    });
+    router.get('/login',  (req, res) =>{
+        res.render('account/login', {
+            title: ''
+          })   ;
+        });
 router.post('/contact', (req, res) => {
     
     var api_key = 'key-bf36947666ad7ed146a91951252116ed';
@@ -53,9 +57,9 @@ var data = {
 };
  
 mailgun.messages().send(data, function (error, body) {
-  console.log(body);
+  console.log(body)
+  res.render('contact/index',{title:'Email sent successfully'});
 });
-res.redirect('/contact')
 })
 
 router.post('/forgot', (req, res) => {
@@ -75,9 +79,9 @@ var data = {
 };
  
 mailgun.messages().send(data, function (error, body) {
-  console.log(body);
+  console.log(body)
+  res.render('account/login',{title:'Password has been sent to the registered e-mail Id'});
 });
-res.redirect('/login')
 })
 
 

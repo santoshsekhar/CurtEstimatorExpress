@@ -1,73 +1,322 @@
-2019-02-25T07:18:23.286Z - info: Environment isProduction =  true
-2019-02-25T07:18:23.587Z - debug: START routing
-2019-02-25T07:18:23.630Z - debug: END routing
-2019-02-25T07:18:23.749Z - info: Starting controllers/user.js.
-2019-02-25T07:18:23.752Z - debug: START user routing
-2019-02-25T07:18:23.754Z - debug: END user routing
-2019-02-25T07:18:23.754Z - info: Loaded routing.
-2019-02-25T07:18:24.488Z - info: START seeder.
-2019-02-25T07:18:24.497Z - debug: Registering cgeadmin@mail.com
-2019-02-25T07:18:24.517Z - debug: 3 estimates seeded
-2019-02-25T07:18:24.519Z - debug: 1 users registered
-2019-02-25T07:18:24.965Z - info: User with email: cgeadmin@mail.com successfully registered.
-2019-02-25T07:18:35.419Z - debug: GET /
-2019-02-25T07:18:35.529Z - debug: Request to /
-2019-02-25T07:18:38.525Z - debug: GET /login
-2019-02-25T07:20:40.815Z - debug: GET /forgot
-2019-02-25T07:20:43.190Z - debug: GET /favicon.ico
-2019-02-25T07:30:50.982Z - info: Environment isProduction =  true
-2019-02-25T07:30:51.284Z - error: uncaughtException: Unexpected end of input date=Mon Feb 25 2019 01:30:51 GMT-0600 (Central Standard Time), pid=3772, uid=null, gid=null, cwd=C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js], rss=70213632, heapTotal=57597952, heapUsed=28320096, external=36615880, loadavg=[0, 0, 0], uptime=1614479.8816975
-C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\routes\index.js:81
-});
-  ^
-
-SyntaxError: Unexpected end of input
-    at createScript (vm.js:80:10)
-    at Object.runInThisContext (vm.js:139:10)
-    at Module._compile (module.js:607:28)
-    at Object.Module._extensions..js (module.js:654:10)
-    at Module.load (module.js:556:32)
-    at tryModuleLoad (module.js:499:12)
-    at Function.Module._load (module.js:491:3)
-    at Module.require (module.js:587:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js:144:16)
+2019-03-09T05:02:16.338Z - info: Environment isProduction =  true
+2019-03-09T05:02:16.653Z - debug: START routing
+2019-03-09T05:02:16.696Z - debug: END routing
+2019-03-09T05:02:16.783Z - info: Starting controllers/user.js.
+2019-03-09T05:02:16.784Z - debug: START user routing
+2019-03-09T05:02:16.785Z - debug: END user routing
+2019-03-09T05:02:16.786Z - info: Loaded routing.
+2019-03-09T05:02:17.506Z - info: START seeder.
+2019-03-09T05:02:17.524Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:02:17.554Z - debug: 3 estimates seeded
+2019-03-09T05:02:17.555Z - debug: 1 users registered
+2019-03-09T05:02:17.984Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-09T05:02:26.812Z - debug: GET /
+2019-03-09T05:02:26.961Z - debug: Request to /
+2019-03-09T05:02:27.654Z - debug: GET /images/favicon-32x32.png
+2019-03-09T05:02:28.444Z - debug: GET /contact
+2019-03-09T05:02:43.300Z - debug: POST /contact
+2019-03-09T05:02:44.414Z - debug: GET /contact
+2019-03-09T05:03:44.347Z - info: Environment isProduction =  true
+2019-03-09T05:03:44.632Z - debug: START routing
+2019-03-09T05:03:44.679Z - debug: END routing
+2019-03-09T05:03:44.754Z - info: Starting controllers/user.js.
+2019-03-09T05:03:44.755Z - debug: START user routing
+2019-03-09T05:03:44.756Z - debug: END user routing
+2019-03-09T05:03:44.756Z - info: Loaded routing.
+2019-03-09T05:03:45.733Z - info: START seeder.
+2019-03-09T05:03:45.749Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:03:45.789Z - debug: 3 estimates seeded
+2019-03-09T05:03:45.790Z - debug: 1 users registered
+2019-03-09T05:03:46.203Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-03-09T05:03:50.408Z - debug: GET /contact
+2019-03-09T05:03:52.093Z - debug: GET /images/favicon-32x32.png
+2019-03-09T05:03:56.029Z - debug: POST /contact
+2019-03-09T05:03:56.898Z - debug: GET /contact
+2019-03-09T05:06:34.598Z - info: Environment isProduction =  true
+2019-03-09T05:06:34.861Z - debug: START routing
+2019-03-09T05:06:34.931Z - debug: END routing
+2019-03-09T05:06:35.059Z - info: Starting controllers/user.js.
+2019-03-09T05:06:35.062Z - debug: START user routing
+2019-03-09T05:06:35.062Z - debug: END user routing
+2019-03-09T05:06:35.063Z - info: Loaded routing.
+2019-03-09T05:06:35.734Z - info: START seeder.
+2019-03-09T05:06:35.743Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:06:35.752Z - debug: 3 estimates seeded
+2019-03-09T05:06:35.753Z - debug: 1 users registered
+2019-03-09T05:06:36.157Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-09T05:06:47.435Z - debug: GET /contact
+2019-03-09T05:06:49.469Z - debug: GET /images/favicon-32x32.png
+2019-03-09T05:06:54.040Z - debug: POST /contact
+2019-03-09T05:06:54.947Z - debug: GET /contact
+2019-03-09T05:08:49.282Z - info: Environment isProduction =  true
+2019-03-09T05:08:49.573Z - debug: START routing
+2019-03-09T05:08:49.630Z - debug: END routing
+2019-03-09T05:08:49.726Z - info: Starting controllers/user.js.
+2019-03-09T05:08:49.727Z - debug: START user routing
+2019-03-09T05:08:49.728Z - debug: END user routing
+2019-03-09T05:08:49.728Z - info: Loaded routing.
+2019-03-09T05:08:50.348Z - info: START seeder.
+2019-03-09T05:08:50.362Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:08:50.388Z - debug: 3 estimates seeded
+2019-03-09T05:08:50.389Z - debug: 1 users registered
+2019-03-09T05:08:50.829Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-03-09T05:08:54.412Z - debug: GET /contact
+2019-03-09T05:08:56.114Z - debug: GET /images/favicon-32x32.png
+2019-03-09T05:09:00.558Z - debug: POST /contact
+2019-03-09T05:11:06.657Z - info: Environment isProduction =  true
+2019-03-09T05:11:06.943Z - debug: START routing
+2019-03-09T05:11:07.015Z - debug: END routing
+2019-03-09T05:11:07.121Z - info: Starting controllers/user.js.
+2019-03-09T05:11:07.122Z - debug: START user routing
+2019-03-09T05:11:07.122Z - debug: END user routing
+2019-03-09T05:11:07.123Z - info: Loaded routing.
+2019-03-09T05:11:07.945Z - info: START seeder.
+2019-03-09T05:11:07.963Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:11:07.993Z - debug: 3 estimates seeded
+2019-03-09T05:11:07.997Z - debug: 1 users registered
+2019-03-09T05:11:08.433Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-09T05:11:09.788Z - debug: POST /contact
+2019-03-09T05:11:12.952Z - debug: GET /images/favicon-32x32.png
+2019-03-09T05:12:25.326Z - info: Environment isProduction =  true
+2019-03-09T05:12:25.691Z - debug: START routing
+2019-03-09T05:12:25.772Z - debug: END routing
+2019-03-09T05:12:25.914Z - info: Starting controllers/user.js.
+2019-03-09T05:12:25.916Z - debug: START user routing
+2019-03-09T05:12:25.922Z - debug: END user routing
+2019-03-09T05:12:25.923Z - info: Loaded routing.
+2019-03-09T05:12:26.893Z - info: START seeder.
+2019-03-09T05:12:26.910Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:12:26.958Z - debug: 3 estimates seeded
+2019-03-09T05:12:26.958Z - debug: 1 users registered
+2019-03-09T05:12:27.409Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-03-09T05:12:29.998Z - debug: POST /contact
+2019-03-09T05:12:32.324Z - debug: GET /images/favicon-32x32.png
+2019-03-09T05:12:42.477Z - debug: GET /
+2019-03-09T05:12:42.547Z - debug: Request to /
+2019-03-09T05:12:46.592Z - debug: GET /contact
+2019-03-09T05:12:56.956Z - debug: POST /contact
+2019-03-09T05:14:40.680Z - info: Environment isProduction =  true
+2019-03-09T05:14:41.058Z - debug: START routing
+2019-03-09T05:14:41.114Z - debug: END routing
+2019-03-09T05:14:41.185Z - info: Starting controllers/user.js.
+2019-03-09T05:14:41.186Z - debug: START user routing
+2019-03-09T05:14:41.186Z - debug: END user routing
+2019-03-09T05:14:41.186Z - info: Loaded routing.
+2019-03-09T05:14:42.094Z - info: START seeder.
+2019-03-09T05:14:42.102Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:14:42.118Z - debug: 3 estimates seeded
+2019-03-09T05:14:42.119Z - debug: 1 users registered
+2019-03-09T05:14:42.554Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-09T05:14:58.318Z - debug: POST /contact
+2019-03-09T05:15:00.342Z - debug: GET /css/main.css
+2019-03-09T05:15:00.344Z - debug: GET /css/404.css
+2019-03-09T05:15:00.842Z - debug: GET /images/coating2.jpg
+2019-03-09T05:15:01.669Z - debug: GET /images/favicon-32x32.png
+2019-03-09T05:15:05.715Z - debug: GET /
+2019-03-09T05:15:05.782Z - debug: Request to /
+2019-03-09T05:15:09.329Z - debug: GET /contact
+2019-03-09T05:15:15.727Z - debug: POST /contact
+2019-03-09T05:26:14.093Z - info: Environment isProduction =  true
+2019-03-09T05:26:14.373Z - debug: START routing
+2019-03-09T05:26:14.439Z - debug: END routing
+2019-03-09T05:26:14.576Z - info: Starting controllers/user.js.
+2019-03-09T05:26:14.578Z - debug: START user routing
+2019-03-09T05:26:14.579Z - debug: END user routing
+2019-03-09T05:26:14.580Z - info: Loaded routing.
+2019-03-09T05:26:15.422Z - info: START seeder.
+2019-03-09T05:26:15.450Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:26:15.488Z - debug: 3 estimates seeded
+2019-03-09T05:26:15.488Z - debug: 1 users registered
+2019-03-09T05:26:15.897Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-09T05:26:22.039Z - debug: GET /
+2019-03-09T05:26:22.126Z - debug: Request to /
+2019-03-09T05:26:24.141Z - debug: GET /contact
+2019-03-09T05:26:25.842Z - debug: GET /login
+2019-03-09T05:26:28.145Z - debug: GET /contact
+2019-03-09T05:26:31.659Z - debug: GET /login
+2019-03-09T05:28:40.814Z - info: Environment isProduction =  true
+2019-03-09T05:28:41.185Z - debug: START routing
+2019-03-09T05:28:41.251Z - debug: END routing
+2019-03-09T05:28:41.357Z - info: Starting controllers/user.js.
+2019-03-09T05:28:41.358Z - debug: START user routing
+2019-03-09T05:28:41.359Z - debug: END user routing
+2019-03-09T05:28:41.359Z - info: Loaded routing.
+2019-03-09T05:28:42.107Z - info: START seeder.
+2019-03-09T05:28:42.120Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:28:42.143Z - debug: 3 estimates seeded
+2019-03-09T05:28:42.144Z - debug: 1 users registered
+2019-03-09T05:28:42.548Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-03-09T05:28:48.296Z - debug: GET /
+2019-03-09T05:28:48.383Z - debug: Request to /
+2019-03-09T05:28:52.946Z - debug: GET /contact
+2019-03-09T05:28:54.580Z - debug: GET /login
+2019-03-09T05:32:48.240Z - info: Environment isProduction =  true
+2019-03-09T05:32:48.606Z - debug: START routing
+2019-03-09T05:32:48.674Z - debug: END routing
+2019-03-09T05:32:48.800Z - info: Starting controllers/user.js.
+2019-03-09T05:32:48.802Z - debug: START user routing
+2019-03-09T05:32:48.803Z - debug: END user routing
+2019-03-09T05:32:48.803Z - info: Loaded routing.
+2019-03-09T05:32:49.487Z - info: START seeder.
+2019-03-09T05:32:49.503Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:32:49.527Z - debug: 3 estimates seeded
+2019-03-09T05:32:49.528Z - debug: 1 users registered
+2019-03-09T05:32:49.983Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-09T05:32:53.748Z - debug: GET /login
+2019-03-09T05:32:55.359Z - debug: GET /images/favicon-32x32.png
+2019-03-09T05:32:57.793Z - debug: POST /forgot
+2019-03-09T05:33:01.451Z - debug: GET /favicon.ico
+2019-03-09T05:33:47.274Z - info: Environment isProduction =  true
+2019-03-09T05:33:47.618Z - debug: START routing
+2019-03-09T05:33:47.669Z - debug: END routing
+2019-03-09T05:33:47.756Z - info: Starting controllers/user.js.
+2019-03-09T05:33:47.757Z - debug: START user routing
+2019-03-09T05:33:47.758Z - debug: END user routing
+2019-03-09T05:33:47.758Z - info: Loaded routing.
+2019-03-09T05:33:48.394Z - info: START seeder.
+2019-03-09T05:33:48.410Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:33:48.445Z - debug: 3 estimates seeded
+2019-03-09T05:33:48.446Z - debug: 1 users registered
+2019-03-09T05:33:48.878Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-03-09T05:33:56.400Z - debug: GET /
+2019-03-09T05:33:56.496Z - debug: Request to /
+2019-03-09T05:34:05.354Z - debug: GET /login
+2019-03-09T05:34:08.367Z - debug: POST /forgot
+2019-03-09T05:35:41.205Z - info: Environment isProduction =  true
+2019-03-09T05:35:41.567Z - debug: START routing
+2019-03-09T05:35:41.636Z - debug: END routing
+2019-03-09T05:35:41.751Z - info: Starting controllers/user.js.
+2019-03-09T05:35:41.753Z - debug: START user routing
+2019-03-09T05:35:41.753Z - debug: END user routing
+2019-03-09T05:35:41.754Z - info: Loaded routing.
+2019-03-09T05:35:42.610Z - info: START seeder.
+2019-03-09T05:35:42.622Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:35:42.639Z - debug: 3 estimates seeded
+2019-03-09T05:35:42.639Z - debug: 1 users registered
+2019-03-09T05:35:43.066Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-09T05:35:49.190Z - debug: GET /
+2019-03-09T05:35:49.277Z - debug: Request to /
+2019-03-09T05:35:53.974Z - debug: GET /login
+2019-03-09T05:35:56.555Z - debug: POST /forgot
+2019-03-09T05:36:00.863Z - debug: POST /forgot
+2019-03-09T05:39:28.456Z - info: Environment isProduction =  true
+2019-03-09T05:39:28.932Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Fri Mar 08 2019 23:39:28 GMT-0600 (Central Standard Time), pid=9852, uid=null, gid=null, cwd=C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js], rss=77234176, heapTotal=59183104, heapUsed=36317736, external=37464933, loadavg=[0, 0, 0], uptime=37741.4039936
+Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1351:14)
+    at listenInCluster (net.js:1392:12)
+    at Server.listen (net.js:1476:7)
+    at Function.listen (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js:156:5)
     at Module._compile (module.js:643:30)
     at Object.Module._extensions..js (module.js:654:10)
     at Module.load (module.js:556:32)
     at tryModuleLoad (module.js:499:12)
     at Function.Module._load (module.js:491:3)
     at Function.Module.runMain (module.js:684:10)
-2019-02-25T07:30:52.471Z - info: Starting controllers/user.js.
-2019-02-25T07:30:52.472Z - info: START seeder.
-2019-02-25T07:30:52.478Z - debug: Registering cgeadmin@mail.com
-2019-02-25T07:30:52.488Z - debug: 3 estimates seeded
-2019-02-25T07:30:52.488Z - debug: 1 users registered
-2019-02-25T07:30:53.608Z - debug: User already exists:  cgeadmin@mail.com
-2019-02-25T07:32:30.376Z - info: Environment isProduction =  true
-2019-02-25T07:32:30.750Z - error: uncaughtException: Unexpected end of input date=Mon Feb 25 2019 01:32:30 GMT-0600 (Central Standard Time), pid=10384, uid=null, gid=null, cwd=C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js], rss=69980160, heapTotal=57597952, heapUsed=28455424, external=36615880, loadavg=[0, 0, 0], uptime=1614579.3429077
-C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\routes\index.js:85
-});
-  ^
-
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+2019-03-09T05:39:28.721Z - debug: START routing
+2019-03-09T05:39:28.772Z - debug: END routing
+2019-03-09T05:39:28.895Z - info: Starting controllers/user.js.
+2019-03-09T05:39:28.897Z - debug: START user routing
+2019-03-09T05:39:28.899Z - debug: END user routing
+2019-03-09T05:39:28.899Z - info: Loaded routing.
+2019-03-09T05:39:30.182Z - info: START seeder.
+2019-03-09T05:39:30.196Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:39:30.220Z - debug: 3 estimates seeded
+2019-03-09T05:39:30.221Z - debug: 1 users registered
+2019-03-09T05:39:30.884Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-09T05:39:53.284Z - debug: GET /
+2019-03-09T05:39:53.344Z - debug: Request to /
+2019-03-09T05:40:00.253Z - debug: GET /contact
+2019-03-09T05:40:18.860Z - debug: POST /contact
+2019-03-09T05:40:32.030Z - debug: GET /login
+2019-03-09T05:40:34.289Z - debug: POST /forgot
+2019-03-09T05:41:12.294Z - info: Environment isProduction =  true
+2019-03-09T05:41:12.855Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Fri Mar 08 2019 23:41:12 GMT-0600 (Central Standard Time), pid=9768, uid=null, gid=null, cwd=C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js], rss=73854976, heapTotal=60231680, heapUsed=33504192, external=36888821, loadavg=[0, 0, 0], uptime=37845.3267105
+Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1351:14)
+    at listenInCluster (net.js:1392:12)
+    at Server.listen (net.js:1476:7)
+    at Function.listen (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js:156:5)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Function.Module.runMain (module.js:684:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+2019-03-09T05:41:12.630Z - debug: START routing
+2019-03-09T05:41:12.702Z - debug: END routing
+2019-03-09T05:41:12.828Z - info: Starting controllers/user.js.
+2019-03-09T05:41:12.830Z - debug: START user routing
+2019-03-09T05:41:12.831Z - debug: END user routing
+2019-03-09T05:41:12.831Z - info: Loaded routing.
+2019-03-09T05:41:13.531Z - info: START seeder.
+2019-03-09T05:41:13.541Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:41:13.557Z - debug: 3 estimates seeded
+2019-03-09T05:41:13.558Z - debug: 1 users registered
+2019-03-09T05:41:13.967Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-03-09T05:41:24.164Z - debug: GET /
+2019-03-09T05:41:24.230Z - debug: Request to /
+2019-03-09T05:41:30.545Z - debug: GET /login
+2019-03-09T05:41:32.514Z - debug: POST /forgot
+2019-03-09T05:43:16.742Z - info: Environment isProduction =  true
+2019-03-09T05:43:17.292Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Fri Mar 08 2019 23:43:17 GMT-0600 (Central Standard Time), pid=4492, uid=null, gid=null, cwd=C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js], rss=77070336, heapTotal=59183104, heapUsed=36302328, external=37464933, loadavg=[0, 0, 0], uptime=37969.7571366
+Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1351:14)
+    at listenInCluster (net.js:1392:12)
+    at Server.listen (net.js:1476:7)
+    at Function.listen (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js:156:5)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Function.Module.runMain (module.js:684:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+2019-03-09T05:43:17.058Z - debug: START routing
+2019-03-09T05:43:17.128Z - debug: END routing
+2019-03-09T05:43:17.250Z - info: Starting controllers/user.js.
+2019-03-09T05:43:17.251Z - debug: START user routing
+2019-03-09T05:43:17.252Z - debug: END user routing
+2019-03-09T05:43:17.252Z - info: Loaded routing.
+2019-03-09T05:43:18.044Z - info: START seeder.
+2019-03-09T05:43:18.062Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:43:18.111Z - debug: 3 estimates seeded
+2019-03-09T05:43:18.112Z - debug: 1 users registered
+2019-03-09T05:43:18.548Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-09T05:43:22.161Z - debug: GET /
+2019-03-09T05:43:22.226Z - debug: Request to /
+2019-03-09T05:43:30.138Z - debug: GET /login
+2019-03-09T05:43:32.543Z - debug: POST /forgot
+2019-03-09T05:46:10.886Z - info: Environment isProduction =  true
+2019-03-09T05:46:11.286Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Fri Mar 08 2019 23:46:11 GMT-0600 (Central Standard Time), pid=10648, uid=null, gid=null, cwd=C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js], rss=74711040, heapTotal=59707392, heapUsed=34177080, external=37006864, loadavg=[0, 0, 0], uptime=38143.7582871
+Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1351:14)
+    at listenInCluster (net.js:1392:12)
+    at Server.listen (net.js:1476:7)
+    at Function.listen (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js:156:5)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Function.Module.runMain (module.js:684:10)
 <<<<<<< HEAD
-SyntaxError: Unexpected end of input
-    at createScript (vm.js:80:10)
-    at Object.runInThisContext (vm.js:139:10)
-    at Module._compile (module.js:607:28)
-    at Object.Module._extensions..js (module.js:654:10)
-    at Module.load (module.js:556:32)
-    at tryModuleLoad (module.js:499:12)
-    at Function.Module._load (module.js:491:3)
-    at Module.require (module.js:587:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S531519\CostEstimatorExp\CurtEstimatorExpress\app.js:144:16)
-    at Module._compile (module.js:643:30)
-    at Object.Module._extensions..js (module.js:654:10)
-    at Module.load (module.js:556:32)
-    at tryModuleLoad (module.js:499:12)
-    at Function.Module._load (module.js:491:3)
-    at Function.Module.runMain (module.js:684:10)
 2019-02-25T07:32:31.644Z - info: Starting controllers/user.js.
 2019-02-25T07:32:31.645Z - info: START seeder.
 2019-02-25T07:32:31.653Z - debug: Registering cgeadmin@mail.com
@@ -7025,3 +7274,17 @@ Error: listen EADDRINUSE :::3000
 2019-03-06T18:15:42.647Z - debug: 3 estimates seeded
 2019-03-06T18:15:42.648Z - debug: 1 users registered
 2019-03-06T18:15:43.026Z - debug: User already exists:  cgeadmin@mail.com
+=======
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+2019-03-09T05:46:11.163Z - debug: START routing
+2019-03-09T05:46:11.196Z - debug: END routing
+2019-03-09T05:46:11.265Z - info: Starting controllers/user.js.
+2019-03-09T05:46:11.266Z - debug: START user routing
+2019-03-09T05:46:11.266Z - debug: END user routing
+2019-03-09T05:46:11.267Z - info: Loaded routing.
+2019-03-09T05:46:12.135Z - info: START seeder.
+2019-03-09T05:46:12.144Z - debug: Registering cgeadmin@mail.com
+2019-03-09T05:46:12.159Z - debug: 3 estimates seeded
+2019-03-09T05:46:12.159Z - debug: 1 users registered
+>>>>>>> c39f6cb0d35fd07bb3f302e53972c49590b2e93d
