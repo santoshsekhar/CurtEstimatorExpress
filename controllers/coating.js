@@ -240,25 +240,5 @@ api.get('/copyfrom/:id',(req,res)=>{
   })
   })
 
-  api.get('/copyfrom/:id',  (req, res) => {
-    LOG.info(`Handling COPY FROM request ${req}`)
-    const id = parseInt(req.params.id, 10) // base 10
-    LOG.info(`Handling COPYFROM ID=${id}`)
-    const data = req.app.locals.coatings.query
-    const item = find(data, { _id: id })
-    item.name = item.name + ' (new)'
-    if (!item) {
-      return res.end(notfoundstring) 
-    }
-    LOG.debug(`Copying from item ${JSON.stringify(item)}`)
-    res.render('coating/create',
-      {
-        title: 'Create From Existing',
-        layout: 'layout.ejs',
-        coating : item
-      })
-  })
-  
-
 
 module.exports = api
