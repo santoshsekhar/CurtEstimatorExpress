@@ -193,7 +193,6 @@ api.post('/save/:id',  (req, res) => {
     }
   }
   item.multiplier = parseFloat(req.body.multiplier)
-  data.push(item)
   LOG.info(`SAVINGUPDATEDESTIMATE${JSON.stringify(item)}`)
   return res.redirect('/coating')
 })
