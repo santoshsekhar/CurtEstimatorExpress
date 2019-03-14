@@ -1,5 +1,6 @@
-<div class="custom-container" ng-controller="UserLoginCtrl">
-  <div class="page-header">
+
+<div class="custom-container" ng-controller="UserLoginCtrl" class="col-md-6" >
+  <div class="page-header" style="text-align:center;">
     <h3>Sign in</h3>
   </div>
 
@@ -20,10 +21,11 @@
               </div>
               <%}%>
                 <%}%>
+               <div style="margin-left:40%">
                   <form novalidate method="POST" action="/login" name="loginForm">
 
                     <div class="row">
-                      <div class="col-sm-7">
+                      <div class="col-sm-6">
                         <div class="form-group">
                           <label for="email" class="control-label">Email</label>
                           <input type="email" name="email" id="email" placeholder="Email" autofocus class="form-control" required ng-model="login"
@@ -41,12 +43,13 @@
 
                         </div>
                       </div>
-                      <div class="col-sm-4 col-sm-offset-1">
-                      </div>
+                      
                     </div>
                   </form>
+                  
                   <form action='forgot' method="POST">
                     <button type="submit" name="submit" class="btn btn-danger">Forgot your password?</button>
                   </form>
                   <%= title %>
+                </div>
 </div>

@@ -6,15 +6,15 @@
       <a href="coating/create" class="btn btn-primary new">
         Create a new estimate
       </a>
-      <div style="background-color:darksalmon; color:white; text-align:center">
+      <div style="background-color:#0000005c; color:white; text-align:center; border-radius: 10px;font-family:Trebuchet MS">
       <h2 > <u> Recent estimate entries</u></h2>
       <h3>
-        <%= coatings.query.length %> estimates available
+        <%= coatings.query.length %> estimates are available
       </h3>
       </div>
       <% for (var i = coatings.query.length-1; i >= 0; i--) {   coating = coatings.query[i];   %>
-        <div class="panel panel-default">
-          <div class="panel-heading" style="text-align:center">
+        <div class="panel panel-default" style="background-color:lightblue;">
+          <div class="panel-heading" style="text-align:center;border-radius: 10px">
             <h4>  Estimate no. <%=  coating._id %> </h4>
                 
           </div>
@@ -44,7 +44,7 @@
                         <div class="arrayItem"> 
                           
                           <tr>
-                            <td>Material name:</td>
+                            <td>Material <%= j+1 %> name:</td>
                         <td>  <%= material.product %> </td>
                           </tr>
                           <tr>
