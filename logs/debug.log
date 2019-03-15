@@ -9905,3 +9905,363 @@ Error: listen EADDRINUSE :::3000
 2019-03-15T01:36:43.826Z - debug: 1 users registered
 2019-03-15T01:36:44.023Z - debug: Request to /
 2019-03-15T01:36:44.413Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-15T14:02:51.132Z - info: Environment isProduction =  true
+2019-03-15T14:02:51.724Z - debug: START routing
+2019-03-15T14:02:51.790Z - debug: END routing
+2019-03-15T14:02:51.927Z - info: Starting controllers/user.js.
+2019-03-15T14:02:51.929Z - debug: START user routing
+2019-03-15T14:02:51.932Z - debug: END user routing
+2019-03-15T14:02:51.933Z - info: Loaded routing.
+2019-03-15T14:02:52.417Z - debug: GET /coating
+2019-03-15T14:02:52.737Z - info: START seeder.
+2019-03-15T14:02:52.758Z - debug: Registering cgeadmin@mail.com
+2019-03-15T14:02:52.804Z - debug: 3 estimates seeded
+2019-03-15T14:02:52.805Z - debug: 1 users registered
+2019-03-15T14:02:53.270Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-15T14:03:02.541Z - debug: GET /login
+2019-03-15T14:03:04.413Z - debug: GET /coating
+2019-03-15T14:03:06.933Z - debug: GET /coating
+2019-03-15T14:03:09.176Z - debug: GET /coating
+2019-03-15T14:03:09.277Z - debug: GET /css/404.css
+2019-03-15T14:03:09.281Z - debug: GET /css/main.css
+2019-03-15T14:03:27.248Z - debug: GET /
+2019-03-15T14:03:27.251Z - debug: Request to /
+2019-03-15T14:03:30.084Z - debug: GET /coating
+2019-03-15T14:03:35.882Z - debug: GET /login
+2019-03-15T14:03:37.537Z - debug: GET /contact
+2019-03-15T14:03:45.433Z - debug: GET /contact
+2019-03-15T14:03:45.552Z - debug: GET /css/main.css
+2019-03-15T14:03:45.553Z - debug: GET /css/404.css
+2019-03-15T14:03:46.172Z - debug: GET /images/favicon-32x32.png
+2019-03-15T14:03:58.590Z - debug: GET /contact
+2019-03-15T14:03:58.691Z - debug: GET /css/main.css
+2019-03-15T14:03:58.692Z - debug: GET /css/404.css
+2019-03-15T14:03:59.176Z - debug: GET /images/favicon-32x32.png
+2019-03-15T14:04:02.131Z - debug: GET /contact
+2019-03-15T14:04:02.862Z - debug: GET /images/favicon-32x32.png
+2019-03-15T14:04:07.752Z - debug: GET /contact
+2019-03-15T14:04:08.692Z - debug: GET /images/favicon-32x32.png
+2019-03-15T14:07:47.689Z - debug: GET /contact
+2019-03-15T14:07:49.275Z - debug: GET /images/favicon-32x32.png
+2019-03-15T14:07:49.290Z - debug: GET /contact
+2019-03-15T14:07:49.391Z - debug: GET /css/main.css
+2019-03-15T14:07:49.394Z - debug: GET /css/404.css
+2019-03-15T14:07:50.345Z - debug: GET /contact
+2019-03-15T14:07:50.462Z - debug: GET /css/main.css
+2019-03-15T14:07:50.464Z - debug: GET /css/404.css
+2019-03-15T14:07:51.009Z - debug: GET /images/favicon-32x32.png
+2019-03-15T14:08:39.041Z - debug: GET /
+2019-03-15T14:08:39.043Z - debug: Request to /
+2019-03-15T14:08:39.117Z - debug: GET /css/main.css
+2019-03-15T14:08:39.120Z - debug: GET /css/404.css
+2019-03-15T14:08:39.146Z - debug: GET /images/c1.jpg
+2019-03-15T14:08:39.163Z - debug: GET /images/c2.jpg
+2019-03-15T14:08:43.914Z - debug: GET /contact
+2019-03-15T14:08:53.242Z - debug: GET /login
+2019-03-15T14:08:55.230Z - debug: GET /coating
+2019-03-15T14:08:59.633Z - debug: GET /
+2019-03-15T14:08:59.682Z - debug: Request to /
+2019-03-15T14:09:06.916Z - debug: GET /
+2019-03-15T14:09:06.955Z - debug: Request to /
+2019-03-15T14:09:07.030Z - debug: GET /css/main.css
+2019-03-15T14:09:07.059Z - debug: GET /css/404.css
+2019-03-15T14:09:07.154Z - debug: GET /images/c1.jpg
+2019-03-15T14:09:07.158Z - debug: GET /images/c2.jpg
+2019-03-15T14:09:07.159Z - debug: GET /images/c3.jpg
+2019-03-15T14:09:07.199Z - debug: GET /images/android-icon-192x192.png
+2019-03-15T14:09:07.208Z - debug: GET /images/favicon-16x16.png
+2019-03-15T14:09:12.539Z - debug: GET /
+2019-03-15T14:09:12.577Z - debug: Request to /
+2019-03-15T14:09:12.647Z - debug: GET /css/main.css
+2019-03-15T14:09:12.655Z - debug: GET /css/404.css
+2019-03-15T14:09:12.928Z - debug: GET /images/c1.jpg
+2019-03-15T14:09:12.931Z - debug: GET /images/c2.jpg
+2019-03-15T14:09:12.937Z - debug: GET /images/c3.jpg
+2019-03-15T14:09:12.957Z - debug: GET /images/favicon-16x16.png
+2019-03-15T14:09:12.961Z - debug: GET /images/android-icon-192x192.png
+2019-03-15T14:10:08.147Z - debug: GET /coating
+2019-03-15T14:10:15.982Z - debug: GET /login
+2019-03-15T14:10:43.124Z - debug: GET /coating
+2019-03-15T14:10:44.786Z - debug: GET /contact
+2019-03-15T14:10:46.095Z - debug: GET /
+2019-03-15T14:10:46.134Z - debug: Request to /
+2019-03-15T14:10:48.547Z - debug: GET /login
+2019-03-15T14:12:06.764Z - debug: GET /login
+2019-03-15T14:12:08.268Z - debug: GET /coating
+2019-03-15T14:12:12.928Z - debug: GET /coating
+2019-03-15T14:12:13.059Z - debug: GET /css/main.css
+2019-03-15T14:12:13.092Z - debug: GET /css/404.css
+2019-03-15T14:12:13.223Z - debug: GET /images/favicon-16x16.png
+2019-03-15T14:12:13.227Z - debug: GET /images/android-icon-192x192.png
+2019-03-15T14:12:15.250Z - debug: GET /coating
+2019-03-15T14:12:15.385Z - debug: GET /css/main.css
+2019-03-15T14:12:15.398Z - debug: GET /css/404.css
+2019-03-15T14:12:15.502Z - debug: GET /images/favicon-16x16.png
+2019-03-15T14:12:15.505Z - debug: GET /images/android-icon-192x192.png
+2019-03-15T14:12:18.008Z - debug: GET /coating
+2019-03-15T14:12:18.205Z - debug: GET /css/main.css
+2019-03-15T14:12:18.236Z - debug: GET /css/404.css
+2019-03-15T14:12:18.326Z - debug: GET /images/android-icon-192x192.png
+2019-03-15T14:12:18.331Z - debug: GET /images/favicon-16x16.png
+2019-03-15T14:13:19.625Z - debug: GET /coating
+2019-03-15T14:13:19.773Z - debug: GET /css/main.css
+2019-03-15T14:13:19.778Z - debug: GET /css/404.css
+2019-03-15T14:13:19.895Z - debug: GET /images/favicon-16x16.png
+2019-03-15T14:13:19.898Z - debug: GET /images/android-icon-192x192.png
+2019-03-15T14:13:27.747Z - debug: GET /contact
+2019-03-15T14:13:48.921Z - debug: GET /contact
+2019-03-15T14:13:49.001Z - debug: GET /css/main.css
+2019-03-15T14:13:49.006Z - debug: GET /css/404.css
+2019-03-15T14:13:49.158Z - debug: GET /images/favicon-16x16.png
+2019-03-15T14:13:49.160Z - debug: GET /images/android-icon-192x192.png
+2019-03-15T14:15:22.359Z - debug: GET /contact
+2019-03-15T14:15:22.502Z - debug: GET /css/main.css
+2019-03-15T14:15:22.542Z - debug: GET /css/404.css
+2019-03-15T14:15:22.642Z - debug: GET /images/favicon-16x16.png
+2019-03-15T14:15:22.644Z - debug: GET /images/android-icon-192x192.png
+2019-03-15T14:15:33.365Z - debug: GET /contact
+2019-03-15T14:15:33.540Z - debug: GET /css/main.css
+2019-03-15T14:15:33.544Z - debug: GET /css/404.css
+2019-03-15T14:15:35.682Z - debug: GET /images/favicon-32x32.png
+2019-03-15T14:15:44.152Z - info: Environment isProduction =  true
+2019-03-15T14:15:44.603Z - debug: START routing
+2019-03-15T14:15:44.744Z - debug: END routing
+2019-03-15T14:15:44.868Z - info: Starting controllers/user.js.
+2019-03-15T14:15:44.871Z - debug: START user routing
+2019-03-15T14:15:44.873Z - debug: END user routing
+2019-03-15T14:15:44.874Z - info: Loaded routing.
+2019-03-15T14:15:45.410Z - debug: GET /contact
+2019-03-15T14:15:45.669Z - info: START seeder.
+2019-03-15T14:15:45.687Z - debug: Registering cgeadmin@mail.com
+2019-03-15T14:15:45.713Z - debug: 3 estimates seeded
+2019-03-15T14:15:45.714Z - debug: 1 users registered
+2019-03-15T14:15:46.131Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-15T14:15:48.322Z - debug: GET /images/favicon-32x32.png
+2019-03-15T14:15:52.027Z - debug: GET /login
+2019-03-15T14:15:54.264Z - debug: GET /contact
+2019-03-15T14:15:56.316Z - debug: GET /
+2019-03-15T14:15:56.359Z - debug: Request to /
+2019-03-15T14:24:05.029Z - debug: GET /
+2019-03-15T14:24:05.076Z - debug: Request to /
+2019-03-15T14:24:07.950Z - debug: GET /contact
+2019-03-15T14:24:09.488Z - debug: GET /coating
+2019-03-15T14:24:20.534Z - debug: GET /login
+2019-03-15T14:24:26.439Z - debug: GET /coating
+2019-03-15T14:24:27.815Z - debug: GET /contact
+2019-03-15T14:24:36.173Z - debug: GET /coating
+2019-03-15T14:25:11.994Z - debug: GET /about/t1
+2019-03-15T14:25:16.513Z - debug: GET /coating
+2019-03-15T14:25:19.350Z - debug: GET /contact
+2019-03-15T14:25:21.138Z - debug: GET /
+2019-03-15T14:25:21.180Z - debug: Request to /
+2019-03-15T14:25:57.097Z - debug: GET /coating
+2019-03-15T14:26:50.476Z - debug: GET /
+2019-03-15T14:26:50.522Z - debug: Request to /
+2019-03-15T14:27:45.204Z - debug: GET /
+2019-03-15T14:27:45.249Z - debug: Request to /
+2019-03-15T14:49:59.632Z - debug: GET /contact
+2019-03-15T14:50:34.742Z - debug: GET /contact
+2019-03-15T14:50:38.113Z - debug: GET /images/favicon-32x32.png
+2019-03-15T19:11:19.205Z - info: Environment isProduction =  true
+2019-03-15T19:11:19.584Z - debug: START routing
+2019-03-15T19:11:19.658Z - debug: END routing
+2019-03-15T19:11:19.772Z - info: Starting controllers/user.js.
+2019-03-15T19:11:19.774Z - debug: START user routing
+2019-03-15T19:11:19.775Z - debug: END user routing
+2019-03-15T19:11:19.776Z - info: Loaded routing.
+2019-03-15T19:11:19.878Z - debug: GET /contact
+2019-03-15T19:11:20.428Z - info: START seeder.
+2019-03-15T19:11:20.450Z - debug: Registering cgeadmin@mail.com
+2019-03-15T19:11:20.489Z - debug: 3 estimates seeded
+2019-03-15T19:11:20.491Z - debug: 1 users registered
+2019-03-15T19:11:21.032Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-15T19:11:23.100Z - debug: GET /images/favicon-32x32.png
+2019-03-15T19:12:12.871Z - info: Environment isProduction =  true
+2019-03-15T19:12:13.317Z - debug: START routing
+2019-03-15T19:12:13.364Z - debug: END routing
+2019-03-15T19:12:13.445Z - info: Starting controllers/user.js.
+2019-03-15T19:12:13.446Z - debug: START user routing
+2019-03-15T19:12:13.448Z - debug: END user routing
+2019-03-15T19:12:13.448Z - info: Loaded routing.
+2019-03-15T19:12:13.559Z - debug: GET /contact
+2019-03-15T19:12:14.025Z - info: START seeder.
+2019-03-15T19:12:14.043Z - debug: Registering cgeadmin@mail.com
+2019-03-15T19:12:14.084Z - debug: 3 estimates seeded
+2019-03-15T19:12:14.087Z - debug: 1 users registered
+2019-03-15T19:12:14.463Z - debug: GET /css/main.css
+2019-03-15T19:12:14.467Z - debug: GET /css/404.css
+2019-03-15T19:12:14.506Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-03-15T19:12:15.662Z - debug: GET /images/favicon-32x32.png
+2019-03-15T19:14:15.867Z - info: Environment isProduction =  true
+2019-03-15T19:14:16.264Z - debug: START routing
+2019-03-15T19:14:16.362Z - debug: END routing
+2019-03-15T19:14:16.519Z - info: Starting controllers/user.js.
+2019-03-15T19:14:16.522Z - debug: START user routing
+2019-03-15T19:14:16.526Z - debug: END user routing
+2019-03-15T19:14:16.526Z - info: Loaded routing.
+2019-03-15T19:14:16.809Z - debug: GET /contact
+2019-03-15T19:14:17.372Z - info: START seeder.
+2019-03-15T19:14:17.389Z - debug: Registering cgeadmin@mail.com
+2019-03-15T19:14:17.436Z - debug: 3 estimates seeded
+2019-03-15T19:14:17.437Z - debug: 1 users registered
+2019-03-15T19:14:17.823Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-15T19:14:17.921Z - debug: GET /css/main.css
+2019-03-15T19:14:17.923Z - debug: GET /css/404.css
+2019-03-15T19:14:18.996Z - debug: GET /images/favicon-32x32.png
+2019-03-15T19:14:54.125Z - debug: GET /
+2019-03-15T19:14:54.131Z - debug: Request to /
+2019-03-15T19:14:54.401Z - debug: GET /images/android-icon-192x192.png
+2019-03-15T19:14:54.407Z - debug: GET /images/favicon-16x16.png
+2019-03-15T19:14:57.091Z - debug: GET /contact
+2019-03-15T19:15:07.822Z - debug: GET /coating
+2019-03-15T19:17:00.645Z - info: Environment isProduction =  true
+2019-03-15T19:17:01.069Z - debug: START routing
+2019-03-15T19:17:01.145Z - debug: END routing
+2019-03-15T19:17:01.286Z - info: Starting controllers/user.js.
+2019-03-15T19:17:01.289Z - debug: START user routing
+2019-03-15T19:17:01.289Z - debug: END user routing
+2019-03-15T19:17:01.290Z - info: Loaded routing.
+2019-03-15T19:17:01.811Z - debug: GET /coating
+2019-03-15T19:17:02.409Z - info: START seeder.
+2019-03-15T19:17:02.433Z - debug: Registering cgeadmin@mail.com
+2019-03-15T19:17:02.472Z - debug: 3 estimates seeded
+2019-03-15T19:17:02.473Z - debug: 1 users registered
+2019-03-15T19:17:02.905Z - debug: GET /css/main.css
+2019-03-15T19:17:02.908Z - debug: GET /css/404.css
+2019-03-15T19:17:03.151Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-03-15T19:17:03.307Z - debug: GET /images/favicon-16x16.png
+2019-03-15T19:17:03.308Z - debug: GET /images/android-icon-192x192.png
+2019-03-15T19:17:30.943Z - debug: GET /contact
+2019-03-15T19:17:35.186Z - debug: GET /
+2019-03-15T19:17:35.233Z - debug: Request to /
+2019-03-15T19:22:01.239Z - debug: GET /
+2019-03-15T19:22:01.293Z - debug: Request to /
+2019-03-15T19:22:01.430Z - debug: GET /css/main.css
+2019-03-15T19:22:01.441Z - debug: GET /css/404.css
+2019-03-15T19:25:09.454Z - info: Environment isProduction =  true
+2019-03-15T19:25:09.837Z - debug: START routing
+2019-03-15T19:25:09.891Z - debug: END routing
+2019-03-15T19:25:09.990Z - info: Starting controllers/user.js.
+2019-03-15T19:25:09.992Z - debug: START user routing
+2019-03-15T19:25:09.993Z - debug: END user routing
+2019-03-15T19:25:09.993Z - info: Loaded routing.
+2019-03-15T19:25:10.096Z - debug: GET /
+2019-03-15T19:25:10.619Z - info: START seeder.
+2019-03-15T19:25:10.635Z - debug: Registering cgeadmin@mail.com
+2019-03-15T19:25:10.662Z - debug: 3 estimates seeded
+2019-03-15T19:25:10.666Z - debug: 1 users registered
+2019-03-15T19:25:10.774Z - debug: Request to /
+2019-03-15T19:25:10.897Z - debug: GET /css/main.css
+2019-03-15T19:25:10.924Z - debug: GET /css/404.css
+2019-03-15T19:25:11.052Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-15T19:25:11.093Z - debug: GET /images/c1.jpg
+2019-03-15T19:25:11.159Z - debug: GET /images/c2.jpg
+2019-03-15T19:25:11.170Z - debug: GET /images/c3.jpg
+2019-03-15T19:27:38.750Z - debug: GET /
+2019-03-15T19:27:38.799Z - debug: Request to /
+2019-03-15T19:27:38.984Z - debug: GET /css/main.css
+2019-03-15T19:27:38.987Z - debug: GET /css/404.css
+2019-03-15T19:27:38.994Z - debug: GET /images/c1.jpg
+2019-03-15T19:27:38.997Z - debug: GET /images/c2.jpg
+2019-03-15T19:27:39.424Z - debug: GET /images/c3.jpg
+2019-03-15T19:27:41.926Z - debug: GET /images/favicon-32x32.png
+2019-03-15T19:33:54.132Z - info: Environment isProduction =  true
+2019-03-15T19:33:54.379Z - debug: START routing
+2019-03-15T19:33:54.462Z - debug: END routing
+2019-03-15T19:33:54.748Z - info: Starting controllers/user.js.
+2019-03-15T19:33:54.752Z - debug: START user routing
+2019-03-15T19:33:54.754Z - debug: END user routing
+2019-03-15T19:33:54.754Z - info: Loaded routing.
+2019-03-15T19:33:55.739Z - info: START seeder.
+2019-03-15T19:33:55.751Z - debug: Registering cgeadmin@mail.com
+2019-03-15T19:33:55.790Z - debug: 3 estimates seeded
+2019-03-15T19:33:55.791Z - debug: 1 users registered
+2019-03-15T19:33:56.140Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-03-15T19:33:56.822Z - debug: GET /
+2019-03-15T19:33:56.924Z - debug: Request to /
+2019-03-15T19:33:59.361Z - debug: GET /images/favicon-32x32.png
+2019-03-15T19:35:58.534Z - info: Environment isProduction =  true
+2019-03-15T19:35:59.053Z - debug: START routing
+2019-03-15T19:35:59.138Z - debug: END routing
+2019-03-15T19:35:59.293Z - info: Starting controllers/user.js.
+2019-03-15T19:35:59.295Z - debug: START user routing
+2019-03-15T19:35:59.296Z - debug: END user routing
+2019-03-15T19:35:59.297Z - info: Loaded routing.
+2019-03-15T19:35:59.450Z - debug: GET /
+2019-03-15T19:36:00.058Z - info: START seeder.
+2019-03-15T19:36:00.075Z - debug: Registering cgeadmin@mail.com
+2019-03-15T19:36:00.117Z - debug: 3 estimates seeded
+2019-03-15T19:36:00.118Z - debug: 1 users registered
+2019-03-15T19:36:00.231Z - debug: Request to /
+2019-03-15T19:36:00.497Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-15T19:36:04.060Z - debug: GET /images/favicon-32x32.png
+2019-03-15T19:37:21.802Z - info: Environment isProduction =  true
+2019-03-15T19:37:22.367Z - debug: START routing
+2019-03-15T19:37:22.455Z - debug: END routing
+2019-03-15T19:37:22.703Z - info: Starting controllers/user.js.
+2019-03-15T19:37:22.709Z - debug: START user routing
+2019-03-15T19:37:22.711Z - debug: END user routing
+2019-03-15T19:37:22.712Z - info: Loaded routing.
+2019-03-15T19:37:22.992Z - debug: GET /
+2019-03-15T19:37:23.594Z - info: START seeder.
+2019-03-15T19:37:23.608Z - debug: Registering cgeadmin@mail.com
+2019-03-15T19:37:23.635Z - debug: 3 estimates seeded
+2019-03-15T19:37:23.637Z - debug: 1 users registered
+2019-03-15T19:37:23.793Z - debug: Request to /
+2019-03-15T19:37:24.019Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-03-15T19:37:26.852Z - debug: GET /images/favicon-32x32.png
+2019-03-15T19:37:57.947Z - info: Environment isProduction =  true
+2019-03-15T19:37:58.731Z - debug: START routing
+2019-03-15T19:37:58.859Z - debug: END routing
+2019-03-15T19:37:59.028Z - info: Starting controllers/user.js.
+2019-03-15T19:37:59.031Z - debug: START user routing
+2019-03-15T19:37:59.035Z - debug: END user routing
+2019-03-15T19:37:59.036Z - info: Loaded routing.
+2019-03-15T19:37:59.363Z - debug: GET /
+2019-03-15T19:37:59.905Z - info: START seeder.
+2019-03-15T19:37:59.929Z - debug: Registering cgeadmin@mail.com
+2019-03-15T19:37:59.992Z - debug: 3 estimates seeded
+2019-03-15T19:37:59.997Z - debug: 1 users registered
+2019-03-15T19:38:00.140Z - debug: Request to /
+2019-03-15T19:38:00.337Z - debug: GET /css/main.css
+2019-03-15T19:38:00.340Z - debug: GET /css/404.css
+2019-03-15T19:38:00.342Z - debug: GET /images/c1.jpg
+2019-03-15T19:38:00.361Z - debug: GET /images/c2.jpg
+2019-03-15T19:38:00.453Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-15T19:38:00.786Z - debug: GET /images/c3.jpg
+2019-03-15T19:38:03.439Z - debug: GET /images/favicon-32x32.png
+2019-03-15T19:42:42.682Z - info: Environment isProduction =  true
+2019-03-15T19:42:43.162Z - debug: START routing
+2019-03-15T19:42:43.325Z - debug: END routing
+2019-03-15T19:42:43.462Z - info: Starting controllers/user.js.
+2019-03-15T19:42:43.465Z - debug: START user routing
+2019-03-15T19:42:43.467Z - debug: END user routing
+2019-03-15T19:42:43.468Z - info: Loaded routing.
+2019-03-15T19:42:43.751Z - debug: GET /
+2019-03-15T19:42:44.321Z - info: START seeder.
+2019-03-15T19:42:44.355Z - debug: Registering cgeadmin@mail.com
+2019-03-15T19:42:44.411Z - debug: 3 estimates seeded
+2019-03-15T19:42:44.412Z - debug: 1 users registered
+2019-03-15T19:42:44.599Z - debug: Request to /
+2019-03-15T19:42:44.955Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-03-15T19:42:47.234Z - debug: GET /images/favicon-32x32.png
+2019-03-15T19:43:32.174Z - info: Environment isProduction =  true
+2019-03-15T19:43:32.580Z - debug: START routing
+2019-03-15T19:43:32.670Z - debug: END routing
+2019-03-15T19:43:32.840Z - info: Starting controllers/user.js.
+2019-03-15T19:43:32.844Z - debug: START user routing
+2019-03-15T19:43:32.848Z - debug: END user routing
+2019-03-15T19:43:32.849Z - info: Loaded routing.
+2019-03-15T19:43:33.048Z - debug: GET /
+2019-03-15T19:43:33.592Z - info: START seeder.
+2019-03-15T19:43:33.612Z - debug: Registering cgeadmin@mail.com
+2019-03-15T19:43:33.653Z - debug: 3 estimates seeded
+2019-03-15T19:43:33.657Z - debug: 1 users registered
+2019-03-15T19:43:33.819Z - debug: Request to /
+2019-03-15T19:43:34.054Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-15T19:43:34.097Z - debug: GET /css/main.css
+2019-03-15T19:43:34.106Z - debug: GET /css/404.css
+2019-03-15T19:43:34.112Z - debug: GET /images/c1.jpg
+2019-03-15T19:43:34.118Z - debug: GET /images/c2.jpg
+2019-03-15T19:43:34.254Z - debug: GET /images/c3.jpg
+2019-03-15T19:43:34.685Z - debug: GET /images/favicon-32x32.png
