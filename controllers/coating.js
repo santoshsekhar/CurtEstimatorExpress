@@ -222,16 +222,16 @@ api.get('/select',  function (req, res) {
 
 api.get('/copyfrom/:id',(req,res)=>{
   LOG.info(`HandlingCOPYFROMrequest${req}`)
-  constid=parseInt(req.params.id,10)//base10
-  LOG.info(`HandlingCOPYFROMID=${id}`)
-  constdata=req.app.locals.coatings.query
-  constitem=find(data,{_id:id})
-  item.name=item.name+'(new)'
+  const id=parseInt(req.params.id,10)//base10
+  //LOG.info(`HandlingCOPYFROMID=${id}`)
+  const data=req.app.locals.coatings.query
+  const item=find(data,{_id:id})
+  item.name=item.name
   if(!item){
-    returnres.end(notfoundstring)
+    return res.end(notfoundstring)
   }
   LOG.debug(`Copyingfromitem${JSON.stringify(item)}`)
-  res.render('coating/create',
+  res.render('coating/create.ejs',
   {
     title:'CreateFromExisting',
     layout:'layout.ejs',

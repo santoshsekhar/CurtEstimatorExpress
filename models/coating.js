@@ -128,7 +128,7 @@ miscellaneous: {
 },
 // estimateCost:{
 //   type:Number,
-//   required:false,
+//   required:true,
 //   default: 0
 
 // },
