@@ -32,7 +32,7 @@
     "foodDollarsPerDay": 25,
     "numberOfVehicles": 3,
     "milesPerVehicle": 400,
-    "dollarsPerMile": 0.50,
+    "dollarsPerMile": 1,
     "miscellaneous": [
       {
         "misc": "homedepot",
@@ -78,7 +78,7 @@
       "foodDollarsPerDay": 25,
       "numberOfVehicles": 4,
       "milesPerVehicle": 640,
-      "dollarsPerMile": 0.50,
+      "dollarsPerMile": 1,
       "miscellaneous": [      {
           "name": "powerwash",
           "cost": 1000
@@ -87,7 +87,7 @@
           "cost": 100
         },      {
           "name": "aircomp",
-          "unitcost": 300
+          "cost": 300
         }
       ],
       "multiplier": 0.40
@@ -119,7 +119,7 @@
       "foodDollarsPerDay": 25,
       "numberOfVehicles": 4,
       "milesPerVehicle": 500,
-      "dollarsPerMile": 0.50,
+      "dollarsPerMile": 1,
       "miscellaneous": [      {
           "name": "lift",
           "cost": 1500
@@ -128,7 +128,7 @@
           "cost": 300
         },      {
           "name": "aircomp",
-          "unitcost": 300
+          "cost": 300
         }
       ],
       "multiplier": 0.40
