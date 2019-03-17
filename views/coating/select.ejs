@@ -1,42 +1,51 @@
 <br/>
 <br/>
+<div class="container-fluid">
+  <div class=row>
+    <div class="col col-md-12">
+      
+      <div style="background-color:#0000005c; color:white; text-align:center; border-radius: 10px;font-family:Trebuchet MS">
+      <h2 > <u> Recent estimate entries</u></h2>
+      <h3>
+        <%= coatings.query.length %> estimates are available
+      </h3>
+      </div>
+      <% for (var i = coatings.query.length-1; i >= 0; i--) {   coating = coatings.query[i];   %>
+        <div class="panel panel-default" style="background-color:lightblue;">
+          <div class="panel-heading" style="text-align:center;border-radius: 10px">
+            <h4>  Estimate no. <%=  coating._id %> </h4>
+                
+          </div>
+          
+          <div class="panel-body" style=" font: 15px arial, sans-serif; color:black">
+           <table>
+             <tr>
+               <td> ID:</td>
+           <td> <%=  coating._id %> </td>
+             </tr>
+             <tr>
+              <td> Name: </td>
+             <td> <%=coating.name%></td>
+             </tr>
+             <tr>
+               <td> location:</td>
+               <td> <%=coating.location%></td>
+             </tr>
+             <tr>
+                  <td> squareFeet (years):</td>
+                 <td> <%=coating.squareFeet%></td>
+             </tr>
+           </table>   
 
-            <a href="create" class="btn btn-danger new">
-                return to
-                create
-            </a>
-            <h2>Recent Estimates</h2>
-            <p>There are
-                <%= coatings.query.length %> coating.
-                    <br/>
-            </p>
-            <div class="container-fluid">
-                <div class="row">
-                        
-            <% for (var i = coatings.query.length-1; i >= 0; i--) {   coating = coatings.query[i]; %>
                 
-                <div class="col">
-                
-                        ID:
-                        <%=  coating._id %>
-                            <br> Name:
-                            <%=coating.name%>
-                                <br/> Location:
-                                <%=coating.location%>
-                                    <br/> SqFt:
-                                    <%=coating.squareFeet%>
-                                        <br/>
-                                        
-                                                
-                                                <a href="/coating/copyfrom/<%= coatings._id  %>" class="btn btn-success"> Select </a>
-                                                <br>
-                                                <br>
-                                            </div>        
-                  
-                <% } %>
-            
-            
-            </div>
+                          <br>
+                          <br>
+                          <a href="/coating/copyfrom/<%= coating._id %>" class="btn btn-primary"> Select </a>
+           
+                        </div>
         </div>
+        <% } %>
 
-        
+    </div>
+  </div>
+</div>

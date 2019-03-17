@@ -6,71 +6,130 @@
       <a href="coating/create" class="btn btn-primary new">
         Create a new estimate
       </a>
-      <h2>Recent estimate entries</h2>
-      <p>There are
-        <%= coatings.query.length %> estimates.
-          <br/>
-      </p>
+      <div style="background-color:#0000005c; color:white; text-align:center; border-radius: 10px;font-family:Trebuchet MS">
+      <h2 > <u> Recent estimate entries</u></h2>
+      <h3>
+        <%= coatings.query.length %> estimates are available
+      </h3>
+      </div>
       <% for (var i = coatings.query.length-1; i >= 0; i--) {   coating = coatings.query[i];   %>
-        <div class="panel panel-default">
-          <div class="panel-heading"></div>
-          <div class="text-muted pull-right"></div>
-          <div class="panel-body">
-            ID:
-            <%=  coating._id %>
-              <br> Name:
-              <%=coating.name%>
-                <br/> location:
-                <%=coating.location%>
-                  <br/> squareFeet (years):
-                  <%=coating.squareFeet%>
-                    <br/>
-                    <br/>
-                    <%=coating.materials.length%> materials
+        <div class="panel panel-default" style="background-color:lightblue;">
+          <div class="panel-heading" style="text-align:center;border-radius: 10px">
+            <h4>  Estimate no. <%=  coating._id %> </h4>
+                
+          </div>
+          
+          <div class="panel-body" style=" font: 15px arial, sans-serif;color:black">
+           <table>
+             <tr>
+               <td> ID:</td>
+           <td> <%=  coating._id %> </td>
+             </tr>
+             <tr>
+              <td> Name: </td>
+             <td> <%=coating.name%></td>
+             </tr>
+             <tr>
+               <td> location:</td>
+               <td> <%=coating.location%></td>
+             </tr>
+             <tr>
+                  <td> squareFeet (years):</td>
+                 <td> <%=coating.squareFeet%></td>
+             </tr>
+                  
+
+                 <th> <br>  <%=coating.materials.length%> material(s) needed:</th>
                       <% for (let j = 0; j < coating.materials.length; j++) { material = coating.materials[j]; %>
-                        <div class="arrayItem"> Material name:
-                          <%= material.product %>
-                            <br/>Unit Cost:
-                            <%= material.unitcost %>
-                              <br/>Sqft/unit
-                              <%= material.coversquareFeetSquareFeetPerUnit %>
+                        <div class="arrayItem"> 
+                          
+                          <tr>
+                            <td>Material <%= j+1 %> name:</td>
+                        <td>  <%= material.product %> </td>
+                          </tr>
+                          <tr>
+                          <td>Unit Cost:</td>
+                          <td>  <%= material.unitcost %> </td>
+                          </tr>
+                          
+                          <tr>
+                          
+                            <td> Sqft/unit:</td>
+                             <td> <%= material.coversquareFeetSquareFeetPerUnit %></td>
+                          </tr>
+                        
                         </div>
                         <br/>
                         <% } %>
                           <br/>
-                          Num Days:
-                          <%=  coating.numberOfDays %>
-                          <br>Hrs/Day:
-                          <%=  coating.hoursWorkedPerDay %>
-                          <br>Labor $/Hr:
-                          <%=  coating.laborDollarsPerHour %>
-                          <br>Num Rooms:
-                          <%=  coating.numberHotelRooms %>
-                          <br>Num nights:
-                          <%=  coating.numberHotelNights %>
-                          <br>Hotel $/night:
-                          <%=  coating.hotelDollarsPerNight %>
-                          <br>Food $/day:
-                          <%=  coating.foodDollarsPerDay %>
-                          <br>Num Vehicles:
-                          <%=  coating.numberOfVehicles %>
-                          <br>Miles/vehicle:
-                          <%=  coating.milesPerVehicle %>
-                          <br>$/mile:
-                          <%=  coating.dollarsPerMile %>
+                          <th>
+                              <br>
+                            </th>
+                          <tr>
+                         <td> Num Days:</td>
+                          <td>  <%=  coating.numberOfDays %></td>
+                          </tr>
+                          <tr>
+                          <td>Hrs/Day:</td>
+                          <td><%=  coating.hoursWorkedPerDay %></td>
+                          </tr>
+                          <tr>
+                          <td>Labor $/Hr:</td>
+                          <td><%=  coating.laborDollarsPerHour %></td>
+                        </tr>
+                          <tr>
+                      <td> Rooms:</td>
+                         <td> <%=  coating.numberHotelRooms %> </td>
+                          </tr>
+                          <tr>
+                          <td>Num nights:</td>
+                        <td>  <%=  coating.numberHotelNights %></td>
+                          </tr>
+                          <tr>
+                          <td>Hotel $/night:</td>
+                         <td> <%=  coating.hotelDollarsPerNight %></td>
+                        </tr>
+                        <tr>
+                          <td>Food $/day:</td>
+                         <td> <%=  coating.foodDollarsPerDay %></td>
+                        </tr>
+                        <tr>
+                          <td>Num Vehicles:</td>
+                       <td>   <%=  coating.numberOfVehicles %></td>
+                        </tr>
+                          <tr>
+                            <td>Miles/vehicle:</td>
+                          <td><%=  coating.milesPerVehicle %></td>
+                          </tr>
+                          <tr>
+                          <td>$/mile:</td>
+                          <td><%=  coating.dollarsPerMile %></td>
+                          </tr>
                           <br/>
                           <br/>
+                          <th>
+                              <br>
+                            </th>
                           <% for (let j = 0; j < coating.miscellaneous.length; j++) { miscellaneous = coating.miscellaneous[j]; %>
                             <div class="arrayItem">
-                              <%= miscellaneous.name %>
-                                = $ 
-                                <%= miscellaneous.cost %>
+                            
+                            <tr> <td> <%= miscellaneous.name %> </td>
+                                <td> $ 
+                                <%= miscellaneous.cost %></td>
+                            </tr>
                             </div>
+                         
+
                             <% } %>
+                            
+                          </table>
+                          <br>
+                          <br>
                           <a href="/coating/delete/<%= coating._id  %>" class="btn btn-danger"> Delete </a>
                           <a href="/coating/details/<%= coating._id %>" class="btn btn-info"> Details </a>
                           <a href="/coating/edit/<%= coating._id %>" class="btn btn-warning"> Edit </a>
-          </div>
+           
+                        </div>
         </div>
         <% } %>
 

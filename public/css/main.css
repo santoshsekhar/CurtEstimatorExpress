@@ -108,7 +108,9 @@ textarea {
 
 body {
     padding-top: 50px;
-    background: url("../images/coating2.jpg");
+    background-color: rgba(12, 12, 12, 0.582);
+    color: #ccc;
+  
     /* padding-bottom: 20px; */
   }
   
