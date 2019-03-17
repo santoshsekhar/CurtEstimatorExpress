@@ -1,3 +1,0 @@
-Please store your About Me images in a folder titled with your team number and person a or b (i.e., t12a) in the \public\images\aboutme folder.
-
-Please store your About Me css in the \public\css\aboutme folder with your name as the title.

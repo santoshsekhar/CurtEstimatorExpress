@@ -1,21 +1,3 @@
-/**
-* @file public\css\normalize.css
-* This file implements the styling for views.
-*
-* @summary - Normalize Styling.
-* @author - MIT License
-* @version - v7.0.0
-* @copyright - Massachusetts Institute of Technology
-*/
-
-/* Document
-   ========================================================================== */
-
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in
- *    IE on Windows Phone and in iOS.
- */
 
 html {
   line-height: 1.15; /* 1 */
