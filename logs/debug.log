@@ -11506,3 +11506,90 @@ SyntaxError: Unexpected token )
 2019-03-15T17:49:25.747Z - debug: 1 users registered
 2019-03-15T17:49:26.018Z - debug: User already exists:  cgeadmin@mail.com
 >>>>>>> 72e88132946a3a9c58108ec4d76cedcab5f2b04c
+2019-03-15T19:45:25.817Z - info: Environment isProduction =  true
+2019-03-15T19:45:26.394Z - debug: START routing
+2019-03-15T19:45:26.441Z - debug: END routing
+2019-03-15T19:45:26.557Z - info: Starting controllers/user.js.
+2019-03-15T19:45:26.558Z - debug: START user routing
+2019-03-15T19:45:26.559Z - debug: END user routing
+2019-03-15T19:45:26.560Z - info: Loaded routing.
+2019-03-15T19:45:26.854Z - debug: GET /
+2019-03-15T19:45:27.258Z - info: START seeder.
+2019-03-15T19:45:27.282Z - debug: Registering cgeadmin@mail.com
+2019-03-15T19:45:27.317Z - debug: 3 estimates seeded
+2019-03-15T19:45:27.319Z - debug: 1 users registered
+2019-03-15T19:45:27.494Z - debug: Request to /
+2019-03-15T19:45:27.658Z - debug: GET /css/main.css
+2019-03-15T19:45:27.663Z - debug: GET /css/404.css
+2019-03-15T19:45:27.673Z - debug: GET /images/c1.jpg
+2019-03-15T19:45:27.694Z - debug: GET /images/c2.jpg
+2019-03-15T19:45:27.739Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-03-15T19:45:28.002Z - debug: GET /images/c3.jpg
+2019-03-15T19:45:30.272Z - debug: GET /images/favicon-32x32.png
+2019-03-15T19:45:41.608Z - debug: GET /coating
+2019-03-15T19:45:49.659Z - debug: GET /login
+2019-03-17T01:32:57.998Z - info: Environment isProduction =  true
+2019-03-17T01:32:58.501Z - debug: START routing
+2019-03-17T01:32:58.653Z - debug: END routing
+2019-03-17T01:32:58.783Z - info: Starting controllers/user.js.
+2019-03-17T01:32:58.785Z - debug: START user routing
+2019-03-17T01:32:58.786Z - debug: END user routing
+2019-03-17T01:32:58.787Z - info: Loaded routing.
+2019-03-17T01:32:59.035Z - debug: GET /
+2019-03-17T01:32:59.675Z - info: START seeder.
+2019-03-17T01:32:59.700Z - debug: Registering cgeadmin@mail.com
+2019-03-17T01:32:59.740Z - debug: 3 estimates seeded
+2019-03-17T01:32:59.754Z - debug: 1 users registered
+2019-03-17T01:32:59.954Z - debug: Request to /
+2019-03-17T01:33:00.367Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-17T01:33:03.756Z - debug: GET /contact
+2019-03-17T01:33:05.572Z - debug: GET /coating
+2019-03-17T01:33:11.714Z - debug: GET /coating/create
+2019-03-17T01:33:11.781Z - info: Handling GET /create[object Object]
+2019-03-17T01:33:11.787Z - debug: {"name":"name/description","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-03-17T01:33:14.554Z - debug: GET /coating/select
+2019-03-17T01:34:00.233Z - debug: GET /coating/select
+2019-03-17T01:34:03.698Z - debug: GET /coating/copyfrom/3
+2019-03-17T01:34:03.771Z - info: HandlingCOPYFROMrequest[object Object]
+2019-03-17T01:34:03.776Z - debug: Copyingfromitem{"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"name":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"name":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"lift","cost":1500},{"name":"homedepot","cost":300},{"name":"aircomp","cost":300}],"multiplier":0.4}
+2019-03-17T01:35:33.836Z - debug: GET /coating/select
+2019-03-17T01:35:34.029Z - debug: GET /css/main.css
+2019-03-17T01:35:34.031Z - debug: GET /css/404.css
+2019-03-17T01:35:36.419Z - debug: GET /images/favicon-32x32.png
+2019-03-17T01:35:36.775Z - debug: GET /coating/select
+2019-03-17T01:35:36.969Z - debug: GET /css/main.css
+2019-03-17T01:35:36.973Z - debug: GET /css/404.css
+2019-03-17T01:35:37.722Z - debug: GET /images/favicon-32x32.png
+2019-03-17T01:35:51.009Z - debug: GET /
+2019-03-17T01:35:51.010Z - debug: Request to /
+2019-03-17T01:35:51.078Z - debug: GET /css/main.css
+2019-03-17T01:35:51.080Z - debug: GET /css/404.css
+2019-03-17T01:35:51.083Z - debug: GET /images/c3.jpg
+2019-03-17T01:35:51.157Z - debug: GET /images/android-icon-192x192.png
+2019-03-17T01:35:51.159Z - debug: GET /images/favicon-16x16.png
+2019-03-17T01:35:53.871Z - debug: GET /coating
+2019-03-17T01:35:57.216Z - debug: GET /coating/create
+2019-03-17T01:35:57.281Z - info: Handling GET /create[object Object]
+2019-03-17T01:35:57.287Z - debug: {"name":"name/description","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-03-17T01:35:59.285Z - debug: GET /coating/select
+2019-03-17T01:36:17.447Z - debug: GET /coating/select
+2019-03-17T01:47:00.475Z - info: Environment isProduction =  true
+2019-03-17T01:47:00.769Z - debug: START routing
+2019-03-17T01:47:00.841Z - debug: END routing
+2019-03-17T01:47:00.979Z - info: Starting controllers/user.js.
+2019-03-17T01:47:00.981Z - debug: START user routing
+2019-03-17T01:47:00.984Z - debug: END user routing
+2019-03-17T01:47:00.985Z - info: Loaded routing.
+2019-03-17T01:47:01.150Z - debug: GET /coating/select
+2019-03-17T01:47:01.799Z - info: START seeder.
+2019-03-17T01:47:01.815Z - debug: Registering cgeadmin@mail.com
+2019-03-17T01:47:01.846Z - debug: 3 estimates seeded
+2019-03-17T01:47:01.848Z - debug: 1 users registered
+2019-03-17T01:47:02.090Z - debug: GET /css/main.css
+2019-03-17T01:47:02.117Z - debug: GET /css/404.css
+2019-03-17T01:47:02.375Z - info: User with email: cgeadmin@mail.com successfully registered.
+2019-03-17T01:48:15.651Z - debug: GET /login
+2019-03-17T01:48:18.941Z - debug: GET /coating
+2019-03-17T01:48:24.115Z - debug: GET /contact
+2019-03-17T01:48:27.149Z - debug: GET /
+2019-03-17T01:48:27.215Z - debug: Request to /
