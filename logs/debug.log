@@ -12418,3 +12418,654 @@ SyntaxError: Unexpected token )
 2019-03-18T14:45:59.327Z - debug: GET /contact
 2019-03-18T14:46:04.552Z - debug: GET /login
 >>>>>>> d1bb8a8516c0039514fa3ec54234aeabb8a0c158
+2019-03-19T00:49:00.313Z - info: Environment isProduction =  true
+2019-03-19T00:49:00.554Z - debug: START routing
+2019-03-19T00:49:00.604Z - debug: END routing
+2019-03-19T00:49:00.712Z - info: Starting controllers/user.js.
+2019-03-19T00:49:00.715Z - debug: START user routing
+2019-03-19T00:49:00.717Z - debug: END user routing
+2019-03-19T00:49:00.717Z - info: Loaded routing.
+2019-03-19T00:49:01.374Z - info: START seeder.
+2019-03-19T00:49:01.382Z - debug: Registering cgeadmin@mail.com
+2019-03-19T00:49:01.396Z - debug: 3 estimates seeded
+2019-03-19T00:49:01.396Z - debug: 1 users registered
+2019-03-19T00:49:01.784Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T00:49:05.623Z - debug: GET /
+2019-03-19T00:49:05.647Z - debug: Request to /
+2019-03-19T00:49:07.760Z - debug: GET /images/favicon-32x32.png
+2019-03-19T00:49:16.748Z - debug: GET /contact
+2019-03-19T00:49:18.485Z - debug: GET /coating
+2019-03-19T00:49:30.727Z - debug: GET /contact
+2019-03-19T00:55:15.900Z - info: Environment isProduction =  true
+2019-03-19T00:55:16.230Z - debug: START routing
+2019-03-19T00:55:16.313Z - debug: END routing
+2019-03-19T00:55:16.461Z - info: Starting controllers/user.js.
+2019-03-19T00:55:16.464Z - debug: START user routing
+2019-03-19T00:55:16.466Z - debug: END user routing
+2019-03-19T00:55:16.467Z - info: Loaded routing.
+2019-03-19T00:55:17.319Z - info: START seeder.
+2019-03-19T00:55:17.345Z - debug: Registering cgeadmin@mail.com
+2019-03-19T00:55:17.383Z - debug: 3 estimates seeded
+2019-03-19T00:55:17.384Z - debug: 1 users registered
+2019-03-19T00:55:17.857Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T00:55:26.718Z - debug: GET /contact
+2019-03-19T00:55:28.810Z - debug: GET /images/favicon-32x32.png
+2019-03-19T00:55:33.627Z - debug: POST /contact
+2019-03-19T00:56:55.927Z - info: Environment isProduction =  true
+2019-03-19T00:56:56.283Z - debug: START routing
+2019-03-19T00:56:56.383Z - debug: END routing
+2019-03-19T00:56:56.550Z - info: Starting controllers/user.js.
+2019-03-19T00:56:56.554Z - debug: START user routing
+2019-03-19T00:56:56.555Z - debug: END user routing
+2019-03-19T00:56:56.560Z - info: Loaded routing.
+2019-03-19T00:56:57.267Z - info: START seeder.
+2019-03-19T00:56:57.277Z - debug: Registering cgeadmin@mail.com
+2019-03-19T00:56:57.292Z - debug: 3 estimates seeded
+2019-03-19T00:56:57.293Z - debug: 1 users registered
+2019-03-19T00:56:57.388Z - debug: POST /contact
+2019-03-19T00:56:58.808Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T00:57:01.396Z - debug: GET /images/favicon-32x32.png
+2019-03-19T00:57:08.275Z - debug: POST /contact
+2019-03-19T00:57:08.951Z - debug: GET /css/main.css
+2019-03-19T00:57:08.957Z - debug: GET /css/404.css
+2019-03-19T00:57:09.862Z - debug: GET /images/favicon-32x32.png
+2019-03-19T00:57:13.456Z - debug: GET /
+2019-03-19T00:57:13.524Z - debug: Request to /
+2019-03-19T00:57:16.661Z - debug: GET /contact
+2019-03-19T00:57:24.750Z - debug: POST /contact
+2019-03-19T00:58:11.885Z - info: Environment isProduction =  true
+2019-03-19T00:58:12.236Z - debug: START routing
+2019-03-19T00:58:12.293Z - debug: END routing
+2019-03-19T00:58:12.431Z - info: Starting controllers/user.js.
+2019-03-19T00:58:12.433Z - debug: START user routing
+2019-03-19T00:58:12.434Z - debug: END user routing
+2019-03-19T00:58:12.435Z - info: Loaded routing.
+2019-03-19T00:58:13.137Z - info: START seeder.
+2019-03-19T00:58:13.155Z - debug: Registering cgeadmin@mail.com
+2019-03-19T00:58:13.187Z - debug: 3 estimates seeded
+2019-03-19T00:58:13.189Z - debug: 1 users registered
+2019-03-19T00:58:13.643Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T00:58:15.622Z - debug: GET /contact
+2019-03-19T00:58:22.729Z - debug: POST /contact
+2019-03-19T00:58:59.656Z - info: Environment isProduction =  true
+2019-03-19T00:58:59.998Z - debug: START routing
+2019-03-19T00:59:00.069Z - debug: END routing
+2019-03-19T00:59:00.194Z - info: Starting controllers/user.js.
+2019-03-19T00:59:00.196Z - debug: START user routing
+2019-03-19T00:59:00.197Z - debug: END user routing
+2019-03-19T00:59:00.198Z - info: Loaded routing.
+2019-03-19T00:59:00.927Z - info: START seeder.
+2019-03-19T00:59:00.942Z - debug: Registering cgeadmin@mail.com
+2019-03-19T00:59:00.971Z - debug: 3 estimates seeded
+2019-03-19T00:59:00.975Z - debug: 1 users registered
+2019-03-19T00:59:01.389Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T00:59:04.437Z - info: Environment isProduction =  true
+2019-03-19T00:59:04.826Z - debug: START routing
+2019-03-19T00:59:04.901Z - debug: END routing
+2019-03-19T00:59:05.203Z - info: Starting controllers/user.js.
+2019-03-19T00:59:05.208Z - debug: START user routing
+2019-03-19T00:59:05.210Z - debug: END user routing
+2019-03-19T00:59:05.216Z - info: Loaded routing.
+2019-03-19T00:59:06.194Z - info: START seeder.
+2019-03-19T00:59:06.227Z - debug: Registering cgeadmin@mail.com
+2019-03-19T00:59:06.273Z - debug: 3 estimates seeded
+2019-03-19T00:59:06.274Z - debug: 1 users registered
+2019-03-19T00:59:06.757Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T00:59:09.097Z - debug: GET /contact
+2019-03-19T00:59:16.488Z - debug: POST /contact
+2019-03-19T01:00:54.790Z - info: Environment isProduction =  true
+2019-03-19T01:00:55.308Z - debug: START routing
+2019-03-19T01:00:55.393Z - debug: END routing
+2019-03-19T01:00:55.543Z - info: Starting controllers/user.js.
+2019-03-19T01:00:55.546Z - debug: START user routing
+2019-03-19T01:00:55.547Z - debug: END user routing
+2019-03-19T01:00:55.547Z - info: Loaded routing.
+2019-03-19T01:00:56.320Z - info: START seeder.
+2019-03-19T01:00:56.336Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:00:56.368Z - debug: 3 estimates seeded
+2019-03-19T01:00:56.369Z - debug: 1 users registered
+2019-03-19T01:00:56.794Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:00:58.586Z - debug: GET /contact
+2019-03-19T01:01:24.869Z - info: Environment isProduction =  true
+2019-03-19T01:01:25.467Z - debug: START routing
+2019-03-19T01:01:25.625Z - debug: END routing
+2019-03-19T01:01:25.865Z - info: Starting controllers/user.js.
+2019-03-19T01:01:25.869Z - debug: START user routing
+2019-03-19T01:01:25.871Z - debug: END user routing
+2019-03-19T01:01:25.872Z - info: Loaded routing.
+2019-03-19T01:01:26.220Z - debug: GET /contact
+2019-03-19T01:01:26.908Z - info: START seeder.
+2019-03-19T01:01:26.930Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:01:26.970Z - debug: 3 estimates seeded
+2019-03-19T01:01:26.970Z - debug: 1 users registered
+2019-03-19T01:01:27.531Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:02:01.190Z - info: Environment isProduction =  true
+2019-03-19T01:02:01.508Z - debug: START routing
+2019-03-19T01:02:01.595Z - debug: END routing
+2019-03-19T01:02:01.853Z - info: Starting controllers/user.js.
+2019-03-19T01:02:01.858Z - debug: START user routing
+2019-03-19T01:02:01.863Z - debug: END user routing
+2019-03-19T01:02:01.864Z - info: Loaded routing.
+2019-03-19T01:02:02.565Z - debug: GET /contact
+2019-03-19T01:02:02.794Z - info: START seeder.
+2019-03-19T01:02:02.811Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:02:02.850Z - debug: 3 estimates seeded
+2019-03-19T01:02:02.851Z - debug: 1 users registered
+2019-03-19T01:02:03.282Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:02:34.915Z - info: Environment isProduction =  true
+2019-03-19T01:02:35.273Z - debug: START routing
+2019-03-19T01:02:35.331Z - debug: END routing
+2019-03-19T01:02:35.428Z - info: Starting controllers/user.js.
+2019-03-19T01:02:35.430Z - debug: START user routing
+2019-03-19T01:02:35.431Z - debug: END user routing
+2019-03-19T01:02:35.431Z - info: Loaded routing.
+2019-03-19T01:02:36.049Z - info: START seeder.
+2019-03-19T01:02:36.064Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:02:36.085Z - debug: 3 estimates seeded
+2019-03-19T01:02:36.086Z - debug: 1 users registered
+2019-03-19T01:02:36.585Z - debug: GET /contact
+2019-03-19T01:02:36.633Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:04:35.682Z - info: Environment isProduction =  true
+2019-03-19T01:04:36.081Z - debug: START routing
+2019-03-19T01:04:36.193Z - debug: END routing
+2019-03-19T01:04:36.347Z - info: Starting controllers/user.js.
+2019-03-19T01:04:36.349Z - debug: START user routing
+2019-03-19T01:04:36.350Z - debug: END user routing
+2019-03-19T01:04:36.350Z - info: Loaded routing.
+2019-03-19T01:04:37.127Z - info: START seeder.
+2019-03-19T01:04:37.152Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:04:37.191Z - debug: 3 estimates seeded
+2019-03-19T01:04:37.192Z - debug: 1 users registered
+2019-03-19T01:04:37.668Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:04:39.281Z - debug: GET /login
+2019-03-19T01:04:41.768Z - debug: POST /forgot
+2019-03-19T01:05:13.197Z - info: Environment isProduction =  true
+2019-03-19T01:05:13.870Z - debug: START routing
+2019-03-19T01:05:14.055Z - debug: END routing
+2019-03-19T01:05:14.292Z - info: Starting controllers/user.js.
+2019-03-19T01:05:14.295Z - debug: START user routing
+2019-03-19T01:05:14.296Z - debug: END user routing
+2019-03-19T01:05:14.297Z - info: Loaded routing.
+2019-03-19T01:05:15.140Z - info: START seeder.
+2019-03-19T01:05:15.172Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:05:15.224Z - debug: 3 estimates seeded
+2019-03-19T01:05:15.224Z - debug: 1 users registered
+2019-03-19T01:05:15.665Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:05:16.687Z - debug: GET /login
+2019-03-19T01:05:19.036Z - debug: POST /forgot
+2019-03-19T01:05:50.249Z - info: Environment isProduction =  true
+2019-03-19T01:05:50.686Z - debug: START routing
+2019-03-19T01:05:50.804Z - debug: END routing
+2019-03-19T01:05:51.002Z - info: Starting controllers/user.js.
+2019-03-19T01:05:51.010Z - debug: START user routing
+2019-03-19T01:05:51.011Z - debug: END user routing
+2019-03-19T01:05:51.011Z - info: Loaded routing.
+2019-03-19T01:05:51.795Z - info: START seeder.
+2019-03-19T01:05:51.814Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:05:51.855Z - debug: 3 estimates seeded
+2019-03-19T01:05:51.859Z - debug: 1 users registered
+2019-03-19T01:05:52.319Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:06:19.054Z - info: Environment isProduction =  true
+2019-03-19T01:06:19.581Z - debug: START routing
+2019-03-19T01:06:19.674Z - debug: END routing
+2019-03-19T01:06:19.867Z - info: Starting controllers/user.js.
+2019-03-19T01:06:19.878Z - debug: START user routing
+2019-03-19T01:06:19.879Z - debug: END user routing
+2019-03-19T01:06:19.879Z - info: Loaded routing.
+2019-03-19T01:06:20.674Z - info: START seeder.
+2019-03-19T01:06:20.698Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:06:20.739Z - debug: 3 estimates seeded
+2019-03-19T01:06:20.743Z - debug: 1 users registered
+2019-03-19T01:06:20.946Z - debug: GET /login
+2019-03-19T01:06:21.234Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:06:24.010Z - debug: POST /forgot
+2019-03-19T01:06:45.850Z - info: Environment isProduction =  true
+2019-03-19T01:06:46.138Z - debug: START routing
+2019-03-19T01:06:46.192Z - debug: END routing
+2019-03-19T01:06:46.339Z - info: Starting controllers/user.js.
+2019-03-19T01:06:46.342Z - debug: START user routing
+2019-03-19T01:06:46.343Z - debug: END user routing
+2019-03-19T01:06:46.344Z - info: Loaded routing.
+2019-03-19T01:06:47.174Z - info: START seeder.
+2019-03-19T01:06:47.189Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:06:47.220Z - debug: 3 estimates seeded
+2019-03-19T01:06:47.223Z - debug: 1 users registered
+2019-03-19T01:06:47.660Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:06:50.958Z - info: Environment isProduction =  true
+2019-03-19T01:06:51.326Z - debug: START routing
+2019-03-19T01:06:51.439Z - debug: END routing
+2019-03-19T01:06:51.588Z - info: Starting controllers/user.js.
+2019-03-19T01:06:51.590Z - debug: START user routing
+2019-03-19T01:06:51.590Z - debug: END user routing
+2019-03-19T01:06:51.591Z - info: Loaded routing.
+2019-03-19T01:06:52.268Z - info: START seeder.
+2019-03-19T01:06:52.284Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:06:52.314Z - debug: 3 estimates seeded
+2019-03-19T01:06:52.315Z - debug: 1 users registered
+2019-03-19T01:06:52.793Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:06:56.166Z - debug: POST /forgot
+2019-03-19T01:07:07.078Z - info: Environment isProduction =  true
+2019-03-19T01:07:07.668Z - debug: START routing
+2019-03-19T01:07:07.877Z - debug: END routing
+2019-03-19T01:07:08.148Z - info: Starting controllers/user.js.
+2019-03-19T01:07:08.158Z - debug: START user routing
+2019-03-19T01:07:08.162Z - debug: END user routing
+2019-03-19T01:07:08.164Z - info: Loaded routing.
+2019-03-19T01:07:09.076Z - info: START seeder.
+2019-03-19T01:07:09.095Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:07:09.127Z - debug: 3 estimates seeded
+2019-03-19T01:07:09.128Z - debug: 1 users registered
+2019-03-19T01:07:09.546Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:07:10.198Z - debug: POST /forgot
+2019-03-19T01:07:13.102Z - debug: GET /images/favicon-32x32.png
+2019-03-19T01:07:13.388Z - debug: POST /forgot
+2019-03-19T01:08:18.225Z - info: Environment isProduction =  true
+2019-03-19T01:08:18.583Z - debug: START routing
+2019-03-19T01:08:18.668Z - debug: END routing
+2019-03-19T01:08:18.797Z - info: Starting controllers/user.js.
+2019-03-19T01:08:18.802Z - debug: START user routing
+2019-03-19T01:08:18.815Z - debug: END user routing
+2019-03-19T01:08:18.815Z - info: Loaded routing.
+2019-03-19T01:08:19.543Z - info: START seeder.
+2019-03-19T01:08:19.557Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:08:19.580Z - debug: 3 estimates seeded
+2019-03-19T01:08:19.580Z - debug: 1 users registered
+2019-03-19T01:08:20.015Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:08:20.109Z - debug: POST /forgot
+2019-03-19T01:08:23.979Z - debug: GET /images/favicon-32x32.png
+2019-03-19T01:08:48.536Z - debug: GET /contact
+2019-03-19T01:08:52.185Z - debug: GET /coating
+2019-03-19T01:09:11.332Z - debug: GET /coating/delete/3
+2019-03-19T01:09:11.455Z - debug: GET /login
+2019-03-19T01:09:16.552Z - debug: POST /login
+2019-03-19T01:09:16.791Z - error: 
+2019-03-19T01:09:16.805Z - debug: GET /
+2019-03-19T01:09:16.927Z - debug: Request to /
+2019-03-19T01:09:20.308Z - debug: GET /coating
+2019-03-19T01:09:24.124Z - debug: GET /coating/delete/3
+2019-03-19T01:09:24.245Z - info: Handling GET /delete/:id [object Object]
+2019-03-19T01:09:24.248Z - info: RETURNING VIEW FOR {"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"name":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"name":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"lift","cost":1500},{"name":"homedepot","cost":300},{"name":"aircomp","cost":300}],"multiplier":0.4}
+2019-03-19T01:11:27.599Z - debug: GET /coating/edit/3
+2019-03-19T01:11:27.727Z - info: Handling GET /edit/:id [object Object]
+2019-03-19T01:11:27.728Z - info: RETURNING VIEW FOR{"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"name":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"name":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"lift","cost":1500},{"name":"homedepot","cost":300},{"name":"aircomp","cost":300}],"multiplier":0.4}
+2019-03-19T01:11:32.333Z - debug: POST /coating/save/3
+2019-03-19T01:11:32.593Z - info: Handling SAVE request [object Object]
+2019-03-19T01:11:32.594Z - info: Handling SAVING ID=3
+2019-03-19T01:11:32.594Z - info: ORIGINAL VALUES {"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"name":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"name":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"lift","cost":1500},{"name":"homedepot","cost":300},{"name":"aircomp","cost":300}],"multiplier":0.4}
+2019-03-19T01:11:32.596Z - info: UPDATED VALUES: {"name":"salt dome","location":"adrian iowa","squareFeet":"20000","product":["",""],"unitcost":["1800","65"],"coverageSquareFeetPerUnit":["3000","100"],"numberOfPeople":["4","4"],"numberOfDays":["4","4"],"hoursWorkedPerDay":"10","laborDollarsPerHour":"25","numberHotelRooms":"4","numberHotelNights":"3","hotelDollarsPerNight":"85","foodDollarsPerDay":"25","numberOfVehicles":"4","milesPerVehicle":"500","dollarsPerMile":"1","miscellaneousName":["","",""],"Cost":["1500","300","300"],"multiplier":"0.4"}
+2019-03-19T01:11:32.598Z - info: SAVINGUPDATEDESTIMATE{"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"product":"","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"product":"","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"","cost":1500},{"name":"","cost":1500},{"name":"","cost":1500}],"multiplier":0.4}
+2019-03-19T01:11:32.605Z - debug: GET /coating
+2019-03-19T01:21:18.103Z - info: Environment isProduction =  true
+2019-03-19T01:21:18.320Z - debug: START routing
+2019-03-19T01:21:18.355Z - debug: END routing
+2019-03-19T01:21:18.442Z - info: Starting controllers/user.js.
+2019-03-19T01:21:18.443Z - debug: START user routing
+2019-03-19T01:21:18.443Z - debug: END user routing
+2019-03-19T01:21:18.445Z - info: Loaded routing.
+2019-03-19T01:21:19.048Z - info: START seeder.
+2019-03-19T01:21:19.052Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:21:19.059Z - debug: 3 estimates seeded
+2019-03-19T01:21:19.060Z - debug: 1 users registered
+2019-03-19T01:21:19.435Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:22:02.495Z - debug: GET /
+2019-03-19T01:22:02.507Z - debug: Request to /
+2019-03-19T01:22:07.425Z - debug: GET /coating
+2019-03-19T01:22:10.110Z - debug: GET /coating/edit/3
+2019-03-19T01:22:10.192Z - debug: GET /login
+2019-03-19T01:22:10.276Z - debug: GET /coating/edit/3
+2019-03-19T01:22:10.609Z - debug: GET /login
+2019-03-19T01:22:13.296Z - debug: POST /login
+2019-03-19T01:22:13.509Z - error: 
+2019-03-19T01:22:13.523Z - debug: GET /
+2019-03-19T01:22:13.645Z - debug: Request to /
+2019-03-19T01:22:20.410Z - debug: GET /coating
+2019-03-19T01:23:00.938Z - debug: GET /coating/edit/3
+2019-03-19T01:23:01.097Z - info: Handling GET /edit/:id [object Object]
+2019-03-19T01:23:01.099Z - info: RETURNING VIEW FOR{"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"name":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"name":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"lift","cost":1500},{"name":"homedepot","cost":300},{"name":"aircomp","cost":300}],"multiplier":0.4}
+2019-03-19T01:23:13.986Z - debug: POST /coating/save/3
+2019-03-19T01:23:14.097Z - info: Handling SAVE request [object Object]
+2019-03-19T01:23:14.097Z - info: Handling SAVING ID=3
+2019-03-19T01:23:14.098Z - info: ORIGINAL VALUES {"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"name":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"name":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"lift","cost":1500},{"name":"homedepot","cost":300},{"name":"aircomp","cost":300}],"multiplier":0.4}
+2019-03-19T01:23:14.098Z - info: UPDATED VALUES: {"name":"salt dome","location":"adrian iowa","squareFeet":"20000","product":["",""],"unitcost":["1800","65"],"coverageSquareFeetPerUnit":["3000","100"],"numberOfPeople":["4","4"],"numberOfDays":["4","4"],"hoursWorkedPerDay":"10","laborDollarsPerHour":"25","numberHotelRooms":"4","numberHotelNights":"3","hotelDollarsPerNight":"85","foodDollarsPerDay":"25","numberOfVehicles":"4","milesPerVehicle":"500","dollarsPerMile":"1","miscellaneousName":["","",""],"Cost":["1500","300","300"],"multiplier":"0.4"}
+2019-03-19T01:23:14.100Z - info: SAVINGUPDATEDESTIMATE{"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"product":"","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"product":"","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"","cost":1500},{"name":"","cost":1500},{"name":"","cost":1500}],"multiplier":0.4}
+2019-03-19T01:23:14.105Z - debug: GET /coating
+2019-03-19T01:33:13.622Z - info: Environment isProduction =  true
+2019-03-19T01:33:13.928Z - debug: START routing
+2019-03-19T01:33:13.964Z - debug: END routing
+2019-03-19T01:33:14.047Z - info: Starting controllers/user.js.
+2019-03-19T01:33:14.049Z - debug: START user routing
+2019-03-19T01:33:14.049Z - debug: END user routing
+2019-03-19T01:33:14.050Z - info: Loaded routing.
+2019-03-19T01:33:15.685Z - info: Environment isProduction =  true
+2019-03-19T01:33:15.913Z - debug: START routing
+2019-03-19T01:33:15.955Z - debug: END routing
+2019-03-19T01:33:16.033Z - info: Starting controllers/user.js.
+2019-03-19T01:33:16.035Z - debug: START user routing
+2019-03-19T01:33:16.035Z - debug: END user routing
+2019-03-19T01:33:16.036Z - info: Loaded routing.
+2019-03-19T01:33:16.673Z - info: START seeder.
+2019-03-19T01:33:16.680Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:33:16.688Z - debug: 3 estimates seeded
+2019-03-19T01:33:16.688Z - debug: 1 users registered
+2019-03-19T01:33:17.109Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:33:19.874Z - info: Environment isProduction =  true
+2019-03-19T01:33:20.149Z - debug: START routing
+2019-03-19T01:33:20.201Z - debug: END routing
+2019-03-19T01:33:20.301Z - info: Starting controllers/user.js.
+2019-03-19T01:33:20.303Z - debug: START user routing
+2019-03-19T01:33:20.303Z - debug: END user routing
+2019-03-19T01:33:20.304Z - info: Loaded routing.
+2019-03-19T01:33:21.108Z - info: START seeder.
+2019-03-19T01:33:21.141Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:33:21.167Z - debug: 3 estimates seeded
+2019-03-19T01:33:21.168Z - debug: 1 users registered
+2019-03-19T01:33:21.568Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:33:26.749Z - debug: GET /coating/edit/3
+2019-03-19T01:33:26.893Z - info: Handling GET /edit/:id [object Object]
+2019-03-19T01:33:26.897Z - info: RETURNING VIEW FOR{"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"name":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"name":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"lift","cost":1500},{"name":"homedepot","cost":300},{"name":"aircomp","cost":300}],"multiplier":0.4}
+2019-03-19T01:33:30.697Z - debug: POST /coating/save/3
+2019-03-19T01:33:30.939Z - info: Handling SAVE request [object Object]
+2019-03-19T01:33:30.939Z - info: Handling SAVING ID=3
+2019-03-19T01:33:30.939Z - info: ORIGINAL VALUES {"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"name":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"name":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"lift","cost":1500},{"name":"homedepot","cost":300},{"name":"aircomp","cost":300}],"multiplier":0.4}
+2019-03-19T01:33:30.941Z - info: UPDATED VALUES: {"name":"salt dome","location":"adrian iowa","squareFeet":"20000","product":["",""],"unitcost":["1800","65"],"coverageSquareFeetPerUnit":["3000","100"],"numberOfPeople":["4","4"],"numberOfDays":["4","4"],"hoursWorkedPerDay":"10","laborDollarsPerHour":"25","numberHotelRooms":"4","numberHotelNights":"3","hotelDollarsPerNight":"85","foodDollarsPerDay":"25","numberOfVehicles":"4","milesPerVehicle":"500","dollarsPerMile":"1","miscellaneousName":["","",""],"Cost":["1500","300","300"],"multiplier":"0.4"}
+2019-03-19T01:33:30.941Z - info: SAVINGUPDATEDESTIMATE{"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"product":"","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"product":"","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"","cost":1500},{"name":"","cost":1500},{"name":"","cost":1500}],"multiplier":0.4}
+2019-03-19T01:33:30.953Z - debug: GET /coating
+2019-03-19T01:33:32.045Z - debug: GET /favicon.ico
+2019-03-19T01:33:34.320Z - debug: GET /coating
+2019-03-19T01:36:03.883Z - info: Environment isProduction =  true
+2019-03-19T01:36:04.205Z - debug: START routing
+2019-03-19T01:36:04.269Z - debug: END routing
+2019-03-19T01:36:04.379Z - info: Starting controllers/user.js.
+2019-03-19T01:36:04.381Z - debug: START user routing
+2019-03-19T01:36:04.382Z - debug: END user routing
+2019-03-19T01:36:04.383Z - info: Loaded routing.
+2019-03-19T01:36:05.026Z - info: START seeder.
+2019-03-19T01:36:05.039Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:36:05.058Z - debug: 3 estimates seeded
+2019-03-19T01:36:05.058Z - debug: 1 users registered
+2019-03-19T01:36:05.476Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:36:06.312Z - debug: GET /coating
+2019-03-19T01:36:08.820Z - debug: GET /coating
+2019-03-19T01:36:11.926Z - debug: GET /
+2019-03-19T01:36:12.054Z - debug: Request to /
+2019-03-19T01:36:13.565Z - debug: GET /coating
+2019-03-19T01:36:36.672Z - info: Environment isProduction =  true
+2019-03-19T01:36:36.922Z - debug: START routing
+2019-03-19T01:36:36.957Z - debug: END routing
+2019-03-19T01:36:37.046Z - info: Starting controllers/user.js.
+2019-03-19T01:36:37.047Z - debug: START user routing
+2019-03-19T01:36:37.048Z - debug: END user routing
+2019-03-19T01:36:37.048Z - info: Loaded routing.
+2019-03-19T01:36:37.632Z - info: START seeder.
+2019-03-19T01:36:37.637Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:36:37.647Z - debug: 3 estimates seeded
+2019-03-19T01:36:37.648Z - debug: 1 users registered
+2019-03-19T01:36:38.067Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:36:43.190Z - debug: GET /
+2019-03-19T01:36:43.310Z - debug: Request to /
+2019-03-19T01:36:45.128Z - debug: GET /coating
+2019-03-19T01:36:51.901Z - info: Environment isProduction =  true
+2019-03-19T01:36:52.117Z - debug: START routing
+2019-03-19T01:36:52.164Z - debug: END routing
+2019-03-19T01:36:52.251Z - info: Starting controllers/user.js.
+2019-03-19T01:36:52.253Z - debug: START user routing
+2019-03-19T01:36:52.253Z - debug: END user routing
+2019-03-19T01:36:52.254Z - info: Loaded routing.
+2019-03-19T01:36:53.000Z - info: START seeder.
+2019-03-19T01:36:53.011Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:36:53.028Z - debug: 3 estimates seeded
+2019-03-19T01:36:53.029Z - debug: 1 users registered
+2019-03-19T01:36:53.440Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:36:54.567Z - debug: GET /
+2019-03-19T01:36:54.698Z - debug: Request to /
+2019-03-19T01:36:56.061Z - debug: GET /coating
+2019-03-19T01:37:12.501Z - debug: GET /
+2019-03-19T01:37:12.504Z - debug: Request to /
+2019-03-19T01:37:12.551Z - debug: GET /css/main.css
+2019-03-19T01:37:12.555Z - debug: GET /css/404.css
+2019-03-19T01:37:12.655Z - debug: GET /images/android-icon-192x192.png
+2019-03-19T01:37:12.658Z - debug: GET /images/favicon-16x16.png
+2019-03-19T01:37:13.935Z - debug: GET /coating
+2019-03-19T01:37:14.100Z - debug: GET /favicon.ico
+2019-03-19T01:38:13.639Z - info: Environment isProduction =  true
+2019-03-19T01:38:13.963Z - debug: START routing
+2019-03-19T01:38:14.015Z - debug: END routing
+2019-03-19T01:38:14.100Z - info: Starting controllers/user.js.
+2019-03-19T01:38:14.102Z - debug: START user routing
+2019-03-19T01:38:14.103Z - debug: END user routing
+2019-03-19T01:38:14.103Z - info: Loaded routing.
+2019-03-19T01:38:14.220Z - debug: GET /coating
+2019-03-19T01:38:14.737Z - info: START seeder.
+2019-03-19T01:38:14.743Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:38:14.752Z - debug: 3 estimates seeded
+2019-03-19T01:38:14.752Z - debug: 1 users registered
+2019-03-19T01:38:15.164Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:38:36.305Z - info: Environment isProduction =  true
+2019-03-19T01:38:36.573Z - debug: START routing
+2019-03-19T01:38:36.619Z - debug: END routing
+2019-03-19T01:38:36.704Z - info: Starting controllers/user.js.
+2019-03-19T01:38:36.706Z - debug: START user routing
+2019-03-19T01:38:36.707Z - debug: END user routing
+2019-03-19T01:38:36.708Z - info: Loaded routing.
+2019-03-19T01:38:37.331Z - info: START seeder.
+2019-03-19T01:38:37.335Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:38:37.343Z - debug: 3 estimates seeded
+2019-03-19T01:38:37.344Z - debug: 1 users registered
+2019-03-19T01:38:37.754Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:38:38.143Z - debug: GET /coating
+2019-03-19T01:41:17.113Z - info: Environment isProduction =  true
+2019-03-19T01:41:17.330Z - debug: START routing
+2019-03-19T01:41:17.366Z - debug: END routing
+2019-03-19T01:41:17.441Z - info: Starting controllers/user.js.
+2019-03-19T01:41:17.442Z - debug: START user routing
+2019-03-19T01:41:17.442Z - debug: END user routing
+2019-03-19T01:41:17.443Z - info: Loaded routing.
+2019-03-19T01:41:18.058Z - info: START seeder.
+2019-03-19T01:41:18.063Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:41:18.074Z - debug: 3 estimates seeded
+2019-03-19T01:41:18.075Z - debug: 1 users registered
+2019-03-19T01:41:18.464Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:41:18.794Z - debug: GET /coating
+2019-03-19T01:41:18.905Z - debug: GET /css/main.css
+2019-03-19T01:41:18.909Z - debug: GET /css/404.css
+2019-03-19T01:41:37.352Z - debug: GET /coating
+2019-03-19T01:41:39.055Z - debug: GET /images/favicon-32x32.png
+2019-03-19T01:41:43.140Z - debug: GET /coating/edit/3
+2019-03-19T01:41:43.249Z - info: Handling GET /edit/:id [object Object]
+2019-03-19T01:41:43.251Z - info: RETURNING VIEW FOR{"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"name":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"name":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"lift","cost":1500},{"name":"homedepot","cost":300},{"name":"aircomp","cost":300}],"multiplier":0.4}
+2019-03-19T01:42:04.698Z - debug: POST /coating/save/3
+2019-03-19T01:42:04.847Z - info: Handling SAVE request [object Object]
+2019-03-19T01:42:04.848Z - info: Handling SAVING ID=3
+2019-03-19T01:42:04.849Z - info: ORIGINAL VALUES {"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"name":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"name":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"lift","cost":1500},{"name":"homedepot","cost":300},{"name":"aircomp","cost":300}],"multiplier":0.4}
+2019-03-19T01:42:04.850Z - info: UPDATED VALUES: {"name":"salt dome","location":"adrian iowa","squareFeet":"20000","product":["",""],"unitcost":["1800","65"],"coverageSquareFeetPerUnit":["3000","100"],"numberOfPeople":["4","4"],"numberOfDays":["4","4"],"hoursWorkedPerDay":"10","laborDollarsPerHour":"25","numberHotelRooms":"4","numberHotelNights":"3","hotelDollarsPerNight":"85","foodDollarsPerDay":"25","numberOfVehicles":"4","milesPerVehicle":"500","dollarsPerMile":"1","miscellaneousName":["","",""],"Cost":["1500","300","300"],"multiplier":"0.4"}
+2019-03-19T01:42:04.851Z - info: SAVINGUPDATEDESTIMATE{"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"product":"","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"product":"","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"","cost":1500},{"name":"","cost":1500},{"name":"","cost":1500}],"multiplier":0.4}
+2019-03-19T01:42:04.871Z - debug: GET /coating
+2019-03-19T01:47:14.598Z - info: Environment isProduction =  true
+2019-03-19T01:47:14.930Z - debug: START routing
+2019-03-19T01:47:14.969Z - debug: END routing
+2019-03-19T01:47:15.064Z - info: Starting controllers/user.js.
+2019-03-19T01:47:15.066Z - debug: START user routing
+2019-03-19T01:47:15.067Z - debug: END user routing
+2019-03-19T01:47:15.067Z - info: Loaded routing.
+2019-03-19T01:47:16.782Z - info: Environment isProduction =  true
+2019-03-19T01:47:17.013Z - debug: START routing
+2019-03-19T01:47:17.061Z - debug: END routing
+2019-03-19T01:47:17.138Z - info: Starting controllers/user.js.
+2019-03-19T01:47:17.140Z - debug: START user routing
+2019-03-19T01:47:17.141Z - debug: END user routing
+2019-03-19T01:47:17.141Z - info: Loaded routing.
+2019-03-19T01:47:17.770Z - info: START seeder.
+2019-03-19T01:47:17.776Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:47:17.784Z - debug: 3 estimates seeded
+2019-03-19T01:47:17.784Z - debug: 1 users registered
+2019-03-19T01:47:18.188Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:47:24.018Z - info: Environment isProduction =  true
+2019-03-19T01:47:24.229Z - debug: START routing
+2019-03-19T01:47:24.275Z - debug: END routing
+2019-03-19T01:47:24.346Z - info: Starting controllers/user.js.
+2019-03-19T01:47:24.347Z - debug: START user routing
+2019-03-19T01:47:24.348Z - debug: END user routing
+2019-03-19T01:47:24.348Z - info: Loaded routing.
+2019-03-19T01:47:24.888Z - info: START seeder.
+2019-03-19T01:47:24.894Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:47:24.904Z - debug: 3 estimates seeded
+2019-03-19T01:47:24.905Z - debug: 1 users registered
+2019-03-19T01:47:25.307Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:47:33.317Z - info: Environment isProduction =  true
+2019-03-19T01:47:33.563Z - debug: START routing
+2019-03-19T01:47:33.606Z - debug: END routing
+2019-03-19T01:47:33.685Z - info: Starting controllers/user.js.
+2019-03-19T01:47:33.687Z - debug: START user routing
+2019-03-19T01:47:33.688Z - debug: END user routing
+2019-03-19T01:47:33.688Z - info: Loaded routing.
+2019-03-19T01:47:34.228Z - info: START seeder.
+2019-03-19T01:47:34.233Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:47:34.246Z - debug: 3 estimates seeded
+2019-03-19T01:47:34.246Z - debug: 1 users registered
+2019-03-19T01:47:34.648Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:47:36.061Z - info: Environment isProduction =  true
+2019-03-19T01:47:36.299Z - debug: START routing
+2019-03-19T01:47:36.341Z - debug: END routing
+2019-03-19T01:47:36.418Z - info: Starting controllers/user.js.
+2019-03-19T01:47:36.419Z - debug: START user routing
+2019-03-19T01:47:36.421Z - debug: END user routing
+2019-03-19T01:47:36.421Z - info: Loaded routing.
+2019-03-19T01:47:37.018Z - info: START seeder.
+2019-03-19T01:47:37.029Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:47:37.050Z - debug: 3 estimates seeded
+2019-03-19T01:47:37.051Z - debug: 1 users registered
+2019-03-19T01:47:38.846Z - info: Environment isProduction =  true
+2019-03-19T01:47:39.143Z - debug: START routing
+2019-03-19T01:47:39.184Z - debug: END routing
+2019-03-19T01:47:39.266Z - info: Starting controllers/user.js.
+2019-03-19T01:47:39.267Z - debug: START user routing
+2019-03-19T01:47:39.268Z - debug: END user routing
+2019-03-19T01:47:39.268Z - info: Loaded routing.
+2019-03-19T01:47:39.825Z - info: START seeder.
+2019-03-19T01:47:39.830Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:47:39.837Z - debug: 3 estimates seeded
+2019-03-19T01:47:39.838Z - debug: 1 users registered
+2019-03-19T01:47:40.224Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:47:49.095Z - info: Environment isProduction =  true
+2019-03-19T01:47:49.490Z - debug: START routing
+2019-03-19T01:47:49.526Z - debug: END routing
+2019-03-19T01:47:49.623Z - info: Starting controllers/user.js.
+2019-03-19T01:47:49.626Z - debug: START user routing
+2019-03-19T01:47:49.627Z - debug: END user routing
+2019-03-19T01:47:49.628Z - info: Loaded routing.
+2019-03-19T01:47:50.212Z - info: START seeder.
+2019-03-19T01:47:50.222Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:47:50.234Z - debug: 3 estimates seeded
+2019-03-19T01:47:50.234Z - debug: 1 users registered
+2019-03-19T01:47:50.622Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:47:56.931Z - debug: POST /coating/save/3
+2019-03-19T01:47:57.077Z - info: Handling SAVE request [object Object]
+2019-03-19T01:47:57.077Z - info: Handling SAVING ID=3
+2019-03-19T01:47:57.082Z - info: ORIGINAL VALUES {"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"name":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"name":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"lift","cost":1500},{"name":"homedepot","cost":300},{"name":"aircomp","cost":300}],"multiplier":0.4}
+2019-03-19T01:47:57.082Z - info: UPDATED VALUES: {"name":"salt dome","location":"adrian iowa","squareFeet":"20000","product":["",""],"unitcost":["1800","65"],"coverageSquareFeetPerUnit":["3000","100"],"numberOfPeople":["4","4"],"numberOfDays":["4","4"],"hoursWorkedPerDay":"10","laborDollarsPerHour":"25","numberHotelRooms":"4","numberHotelNights":"3","hotelDollarsPerNight":"85","foodDollarsPerDay":"25","numberOfVehicles":"4","milesPerVehicle":"500","dollarsPerMile":"1","miscellaneousName":["","",""],"Cost":["1500","300","300"],"multiplier":"0.4"}
+2019-03-19T01:47:57.084Z - info: SAVINGUPDATEDESTIMATE{"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"product":"","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"product":"","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"","cost":1500},{"name":"","cost":1500},{"name":"","cost":1500}],"multiplier":0.4}
+2019-03-19T01:47:57.130Z - debug: GET /coating
+2019-03-19T01:48:34.568Z - info: Environment isProduction =  true
+2019-03-19T01:48:34.790Z - debug: START routing
+2019-03-19T01:48:34.839Z - debug: END routing
+2019-03-19T01:48:34.922Z - info: Starting controllers/user.js.
+2019-03-19T01:48:34.924Z - debug: START user routing
+2019-03-19T01:48:34.925Z - debug: END user routing
+2019-03-19T01:48:34.925Z - info: Loaded routing.
+2019-03-19T01:48:35.489Z - info: START seeder.
+2019-03-19T01:48:35.493Z - debug: Registering cgeadmin@mail.com
+2019-03-19T01:48:35.501Z - debug: 3 estimates seeded
+2019-03-19T01:48:35.501Z - debug: 1 users registered
+2019-03-19T01:48:35.897Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T01:48:36.320Z - debug: GET /coating
+2019-03-19T01:48:36.541Z - debug: GET /css/main.css
+2019-03-19T01:48:36.543Z - debug: GET /css/404.css
+2019-03-19T01:48:37.451Z - debug: GET /coating
+2019-03-19T01:48:47.567Z - debug: GET /
+2019-03-19T01:48:47.625Z - debug: Request to /
+2019-03-19T01:48:49.889Z - debug: GET /coating
+2019-03-19T07:00:57.435Z - debug: GET /coating/edit/3
+2019-03-19T07:00:57.570Z - info: Handling GET /edit/:id [object Object]
+2019-03-19T07:00:57.573Z - info: RETURNING VIEW FOR{"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"name":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"name":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"lift","cost":1500},{"name":"homedepot","cost":300},{"name":"aircomp","cost":300}],"multiplier":0.4}
+2019-03-19T07:01:04.002Z - debug: POST /coating/save/3
+2019-03-19T07:01:04.211Z - info: Handling SAVE request [object Object]
+2019-03-19T07:01:04.211Z - info: Handling SAVING ID=3
+2019-03-19T07:01:04.212Z - info: ORIGINAL VALUES {"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"name":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"name":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"lift","cost":1500},{"name":"homedepot","cost":300},{"name":"aircomp","cost":300}],"multiplier":0.4}
+2019-03-19T07:01:04.212Z - info: UPDATED VALUES: {"name":"salt dome","location":"adrian iowa","squareFeet":"20000","product":["",""],"unitcost":["1800","65"],"coverageSquareFeetPerUnit":["3000","100"],"numberOfPeople":["4","4"],"numberOfDays":["4","4"],"hoursWorkedPerDay":"10","laborDollarsPerHour":"25","numberHotelRooms":"4","numberHotelNights":"3","hotelDollarsPerNight":"85","foodDollarsPerDay":"25","numberOfVehicles":"4","milesPerVehicle":"500","dollarsPerMile":"1","miscellaneousName":["","",""],"Cost":["1500","300","300"],"multiplier":"0.4"}
+2019-03-19T07:01:04.215Z - info: SAVINGUPDATEDESTIMATE{"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"product":"","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"product":"","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"","cost":1500},{"name":"","cost":1500},{"name":"","cost":1500}],"multiplier":0.4}
+2019-03-19T07:01:04.252Z - debug: GET /coating
+2019-03-19T07:01:13.686Z - debug: GET /coating
+2019-03-19T07:01:20.037Z - debug: GET /coating
+2019-03-19T07:01:51.595Z - info: Environment isProduction =  true
+2019-03-19T07:01:52.009Z - debug: START routing
+2019-03-19T07:01:52.112Z - debug: END routing
+2019-03-19T07:01:52.276Z - info: Starting controllers/user.js.
+2019-03-19T07:01:52.280Z - debug: START user routing
+2019-03-19T07:01:52.282Z - debug: END user routing
+2019-03-19T07:01:52.283Z - info: Loaded routing.
+2019-03-19T07:01:53.099Z - info: START seeder.
+2019-03-19T07:01:53.113Z - debug: Registering cgeadmin@mail.com
+2019-03-19T07:01:53.123Z - debug: 3 estimates seeded
+2019-03-19T07:01:53.135Z - debug: 1 users registered
+2019-03-19T07:01:53.566Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T07:01:54.716Z - debug: GET /
+2019-03-19T07:01:54.856Z - debug: Request to /
+2019-03-19T07:01:57.648Z - debug: GET /coating
+2019-03-19T07:02:33.596Z - debug: GET /
+2019-03-19T07:02:33.600Z - debug: Request to /
+2019-03-19T07:02:33.731Z - debug: GET /css/main.css
+2019-03-19T07:02:33.795Z - debug: GET /images/c1.jpg
+2019-03-19T07:02:33.799Z - debug: GET /images/c2.jpg
+2019-03-19T07:02:33.802Z - debug: GET /images/c3.jpg
+2019-03-19T07:02:33.911Z - debug: GET /images/android-icon-192x192.png
+2019-03-19T07:02:33.914Z - debug: GET /images/favicon-16x16.png
+2019-03-19T07:02:35.443Z - debug: GET /coating
+2019-03-19T07:03:10.380Z - info: Environment isProduction =  true
+2019-03-19T07:03:10.757Z - debug: START routing
+2019-03-19T07:03:10.833Z - debug: END routing
+2019-03-19T07:03:10.957Z - info: Starting controllers/user.js.
+2019-03-19T07:03:10.960Z - debug: START user routing
+2019-03-19T07:03:10.962Z - debug: END user routing
+2019-03-19T07:03:10.962Z - info: Loaded routing.
+2019-03-19T07:03:11.747Z - info: START seeder.
+2019-03-19T07:03:11.763Z - debug: Registering cgeadmin@mail.com
+2019-03-19T07:03:11.814Z - debug: 3 estimates seeded
+2019-03-19T07:03:11.815Z - debug: 1 users registered
+2019-03-19T07:03:15.587Z - info: Environment isProduction =  true
+2019-03-19T07:03:15.874Z - debug: START routing
+2019-03-19T07:03:15.958Z - debug: END routing
+2019-03-19T07:03:16.120Z - info: Starting controllers/user.js.
+2019-03-19T07:03:16.123Z - debug: START user routing
+2019-03-19T07:03:16.125Z - debug: END user routing
+2019-03-19T07:03:16.126Z - info: Loaded routing.
+2019-03-19T07:03:16.245Z - debug: GET /coating
+2019-03-19T07:03:16.827Z - info: START seeder.
+2019-03-19T07:03:16.842Z - debug: Registering cgeadmin@mail.com
+2019-03-19T07:03:16.879Z - debug: 3 estimates seeded
+2019-03-19T07:03:16.880Z - debug: 1 users registered
+2019-03-19T07:03:17.301Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T07:03:17.434Z - debug: GET /css/main.css
+2019-03-19T07:03:17.434Z - debug: GET /css/404.css
+2019-03-19T07:03:19.926Z - debug: GET /images/favicon-32x32.png
+2019-03-19T07:03:26.879Z - debug: GET /coating
+2019-03-19T07:03:27.016Z - debug: GET /css/main.css
+2019-03-19T07:03:27.026Z - debug: GET /css/404.css
+2019-03-19T07:03:27.311Z - debug: GET /images/favicon-16x16.png
+2019-03-19T07:03:27.314Z - debug: GET /images/android-icon-192x192.png
+2019-03-19T07:23:48.253Z - debug: GET /coating
+2019-03-19T07:23:48.446Z - debug: GET /css/404.css
+2019-03-19T07:23:48.448Z - debug: GET /css/main.css
+2019-03-19T07:24:11.403Z - info: Environment isProduction =  true
+2019-03-19T07:24:11.964Z - debug: START routing
+2019-03-19T07:24:12.117Z - debug: END routing
+2019-03-19T07:24:12.431Z - info: Starting controllers/user.js.
+2019-03-19T07:24:12.442Z - debug: START user routing
+2019-03-19T07:24:12.445Z - debug: END user routing
+2019-03-19T07:24:12.445Z - info: Loaded routing.
+2019-03-19T07:24:12.716Z - debug: GET /coating
+2019-03-19T07:24:13.261Z - info: START seeder.
+2019-03-19T07:24:13.277Z - debug: Registering cgeadmin@mail.com
+2019-03-19T07:24:13.306Z - debug: 3 estimates seeded
+2019-03-19T07:24:13.311Z - debug: 1 users registered
+2019-03-19T07:24:13.772Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-19T07:24:16.862Z - debug: GET /images/favicon-32x32.png

@@ -1,7 +1,7 @@
 
 <div class="custom-container" ng-controller="UserLoginCtrl" class="col-md-6" >
   <div class="page-header" style="text-align:center; color:whitesmoke;">
-    <h3>Sign in</h3>
+    <h3>Sign In</h3>
   </div>
 
   <%if(messages.failure){%>
@@ -50,6 +50,10 @@
                   <form action='forgot' method="POST">
                     <button type="submit" name="submit" class="btn btn-danger">Forgot your password?</button>
                   </form>
+                  <div style="color:white">
+                    <h5>
                   <%= title %>
+                    </h5>
+                  </div>
                 </div>
 </div>

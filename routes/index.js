@@ -17,6 +17,11 @@ router.get('/contact',  (req, res) =>{
         title: ''
       })   ;
     });
+    router.get('/coating',  (req, res) =>{
+        res.render('coating/index', {
+            title: ''
+          }) ;
+        })
     router.get('/login',  (req, res) =>{
         res.render('account/login', {
             title: ''
@@ -58,7 +63,7 @@ var data = {
  
 mailgun.messages().send(data, function (error, body) {
   console.log(body)
-  res.render('contact/index',{title:'Email sent successfully'});
+  res.render('contact/index',{title:'Email sent successfully!'});
 });
 })
 
@@ -80,7 +85,7 @@ var data = {
  
 mailgun.messages().send(data, function (error, body) {
   console.log(body)
-  res.render('account/login',{title:'Password has been sent to the registered e-mail Id'});
+  res.render('account/login',{title:'password has been sent to the registered e-mail Id'});
 });
 })
 
