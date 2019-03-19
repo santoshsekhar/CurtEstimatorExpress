@@ -21,12 +21,24 @@ router.get('/contact',  (req, res) =>{
         res.render('coating/index', {
             title: ''
           }) ;
-        })
+        });
+        router.get('/coatingdel',  (req, res) =>{
+            res.render('coating/index', {
+                title: 'Estimate deleted'
+              }) ;
+            });
+            router.get('/coatingedit',  (req, res) =>{
+                res.render('coating/index', {
+                    title: 'Updated Estimate'
+                  }) ;
+                });
+
     router.get('/login',  (req, res) =>{
         res.render('account/login', {
             title: ''
           })   ;
         });
+        
 router.post('/contact', (req, res) => {
     
     var api_key = 'key-bf36947666ad7ed146a91951252116ed';

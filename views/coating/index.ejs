@@ -2,9 +2,12 @@
 <br/>
 <div class="container-fluid">
   <div class=row>
-      <h5>
-          <%= title %>
-            </h5>
+     <div class="col-md-12" style="color:white; text-align:center;border-radius: 10px;font-family:Trebuchet MS">
+        <h4>
+          <%= title %>  
+            </h4>
+     </div>
+     <br>
     <div class="col col-md-12">
       <a href="coating/create" class="btn btn-primary new">
         Create a new estimate
@@ -128,7 +131,7 @@
                           </table>
                           <br>
                           <br>
-                          <a href="/coating/delete/<%= coating._id  %>" class="btn btn-danger"> Delete </a>
+                          <a class"delete_estimate" href="/coating/delete/<%= coating._id  %>" class="btn btn-danger"> Delete </a>
                           <a href="/coating/details/<%= coating._id %>" class="btn btn-info"> Details </a>
                           <a href="/coating/edit/<%= coating._id %>" class="btn btn-warning"> Edit </a>
            
