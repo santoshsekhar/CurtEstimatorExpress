@@ -17,11 +17,33 @@ router.get('/contact',  (req, res) =>{
         title: ''
       })   ;
     });
+    router.get('/coating',  (req, res) =>{
+        res.render('coating/index', {
+            title: ''
+          }) ;
+        });
+        router.get('/coatingdel',  (req, res) =>{
+            res.render('coating/index', {
+                title: 'Estimate deleted'
+              }) ;
+            });
+            router.get('/coatingedit',  (req, res) =>{
+                res.render('coating/index', {
+                    title: 'Updated Estimate'
+                  }) ;
+                });
+                router.get('/createcoating',  (req, res) =>{
+                    res.render('coating/index', {
+                        title: 'A new estimate is created'
+                      }) ;
+                    });
+
     router.get('/login',  (req, res) =>{
         res.render('account/login', {
             title: ''
           })   ;
         });
+        
 router.post('/contact', (req, res) => {
     
     var api_key = 'key-bf36947666ad7ed146a91951252116ed';
@@ -58,7 +80,7 @@ var data = {
  
 mailgun.messages().send(data, function (error, body) {
   console.log(body)
-  res.render('contact/index',{title:'Email sent successfully'});
+  res.render('contact/index',{title:'Email sent successfully!'});
 });
 })
 
@@ -80,7 +102,7 @@ var data = {
  
 mailgun.messages().send(data, function (error, body) {
   console.log(body)
-  res.render('account/login',{title:'Password has been sent to the registered e-mail Id'});
+  res.render('account/login',{title:'password has been sent to the registered e-mail Id'});
 });
 })
 

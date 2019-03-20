@@ -20,11 +20,11 @@ exports.newUser = function (newUser) {
     }
     if (existingUser) {
       LOG.debug('User already exists: ', user.email)
-      User.remove({ email: existingUser.email }, (err, removed) => {
-        if (err) {
-          LOG.error(err.message)
-        }
-      })
+      // User.remove({ email: existingUser.email }, (err, removed) => {
+      //   if (err) {
+      //     LOG.error(err.message)
+      //   }
+      // })
       return
     }
     user.save()

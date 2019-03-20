@@ -7,8 +7,9 @@ const find = require('lodash.find')
 const remove = require('lodash.remove')
 const notfoundstring = 'coatings'
 const passport = require('../config/passportConfig.js')
+const router = express.Router()
 
-
+ 
 api.get('/findall',  (req, res) => {
   console.log(req.app.locals.coatings)
   res.setHeader('Content-Type', 'application/json')
@@ -53,6 +54,7 @@ api.get('/delete/:id', passport.isAuthenticated, (req, res) => {
       layout: 'layout.ejs',
       coating : item
     })
+   
 })
 
 api.get('/details/:id',  (req, res) => {
@@ -61,14 +63,14 @@ api.get('/details/:id',  (req, res) => {
   console.log(req.app.locals.coatings)
   const data = req.app.locals.coatings.query
   const item = find(data, { _id: id })
-  if (!item) { return res.end(notfoundstring) }
+ if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
   return res.render('coating/details.ejs',
     {
       title: 'Estimate Details',
       layout: 'layout.ejs',
       coating: item
-    })
+    })    
 })
 
 api.get('/edit/:id', passport.isAuthenticated,(req, res) => {
@@ -137,7 +139,7 @@ api.post('/save',  (req, res) => {
     //item.estimateCost = parseInt(req.body.estimateCost, 10)
     data.push(item)
     LOG.info(`SAVING NEW estimate ${JSON.stringify(item)}`)
-    return res.redirect('/coating')
+    return res.redirect('/createcoating')
   }
 })
 
@@ -194,7 +196,7 @@ api.post('/save/:id',  (req, res) => {
   }
   item.multiplier = parseFloat(req.body.multiplier)
   LOG.info(`SAVINGUPDATEDESTIMATE${JSON.stringify(item)}`)
-  return res.redirect('/coating')
+  return  res.redirect('/coatingedit')
 })
 
 api.post('/delete/:id',  (req, res) => {
@@ -213,7 +215,7 @@ api.post('/delete/:id',  (req, res) => {
     const item = remove(data, { _id: id })
     console.log(`Permanently deleted item ${JSON.stringify(item)}`)
   }
-  return res.redirect('/coating')
+  return res.redirect('/coatingdel')
 })
 
 api.get('/select',  function (req, res) {
