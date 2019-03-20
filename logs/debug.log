@@ -17432,3 +17432,82 @@ SyntaxError: Invalid or unexpected token
 2019-03-19T21:28:49.301Z - debug: GET /css/main.css
 2019-03-19T21:28:49.305Z - debug: GET /css/404.css
 2019-03-19T21:28:52.095Z - debug: GET /images/favicon-32x32.png
+2019-03-20T14:03:42.949Z - info: Environment isProduction =  true
+2019-03-20T14:03:43.171Z - debug: START routing
+2019-03-20T14:03:43.206Z - debug: END routing
+2019-03-20T14:03:43.283Z - info: Starting controllers/user.js.
+2019-03-20T14:03:43.284Z - debug: START user routing
+2019-03-20T14:03:43.285Z - debug: END user routing
+2019-03-20T14:03:43.285Z - info: Loaded routing.
+2019-03-20T14:03:43.736Z - info: START seeder.
+2019-03-20T14:03:43.742Z - debug: Registering cgeadmin@mail.com
+2019-03-20T14:03:43.749Z - debug: 3 estimates seeded
+2019-03-20T14:03:43.749Z - debug: 1 users registered
+2019-03-20T14:03:44.022Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-20T14:03:46.813Z - debug: GET /
+2019-03-20T14:03:46.817Z - debug: Request to /
+2019-03-20T14:03:47.095Z - debug: GET /images/apple-icon-180x180.png
+2019-03-20T14:03:49.653Z - debug: GET /login
+2019-03-20T14:03:51.348Z - debug: GET /
+2019-03-20T14:03:51.389Z - debug: Request to /
+2019-03-20T14:03:52.197Z - debug: GET /contact
+2019-03-20T14:03:52.385Z - debug: GET /images/favicon-16x16.png
+2019-03-20T14:03:53.217Z - debug: GET /coating
+2019-03-20T14:04:01.925Z - debug: GET /coating/create
+2019-03-20T14:04:01.965Z - info: Handling GET /create[object Object]
+2019-03-20T14:04:01.969Z - debug: {"name":"name/description","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-03-20T14:04:13.348Z - debug: POST /coating/save
+2019-03-20T14:04:13.450Z - info: Handling POST [object Object]
+2019-03-20T14:04:13.450Z - debug: {"_id":"4","name":"name/description","location":"location","squareFeet":"10000","product":["A","B","C"],"unitcost":["65","65","65"],"coverageSquareFeetPerUnit":["300","300","300"],"numberOfPeople":["2","2"],"numberOfDays":["2","2"],"hoursWorkedPerDay":"8","laborDollarsPerHour":"25","numberHotelRooms":"2","numberHotelNights":"2","hotelDollarsPerNight":"85","foodDollarsPerDay":"25","numberOfVehicles":"2","milesPerVehicle":"50","dollarsPerMile":"1","miscellaneousName":["A","B","C"],"Cost":["10","10","10"],"multiplier":"0.4"}
+2019-03-20T14:04:13.451Z - info: NEW ID 4
+2019-03-20T14:04:13.454Z - info: SAVING NEW estimate {"name":"name/description","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0,"_id":4}
+2019-03-20T14:04:13.466Z - debug: GET /createcoating
+2019-03-20T14:04:30.365Z - debug: GET /contact
+2019-03-20T14:04:32.637Z - debug: GET /coating
+2019-03-20T14:04:34.907Z - debug: GET /coating/edit/4
+2019-03-20T14:04:34.960Z - debug: GET /login
+2019-03-20T14:04:40.044Z - debug: POST /login
+2019-03-20T14:04:40.169Z - error: 
+2019-03-20T14:04:40.175Z - debug: GET /
+2019-03-20T14:04:40.257Z - debug: Request to /
+2019-03-20T14:04:42.466Z - debug: GET /coating
+2019-03-20T14:04:44.676Z - debug: GET /coating/edit/4
+2019-03-20T14:04:44.771Z - info: Handling GET /edit/:id [object Object]
+2019-03-20T14:04:44.772Z - info: RETURNING VIEW FOR{"name":"name/description","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0,"_id":4}
+2019-03-20T14:04:57.957Z - debug: POST /coating/save/4
+2019-03-20T14:04:58.036Z - info: Handling SAVE request [object Object]
+2019-03-20T14:04:58.036Z - info: Handling SAVING ID=4
+2019-03-20T14:04:58.036Z - info: ORIGINAL VALUES {"name":"name/description","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0,"_id":4}
+2019-03-20T14:04:58.037Z - info: UPDATED VALUES: {"name":"santosh","location":"location","squareFeet":"10000","product":["A","B","C"],"unitcost":["65","65","65"],"coverageSquareFeetPerUnit":["300","300","300"],"numberOfPeople":["2","2"],"numberOfDays":["2","2"],"hoursWorkedPerDay":"8","laborDollarsPerHour":"25","numberHotelRooms":"2","numberHotelNights":"2","hotelDollarsPerNight":"85","foodDollarsPerDay":"25","numberOfVehicles":"2","milesPerVehicle":"50","dollarsPerMile":"1","miscellaneousName":["","",""],"Cost":["10","10","10"],"multiplier":"0"}
+2019-03-20T14:04:58.038Z - info: SAVINGUPDATEDESTIMATE{"name":"santosh","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"","cost":10},{"name":"","cost":10},{"name":"","cost":10}],"multiplier":0,"_id":4}
+2019-03-20T14:04:58.045Z - debug: GET /coatingedit
+2019-03-20T14:05:07.344Z - debug: GET /coating/delete/4
+2019-03-20T14:05:07.421Z - info: Handling GET /delete/:id [object Object]
+2019-03-20T14:05:07.422Z - info: RETURNING VIEW FOR {"name":"santosh","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"","cost":10},{"name":"","cost":10},{"name":"","cost":10}],"multiplier":0,"_id":4}
+2019-03-20T14:05:09.874Z - debug: POST /coating/delete/4
+2019-03-20T14:05:09.952Z - info: Handling DELETE request [object Object]
+2019-03-20T14:05:09.952Z - info: Handling REMOVING ID=4
+2019-03-20T14:05:09.963Z - debug: GET /coatingdel
+2019-03-20T14:05:14.757Z - debug: GET /contact
+2019-03-20T14:05:22.363Z - debug: GET /coating
+2019-03-20T14:06:02.048Z - info: Environment isProduction =  true
+2019-03-20T14:06:02.147Z - debug: START routing
+2019-03-20T14:06:02.175Z - debug: END routing
+2019-03-20T14:06:02.205Z - info: Starting controllers/user.js.
+2019-03-20T14:06:02.206Z - debug: START user routing
+2019-03-20T14:06:02.206Z - debug: END user routing
+2019-03-20T14:06:02.207Z - info: Loaded routing.
+2019-03-20T14:06:02.722Z - info: START seeder.
+2019-03-20T14:06:02.727Z - debug: Registering cgeadmin@mail.com
+2019-03-20T14:06:02.733Z - debug: 3 estimates seeded
+2019-03-20T14:06:02.733Z - debug: 1 users registered
+2019-03-20T14:06:03.129Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-20T14:06:11.284Z - debug: GET /coating
+2019-03-20T14:06:21.498Z - debug: GET /coating
+2019-03-20T14:06:23.874Z - debug: GET /logout
+2019-03-20T14:06:23.984Z - debug: GET /login
+2019-03-20T14:06:26.890Z - debug: GET /login
+2019-03-20T14:06:31.073Z - debug: POST /forgot
+2019-03-20T14:06:49.103Z - debug: GET /contact
+2019-03-20T14:07:01.793Z - debug: POST /contact
+2019-03-20T14:07:15.020Z - debug: GET /contact
