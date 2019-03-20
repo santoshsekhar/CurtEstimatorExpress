@@ -32,6 +32,11 @@ router.get('/contact',  (req, res) =>{
                     title: 'Updated Estimate'
                   }) ;
                 });
+                router.get('/createcoating',  (req, res) =>{
+                    res.render('coating/index', {
+                        title: 'A new estimate is created'
+                      }) ;
+                    });
 
     router.get('/login',  (req, res) =>{
         res.render('account/login', {

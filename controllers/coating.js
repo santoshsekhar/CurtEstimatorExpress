@@ -139,7 +139,7 @@ api.post('/save',  (req, res) => {
     //item.estimateCost = parseInt(req.body.estimateCost, 10)
     data.push(item)
     LOG.info(`SAVING NEW estimate ${JSON.stringify(item)}`)
-    return res.redirect('/coating')
+    return res.redirect('/createcoating')
   }
 })
 

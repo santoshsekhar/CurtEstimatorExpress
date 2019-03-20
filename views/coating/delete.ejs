@@ -5,33 +5,51 @@
 <div class="panel panel-default">
   <div class="panel-heading"></div>
   <div class="text-muted pull-right"></div>
-  <div class="panel-body" style="color:black">
-ID:
-<%=  coating._id %>
-  <br> Name:
-  <%=coating.name%>
-    <br/> location:
-    <%=coating.location%>
-      <br/> squareFeet (Feets):
-      <%=coating.squareFeet%>
-        <br/>
-        <br/>
+  <div class="panel-body" style="color:black; background-color:white">
+      <table>
+          <tr>
+            <td> ID:</td>
+        <td> <%=  coating._id %> </td>
+          </tr>
+          <tr>
+           <td> Name: </td>
+          <td> <%=coating.name%></td>
+          </tr>
+          <tr>
+            <td> location:</td>
+            <td> <%=coating.location%></td>
+          </tr>
+          <tr>
+              <td> squareFeet (area):</td>
+              <td> <%=coating.squareFeet%></td>
+          </tr>
+        <br>
         <% for (let j = 0; j < coating.materials.length; j++) { material = coating.materials[j]; %>
-          <div> Name:
-            <%=material.product%>
-              <br/> Location:
-              <%=material.unitcost%>
-                <br/> coverageSquareFeetPerUnit (Feets):
-                <%=material.coverageSquareFeetPerUnit%> Feets
-                  <br/>
-                  <br/>
+          <div>  
+             <tr>
+              <td>Material <%= j+1 %> name:</td>
+          <td>  <%= material.product %> </td>
+            </tr>
+            <tr>
+            <td>Unit Cost:</td>
+            <td>  <%= material.unitcost %> </td>
+            </tr>
+            
+            <tr>
+            
+              <td> coverageSquareFeetPerUnit (Feets):</td>
+               <td> <%= material.coversquareFeetSquareFeetPerUnit %></td>
+            </tr>
           </div>
+        
           <% } %>
+        </table>
   </div>
 </div>
             <form method="get" action="/coating">
               <input type="submit" value="Return to list" class="btn btn-caution" />
             </form>
+            <br>
             <form method="POST" action="/coating/delete/<%= coating._id %>">
               <input type="submit" value="Delete this item" class="btn btn-danger"  />
             </form>
