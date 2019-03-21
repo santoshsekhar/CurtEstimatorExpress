@@ -35,11 +35,11 @@
     "dollarsPerMile": 1,
     "miscellaneous": [
       {
-        "misc": "homedepot",
+        "name": "homedepot",
         "cost": 100
       },
       {
-        "misc": "aircomp",
+        "name": "aircomp",
         "cost": 300
       }
     ],
