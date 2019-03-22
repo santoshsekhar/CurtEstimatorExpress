@@ -18513,3 +18513,34 @@ SyntaxError: Invalid or unexpected token
 >>>>>>> e193f0ff16bcacb64b3c22b653e252523544b6c2
 >>>>>>> 36ca25a154f3446338cbcd301243da9c5b758539
 >>>>>>> 7ed9a361684870a06c07f937f5aa99eff4530444
+2019-03-22T14:10:41.834Z - info: Environment isProduction =  true
+2019-03-22T14:10:41.930Z - debug: START routing
+2019-03-22T14:10:41.951Z - debug: END routing
+2019-03-22T14:10:41.980Z - info: Starting controllers/user.js.
+2019-03-22T14:10:41.981Z - debug: START user routing
+2019-03-22T14:10:41.981Z - debug: END user routing
+2019-03-22T14:10:41.981Z - info: Loaded routing.
+2019-03-22T14:10:42.659Z - info: START seeder.
+2019-03-22T14:10:42.664Z - debug: Registering cgeadmin@mail.com
+2019-03-22T14:10:42.671Z - debug: 3 estimates seeded
+2019-03-22T14:10:42.671Z - debug: 1 users registered
+2019-03-22T14:10:42.951Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-22T14:10:48.397Z - debug: GET /
+2019-03-22T14:10:48.443Z - debug: Request to /
+2019-03-22T14:10:48.471Z - debug: GET /images/logo.png
+2019-03-22T14:10:48.472Z - debug: GET /images/logo.jpg
+2019-03-22T14:10:51.860Z - debug: GET /
+2019-03-22T14:10:51.904Z - debug: Request to /
+2019-03-22T14:10:52.350Z - debug: GET /contact
+2019-03-22T14:10:53.126Z - debug: GET /coating
+2019-03-22T14:10:57.532Z - debug: GET /coating
+2019-03-22T14:11:40.326Z - debug: GET /
+2019-03-22T14:11:40.366Z - debug: Request to /
+2019-03-22T14:11:43.203Z - debug: GET /contact
+2019-03-22T14:11:45.965Z - debug: GET /coating
+2019-03-22T14:11:51.430Z - debug: GET /coating
+2019-03-22T14:11:57.996Z - debug: GET /coating/create
+2019-03-22T14:11:58.036Z - info: Handling GET /create[object Object]
+2019-03-22T14:11:58.039Z - debug: {"name":"name/description","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-03-22T14:11:58.066Z - debug: GET /coating/images/logo.png
+2019-03-22T14:12:07.011Z - debug: GET /coating?
