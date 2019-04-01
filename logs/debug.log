@@ -19267,3 +19267,102 @@ Error: Route.get() requires a callback function but got a [object Undefined]
 2019-04-01T14:21:47.388Z - debug: GET /logout
 2019-04-01T14:21:47.472Z - debug: GET /login
 >>>>>>> 7f8c5f7c7a4b5ee738da9c0f3a0c69375503beb4
+2019-04-01T14:40:57.484Z - info: Environment isProduction =  true
+2019-04-01T14:40:57.812Z - error: uncaughtException: api is not defined date=Mon Apr 01 2019 09:40:57 GMT-0500 (Central Daylight Time), pid=6684, uid=null, gid=null, cwd=C:\Users\s531369\Desktop\GDP2@new\CurtEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v10.9.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531369\Desktop\GDP2@new\CurtEstimatorExpress\app.js], rss=62939136, heapTotal=58494976, heapUsed=24416520, external=37159555, loadavg=[0, 0, 0], uptime=848721
+ReferenceError: api is not defined
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2@new\CurtEstimatorExpress\controllers\coating.js:15:1)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2@new\CurtEstimatorExpress\routes\index.js:112:23)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+2019-04-01T14:40:57.768Z - debug: START routing
+2019-04-01T14:40:58.319Z - info: Starting controllers/user.js.
+2019-04-01T14:40:58.320Z - info: START seeder.
+2019-04-01T14:40:58.324Z - debug: Registering cgeadmin@mail.com
+2019-04-01T14:40:58.331Z - debug: 3 estimates seeded
+2019-04-01T14:40:58.331Z - debug: 1 users registered
+2019-04-01T14:40:58.617Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-01T14:42:43.533Z - info: Environment isProduction =  true
+2019-04-01T14:42:43.963Z - error: uncaughtException: api is not defined date=Mon Apr 01 2019 09:42:43 GMT-0500 (Central Daylight Time), pid=6496, uid=null, gid=null, cwd=C:\Users\s531369\Desktop\GDP2@new\CurtEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v10.9.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531369\Desktop\GDP2@new\CurtEstimatorExpress\app.js], rss=62173184, heapTotal=58494976, heapUsed=24576000, external=37137833, loadavg=[0, 0, 0], uptime=848827
+ReferenceError: api is not defined
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2@new\CurtEstimatorExpress\controllers\coating.js:15:1)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2@new\CurtEstimatorExpress\routes\index.js:112:23)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+2019-04-01T14:42:43.930Z - debug: START routing
+2019-04-01T14:42:44.479Z - info: Starting controllers/user.js.
+2019-04-01T14:42:44.480Z - info: START seeder.
+2019-04-01T14:42:44.484Z - debug: Registering cgeadmin@mail.com
+2019-04-01T14:42:44.490Z - debug: 3 estimates seeded
+2019-04-01T14:42:44.491Z - debug: 1 users registered
+2019-04-01T14:42:44.768Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-01T14:43:13.831Z - info: Environment isProduction =  true
+2019-04-01T14:43:14.220Z - debug: START routing
+2019-04-01T14:43:14.236Z - debug: END routing
+2019-04-01T14:43:14.315Z - info: Starting controllers/user.js.
+2019-04-01T14:43:14.318Z - debug: START user routing
+2019-04-01T14:43:14.319Z - debug: END user routing
+2019-04-01T14:43:14.320Z - info: Loaded routing.
+2019-04-01T14:43:14.767Z - info: START seeder.
+2019-04-01T14:43:14.773Z - debug: Registering cgeadmin@mail.com
+2019-04-01T14:43:14.780Z - debug: 3 estimates seeded
+2019-04-01T14:43:14.780Z - debug: 1 users registered
+2019-04-01T14:43:15.058Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-01T14:43:21.703Z - info: Environment isProduction =  true
+2019-04-01T14:43:21.992Z - debug: START routing
+2019-04-01T14:43:22.009Z - debug: END routing
+2019-04-01T14:43:22.096Z - info: Starting controllers/user.js.
+2019-04-01T14:43:22.098Z - debug: START user routing
+2019-04-01T14:43:22.099Z - debug: END user routing
+2019-04-01T14:43:22.099Z - info: Loaded routing.
+2019-04-01T14:43:22.489Z - info: START seeder.
+2019-04-01T14:43:22.495Z - debug: Registering cgeadmin@mail.com
+2019-04-01T14:43:22.503Z - debug: 3 estimates seeded
+2019-04-01T14:43:22.503Z - debug: 1 users registered
+2019-04-01T14:43:22.793Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-01T14:43:26.385Z - debug: GET /
+2019-04-01T14:43:26.404Z - debug: Request to /
+2019-04-01T14:43:26.558Z - debug: GET /css/main.css
+2019-04-01T14:43:26.561Z - debug: GET /images/logo.jpg
+2019-04-01T14:43:26.568Z - debug: GET /images/logo.png
+2019-04-01T14:43:26.570Z - debug: GET /css/404.css
+2019-04-01T14:43:27.229Z - debug: GET /images/favicon-32x32.png
+2019-04-01T14:43:27.230Z - debug: GET /images/manifest.json
+2019-04-01T14:43:29.191Z - debug: GET /
+2019-04-01T14:43:29.236Z - debug: Request to /
+2019-04-01T14:43:30.559Z - debug: GET /contact
+2019-04-01T14:43:31.852Z - debug: GET /coating
+2019-04-01T14:43:31.898Z - debug: GET /login
+2019-04-01T14:43:39.718Z - debug: GET /login
+2019-04-01T14:43:42.373Z - debug: GET /coating
+2019-04-01T14:43:42.415Z - debug: GET /login
+2019-04-01T14:43:43.586Z - debug: GET /contact
+2019-04-01T14:43:44.815Z - debug: GET /
+2019-04-01T14:43:44.854Z - debug: Request to /
+2019-04-01T14:43:45.887Z - debug: GET /
+2019-04-01T14:43:45.925Z - debug: Request to /
+2019-04-01T14:43:46.994Z - debug: GET /
+2019-04-01T14:43:47.032Z - debug: Request to /
