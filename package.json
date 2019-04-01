@@ -57,6 +57,7 @@
     "eslint-plugin-promise": "latest",
     "eslint-plugin-react": "latest",
     "eslint-plugin-standard": "^3.0.1",
+    "jest": "^24.5.0",
     "mocha": "^5.2.0",
     "mochawesome": "^2.3.1",
     "nyc": "^13.3.0",
@@ -73,7 +74,7 @@
   "scripts": {
     "heroku-postbuild": "npm run build",
     "start": "node app.js",
-    "test": "nyc mocha --timeout 10000 --reporter mochawesome --recursive"
+    "test": "jest"
   },
   "standard": {
     "ignore": [
