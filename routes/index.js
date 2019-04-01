@@ -1,4 +1,6 @@
 const express = require('express')
+const passport = require('../config/passportConfig.js')
+
 const LOG = require('../utils/logger.js')  // comment out until exists
 LOG.debug('START routing')   // comment out until exists
 const router = express.Router()
@@ -17,7 +19,7 @@ router.get('/contact',  (req, res) =>{
         title: ''
       })   ;
     });
-    router.get('/coating',  (req, res) =>{
+    router.get('/coating', passport.isAuthenticated, (req, res) =>{
         res.render('coating/index', {
             title: ''
           }) ;
