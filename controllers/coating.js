@@ -10,13 +10,13 @@ const passport = require('../config/passportConfig.js')
 const router = express.Router()
 
  
-api.get('/findall',  (req, res) => {
+api.get('/findall', passport.isAuthenticated, (req, res) => {
   console.log(req.app.locals.coatings)
   res.setHeader('Content-Type', 'application/json')
   const data = req.app.locals.coatings.query
   res.send(JSON.stringify(data))
 })
-api.get('/findone/:id', (req, res) => {
+api.get('/findone/:id', passport.isAuthenticated,(req, res) => {
   res.setHeader('Content-Type', 'application/json')
   const id = parseInt(req.params.id, 10) 
   const data = req.app.locals.coatings.query
@@ -25,7 +25,7 @@ api.get('/findone/:id', (req, res) => {
   res.send(JSON.stringify(item))
 })
 // RESPOND WITH VIEWS  --------------------------------------------
-api.get('/',  (req, res) => {
+api.get('/', passport.isAuthenticated, (req, res) => {
   res.render('coating/index.ejs')
 })
 api.get('/create',  (req, res) => {
