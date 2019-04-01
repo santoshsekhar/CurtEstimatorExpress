@@ -1,6 +1,8 @@
 
 const express = require('express')
-const api = express.Router()
+const mongoose = require('mongoose') 
+// var Schema = mongoose.Schema
+// const api = express.Router()
 const Model = require('../models/coating.js')
 const LOG = require('../utils/logger.js')
 const find = require('lodash.find')

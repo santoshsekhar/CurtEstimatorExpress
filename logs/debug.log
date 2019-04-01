@@ -17627,3 +17627,96 @@ SyntaxError: Invalid or unexpected token
 2019-03-20T14:07:01.793Z - debug: POST /contact
 2019-03-20T14:07:15.020Z - debug: GET /contact
 >>>>>>> e193f0ff16bcacb64b3c22b653e252523544b6c2
+2019-03-20T14:10:04.352Z - info: Environment isProduction =  true
+2019-03-20T14:10:04.702Z - debug: START routing
+2019-03-20T14:10:04.769Z - debug: END routing
+2019-03-20T14:10:04.881Z - info: Starting controllers/user.js.
+2019-03-20T14:10:04.883Z - debug: START user routing
+2019-03-20T14:10:04.884Z - debug: END user routing
+2019-03-20T14:10:04.885Z - info: Loaded routing.
+2019-03-20T14:10:05.488Z - info: START seeder.
+2019-03-20T14:10:05.493Z - debug: Registering cgeadmin@mail.com
+2019-03-20T14:10:05.501Z - debug: 3 estimates seeded
+2019-03-20T14:10:05.502Z - debug: 1 users registered
+2019-03-20T14:10:05.869Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-20T14:10:13.229Z - debug: GET /
+2019-03-20T14:10:13.250Z - debug: Request to /
+2019-03-20T14:10:17.979Z - debug: GET /coating
+2019-03-20T14:10:22.735Z - debug: GET /coating/edit/1
+2019-03-20T14:10:22.810Z - debug: GET /login
+2019-03-20T14:10:25.113Z - debug: POST /login
+2019-03-20T14:10:25.310Z - error: 
+2019-03-20T14:10:25.319Z - debug: GET /
+2019-03-20T14:10:25.360Z - debug: Request to /
+2019-03-20T14:10:28.108Z - debug: GET /coating
+2019-03-20T14:10:30.206Z - debug: GET /coating/create
+2019-03-20T14:10:30.250Z - info: Handling GET /create[object Object]
+2019-03-20T14:10:30.252Z - debug: {"name":"name/description","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-03-20T14:10:37.940Z - debug: GET /coating
+2019-03-20T14:10:43.390Z - debug: GET /coating/edit/2
+2019-03-20T14:10:43.437Z - debug: GET /login
+2019-03-20T14:10:45.292Z - debug: POST /login
+2019-03-20T14:10:45.442Z - error: 
+2019-03-20T14:10:45.446Z - debug: GET /
+2019-03-20T14:10:45.545Z - debug: Request to /
+2019-03-20T14:10:52.085Z - debug: GET /coating
+2019-03-20T14:10:55.407Z - debug: GET /coating/edit/3
+2019-03-20T14:10:55.531Z - info: Handling GET /edit/:id [object Object]
+2019-03-20T14:10:55.534Z - info: RETURNING VIEW FOR{"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":20000,"materials":[{"name":"polyurea","unitcost":1800,"coverageSquareFeetPerUnit":3000},{"name":"sil","unitcost":65,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"lift","cost":1500},{"name":"homedepot","cost":300},{"name":"aircomp","cost":300}],"multiplier":0.4}
+2019-03-20T14:11:03.686Z - debug: GET /coating
+2019-03-20T14:15:12.202Z - info: Environment isProduction =  true
+2019-03-20T14:15:12.517Z - debug: START routing
+2019-03-20T14:15:12.604Z - debug: END routing
+2019-03-20T14:15:12.689Z - info: Starting controllers/user.js.
+2019-03-20T14:15:12.690Z - debug: START user routing
+2019-03-20T14:15:12.690Z - debug: END user routing
+2019-03-20T14:15:12.691Z - info: Loaded routing.
+2019-03-20T14:15:13.139Z - info: START seeder.
+2019-03-20T14:15:13.147Z - debug: Registering cgeadmin@mail.com
+2019-03-20T14:15:13.157Z - debug: 3 estimates seeded
+2019-03-20T14:15:13.158Z - debug: 1 users registered
+2019-03-20T14:15:13.433Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-20T14:15:15.506Z - debug: GET /
+2019-03-20T14:15:15.608Z - debug: Request to /
+2019-03-20T14:15:20.166Z - debug: GET /coating
+2019-03-20T14:15:21.580Z - debug: GET /coating/create
+2019-03-20T14:15:21.654Z - info: Handling GET /create[object Object]
+2019-03-20T14:15:21.656Z - debug: {"name":"name/description","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-03-20T14:19:13.315Z - info: Environment isProduction =  true
+2019-03-20T14:19:14.169Z - debug: START routing
+2019-03-20T14:19:14.261Z - debug: END routing
+2019-03-20T14:19:14.456Z - info: Starting controllers/user.js.
+2019-03-20T14:19:14.466Z - debug: START user routing
+2019-03-20T14:19:14.467Z - debug: END user routing
+2019-03-20T14:19:14.468Z - info: Loaded routing.
+2019-03-20T14:19:14.910Z - info: START seeder.
+2019-03-20T14:19:14.920Z - debug: Registering cgeadmin@mail.com
+2019-03-20T14:19:14.935Z - debug: 3 estimates seeded
+2019-03-20T14:19:14.935Z - debug: 1 users registered
+2019-03-20T14:19:15.471Z - debug: User already exists:  cgeadmin@mail.com
+2019-03-22T14:25:51.127Z - info: Environment isProduction =  true
+2019-03-22T14:25:51.540Z - error: uncaughtException: api is not defined date=Fri Mar 22 2019 09:25:51 GMT-0500 (Central Daylight Time), pid=13828, uid=null, gid=null, cwd=C:\Users\s531369\Desktop\GDP2@new\CurtEstimatorExpress, execPath=C:\Program Files\nodejs\node.exe, version=v10.9.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s531369\Desktop\GDP2@new\CurtEstimatorExpress\app.js], rss=62504960, heapTotal=58494976, heapUsed=24229800, external=37049723, loadavg=[0, 0, 0], uptime=776109
+ReferenceError: api is not defined
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2@new\CurtEstimatorExpress\controllers\coating.js:15:1)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s531369\Desktop\GDP2@new\CurtEstimatorExpress\routes\index.js:110:23)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+2019-03-22T14:25:51.450Z - debug: START routing
+2019-03-22T14:25:52.015Z - info: Starting controllers/user.js.
+2019-03-22T14:25:52.015Z - info: START seeder.
+2019-03-22T14:25:52.020Z - debug: Registering cgeadmin@mail.com
+2019-03-22T14:25:52.027Z - debug: 3 estimates seeded
+2019-03-22T14:25:52.027Z - debug: 1 users registered
+2019-03-22T14:25:52.327Z - debug: User already exists:  cgeadmin@mail.com
