@@ -1,66 +1,178 @@
-<div class="container-fluid">
-  <div class=row>
-    <div class="col col-md-12">
+
 <h2>Estimate Details</h2>
-<div class="panel panel-default">
-  <div class="panel-heading"></div>
-  <div class="text-muted pull-right"></div>
-  <div class="panel-body" style="color:black">
-ID:
-<%=  coating._id %>
-  <br> Name:
-  <%=coating.name%>
-    <br/> Location:
-    <%=coating.location%>
-      <br/> SquareFeet :
-      <%=coating.squarefeet%>
-        <br/>
-        <br/>
-        <% for (let j = 0; j < coating.materials.length; j++) { material = coating.materials[j]; %>
-          <div>Material name:
-            <%=material.product%>
-              <br/> Unit Cost:
-              <%=material.unitcost%>
-                <br/> CoverageSquareFeetPerUnit:
-                <%=material.coverageSquareFeetPerUnit%> 
-                  <br/>
-                  <br/>
-          </div>
-          <% } %>
-          <br/>
-          Num Days:
-          <%=  coating.numberOfDays %>
-          <br>Hrs/Day:
-          <%=  coating.hoursWorkedPerDay %>
-          <br>Labor $/Hr:
-          <%=  coating.laborDollarsPerHour %>
-          <br>Num Rooms:
-          <%=  coating.numberHotelRooms %>
-          <br>Num nights:
-          <%=  coating.numberHotelNights %>
-          <br>Hotel $/night:
-          <%=  coating.hotelDollarsPerNight %>
-          <br>Food $/day:
-          <%=  coating.foodDollarsPerDay %>
-          <br>Num Vehicles:
-          <%=  coating.numberOfVehicles %>
-          <br>Miles/vehicle:
-          <%=  coating.milesPerVehicle %>
-          <br>$/mile:
-          <%=  coating.dollarsPerMile %>
-          <br/>
-          <br/>
-          <% for (let j = 0; j < coating.miscellaneous.length; j++) { miscellaneous = coating.miscellaneous[j]; %>
-            <div class="arrayItem">
-              <%= miscellaneous.name %>
-                = $ 
-                <%= miscellaneous.cost %>
-            </div>
-            <% } %>
-            <!-- <br>total cost:
-          <%=  coating.estimateCost %> -->
-  </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"></div>
+        <div class="text-muted pull-right"></div>
+        <div class="panel-body" style="color:black">  
+  <table>
+      <tr>
+        <td> ID:</td>
+    <td> <%=  coating._id %> </td>
+      </tr>
+      <tr>
+       <td> Name: </td>
+      <td> <%=coating.name%></td>
+      </tr>
+      <tr>
+        <td> location:</td>
+        <td> <%=coating.location%></td>
+      </tr>
+      <tr>
+           <td> squareFeet (area):</td>
+          <td> <%=coating.squareFeet%></td>
+      </tr>
+           
+
+          <th> <br>  <%=coating.materials.length%> material(s) needed:</th>
+          <% totMatCost=0.0;    %> 
+          <% for (let j = 0; j < coating.materials.length; j++) { material = coating.materials[j]; %>
+                 <div class="arrayItem"> 
+                   
+                   <tr>
+                     <td>Material <%= j+1 %> name:</td>
+                 <td>  <%= material.product %> </td>
+                   </tr>
+                   <tr>
+                   <td>Unit Cost:</td>
+                   <td><%= parseFloat(material.unitcost).toFixed(2) %></td>
+                   <!-- <td>  <%= material.unitcost %> </td> -->
+                   
+                   </tr>
+                   
+                   <tr>
+                   
+                     <td> Sqft/unit:</td>
+                      <td> <%= material.coverageSquareFeetPerUnit %></td>
+                   </tr>
+                   <td><% totMatCost+= (coating.squareFeet/material.coverageSquareFeetPerUnit)*material.unitcost %>
+                   </td>
+                 </div>
+                 <br/>
+                 <% } %>
+                   <br/>
+                   <th>
+                       <br>
+                     </th>
+                     <tr>
+                       <td> <b>Labour Cost Details:</b></b>td>
+                     </tr>
+                     <tr>
+                        <td>  Number of People:</td>
+                        <td><%= coating.numberOfPeople %></td>
+                        </tr>
+                   <tr>
+                  <td> Num Days:</td>
+                   <td>  <%=  coating.numberOfDays %></td>
+                   </tr>
+                   <tr>
+                   <td>Hrs/Day:</td>
+                   <td><%=  coating.hoursWorkedPerDay %></td>
+                   </tr>
+                   <tr>
+                   <td>Labor $/Hr:</td>
+                   <td><%=  parseFloat(coating.laborDollarsPerHour).toFixed(2) %></td>
+                   <!-- <td><%=  coating.laborDollarsPerHour %></td> -->
+                 </tr>
+                 <% totLaborCost = coating.laborDollarsPerHour*coating.numberOfPeople
+                 *coating.hoursWorkedPerDay*coating.numberOfDays %>
+                 <th>
+                    <br>
+                  </th>
+                <tr>
+                    <td> <b>Hotel Cost Details:</b></td>
+                  </tr> 
+                 <tr>
+               <td> Rooms:</td>
+                  <td> <%=  coating.numberHotelRooms %> </td>
+                   </tr>
+                   <tr>
+                   <td>Num nights:</td>
+                 <td>  <%=  coating.numberHotelNights %></td>
+                   </tr>
+                   <tr>
+                   <td>Hotel $/night:</td>
+                  <!-- <td> <%=  coating.hotelDollarsPerNight %></td> -->
+                  <td><%=  parseFloat(coating.hotelDollarsPerNight).toFixed(2) %></td>
+                 </tr>
+                 <% totHotelCost = coating.numberHotelRooms*coating.numberHotelNights*coating.hotelDollarsPerNight %>
+                 <th>
+                    <br>
+                  </th>
+                <tr>
+                    <td> <b>Food Cost Details:</b></td>
+                  </tr> 
+                 <tr>
+                   <td>Food $/day:</td>
+                  <!-- <td> <%=  coating.foodDollarsPerDay %></td> -->
+                  <td><%=  parseFloat(coating.foodDollarsPerDay).toFixed(2) %></td>
+                 <% totFoodCost = coating.numberOfPeople*coating.foodDollarsPerDay*coating.numberOfDays  %>
+                 </tr>
+                 <th>
+                    <br>
+                  </th>
+                <tr>
+                    <td> <b>Vehicle Cost Details:</b></td>
+                  </tr>
+                 <tr>
+                   <td>Num Vehicles:</td>
+                <td>   <%=  coating.numberOfVehicles %></td>
+                 </tr>
+                   <tr>
+                     <td>Miles/vehicle:</td>
+                   <td><%=  coating.milesPerVehicle %></td>
+                   </tr>
+                   <tr>
+                   <td>$/mile:</td>
+                   <!-- <td><%=  coating.dollarsPerMile %></td> -->
+                 <td><%=  parseFloat(coating.dollarsPerMile).toFixed(2) %></td>  
+                 </tr>
+                 <% totVehicleCost = coating.numberOfVehicles*coating.milesPerVehicle
+                   *coating.dollarsPerMile %>
+
+                   <br/>
+                   <br/>
+                   <th>
+                       <br>
+                     </th>
+                     <tr>
+                         <td> <b>Miscellaneous Cost Details:</b></td>
+                       </tr>
+                       <% totMisCost=0.0; %>
+                   <% for (let j = 0; j < coating.miscellaneous.length; j++) { miscellaneous = coating.miscellaneous[j]; %>
+                     <div class="arrayItem">
+                     
+                     <tr> <td> <%= miscellaneous.name %> </td>
+                         <!-- <td> $ <%= miscellaneous.cost %></td> -->
+                         <td><%= parseFloat(miscellaneous.cost).toFixed(2) %></td>
+                         <% totMisCost+=miscellaneous.cost %>
+                       </tr>
+                   </div>                        
+                     <% } %>
+
+                     <br>
+                     <th>
+                        <br>
+                      </th>
+                     <tr>
+                         <td> <b>Multiplier:</b></td>
+                       </tr>
+                       <tr>
+                           <td><%= parseFloat(coating.multiplier).toFixed(2) %></td>
+                         </tr>
+                     <% totalCost =
+                     totMatCost+totLaborCost+totHotelCost+totFoodCost+totVehicleCost+totMisCost %>
+                    <tr>
+                     <td><b>Total Cost:</b> </td>
+                     <td>$
+                       <%= totalCost.toLocaleString(undefined, {maximumFractionDigits:2}) %></td>
+                     <td></td>
+                   </tr>                            
+                   </table>
+
 </div>
+</div>
+
             <br/>
             <br/>
             <form method="get" action="/coating">

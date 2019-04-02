@@ -25,6 +25,7 @@
     <span id="materialCount">
       <%=origmatcount%>
     </span> Material Entries
+    <div id="dynamicMaterialInput">
     <% for (var imat=1; imat <= origmatcount; imat++) {  material = coating.materials[imat-1];  %>
       <div id="oneMaterial">
         <p></p>
@@ -56,6 +57,9 @@
       </div>
       <%  }  %>
 </div>
+<div class="form-group">
+    <input type="button" value="+" onClick="addInput('dynamicMaterialInput');">
+  </div>
 <br/>
 <h4>
   Material Cost =
@@ -179,6 +183,7 @@
         <span id="miscellaneousCount">
             <%=origMiscellaneousCount%>
         </span> Miscellaneous Entries
+       <div id= "dynamicMiscellaneousInput">
         <% for (var iEntry=1; iEntry <= origMiscellaneousCount; iEntry++) {  misscell = coating.miscellaneous[iEntry-1];  %>
             <div id="oneEntry">
                 <p></p>
@@ -201,6 +206,10 @@
             </div>
             <%  }  %>
 </div>
+</div>
+<div class="form-group">
+    <input type="button" value="+" onClick="addInput('dynamicMiscellaneousInput');">
+  </div>
 <br/>
 <h4>
     Total Miscellaneous Cost =
@@ -270,6 +279,7 @@
         totalCost();
     }
 
+
     function onEstimateChange() {
         const newsqft = parseFloat($("input[name=squareFeet]").val());
         let numMaterials = parseInt($("#materialCount").html());
@@ -298,9 +308,9 @@
     }
 
     function onMissChange() {
-      //  let numMisc = parseInt($("#miscCount").html());
+       let numMisc = parseInt($("#miscellaneousCount").html());
                   let miscCost = 0;
-                  for (var i = 1; i <= 3; i++) {
+                  for (var i = 1; i <= numMisc; i++) {
                     let temp = document.getElementsByName("Cost")[i - 1];
                     if (temp.value && typeof (parseInt(temp.value)) === "number") {
                       miscCost += parseInt(temp.value);
@@ -371,6 +381,40 @@
     Number.prototype.toCurrencyInt = function () {
         return toCurrencyInt(this);
     };
+    // extra materials
+    function addInput(divName) {
+    var count = 1; var num = 0; var mateormisc = "product";
+    if (divName == "dynamicMiscellaneousInput") {
+        mateormisc = "miscellaneousName";
+    }
+    while (count > 0) {
+        if ($("#" + mateormisc + count).length > 0) {
+            count++;
+            num = count;
+        }
+        else { count = 0; }
+    }
+    var newdiv = document.createElement('div');
+    if (divName == "dynamicMiscellaneousInput") {
+        // newdiv.innerHTML = "<div class=row><div class='col col-xs-4'><div class='form-group'><input type='text' class='form-control' id='miscellaneousName" + num + "' name='miscName' value='Miscellaneous entry " + num + "'></div></div><div class='col col-xs-4'><div class='form-group'><input type='number' onkeyup='onMiscChange()' class='form-control' id='Cost" + num + "' name='miscCost' value='0'></div></div></div>";
+        newdiv.innerHTML = "<div class=row>"+
+        "<div class='col col-xs-4'><div class='form-group'><label for='miscellaneousName' name='miscellaneousNameLabel'>Miscellaneous Name </label><input type='text' class='form-control' id='miscellaneousName<%=iEntry%>' name='miscellaneousName' value='<%= misscell.misc%>'></div></div>"+
+        "<div class='col col-xs-4'><div class='form-group'><label for='Cost' name='CostLabel'>Cost</label><input onchange='onMissChange()' type='number' min='0' class='form-control' id='Cost<%=iEntry%>' name='Cost' value='<%= misscell.cost %>'></div></div></div>";
+        $("#miscellaneousCount").html(parseInt($("#miscellaneousCount").html()) + 1);
+    } else if (divName == 'dynamicMaterialInput') {
+        // newdiv.innerHTML = "<div class=row><div class='col col-xs-4'><div class='form-group'><input type='text' class='form-control' id='product" + num + "' name='product' value='New Material " + num + "'></div></div><div class='col col-xs-4'><div class='form-group'><input onkeyup='onEstimateChange()' type='number' class='form-control' id='unitCost" + num + "' name='unitCost' value=65></div></div><div class='col col-xs-4'><div class='form-group'> <input onkeyup='onEstimateChange()' type='number' class='form-control' id='coverageSquareFeetPerUnitt" + num + "' name='coverageSquareFeetPerUnit' value=300></div></div></div>" +
+        //      "<div> <h4> <span id='numUnits" + num + "'> 0 units = $ 0</span></h4></div>";
+
+        newdiv.innerHTML =  "<div class=row>"+
+        "<div class='col col-xs-4'><div class='form-group'><label for='product' name='productLabel'>Material </label><input type='text' class='form-control' id='product<%=imat%>' name='product' value='<%=material.product%>'> </div></div>" +
+        "<div class='col col-xs-4'><div class='form-group'><label for=unitcost' name='unitcostLabel'>$/unit</label><input onchange='onEstimateChange()' type='number' min='0' class='form-control' id='unitcost<%=imat%>' name='unitcost' step='1' value='<%= material.unitcost %>'></div></div>"+
+        "<div class='col col-xs-4'><div class='form-group'><label for='coverageSquareFeetPerUnit' name='coverageLabel'>Unit</label><input onchange='onEstimateChange()' type='number' min='0' class='form-control' id='coverageSquareFeetPerUnit<%=imat%>' name='coverageSquareFeetPerUnit' step='1' value='<%= material.coverageSquareFeetPerUnit %>'></div></div></div>"+
+        "Cost for <span id='numUnits<%=imat%>'></span> Sqft/unit = <span id='oneMaterialCost<%=imat%>'></span><p></p>";
+        
+        $("#materialCount").html(parseInt($("#materialCount").html()) + 1);
+    }
+    document.getElementById(divName).appendChild(newdiv);
+}
     // prevent submission when hitting enter key - optional, but user-friendly 
     document.forms[0].onkeypress = function (e) {
         var key = e.charCode || e.keyCode || 0;

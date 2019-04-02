@@ -5,7 +5,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mwoolery/CostEstimator"
+    "url": "https://github.com/santoshsekhar/CurtEstimatorExpress"
   },
   "license": "Apache-2.0",
   "engines": {
