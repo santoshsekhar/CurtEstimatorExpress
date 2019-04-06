@@ -23000,3 +23000,69 @@ ReferenceError: api is not defined
 2019-04-01T18:31:37.144Z - debug: GET /coating
 2019-04-01T18:31:42.815Z - debug: GET /about/t1/a
 >>>>>>> 4430fe3bc67afcad660dbe6e4858f02b0f91e8f6
+2019-04-06T04:34:54.145Z - info: Environment isProduction =  true
+2019-04-06T04:34:54.429Z - debug: START routing
+2019-04-06T04:34:54.454Z - debug: END routing
+2019-04-06T04:34:54.548Z - info: Starting controllers/user.js.
+2019-04-06T04:34:54.550Z - debug: START user routing
+2019-04-06T04:34:54.550Z - debug: END user routing
+2019-04-06T04:34:54.550Z - info: Loaded routing.
+2019-04-06T04:34:55.205Z - info: START seeder.
+2019-04-06T04:34:55.211Z - debug: Registering cgeadmin@mail.com
+2019-04-06T04:34:55.219Z - debug: 3 estimates seeded
+2019-04-06T04:34:55.219Z - debug: 1 users registered
+2019-04-06T04:34:55.639Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-06T04:35:24.076Z - debug: GET /
+2019-04-06T04:35:24.082Z - debug: Request to /
+2019-04-06T04:35:24.179Z - debug: GET /css/main.css
+2019-04-06T04:35:24.185Z - debug: GET /css/404.css
+2019-04-06T04:35:24.208Z - debug: GET /images/homeicon1.png
+2019-04-06T04:35:24.210Z - debug: GET /images/logo.jpg
+2019-04-06T04:35:25.412Z - debug: GET /images/favicon-32x32.png
+2019-04-06T04:35:29.092Z - debug: GET /
+2019-04-06T04:35:29.147Z - debug: Request to /
+2019-04-06T04:35:29.257Z - debug: GET /images/homeicon1.png
+2019-04-06T04:35:29.580Z - debug: GET /images/favicon-32x32.png
+2019-04-06T04:35:30.800Z - debug: GET /
+2019-04-06T04:35:30.857Z - debug: Request to /
+2019-04-06T04:35:30.989Z - debug: GET /images/homeicon1.png
+2019-04-06T04:35:32.052Z - debug: GET /
+2019-04-06T04:35:32.168Z - debug: Request to /
+2019-04-06T04:35:32.294Z - debug: GET /images/homeicon1.png
+2019-04-06T04:35:33.650Z - debug: GET /
+2019-04-06T04:35:33.728Z - debug: Request to /
+2019-04-06T04:35:33.825Z - debug: GET /images/homeicon1.png
+2019-04-06T04:35:35.913Z - debug: GET /
+2019-04-06T04:35:35.974Z - debug: Request to /
+2019-04-06T04:35:36.067Z - debug: GET /images/homeicon1.png
+2019-04-06T04:35:37.102Z - debug: GET /contact
+2019-04-06T04:35:37.206Z - debug: GET /images/homeicon1.png
+2019-04-06T04:35:38.119Z - debug: GET /coating
+2019-04-06T04:35:38.193Z - debug: GET /login
+2019-04-06T04:35:38.311Z - debug: GET /images/homeicon1.png
+2019-04-06T04:35:40.555Z - debug: GET /
+2019-04-06T04:35:40.617Z - debug: Request to /
+2019-04-06T04:35:40.732Z - debug: GET /images/homeicon1.png
+2019-04-06T04:41:09.187Z - info: Environment isProduction =  true
+2019-04-06T04:41:09.392Z - debug: START routing
+2019-04-06T04:41:09.410Z - debug: END routing
+2019-04-06T04:41:09.479Z - info: Starting controllers/user.js.
+2019-04-06T04:41:09.480Z - debug: START user routing
+2019-04-06T04:41:09.480Z - debug: END user routing
+2019-04-06T04:41:09.481Z - info: Loaded routing.
+2019-04-06T04:41:10.153Z - info: START seeder.
+2019-04-06T04:41:10.159Z - debug: Registering cgeadmin@mail.com
+2019-04-06T04:41:10.166Z - debug: 3 estimates seeded
+2019-04-06T04:41:10.167Z - debug: 1 users registered
+2019-04-06T04:41:10.577Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-06T04:41:12.777Z - debug: GET /
+2019-04-06T04:41:12.851Z - debug: Request to /
+2019-04-06T04:41:12.915Z - debug: GET /css/main.css
+2019-04-06T04:41:12.918Z - debug: GET /css/404.css
+2019-04-06T04:41:12.919Z - debug: GET /images/homeicon1.png
+2019-04-06T04:41:12.920Z - debug: GET /images/logo.jpg
+2019-04-06T04:41:13.758Z - debug: GET /images/favicon-32x32.png
+2019-04-06T04:41:15.494Z - debug: GET /
+2019-04-06T04:41:15.559Z - debug: Request to /
+2019-04-06T04:41:16.805Z - debug: GET /
+2019-04-06T04:41:16.864Z - debug: Request to /
