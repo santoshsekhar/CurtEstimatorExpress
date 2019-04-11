@@ -41,14 +41,14 @@
           </div>
           <div class="col col-xs-4">
             <div class="form-group">
-              <label for="unitcost" name="unitcostLabel">$/unit</label>
+              <label for="unitcost" name="unitcostLabel">Dollar(s) Per Unit</label>
               <input onchange="onEstimateChange()" type="number" min="0" class="form-control" id="unitcost<%=imat%>" name="unitcost" step="1" value="<%= material.unitcost %>"
                 min=0 max=500000>
             </div>
           </div>
           <div class="col col-xs-4">
             <div class="form-group">
-              <label for="coverageSquareFeetPerUnit" name="coverageLabel">Unit</label>
+              <label for="coverageSquareFeetPerUnit" name="coverageLabel">Coverage Area in Sqft</label>
               <input onchange="onEstimateChange()" type="number" min="0" class="form-control" id="coverageSquareFeetPerUnit<%=imat%>" step="1"
                 value="<%= material.coverageSquareFeetPerUnit %>" name="coverageSquareFeetPerUnit" min=1 max=50000>
             </div>
@@ -65,7 +65,7 @@
   </div>
 <br/>
 <h4>
-  Material Cost =
+  Total Material(s) Cost =
   <span id="materialCost"></span>
   
     
@@ -145,7 +145,7 @@
                 required>
         </div>
         <div class="form-group">
-            <label for="numberOfDaysff">Number of Days</label>
+            <label for="numberOfDaysff">Number of Day(s)</label>
             <input onchange="onFoodCost()" type="number" min="0" class="form-control" id="numberOfDaysff" name="numberOfDaysff" value="<%= coating.numberOfDays%>">
         </div>
         <div class="form-group">
@@ -425,8 +425,8 @@
 
         newdiv.innerHTML =  "<div class=row>"+
         "<div class='col col-xs-4'><div class='form-group'><label for='product' name='productLabel'>Material </label><input type='text' class='form-control' id='product<%=imat%>' name='product' value='<%=material.product%>'> </div></div>" +
-        "<div class='col col-xs-4'><div class='form-group'><label for=unitcost' name='unitcostLabel'>$/unit</label><input onchange='onEstimateChange()' type='number' min='0' class='form-control' id='unitcost<%=imat%>' name='unitcost' step='1' value='<%= material.unitcost %>'></div></div>"+
-        "<div class='col col-xs-4'><div class='form-group'><label for='coverageSquareFeetPerUnit' name='coverageLabel'>Unit</label><input onchange='onEstimateChange()' type='number' min='0' class='form-control' id='coverageSquareFeetPerUnit<%=imat%>' name='coverageSquareFeetPerUnit' step='1' value='<%= material.coverageSquareFeetPerUnit %>'></div></div></div>"+
+        "<div class='col col-xs-4'><div class='form-group'><label for=unitcost' name='unitcostLabel'>Dollar(s) Per Unit</label><input onchange='onEstimateChange()' type='number' min='0' class='form-control' id='unitcost<%=imat%>' name='unitcost' step='1' value='<%= material.unitcost %>'></div></div>"+
+        "<div class='col col-xs-4'><div class='form-group'><label for='coverageSquareFeetPerUnit' name='coverageLabel'>Coverage Area in Sqft</label><input onchange='onEstimateChange()' type='number' min='0' class='form-control' id='coverageSquareFeetPerUnit<%=imat%>' name='coverageSquareFeetPerUnit' step='1' value='<%= material.coverageSquareFeetPerUnit %>'></div></div></div>"+
         "Cost for <span id='numUnits<%=imat%>'></span> Sqft/unit = <span id='oneMaterialCost<%=imat%>'></span><p></p>";
         
         $("#materialCount").html(parseInt($("#materialCount").html()) + 1);
