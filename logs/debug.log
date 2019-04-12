@@ -23979,3 +23979,135 @@ ReferenceError: api is not defined
 2019-04-11T11:20:49.472Z - debug: {"name":"name/description","location":"location","squareFeet":10000,"materials":[{"product":"A","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":65,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":65,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
 2019-04-11T11:21:18.099Z - debug: GET /logout
 2019-04-11T11:21:18.234Z - debug: GET /login
+2019-04-12T02:55:25.869Z - info: Environment isProduction =  true
+2019-04-12T02:55:26.174Z - debug: START routing
+2019-04-12T02:55:26.193Z - debug: END routing
+2019-04-12T02:55:26.276Z - info: Starting controllers/user.js.
+2019-04-12T02:55:26.277Z - debug: START user routing
+2019-04-12T02:55:26.278Z - debug: END user routing
+2019-04-12T02:55:26.278Z - info: Loaded routing.
+2019-04-12T02:55:26.918Z - info: START seeder.
+2019-04-12T02:55:26.923Z - debug: Registering cgeadmin@mail.com
+2019-04-12T02:55:26.931Z - debug: 3 estimates seeded
+2019-04-12T02:55:26.932Z - debug: 1 users registered
+2019-04-12T02:55:27.375Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-12T02:55:34.448Z - debug: GET /
+2019-04-12T02:55:34.457Z - debug: Request to /
+2019-04-12T02:55:34.585Z - debug: GET /css/main.css
+2019-04-12T02:55:34.589Z - debug: GET /css/404.css
+2019-04-12T02:55:34.590Z - debug: GET /images/homeicon1.png
+2019-04-12T02:55:34.595Z - debug: GET /images/logo.jpg
+2019-04-12T02:55:35.661Z - debug: GET /images/manifest.json
+2019-04-12T02:55:35.663Z - debug: GET /images/favicon-32x32.png
+2019-04-12T05:32:30.604Z - info: Environment isProduction =  true
+2019-04-12T05:32:31.022Z - debug: START routing
+2019-04-12T05:32:31.043Z - debug: END routing
+2019-04-12T05:32:31.119Z - info: Starting controllers/user.js.
+2019-04-12T05:32:31.121Z - debug: START user routing
+2019-04-12T05:32:31.121Z - debug: END user routing
+2019-04-12T05:32:31.122Z - info: Loaded routing.
+2019-04-12T05:32:31.797Z - info: START seeder.
+2019-04-12T05:32:31.811Z - debug: Registering cgeadmin@mail.com
+2019-04-12T05:32:31.834Z - debug: 3 estimates seeded
+2019-04-12T05:32:31.835Z - debug: 1 users registered
+2019-04-12T05:32:32.283Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-12T05:32:34.244Z - debug: GET /
+2019-04-12T05:32:34.317Z - debug: Request to /
+2019-04-12T05:37:27.716Z - info: Environment isProduction =  true
+2019-04-12T05:37:28.138Z - debug: START routing
+2019-04-12T05:37:28.160Z - debug: END routing
+2019-04-12T05:37:28.268Z - info: Starting controllers/user.js.
+2019-04-12T05:37:28.271Z - debug: START user routing
+2019-04-12T05:37:28.273Z - debug: END user routing
+2019-04-12T05:37:28.273Z - info: Loaded routing.
+2019-04-12T05:37:29.017Z - info: START seeder.
+2019-04-12T05:37:29.031Z - debug: Registering cgeadmin@mail.com
+2019-04-12T05:37:29.057Z - debug: 3 estimates seeded
+2019-04-12T05:37:29.058Z - debug: 1 users registered
+2019-04-12T05:37:29.518Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-12T05:37:31.721Z - debug: GET /
+2019-04-12T05:37:31.795Z - debug: Request to /
+2019-04-12T05:37:40.306Z - debug: GET /coating
+2019-04-12T05:37:40.383Z - debug: GET /login
+2019-04-12T05:38:24.125Z - debug: POST /login
+2019-04-12T05:38:24.503Z - error: 
+2019-04-12T05:38:24.515Z - debug: GET /
+2019-04-12T05:38:24.630Z - debug: Request to /
+2019-04-12T05:38:32.983Z - debug: GET /coating
+2019-04-12T05:41:41.345Z - info: Environment isProduction =  true
+2019-04-12T05:41:41.752Z - debug: START routing
+2019-04-12T05:41:41.768Z - debug: END routing
+2019-04-12T05:41:41.848Z - info: Starting controllers/user.js.
+2019-04-12T05:41:41.850Z - debug: START user routing
+2019-04-12T05:41:41.851Z - debug: END user routing
+2019-04-12T05:41:41.851Z - info: Loaded routing.
+2019-04-12T05:41:42.576Z - info: START seeder.
+2019-04-12T05:41:42.591Z - debug: Registering cgeadmin@mail.com
+2019-04-12T05:41:42.621Z - debug: 3 estimates seeded
+2019-04-12T05:41:42.622Z - debug: 1 users registered
+2019-04-12T05:41:43.059Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-12T05:41:45.959Z - debug: GET /
+2019-04-12T05:41:46.112Z - debug: Request to /
+2019-04-12T05:45:48.530Z - info: Environment isProduction =  true
+2019-04-12T05:45:49.044Z - debug: START routing
+2019-04-12T05:45:49.089Z - debug: END routing
+2019-04-12T05:45:49.253Z - info: Starting controllers/user.js.
+2019-04-12T05:45:49.255Z - debug: START user routing
+2019-04-12T05:45:49.256Z - debug: END user routing
+2019-04-12T05:45:49.257Z - info: Loaded routing.
+2019-04-12T05:45:50.030Z - info: START seeder.
+2019-04-12T05:45:50.043Z - debug: Registering cgeadmin@mail.com
+2019-04-12T05:45:50.065Z - debug: 3 estimates seeded
+2019-04-12T05:45:50.068Z - debug: 1 users registered
+2019-04-12T05:45:50.495Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-12T05:45:54.342Z - debug: GET /
+2019-04-12T05:45:54.476Z - debug: Request to /
+2019-04-12T05:47:47.678Z - info: Environment isProduction =  true
+2019-04-12T05:47:48.070Z - debug: START routing
+2019-04-12T05:47:48.103Z - debug: END routing
+2019-04-12T05:47:48.250Z - info: Starting controllers/user.js.
+2019-04-12T05:47:48.254Z - debug: START user routing
+2019-04-12T05:47:48.255Z - debug: END user routing
+2019-04-12T05:47:48.256Z - info: Loaded routing.
+2019-04-12T05:47:48.983Z - info: START seeder.
+2019-04-12T05:47:48.998Z - debug: Registering cgeadmin@mail.com
+2019-04-12T05:47:49.020Z - debug: 3 estimates seeded
+2019-04-12T05:47:49.021Z - debug: 1 users registered
+2019-04-12T05:47:49.486Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-12T05:47:51.600Z - debug: GET /
+2019-04-12T05:47:51.735Z - debug: Request to /
+2019-04-12T05:48:44.164Z - info: Environment isProduction =  true
+2019-04-12T05:48:44.554Z - debug: START routing
+2019-04-12T05:48:44.573Z - debug: END routing
+2019-04-12T05:48:44.647Z - info: Starting controllers/user.js.
+2019-04-12T05:48:44.648Z - debug: START user routing
+2019-04-12T05:48:44.649Z - debug: END user routing
+2019-04-12T05:48:44.649Z - info: Loaded routing.
+2019-04-12T05:48:45.285Z - info: START seeder.
+2019-04-12T05:48:45.301Z - debug: Registering cgeadmin@mail.com
+2019-04-12T05:48:45.328Z - debug: 3 estimates seeded
+2019-04-12T05:48:45.330Z - debug: 1 users registered
+2019-04-12T05:48:45.794Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-12T05:48:47.957Z - debug: GET /
+2019-04-12T05:48:47.978Z - debug: Request to /
+2019-04-12T05:48:48.077Z - debug: GET /css/main.css
+2019-04-12T05:48:48.080Z - debug: GET /css/404.css
+2019-04-12T05:48:48.083Z - debug: GET /images/homeicon1.png
+2019-04-12T05:48:48.091Z - debug: GET /images/logo.jpg
+2019-04-12T05:48:49.440Z - debug: GET /images/manifest.json
+2019-04-12T05:48:49.443Z - debug: GET /images/favicon-32x32.png
+2019-04-12T05:48:52.267Z - debug: GET /
+2019-04-12T05:48:52.339Z - debug: Request to /
+2019-04-12T05:48:54.037Z - debug: GET /
+2019-04-12T05:48:54.094Z - debug: Request to /
+2019-04-12T05:48:55.666Z - debug: GET /contact
+2019-04-12T05:49:00.699Z - debug: GET /login
+2019-04-12T05:49:02.908Z - debug: POST /login
+2019-04-12T05:49:03.211Z - error: 
+2019-04-12T05:49:03.220Z - debug: GET /
+2019-04-12T05:49:03.710Z - debug: Request to /
+2019-04-12T05:49:07.081Z - debug: GET /coating
+2019-04-12T05:49:13.451Z - debug: GET /logout
+2019-04-12T05:49:13.589Z - debug: GET /login
+2019-04-12T05:49:15.984Z - debug: GET /
+2019-04-12T05:49:16.052Z - debug: Request to /
