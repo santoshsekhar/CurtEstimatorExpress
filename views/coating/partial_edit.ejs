@@ -54,7 +54,7 @@
             </div>
           </div>
         </div>
-       Cost for  <span id="numUnits<%=imat%>"></span> Sqft/unit =
+       Cost for this material =
         <span id="oneMaterialCost<%=imat%>"></span>
         <p></p>
       </div>
@@ -308,7 +308,7 @@
           console.log(cov.value)
           if (cov.value && uc.value && typeof (parseInt(cov.value)) === "number" && typeof (parseInt(uc.value)) === "number") {
             const qty = Math.ceil(newsqft / parseInt(cov.value));
-            const cost = qty * uc.value;
+            const cost = cov.value * uc.value;
             $("#numUnits" + i).html(qty);
             $("#oneMaterialCost" + i).html(cost.toCurrencyInt());
             if (typeof (parseInt(cost)) === "number") {
@@ -427,7 +427,7 @@
         "<div class='col col-xs-4'><div class='form-group'><label for='product' name='productLabel'>Material </label><input type='text' class='form-control' id='product<%=imat%>' name='product' value='<%=material.product%>'> </div></div>" +
         "<div class='col col-xs-4'><div class='form-group'><label for=unitcost' name='unitcostLabel'>Dollar(s) Per Unit</label><input onchange='onEstimateChange()' type='number' min='0' class='form-control' id='unitcost<%=imat%>' name='unitcost' step='1' value='<%= material.unitcost %>'></div></div>"+
         "<div class='col col-xs-4'><div class='form-group'><label for='coverageSquareFeetPerUnit' name='coverageLabel'>Coverage Area in Sqft</label><input onchange='onEstimateChange()' type='number' min='0' class='form-control' id='coverageSquareFeetPerUnit<%=imat%>' name='coverageSquareFeetPerUnit' step='1' value='<%= material.coverageSquareFeetPerUnit %>'></div></div></div>"+
-        "Cost for <span id='numUnits<%=imat%>'></span> Sqft/unit = <span id='oneMaterialCost<%=imat%>'></span><p></p>";
+        "Cost for this material = <span id='oneMaterialCost<%=imat%>'></span><p></p>";
         
         $("#materialCount").html(parseInt($("#materialCount").html()) + 1);
     }

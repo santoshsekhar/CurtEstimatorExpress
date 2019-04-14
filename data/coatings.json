@@ -3,22 +3,22 @@
     "_id": 1,
     "name": "mod bit poly sil",
     "location": "maryville hs",
-    "squareFeet": 10000,
+    "squareFeet": 900,
     "materials": [
       {
         "name": "primer",
-        "unitcost": 30,
+        "unitcost": 7,
         "coverageSquareFeetPerUnit": 300
       },
       {
         "name": "polyurea",
-        "unitcost": 65,
-        "coverageSquareFeetPerUnit": 200
+        "unitcost": 8,
+        "coverageSquareFeetPerUnit": 300
       },
       {
         "name": "sil",
-        "unitcost": 65,
-        "coverageSquareFeetPerUnit": 100
+        "unitcost": 9,
+        "coverageSquareFeetPerUnit": 300
       }
   ],
 
@@ -32,15 +32,15 @@
     "foodDollarsPerDay": 25,
     "numberOfVehicles": 3,
     "milesPerVehicle": 400,
-    "dollarsPerMile": 1,
+    "dollarsPerMile": 5,
     "miscellaneous": [
       {
         "name": "homedepot",
-        "cost": 100
+        "cost": 10
       },
       {
         "name": "aircomp",
-        "cost": 300
+        "cost": 30
       }
     ],
     "multiplier": 0.40
@@ -50,21 +50,21 @@
       "_id": 2,
       "name": "r panel metal roof",
       "location": "st joseph hospital",
-      "squareFeet": 18000,
+      "squareFeet": 300,
       "materials": [
         {
           "name": "primer",
-          "unitcost": 30,
-          "coverageSquareFeetPerUnit": 300
+          "unitcost": 3,
+          "coverageSquareFeetPerUnit": 100
         },
         {
           "name": "polyurea",
-          "unitcost": 65,
-          "coverageSquareFeetPerUnit": 200
+          "unitcost": 2,
+          "coverageSquareFeetPerUnit": 100
         },
         {
           "name": "sil",
-          "unitcost": 65,
+          "unitcost": 2,
           "coverageSquareFeetPerUnit": 100
         }
       ],
@@ -81,10 +81,10 @@
       "dollarsPerMile": 1,
       "miscellaneous": [      {
           "name": "powerwash",
-          "cost": 1000
+          "cost": 100
         },      {
           "name": "homedepot",
-          "cost": 100
+          "cost": 20
         },      {
           "name": "aircomp",
           "cost": 300
@@ -96,17 +96,17 @@
       "_id": 3,
       "name": "salt dome",
       "location": "adrian iowa",
-      "squareFeet": 20000,
+      "squareFeet": 2000,
       "materials": [
         {
           "name": "polyurea",
-          "unitcost": 1800,
-          "coverageSquareFeetPerUnit": 3000
+          "unitcost": 10,
+          "coverageSquareFeetPerUnit": 1000
         },
         {
           "name": "sil",
-          "unitcost": 65,
-          "coverageSquareFeetPerUnit": 100
+          "unitcost": 12,
+          "coverageSquareFeetPerUnit": 1000
         }
       ],
       "numberOfPeople": 4,
@@ -122,13 +122,13 @@
       "dollarsPerMile": 1,
       "miscellaneous": [      {
           "name": "lift",
-          "cost": 1500
+          "cost": 100
         },      {
           "name": "homedepot",
-          "cost": 300
+          "cost": 50
         },      {
           "name": "aircomp",
-          "cost": 300
+          "cost": 40
         }
       ],
       "multiplier": 0.40

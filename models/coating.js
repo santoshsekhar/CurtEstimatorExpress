@@ -16,7 +16,7 @@ var Schema = mongoose.Schema
     squareFeet: {
       type: Number,
       required: true,
-      default: 10000
+      default: 900
     },
  
 
@@ -27,17 +27,17 @@ var Schema = mongoose.Schema
   default: [
     {
       product: 'A',
-      unitcost: 65,
+      unitcost: 2,
       coverageSquareFeetPerUnit: 300
     },
     {
       product: 'B',
-      unitcost: 65,
+      unitcost: 2,
       coverageSquareFeetPerUnit: 300
     },
     {
       product: 'C',
-      unitcost: 65,
+      unitcost: 2,
       coverageSquareFeetPerUnit: 300
     }
   ]
@@ -126,12 +126,7 @@ miscellaneous: {
   required: true,
   default: 0.40
 },
-// estimateCost:{
-//   type:Number,
-//   required:true,
-//   default: 0
 
-// },
 
  })
 module.exports = mongoose.model('Coating', EstimateSchema)

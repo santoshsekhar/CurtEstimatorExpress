@@ -68,7 +68,7 @@
                             <!-- <td> Sqft/unit:</td> -->
                              <!-- <td> <%= material.coverageSquareFeetPerUnit %></td> -->
                           </tr>
-                          <td><% totMatCost+= (coating.squareFeet/material.coverageSquareFeetPerUnit)*material.unitcost %>
+                          <td><% totMatCost+= material.coverageSquareFeetPerUnit*material.unitcost %>
                           </td>
                         </div>
                         <br/>

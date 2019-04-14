@@ -35,7 +35,7 @@
                    </tr>
                    <tr>
                    <td>Unit Cost:</td>
-                   <td><%= parseFloat(material.unitcost).toFixed(2) %></td>
+                   <td><%= parseFloat(material.unitcost) %></td>
                    <!-- <td>  <%= material.unitcost %> </td> -->
                    
                    </tr>
@@ -45,7 +45,7 @@
                      <td> Sqft/unit:</td>
                       <td> <%= material.coverageSquareFeetPerUnit %></td>
                    </tr>
-                   <td><% totMatCost+= (coating.squareFeet/material.coverageSquareFeetPerUnit)*material.unitcost %>
+                   <td><% totMatCost+= material.coverageSquareFeetPerUnit*material.unitcost%>
                    </td>
                  </div>
                  <br/>
