@@ -136,7 +136,7 @@ api.post('/save',  (req, res) => {
         )
       }
     }
-    item.multiplier = parseInt(req.body.multiplier, 10)
+    item.multiplier = parseFloat(req.body.multiplier, 10)
     //item.estimateCost = parseInt(req.body.estimateCost, 10)
     data.push(item)
     LOG.info(`SAVING NEW estimate ${JSON.stringify(item)}`)

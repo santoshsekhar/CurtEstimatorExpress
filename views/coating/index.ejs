@@ -47,7 +47,7 @@
              </tr>
                   
 
-                 <th> <br>  <%=coating.materials.length%> material(s) needed:</th>
+                 <th> <br>  <%=coating.materials.length%> material(s) needed</th>
                  <% totMatCost=0.0;    %> 
                  <% for (let j = 0; j < coating.materials.length; j++) { material = coating.materials[j]; %>
                         <div class="arrayItem"> 
@@ -181,7 +181,7 @@
                                 <td><b>Multiplier:</b> </td>
                               </tr>
                               <tr>
-                                  <td><%= parseFloat(coating.multiplier).toFixed(2) %></td>
+                                  <td><%= parseFloat(coating.multiplier) %></td>
                                 </tr>
                             <% totalCost =
                             totMatCost+totLaborCost+totHotelCost+totFoodCost+totVehicleCost+totMisCost %>
@@ -191,7 +191,15 @@
                             <td>$
                               <%= totalCost.toLocaleString(undefined, {maximumFractionDigits:2}) %></td>
                             <td></td>
-                          </tr>                            
+                          </tr>
+                          
+                          <tr>
+                            <td><b>Total Cost with Multiplier:</b> </td>
+                            <td>$
+                              <%= (totalCost*parseFloat(coating.multiplier)).toLocaleString(undefined, {maximumFractionDigits:2}) %></td>
+                            <td></td>
+                          </tr>   
+
                           </table>
                           <br>
                           <br>

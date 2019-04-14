@@ -25553,3 +25553,352 @@ ReferenceError: api is not defined
 2019-04-14T03:34:51.810Z - debug: Request to /
 2019-04-14T03:34:53.107Z - debug: GET /
 2019-04-14T03:34:53.169Z - debug: Request to /
+2019-04-14T03:38:22.286Z - info: Environment isProduction =  true
+2019-04-14T03:38:22.699Z - debug: START routing
+2019-04-14T03:38:22.720Z - debug: END routing
+2019-04-14T03:38:22.792Z - info: Starting controllers/user.js.
+2019-04-14T03:38:22.794Z - debug: START user routing
+2019-04-14T03:38:22.794Z - debug: END user routing
+2019-04-14T03:38:22.795Z - info: Loaded routing.
+2019-04-14T03:38:23.516Z - info: START seeder.
+2019-04-14T03:38:23.530Z - debug: Registering cgeadmin@mail.com
+2019-04-14T03:38:23.551Z - debug: 3 estimates seeded
+2019-04-14T03:38:23.571Z - debug: 1 users registered
+2019-04-14T03:38:24.016Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-14T03:38:31.002Z - debug: GET /
+2019-04-14T03:38:31.025Z - debug: Request to /
+2019-04-14T03:38:31.185Z - debug: GET /css/main.css
+2019-04-14T03:38:31.200Z - debug: GET /css/404.css
+2019-04-14T03:38:31.202Z - debug: GET /images/homeicon1.png
+2019-04-14T03:38:31.204Z - debug: GET /images/logo.jpg
+2019-04-14T03:38:32.813Z - debug: GET /images/favicon-32x32.png
+2019-04-14T03:38:32.817Z - debug: GET /images/manifest.json
+2019-04-14T03:38:36.487Z - debug: GET /login
+2019-04-14T03:38:40.148Z - debug: POST /login
+2019-04-14T03:38:40.488Z - error: 
+2019-04-14T03:38:40.513Z - debug: GET /
+2019-04-14T03:38:40.949Z - debug: Request to /
+2019-04-14T03:38:44.369Z - debug: GET /coating
+2019-04-14T03:38:54.527Z - debug: GET /coating/create
+2019-04-14T03:38:54.648Z - info: Handling GET /create[object Object]
+2019-04-14T03:38:54.676Z - debug: {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-04-14T03:39:52.831Z - debug: GET /coating/select
+2019-04-14T03:39:58.633Z - debug: GET /coating/copyfrom/3
+2019-04-14T03:39:58.756Z - info: HandlingCOPYFROMrequest[object Object]
+2019-04-14T03:39:58.784Z - debug: Copyingfromitem{"_id":3,"name":"salt dome","location":"adrian iowa","squareFeet":2000,"materials":[{"name":"polyurea","unitcost":10,"coverageSquareFeetPerUnit":1000},{"name":"sil","unitcost":12,"coverageSquareFeetPerUnit":1000}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":10,"laborDollarsPerHour":25,"numberHotelRooms":4,"numberHotelNights":3,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":500,"dollarsPerMile":1,"miscellaneous":[{"name":"lift","cost":100},{"name":"homedepot","cost":50},{"name":"aircomp","cost":40}],"multiplier":0.4}
+2019-04-14T03:40:20.570Z - debug: GET /coating?
+2019-04-14T03:40:24.960Z - debug: GET /coating/details/2
+2019-04-14T03:40:25.081Z - info: Handling GET /details/:id [object Object]
+2019-04-14T03:40:25.106Z - info: RETURNING VIEW FOR {"_id":2,"name":"r panel metal roof","location":"st joseph hospital","squareFeet":300,"materials":[{"name":"primer","unitcost":3,"coverageSquareFeetPerUnit":100},{"name":"polyurea","unitcost":2,"coverageSquareFeetPerUnit":100},{"name":"sil","unitcost":2,"coverageSquareFeetPerUnit":100}],"numberOfPeople":4,"numberOfDays":4,"hoursWorkedPerDay":8,"laborDollarsPerHour":35,"numberHotelRooms":0,"numberHotelNights":0,"hotelDollarsPerNight":0,"foodDollarsPerDay":25,"numberOfVehicles":4,"milesPerVehicle":640,"dollarsPerMile":1,"miscellaneous":[{"name":"powerwash","cost":100},{"name":"homedepot","cost":20},{"name":"aircomp","cost":300}],"multiplier":0.4}
+2019-04-14T03:40:31.212Z - debug: GET /coating?
+2019-04-14T03:40:38.451Z - debug: GET /coating/edit/1
+2019-04-14T03:40:38.562Z - info: Handling GET /edit/:id [object Object]
+2019-04-14T03:40:38.565Z - info: RETURNING VIEW FOR{"_id":1,"name":"mod bit poly sil","location":"maryville hs","squareFeet":900,"materials":[{"name":"primer","unitcost":7,"coverageSquareFeetPerUnit":300},{"name":"polyurea","unitcost":8,"coverageSquareFeetPerUnit":300},{"name":"sil","unitcost":9,"coverageSquareFeetPerUnit":300}],"numberOfPeople":3,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":35,"numberHotelRooms":0,"numberHotelNights":0,"hotelDollarsPerNight":0,"foodDollarsPerDay":25,"numberOfVehicles":3,"milesPerVehicle":400,"dollarsPerMile":5,"miscellaneous":[{"name":"homedepot","cost":10},{"name":"aircomp","cost":30}],"multiplier":0.4}
+2019-04-14T03:40:52.038Z - debug: POST /coating/save/1
+2019-04-14T03:40:52.155Z - info: Handling SAVE request [object Object]
+2019-04-14T03:40:52.156Z - info: Handling SAVING ID=1
+2019-04-14T03:40:52.158Z - info: ORIGINAL VALUES {"_id":1,"name":"mod bit poly sil","location":"maryville hs","squareFeet":900,"materials":[{"name":"primer","unitcost":7,"coverageSquareFeetPerUnit":300},{"name":"polyurea","unitcost":8,"coverageSquareFeetPerUnit":300},{"name":"sil","unitcost":9,"coverageSquareFeetPerUnit":300}],"numberOfPeople":3,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":35,"numberHotelRooms":0,"numberHotelNights":0,"hotelDollarsPerNight":0,"foodDollarsPerDay":25,"numberOfVehicles":3,"milesPerVehicle":400,"dollarsPerMile":5,"miscellaneous":[{"name":"homedepot","cost":10},{"name":"aircomp","cost":30}],"multiplier":0.4}
+2019-04-14T03:40:52.159Z - info: UPDATED VALUES: {"name":"mod bit poly sil","location":"maryville hs","squareFeet":"900","product":["","",""],"unitcost":["7","8","9"],"coverageSquareFeetPerUnit":["300","300","300"],"numberOfPeople":"3","numberOfDays":"2","hoursWorkedPerDay":"4","laborDollarsPerHour":"35","numberHotelRooms":"0","numberHotelNights":"0","hotelDollarsPerNight":"0","numberOfPeopleff":"3","numberOfDaysff":"2","foodDollarsPerDay":"25","numberOfVehicles":"3","milesPerVehicle":"400","dollarsPerMile":"5","miscellaneousName":["",""],"Cost":["10","30"],"multiplier":"0.4"}
+2019-04-14T03:40:52.162Z - info: SAVINGUPDATEDESTIMATE{"_id":1,"name":"mod bit poly sil","location":"maryville hs","squareFeet":900,"materials":[{"product":"","unitcost":7,"coverageSquareFeetPerUnit":300},{"product":"","unitcost":8,"coverageSquareFeetPerUnit":300},{"product":"","unitcost":9,"coverageSquareFeetPerUnit":300}],"numberOfPeople":3,"numberOfDays":2,"hoursWorkedPerDay":4,"laborDollarsPerHour":35,"numberHotelRooms":0,"numberHotelNights":0,"hotelDollarsPerNight":0,"foodDollarsPerDay":25,"numberOfVehicles":3,"milesPerVehicle":400,"dollarsPerMile":5,"miscellaneous":[{"name":"","cost":10},{"name":"","cost":10}],"multiplier":0.4}
+2019-04-14T03:40:52.192Z - debug: GET /coatingedit
+2019-04-14T03:40:59.072Z - debug: GET /coating
+2019-04-14T03:41:48.176Z - debug: GET /coating/create
+2019-04-14T03:41:48.295Z - info: Handling GET /create[object Object]
+2019-04-14T03:41:48.322Z - debug: {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-04-14T03:42:09.535Z - debug: POST /coating/save
+2019-04-14T03:42:09.664Z - info: Handling POST [object Object]
+2019-04-14T03:42:09.666Z - debug: {"_id":"4","name":"name/description","location":"location","squareFeet":"900","product":["A","B","C"],"unitcost":["2","2","2"],"coverageSquareFeetPerUnit":["300","300","300"],"numberOfPeople":"2","numberOfDays":"2","hoursWorkedPerDay":"8","laborDollarsPerHour":"25","numberHotelRooms":"2","numberHotelNights":"2","hotelDollarsPerNight":"85","numberOfPeopleff":"2","numberOfDaysff":"2","foodDollarsPerDay":"25","numberOfVehicles":"2","milesPerVehicle":"50","dollarsPerMile":"1","miscellaneousName":["A","B","C"],"Cost":["10","10","10"],"multiplier":"0.4"}
+2019-04-14T03:42:09.702Z - info: NEW ID 4
+2019-04-14T03:42:09.714Z - info: SAVING NEW estimate {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0,"_id":4}
+2019-04-14T03:42:09.734Z - debug: GET /createcoating
+2019-04-14T03:42:12.976Z - debug: GET /coating/create
+2019-04-14T03:42:13.093Z - info: Handling GET /create[object Object]
+2019-04-14T03:42:13.095Z - debug: {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-04-14T03:42:19.525Z - debug: GET /coating
+2019-04-14T03:42:33.785Z - debug: GET /coating/details/4
+2019-04-14T03:42:33.896Z - info: Handling GET /details/:id [object Object]
+2019-04-14T03:42:33.949Z - info: RETURNING VIEW FOR {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0,"_id":4}
+2019-04-14T03:42:36.724Z - debug: GET /coating?
+2019-04-14T03:44:04.491Z - info: Environment isProduction =  true
+2019-04-14T03:44:04.891Z - debug: START routing
+2019-04-14T03:44:04.910Z - debug: END routing
+2019-04-14T03:44:05.004Z - info: Starting controllers/user.js.
+2019-04-14T03:44:05.006Z - debug: START user routing
+2019-04-14T03:44:05.007Z - debug: END user routing
+2019-04-14T03:44:05.007Z - info: Loaded routing.
+2019-04-14T03:44:05.731Z - info: START seeder.
+2019-04-14T03:44:05.744Z - debug: Registering cgeadmin@mail.com
+2019-04-14T03:44:05.764Z - debug: 3 estimates seeded
+2019-04-14T03:44:05.765Z - debug: 1 users registered
+2019-04-14T03:44:06.194Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-14T03:44:10.019Z - debug: GET /
+2019-04-14T03:44:10.047Z - debug: Request to /
+2019-04-14T03:44:10.180Z - debug: GET /css/main.css
+2019-04-14T03:44:10.203Z - debug: GET /css/404.css
+2019-04-14T03:44:10.204Z - debug: GET /images/homeicon1.png
+2019-04-14T03:44:10.205Z - debug: GET /images/logo.jpg
+2019-04-14T03:44:11.407Z - debug: GET /images/manifest.json
+2019-04-14T03:44:11.409Z - debug: GET /images/favicon-32x32.png
+2019-04-14T03:44:14.518Z - debug: GET /login
+2019-04-14T03:44:16.962Z - debug: POST /login
+2019-04-14T03:44:17.301Z - error: 
+2019-04-14T03:44:17.322Z - debug: GET /
+2019-04-14T03:44:17.738Z - debug: Request to /
+2019-04-14T03:44:19.170Z - debug: GET /coating
+2019-04-14T03:44:23.302Z - debug: GET /coating/create
+2019-04-14T03:44:23.426Z - info: Handling GET /create[object Object]
+2019-04-14T03:44:23.431Z - debug: {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-04-14T03:44:27.201Z - debug: POST /coating/save
+2019-04-14T03:44:27.324Z - info: Handling POST [object Object]
+2019-04-14T03:44:27.326Z - debug: {"_id":"4","name":"name/description","location":"location","squareFeet":"900","product":["A","B","C"],"unitcost":["2","2","2"],"coverageSquareFeetPerUnit":["300","300","300"],"numberOfPeople":"2","numberOfDays":"2","hoursWorkedPerDay":"8","laborDollarsPerHour":"25","numberHotelRooms":"2","numberHotelNights":"2","hotelDollarsPerNight":"85","numberOfPeopleff":"2","numberOfDaysff":"2","foodDollarsPerDay":"25","numberOfVehicles":"2","milesPerVehicle":"50","dollarsPerMile":"1","miscellaneousName":["A","B","C"],"Cost":["10","10","10"],"multiplier":"0.4"}
+2019-04-14T03:44:27.329Z - info: NEW ID 4
+2019-04-14T03:44:27.339Z - info: SAVING NEW estimate {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0,"_id":4}
+2019-04-14T03:44:27.351Z - debug: GET /createcoating
+2019-04-14T03:45:23.482Z - info: Environment isProduction =  true
+2019-04-14T03:45:23.949Z - debug: START routing
+2019-04-14T03:45:23.985Z - debug: END routing
+2019-04-14T03:45:24.125Z - info: Starting controllers/user.js.
+2019-04-14T03:45:24.146Z - debug: START user routing
+2019-04-14T03:45:24.148Z - debug: END user routing
+2019-04-14T03:45:24.148Z - info: Loaded routing.
+2019-04-14T03:45:24.892Z - info: START seeder.
+2019-04-14T03:45:24.906Z - debug: Registering cgeadmin@mail.com
+2019-04-14T03:45:24.929Z - debug: 3 estimates seeded
+2019-04-14T03:45:24.931Z - debug: 1 users registered
+2019-04-14T03:45:25.426Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-14T03:45:28.240Z - debug: GET /
+2019-04-14T03:45:28.397Z - debug: Request to /
+2019-04-14T03:45:34.184Z - debug: GET /coating
+2019-04-14T03:45:37.579Z - debug: GET /coating/create
+2019-04-14T03:45:37.712Z - info: Handling GET /create[object Object]
+2019-04-14T03:45:37.722Z - debug: {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-04-14T03:45:41.208Z - debug: POST /coating/save
+2019-04-14T03:45:41.424Z - info: Handling POST [object Object]
+2019-04-14T03:45:41.426Z - debug: {"_id":"4","name":"name/description","location":"location","squareFeet":"900","product":["A","B","C"],"unitcost":["2","2","2"],"coverageSquareFeetPerUnit":["300","300","300"],"numberOfPeople":"2","numberOfDays":"2","hoursWorkedPerDay":"8","laborDollarsPerHour":"25","numberHotelRooms":"2","numberHotelNights":"2","hotelDollarsPerNight":"85","numberOfPeopleff":"2","numberOfDaysff":"2","foodDollarsPerDay":"25","numberOfVehicles":"2","milesPerVehicle":"50","dollarsPerMile":"1","miscellaneousName":["A","B","C"],"Cost":["10","10","10"],"multiplier":"0.4"}
+2019-04-14T03:45:41.430Z - info: NEW ID 4
+2019-04-14T03:45:41.439Z - info: SAVING NEW estimate {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0,"_id":4}
+2019-04-14T03:45:41.464Z - debug: GET /createcoating
+2019-04-14T03:52:18.084Z - info: Environment isProduction =  true
+2019-04-14T03:52:18.559Z - debug: START routing
+2019-04-14T03:52:18.588Z - debug: END routing
+2019-04-14T03:52:18.715Z - info: Starting controllers/user.js.
+2019-04-14T03:52:18.717Z - debug: START user routing
+2019-04-14T03:52:18.718Z - debug: END user routing
+2019-04-14T03:52:18.719Z - info: Loaded routing.
+2019-04-14T03:52:19.406Z - info: START seeder.
+2019-04-14T03:52:19.422Z - debug: Registering cgeadmin@mail.com
+2019-04-14T03:52:19.450Z - debug: 3 estimates seeded
+2019-04-14T03:52:19.451Z - debug: 1 users registered
+2019-04-14T03:52:19.908Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-14T03:52:22.523Z - debug: GET /
+2019-04-14T03:52:22.533Z - debug: Request to /
+2019-04-14T03:52:22.631Z - debug: GET /css/main.css
+2019-04-14T03:52:22.635Z - debug: GET /css/404.css
+2019-04-14T03:52:22.660Z - debug: GET /images/homeicon1.png
+2019-04-14T03:52:22.662Z - debug: GET /images/logo.jpg
+2019-04-14T03:52:23.947Z - debug: GET /images/favicon-32x32.png
+2019-04-14T03:52:23.949Z - debug: GET /images/manifest.json
+2019-04-14T03:52:26.439Z - debug: GET /login
+2019-04-14T03:52:28.664Z - debug: POST /login
+2019-04-14T03:52:29.016Z - error: 
+2019-04-14T03:52:29.040Z - debug: GET /
+2019-04-14T03:52:29.457Z - debug: Request to /
+2019-04-14T03:52:31.073Z - debug: GET /coating
+2019-04-14T03:52:34.744Z - debug: GET /coating/create
+2019-04-14T03:52:34.857Z - info: Handling GET /create[object Object]
+2019-04-14T03:52:34.863Z - debug: {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-04-14T03:52:55.694Z - debug: POST /coating/save
+2019-04-14T03:52:55.829Z - info: Handling POST [object Object]
+2019-04-14T03:52:55.830Z - debug: {"_id":"4","name":"name/description","location":"location","squareFeet":"900","product":["A","B","C"],"unitcost":["2","2","2"],"coverageSquareFeetPerUnit":["300","300","300"],"numberOfPeople":"2","numberOfDays":"2","hoursWorkedPerDay":"8","laborDollarsPerHour":"25","numberHotelRooms":"2","numberHotelNights":"2","hotelDollarsPerNight":"85","numberOfPeopleff":"2","numberOfDaysff":"2","foodDollarsPerDay":"25","numberOfVehicles":"2","milesPerVehicle":"50","dollarsPerMile":"1","miscellaneousName":["A","B","C"],"Cost":["10","10","10"],"multiplier":"0.2"}
+2019-04-14T03:52:55.836Z - info: NEW ID 4
+2019-04-14T03:52:55.846Z - info: SAVING NEW estimate {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0,"_id":4}
+2019-04-14T03:52:55.858Z - debug: GET /createcoating
+2019-04-14T03:54:09.369Z - debug: GET /coating/details/4
+2019-04-14T03:54:09.486Z - info: Handling GET /details/:id [object Object]
+2019-04-14T03:54:09.533Z - info: RETURNING VIEW FOR {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0,"_id":4}
+2019-04-14T03:54:13.281Z - debug: GET /coating?
+2019-04-14T03:55:08.186Z - info: Environment isProduction =  true
+2019-04-14T03:55:08.668Z - debug: START routing
+2019-04-14T03:55:08.714Z - debug: END routing
+2019-04-14T03:55:08.912Z - info: Starting controllers/user.js.
+2019-04-14T03:55:08.915Z - debug: START user routing
+2019-04-14T03:55:08.917Z - debug: END user routing
+2019-04-14T03:55:08.918Z - info: Loaded routing.
+2019-04-14T03:55:09.640Z - info: START seeder.
+2019-04-14T03:55:09.662Z - debug: Registering cgeadmin@mail.com
+2019-04-14T03:55:09.690Z - debug: 3 estimates seeded
+2019-04-14T03:55:09.691Z - debug: 1 users registered
+2019-04-14T03:55:10.169Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-14T03:55:12.851Z - debug: GET /
+2019-04-14T03:55:12.990Z - debug: Request to /
+2019-04-14T03:55:17.404Z - debug: GET /coating
+2019-04-14T03:55:21.104Z - debug: GET /coating/create
+2019-04-14T03:55:21.223Z - info: Handling GET /create[object Object]
+2019-04-14T03:55:21.228Z - debug: {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-04-14T03:55:24.448Z - debug: POST /coating/save
+2019-04-14T03:55:24.651Z - info: Handling POST [object Object]
+2019-04-14T03:55:24.652Z - debug: {"_id":"4","name":"name/description","location":"location","squareFeet":"900","product":["A","B","C"],"unitcost":["2","2","2"],"coverageSquareFeetPerUnit":["300","300","300"],"numberOfPeople":"2","numberOfDays":"2","hoursWorkedPerDay":"8","laborDollarsPerHour":"25","numberHotelRooms":"2","numberHotelNights":"2","hotelDollarsPerNight":"85","numberOfPeopleff":"2","numberOfDaysff":"2","foodDollarsPerDay":"25","numberOfVehicles":"2","milesPerVehicle":"50","dollarsPerMile":"1","miscellaneousName":["A","B","C"],"Cost":["10","10","10"],"multiplier":"0.4"}
+2019-04-14T03:55:24.654Z - info: NEW ID 4
+2019-04-14T03:55:24.662Z - info: SAVING NEW estimate {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0,"_id":4}
+2019-04-14T03:55:24.685Z - debug: GET /createcoating
+2019-04-14T03:55:27.739Z - debug: GET /coating/details/4
+2019-04-14T03:55:27.872Z - info: Handling GET /details/:id [object Object]
+2019-04-14T03:55:27.937Z - info: RETURNING VIEW FOR {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0,"_id":4}
+2019-04-14T03:55:48.162Z - debug: GET /coating?
+2019-04-14T03:55:53.091Z - debug: GET /coating/create
+2019-04-14T03:55:53.208Z - info: Handling GET /create[object Object]
+2019-04-14T03:55:53.210Z - debug: {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-04-14T03:55:58.944Z - debug: POST /coating/save
+2019-04-14T03:55:59.059Z - info: Handling POST [object Object]
+2019-04-14T03:55:59.060Z - debug: {"_id":"5","name":"name/description","location":"location","squareFeet":"900","product":["A","B","C"],"unitcost":["2","2","2"],"coverageSquareFeetPerUnit":["300","300","300"],"numberOfPeople":"2","numberOfDays":"2","hoursWorkedPerDay":"8","laborDollarsPerHour":"25","numberHotelRooms":"2","numberHotelNights":"2","hotelDollarsPerNight":"85","numberOfPeopleff":"2","numberOfDaysff":"2","foodDollarsPerDay":"25","numberOfVehicles":"2","milesPerVehicle":"50","dollarsPerMile":"1","miscellaneousName":["A","B","C"],"Cost":["10","10","10"],"multiplier":"0.4"}
+2019-04-14T03:55:59.063Z - info: NEW ID 5
+2019-04-14T03:55:59.068Z - info: SAVING NEW estimate {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0,"_id":5}
+2019-04-14T03:55:59.078Z - debug: GET /createcoating
+2019-04-14T03:56:02.822Z - debug: GET /coating/details/5
+2019-04-14T03:56:02.935Z - info: Handling GET /details/:id [object Object]
+2019-04-14T03:56:02.952Z - info: RETURNING VIEW FOR {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0,"_id":5}
+2019-04-14T03:56:21.938Z - info: Environment isProduction =  true
+2019-04-14T03:56:22.428Z - debug: START routing
+2019-04-14T03:56:22.459Z - debug: END routing
+2019-04-14T03:56:22.589Z - info: Starting controllers/user.js.
+2019-04-14T03:56:22.592Z - debug: START user routing
+2019-04-14T03:56:22.593Z - debug: END user routing
+2019-04-14T03:56:22.593Z - info: Loaded routing.
+2019-04-14T03:56:23.390Z - info: START seeder.
+2019-04-14T03:56:23.415Z - debug: Registering cgeadmin@mail.com
+2019-04-14T03:56:23.435Z - debug: 3 estimates seeded
+2019-04-14T03:56:23.435Z - debug: 1 users registered
+2019-04-14T03:56:23.901Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-14T03:56:36.222Z - debug: GET /
+2019-04-14T03:56:36.360Z - debug: Request to /
+2019-04-14T03:56:39.596Z - debug: GET /coating
+2019-04-14T03:56:41.722Z - debug: GET /coating/create
+2019-04-14T03:56:41.847Z - info: Handling GET /create[object Object]
+2019-04-14T03:56:41.854Z - debug: {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-04-14T03:56:45.587Z - debug: POST /coating/save
+2019-04-14T03:56:45.774Z - info: Handling POST [object Object]
+2019-04-14T03:56:45.775Z - debug: {"_id":"4","name":"name/description","location":"location","squareFeet":"900","product":["A","B","C"],"unitcost":["2","2","2"],"coverageSquareFeetPerUnit":["300","300","300"],"numberOfPeople":"2","numberOfDays":"2","hoursWorkedPerDay":"8","laborDollarsPerHour":"25","numberHotelRooms":"2","numberHotelNights":"2","hotelDollarsPerNight":"85","numberOfPeopleff":"2","numberOfDaysff":"2","foodDollarsPerDay":"25","numberOfVehicles":"2","milesPerVehicle":"50","dollarsPerMile":"1","miscellaneousName":["A","B","C"],"Cost":["10","10","10"],"multiplier":"0.4"}
+2019-04-14T03:56:45.778Z - info: NEW ID 4
+2019-04-14T03:56:45.787Z - info: SAVING NEW estimate {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0,"_id":4}
+2019-04-14T03:56:45.812Z - debug: GET /createcoating
+2019-04-14T03:56:48.989Z - debug: GET /coating/details/4
+2019-04-14T03:56:49.125Z - info: Handling GET /details/:id [object Object]
+2019-04-14T03:56:49.173Z - info: RETURNING VIEW FOR {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0,"_id":4}
+2019-04-14T04:03:26.274Z - info: Environment isProduction =  true
+2019-04-14T04:03:26.795Z - debug: START routing
+2019-04-14T04:03:26.821Z - debug: END routing
+2019-04-14T04:03:26.942Z - info: Starting controllers/user.js.
+2019-04-14T04:03:26.945Z - debug: START user routing
+2019-04-14T04:03:26.947Z - debug: END user routing
+2019-04-14T04:03:26.956Z - info: Loaded routing.
+2019-04-14T04:03:27.634Z - info: START seeder.
+2019-04-14T04:03:27.647Z - debug: Registering cgeadmin@mail.com
+2019-04-14T04:03:27.663Z - debug: 3 estimates seeded
+2019-04-14T04:03:27.664Z - debug: 1 users registered
+2019-04-14T04:03:28.096Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-14T04:03:31.706Z - debug: GET /
+2019-04-14T04:03:31.838Z - debug: Request to /
+2019-04-14T04:03:35.388Z - debug: GET /coating
+2019-04-14T04:03:38.615Z - debug: GET /coating/create
+2019-04-14T04:03:38.745Z - info: Handling GET /create[object Object]
+2019-04-14T04:03:38.753Z - debug: {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-04-14T04:05:30.059Z - debug: POST /coating/save
+2019-04-14T04:05:30.289Z - info: Handling POST [object Object]
+2019-04-14T04:05:30.290Z - debug: {"_id":"4","name":"name/description","location":"location","squareFeet":"900","product":["A","B","C"],"unitcost":["2","2","2"],"coverageSquareFeetPerUnit":["300","300","300"],"numberOfPeople":"2","numberOfDays":"2","hoursWorkedPerDay":"8","laborDollarsPerHour":"25","numberHotelRooms":"2","numberHotelNights":"2","hotelDollarsPerNight":"85","numberOfPeopleff":"2","numberOfDaysff":"2","foodDollarsPerDay":"25","numberOfVehicles":"2","milesPerVehicle":"50","dollarsPerMile":"1","miscellaneousName":["A","B","C"],"Cost":["10","10","10"],"multiplier":"0.4"}
+2019-04-14T04:05:30.294Z - info: NEW ID 4
+2019-04-14T04:05:30.307Z - info: SAVING NEW estimate {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0,"_id":4}
+2019-04-14T04:05:30.357Z - debug: GET /createcoating
+2019-04-14T04:10:54.902Z - info: Environment isProduction =  true
+2019-04-14T04:10:55.395Z - debug: START routing
+2019-04-14T04:10:55.421Z - debug: END routing
+2019-04-14T04:10:55.537Z - info: Starting controllers/user.js.
+2019-04-14T04:10:55.539Z - debug: START user routing
+2019-04-14T04:10:55.540Z - debug: END user routing
+2019-04-14T04:10:55.540Z - info: Loaded routing.
+2019-04-14T04:10:56.313Z - info: START seeder.
+2019-04-14T04:10:56.323Z - debug: Registering cgeadmin@mail.com
+2019-04-14T04:10:56.341Z - debug: 3 estimates seeded
+2019-04-14T04:10:56.341Z - debug: 1 users registered
+2019-04-14T04:10:56.789Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-14T04:11:00.940Z - debug: GET /
+2019-04-14T04:11:01.101Z - debug: Request to /
+2019-04-14T04:11:05.540Z - debug: GET /coating
+2019-04-14T04:11:08.820Z - debug: GET /coating/create
+2019-04-14T04:11:08.937Z - info: Handling GET /create[object Object]
+2019-04-14T04:11:08.942Z - debug: {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-04-14T04:11:15.847Z - debug: POST /coating/save
+2019-04-14T04:11:16.089Z - info: Handling POST [object Object]
+2019-04-14T04:11:16.090Z - debug: {"_id":"4","name":"name/description","location":"location","squareFeet":"900","product":["A","B","C"],"unitcost":["2","2","2"],"coverageSquareFeetPerUnit":["300","300","300"],"numberOfPeople":"2","numberOfDays":"2","hoursWorkedPerDay":"8","laborDollarsPerHour":"25","numberHotelRooms":"2","numberHotelNights":"2","hotelDollarsPerNight":"85","numberOfPeopleff":"2","numberOfDaysff":"2","foodDollarsPerDay":"25","numberOfVehicles":"2","milesPerVehicle":"50","dollarsPerMile":"1","miscellaneousName":["A","B","C"],"Cost":["10","10","10"],"multiplier":"0.4"}
+2019-04-14T04:11:16.091Z - info: NEW ID 4
+2019-04-14T04:11:16.097Z - info: SAVING NEW estimate {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0.4,"_id":4}
+2019-04-14T04:11:16.114Z - debug: GET /createcoating
+2019-04-14T04:11:30.394Z - debug: GET /coating/details/4
+2019-04-14T04:11:30.519Z - info: Handling GET /details/:id [object Object]
+2019-04-14T04:11:30.548Z - info: RETURNING VIEW FOR {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0.4,"_id":4}
+2019-04-14T04:12:04.335Z - debug: GET /coating?
+2019-04-14T04:17:02.047Z - info: Environment isProduction =  true
+2019-04-14T04:17:02.500Z - debug: START routing
+2019-04-14T04:17:02.529Z - debug: END routing
+2019-04-14T04:17:02.677Z - info: Starting controllers/user.js.
+2019-04-14T04:17:02.679Z - debug: START user routing
+2019-04-14T04:17:02.681Z - debug: END user routing
+2019-04-14T04:17:02.681Z - info: Loaded routing.
+2019-04-14T04:17:03.365Z - info: START seeder.
+2019-04-14T04:17:03.379Z - debug: Registering cgeadmin@mail.com
+2019-04-14T04:17:03.403Z - debug: 3 estimates seeded
+2019-04-14T04:17:03.403Z - debug: 1 users registered
+2019-04-14T04:17:03.866Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-14T04:17:07.911Z - debug: GET /
+2019-04-14T04:17:07.965Z - debug: Request to /
+2019-04-14T04:17:08.123Z - debug: GET /css/main.css
+2019-04-14T04:17:08.125Z - debug: GET /css/404.css
+2019-04-14T04:17:08.132Z - debug: GET /images/homeicon1.png
+2019-04-14T04:17:08.133Z - debug: GET /images/logo.jpg
+2019-04-14T04:17:09.160Z - debug: GET /images/manifest.json
+2019-04-14T04:17:09.166Z - debug: GET /images/favicon-32x32.png
+2019-04-14T04:17:10.881Z - debug: GET /login
+2019-04-14T04:17:13.484Z - debug: POST /login
+2019-04-14T04:17:13.799Z - error: 
+2019-04-14T04:17:13.822Z - debug: GET /
+2019-04-14T04:17:14.253Z - debug: Request to /
+2019-04-14T04:17:15.376Z - debug: GET /coating
+2019-04-14T04:17:17.341Z - debug: GET /coating/create
+2019-04-14T04:17:17.457Z - info: Handling GET /create[object Object]
+2019-04-14T04:17:17.463Z - debug: {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-04-14T04:17:28.219Z - debug: POST /coating/save
+2019-04-14T04:17:28.355Z - info: Handling POST [object Object]
+2019-04-14T04:17:28.391Z - debug: {"_id":"4","name":"name/description","location":"location","squareFeet":"900","product":["A","B","C"],"unitcost":["2","2","2"],"coverageSquareFeetPerUnit":["300","300","300"],"numberOfPeople":"2","numberOfDays":"2","hoursWorkedPerDay":"8","laborDollarsPerHour":"25","numberHotelRooms":"2","numberHotelNights":"2","hotelDollarsPerNight":"85","numberOfPeopleff":"2","numberOfDaysff":"2","foodDollarsPerDay":"25","numberOfVehicles":"2","milesPerVehicle":"50","dollarsPerMile":"1","miscellaneousName":["A","B","C"],"Cost":["10","10","10"],"multiplier":"0.4"}
+2019-04-14T04:17:28.394Z - info: NEW ID 4
+2019-04-14T04:17:28.403Z - info: SAVING NEW estimate {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0.4,"_id":4}
+2019-04-14T04:17:28.415Z - debug: GET /createcoating
+2019-04-14T04:18:10.026Z - debug: GET /coating/details/4
+2019-04-14T04:18:10.188Z - info: Handling GET /details/:id [object Object]
+2019-04-14T04:18:10.257Z - info: RETURNING VIEW FOR {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0.4,"_id":4}
+2019-04-14T04:19:42.047Z - info: Environment isProduction =  true
+2019-04-14T04:19:42.425Z - debug: START routing
+2019-04-14T04:19:42.458Z - debug: END routing
+2019-04-14T04:19:42.585Z - info: Starting controllers/user.js.
+2019-04-14T04:19:42.590Z - debug: START user routing
+2019-04-14T04:19:42.591Z - debug: END user routing
+2019-04-14T04:19:42.592Z - info: Loaded routing.
+2019-04-14T04:19:43.390Z - info: START seeder.
+2019-04-14T04:19:43.405Z - debug: Registering cgeadmin@mail.com
+2019-04-14T04:19:43.426Z - debug: 3 estimates seeded
+2019-04-14T04:19:43.427Z - debug: 1 users registered
+2019-04-14T04:19:43.876Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-14T04:19:45.946Z - debug: GET /
+2019-04-14T04:19:46.093Z - debug: Request to /
+2019-04-14T04:19:49.917Z - debug: GET /coating
+2019-04-14T04:19:55.418Z - debug: GET /coating/create
+2019-04-14T04:19:55.541Z - info: Handling GET /create[object Object]
+2019-04-14T04:19:55.547Z - debug: {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
+2019-04-14T04:20:00.380Z - debug: POST /coating/save
+2019-04-14T04:20:00.588Z - info: Handling POST [object Object]
+2019-04-14T04:20:00.591Z - debug: {"_id":"4","name":"name/description","location":"location","squareFeet":"900","product":["A","B","C"],"unitcost":["2","2","2"],"coverageSquareFeetPerUnit":["300","300","300"],"numberOfPeople":"2","numberOfDays":"2","hoursWorkedPerDay":"8","laborDollarsPerHour":"25","numberHotelRooms":"2","numberHotelNights":"2","hotelDollarsPerNight":"85","numberOfPeopleff":"2","numberOfDaysff":"2","foodDollarsPerDay":"25","numberOfVehicles":"2","milesPerVehicle":"50","dollarsPerMile":"1","miscellaneousName":["A","B","C"],"Cost":["10","10","10"],"multiplier":"0.4"}
+2019-04-14T04:20:00.594Z - info: NEW ID 4
+2019-04-14T04:20:00.601Z - info: SAVING NEW estimate {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0.4,"_id":4}
+2019-04-14T04:20:00.622Z - debug: GET /createcoating
+2019-04-14T04:20:04.132Z - debug: GET /coating/details/4
+2019-04-14T04:20:04.243Z - info: Handling GET /details/:id [object Object]
+2019-04-14T04:20:04.271Z - info: RETURNING VIEW FOR {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"name":"A","cost":10},{"name":"B","cost":10},{"name":"C","cost":10}],"multiplier":0.4,"_id":4}
+2019-04-14T04:20:22.098Z - debug: GET /coating?
