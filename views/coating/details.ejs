@@ -30,7 +30,7 @@
                    
                    <tr>
                      <td>Material <%= j+1 %> name:</td>
-                     
+
                  <td>  <%= material.product %> </td>
                    </tr>
                    <tr>
@@ -157,7 +157,7 @@
                       <tr>
                     <td><b>Total Vehicle Cost :</td><b>
                 <% totVehicleCost = coating.numberOfVehicles*coating.milesPerVehicle
-                  *coating.dollarsPerMile %>
+                  *coating.dollarsPerMile*coating.multiplier %>
                   <td>$
                       <%= totVehicleCost.toLocaleString(undefined, {maximumFractionDigits:2}) %></td>
                   </tr>
