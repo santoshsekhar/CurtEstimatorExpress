@@ -106,7 +106,7 @@ api.post('/save',  (req, res) => {
     for (let count = 0; count < req.body.product.length; count++) {
       item.materials.push(
         {
-          product: req.body.product,
+          product: req.body.product[count],
           unitcost: parseInt(req.body.unitcost[count],10),
           coverageSquareFeetPerUnit: parseInt(req.body.coverageSquareFeetPerUnit[count], 10)
         }
@@ -173,7 +173,7 @@ api.post('/save/:id',  (req, res) => {
     for (let count = 0; count < req.body.product.length; count++) {
       item.materials.push(
         {
-          product: req.body.product,
+          product: req.body.product[count],
           unitcost: parseInt(req.body.unitcost[count],10),
           coverageSquareFeetPerUnit: parseInt(req.body.coverageSquareFeetPerUnit[count], 10)
         }
