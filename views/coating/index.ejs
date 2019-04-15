@@ -177,12 +177,7 @@
                             <th>
                                 <!-- <br> -->
                               </th>
-                            <tr>
-                                <td><b>Multiplier:</b> </td>
-                              </tr>
-                              <tr>
-                                  <td><%= parseFloat(coating.multiplier) %></td>
-                                </tr>
+                          
                             <% totalCost =
                             totMatCost+totLaborCost+totHotelCost+totFoodCost+totVehicleCost+totMisCost %>
                            
@@ -193,12 +188,7 @@
                             <td></td>
                           </tr>
                           
-                          <tr>
-                            <td><b>Total Cost with Multiplier:</b> </td>
-                            <td>$
-                              <%= (totalCost*parseFloat(coating.multiplier)).toLocaleString(undefined, {maximumFractionDigits:2}) %></td>
-                            <td></td>
-                          </tr>   
+                          
 
                           </table>
                           <br>

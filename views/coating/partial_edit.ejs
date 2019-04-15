@@ -182,6 +182,11 @@
             <input onchange="onVehicleCost()" type="number" min="0" class="form-control" id="dollarsPerMile" name="dollarsPerMile" value="<%= coating.dollarsPerMile %>"
                 required>
         </div>
+        <div class="form-group">
+            <label for="multiplier">Multiplier</label>
+            <input onchange="onVehicleCost()" type="number" min="0" class="form-control" id="multiplier" name="multiplier" value="<%= coating.multiplier %>"
+                placeholder="0.40" step="0.05" min="0.1" max="1.0" required>
+        </div>
     </div>
 </div>
 <br/>
@@ -246,11 +251,7 @@
 </h4> -->
 
 <!-- Multiplier-->
-<div class="form-group">
-    <label for="multiplier">Multiplier</label>
-    <input onchange="totalCost()" type="number" min="0" class="form-control" id="multiplier" name="multiplier" value="<%= coating.multiplier %>"
-        placeholder="0.40" step="0.05" min="0.1" max="1.0" required>
-</div>
+
 
 <!-- Total Proce -->
 <!-- <h4>
@@ -274,7 +275,8 @@
         const numOfVehicles = parseInt($("input[name=numberOfVehicles]").val());
         const milPerVehicle = parseFloat($("input[name=milesPerVehicle]").val());
         const dolPerMile = parseFloat($("input[name=dollarsPerMile]").val());
-        totalVehicle = numOfVehicles * milPerVehicle * dolPerMile;
+        const multiplier =  parseFloat($("input[name=multiplier]").val());
+        totalVehicle = numOfVehicles * milPerVehicle * dolPerMile * multiplier;
         $("#vehicleCost").html(totalVehicle.toCurrencyInt());
         totalCost();
     }

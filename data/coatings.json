@@ -6,17 +6,17 @@
     "squareFeet": 900,
     "materials": [
       {
-        "name": "primer",
+        "product": "primer",
         "unitcost": 7,
         "coverageSquareFeetPerUnit": 300
       },
       {
-        "name": "polyurea",
+        "product": "polyurea",
         "unitcost": 8,
         "coverageSquareFeetPerUnit": 300
       },
       {
-        "name": "sil",
+        "product": "sil",
         "unitcost": 9,
         "coverageSquareFeetPerUnit": 300
       }
@@ -53,17 +53,17 @@
       "squareFeet": 300,
       "materials": [
         {
-          "name": "primer",
+          "product": "primer",
           "unitcost": 3,
           "coverageSquareFeetPerUnit": 100
         },
         {
-          "name": "polyurea",
+          "product": "polyurea",
           "unitcost": 2,
           "coverageSquareFeetPerUnit": 100
         },
         {
-          "name": "sil",
+          "product": "sil",
           "unitcost": 2,
           "coverageSquareFeetPerUnit": 100
         }
@@ -99,12 +99,12 @@
       "squareFeet": 2000,
       "materials": [
         {
-          "name": "polyurea",
+          "product": "polyurea",
           "unitcost": 10,
           "coverageSquareFeetPerUnit": 1000
         },
         {
-          "name": "sil",
+          "product": "sil",
           "unitcost": 12,
           "coverageSquareFeetPerUnit": 1000
         }
