@@ -201,6 +201,11 @@
                        <%= totalCost.toLocaleString(undefined, {maximumFractionDigits:2}) %></td>
                      <td></td>
                    </tr>    
+                   <tr>
+                    <td>Cost per Square Feet:</td>
+                    <% cost= totalCost/coating.squareFeet %>
+                    <td>$ <%= cost.toLocaleString(undefined,{maximumFractionDigits:2})%></td>
+                  </tr>
                    
                     
 
