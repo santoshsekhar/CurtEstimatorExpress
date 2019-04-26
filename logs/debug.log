@@ -26741,3 +26741,34 @@ ReferenceError: api is not defined
 2019-04-22T14:28:10.107Z - debug: User already exists:  cgeadmin@mail.com
 2019-04-22T14:28:15.609Z - debug: GET /
 2019-04-22T14:28:15.657Z - debug: Request to /
+2019-04-25T14:03:25.182Z - info: Environment isProduction =  true
+2019-04-25T14:03:25.523Z - debug: START routing
+2019-04-25T14:03:25.548Z - debug: END routing
+2019-04-25T14:03:25.661Z - info: Starting controllers/user.js.
+2019-04-25T14:03:25.665Z - debug: START user routing
+2019-04-25T14:03:25.666Z - debug: END user routing
+2019-04-25T14:03:25.666Z - info: Loaded routing.
+2019-04-25T14:03:26.179Z - info: START seeder.
+2019-04-25T14:03:26.187Z - debug: Registering cgeadmin@mail.com
+2019-04-25T14:03:26.194Z - debug: 3 estimates seeded
+2019-04-25T14:03:26.194Z - debug: 1 users registered
+2019-04-25T14:03:26.460Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-25T14:03:28.659Z - debug: GET /
+2019-04-25T14:03:28.665Z - debug: Request to /
+2019-04-25T14:03:28.702Z - debug: GET /css/main.css
+2019-04-25T14:03:28.703Z - debug: GET /css/404.css
+2019-04-25T14:03:28.703Z - debug: GET /images/homeicon1.png
+2019-04-25T14:03:28.703Z - debug: GET /images/logo.jpg
+2019-04-25T14:03:28.889Z - debug: GET /images/android-icon-192x192.png
+2019-04-25T14:03:28.890Z - debug: GET /images/favicon-96x96.png
+2019-04-25T14:03:28.891Z - debug: GET /images/favicon-32x32.png
+2019-04-25T14:03:28.892Z - debug: GET /images/favicon-16x16.png
+2019-04-25T14:03:32.465Z - debug: GET /login
+2019-04-25T14:03:34.415Z - debug: POST /login
+2019-04-25T14:03:34.550Z - error: 
+2019-04-25T14:03:34.560Z - debug: GET /
+2019-04-25T14:03:34.857Z - debug: Request to /
+2019-04-25T14:03:35.694Z - debug: GET /coating
+2019-04-25T14:03:38.086Z - debug: GET /coating/create
+2019-04-25T14:03:38.162Z - info: Handling GET /create[object Object]
+2019-04-25T14:03:38.164Z - debug: {"name":"name/description","location":"location","squareFeet":900,"materials":[{"product":"A","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"B","unitcost":2,"coverageSquareFeetPerUnit":300},{"product":"C","unitcost":2,"coverageSquareFeetPerUnit":300}],"numberOfPeople":2,"numberOfDays":2,"hoursWorkedPerDay":8,"laborDollarsPerHour":25,"numberHotelRooms":2,"numberHotelNights":2,"hotelDollarsPerNight":85,"foodDollarsPerDay":25,"numberOfVehicles":2,"milesPerVehicle":50,"dollarsPerMile":1,"miscellaneous":[{"misc":"A","cost":10},{"misc":"B","cost":10},{"misc":"C","cost":10}],"multiplier":0.4}
