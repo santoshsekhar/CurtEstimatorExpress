@@ -132,6 +132,344 @@
         }
       ],
       "multiplier": 0.40
-    }]
+    },
+
+    {
+      "_id": 4,
+      "name": "Santosh",
+      "location": "maryville ",
+      "squareFeet": 9000,
+      "materials": [
+        {
+          "product": "primer",
+          "unitcost": 8,
+          "coverageSquareFeetPerUnit": 3000
+        },
+        {
+          "product": "polyurea",
+          "unitcost": 10,
+          "coverageSquareFeetPerUnit": 3000
+        },
+        {
+          "product": "sil",
+          "unitcost": 5,
+          "coverageSquareFeetPerUnit": 3000
+        }
+    ],
+  
+      "numberOfPeople": 3,
+      "numberOfDays": 2,
+      "hoursWorkedPerDay": 8,
+      "laborDollarsPerHour": 35,
+      "numberHotelRooms": 0,
+      "numberHotelNights": 0,
+      "hotelDollarsPerNight": 0,
+      "foodDollarsPerDay": 25,
+      "numberOfVehicles": 3,
+      "milesPerVehicle": 400,
+      "dollarsPerMile": 5,
+      "miscellaneous": [
+        {
+          "name": "homedepot",
+          "cost": 10
+        },
+        {
+          "name": "aircomp",
+          "cost": 30
+        },
+        {
+          "name": "design",
+          "cost": 30
+        }
+
+      ],
+      "multiplier": 0.40
+    },
+
+    {
+      "_id": 5,
+      "name": "Girish",
+      "location": "Overland Park",
+      "squareFeet": 900,
+      "materials": [
+        {
+          "product": "primer",
+          "unitcost": 4,
+          "coverageSquareFeetPerUnit": 300
+        },
+        {
+          "product": "polyurea",
+          "unitcost": 6,
+          "coverageSquareFeetPerUnit": 300
+        },
+        {
+          "product": "sil",
+          "unitcost": 10,
+          "coverageSquareFeetPerUnit": 300
+        }
+    ],
+  
+      "numberOfPeople": 4,
+      "numberOfDays": 2,
+      "hoursWorkedPerDay": 8,
+      "laborDollarsPerHour": 35,
+      "numberHotelRooms": 0,
+      "numberHotelNights": 0,
+      "hotelDollarsPerNight": 0,
+      "foodDollarsPerDay": 25,
+      "numberOfVehicles": 3,
+      "milesPerVehicle": 400,
+      "dollarsPerMile": 5,
+      "miscellaneous": [
+        {
+          "name": "homedepot",
+          "cost": 10
+        },
+        {
+          "name": "aircomp",
+          "cost": 30
+        }
+      ],
+      "multiplier": 0.40
+    },
+
+    {
+      "_id": 6,
+      "name": "Yashwanth",
+      "location": "Omaha",
+      "squareFeet": 1200,
+      "materials": [
+        {
+          "product": "primer",
+          "unitcost": 7,
+          "coverageSquareFeetPerUnit": 400
+        },
+        {
+          "product": "polyurea",
+          "unitcost": 8,
+          "coverageSquareFeetPerUnit": 400
+        },
+        {
+          "product": "sil",
+          "unitcost": 9,
+          "coverageSquareFeetPerUnit": 400
+        }
+    ],
+  
+      "numberOfPeople": 3,
+      "numberOfDays": 2,
+      "hoursWorkedPerDay": 8,
+      "laborDollarsPerHour": 35,
+      "numberHotelRooms": 0,
+      "numberHotelNights": 0,
+      "hotelDollarsPerNight": 0,
+      "foodDollarsPerDay": 25,
+      "numberOfVehicles": 3,
+      "milesPerVehicle": 400,
+      "dollarsPerMile": 5,
+      "miscellaneous": [
+        {
+          "name": "homedepot",
+          "cost": 10
+        },
+        {
+          "name": "aircomp",
+          "cost": 30
+        }
+      ],
+      "multiplier": 0.40
+    },
+
+    {
+      "_id": 7,
+      "name": "Anthony",
+      "location": "St. Joe",
+      "squareFeet": 900,
+      "materials": [
+        {
+          "product": "primer",
+          "unitcost": 7,
+          "coverageSquareFeetPerUnit": 300
+        },
+        {
+          "product": "polyurea",
+          "unitcost": 8,
+          "coverageSquareFeetPerUnit": 300
+        },
+        {
+          "product": "sil",
+          "unitcost": 9,
+          "coverageSquareFeetPerUnit": 300
+        }
+    ],
+  
+      "numberOfPeople": 3,
+      "numberOfDays": 2,
+      "hoursWorkedPerDay": 8,
+      "laborDollarsPerHour": 35,
+      "numberHotelRooms": 0,
+      "numberHotelNights": 0,
+      "hotelDollarsPerNight": 0,
+      "foodDollarsPerDay": 25,
+      "numberOfVehicles": 3,
+      "milesPerVehicle": 400,
+      "dollarsPerMile": 5,
+      "miscellaneous": [
+        {
+          "name": "homedepot",
+          "cost": 10
+        },
+        {
+          "name": "aircomp",
+          "cost": 30
+        }
+      ],
+      "multiplier": 0.40
+    },
+    {
+      "_id": 8,
+      "name": "Vijay",
+      "location": "st joseph hospital",
+      "squareFeet": 300,
+      "materials": [
+        {
+          "product": "primer",
+          "unitcost": 3,
+          "coverageSquareFeetPerUnit": 100
+        },
+        {
+          "product": "polyurea",
+          "unitcost": 2,
+          "coverageSquareFeetPerUnit": 100
+        },
+        {
+          "product": "sil",
+          "unitcost": 2,
+          "coverageSquareFeetPerUnit": 100
+        }
+      ],
+      "numberOfPeople": 4,
+      "numberOfDays": 4,
+      "hoursWorkedPerDay": 8,
+      "laborDollarsPerHour": 35,
+      "numberHotelRooms": 0,
+      "numberHotelNights": 0,
+      "hotelDollarsPerNight": 0,
+      "foodDollarsPerDay": 25,
+      "numberOfVehicles": 4,
+      "milesPerVehicle": 640,
+      "dollarsPerMile": 1,
+      "miscellaneous": [      {
+          "name": "powerwash",
+          "cost": 100
+        },      {
+          "name": "homedepot",
+          "cost": 20
+        },      {
+          "name": "aircomp",
+          "cost": 300
+        }
+      ],
+      "multiplier": 0.40
+  },
+  {
+    "_id": 9,
+    "name": "Mathew",
+    "location": "st joseph",
+    "squareFeet": 1200,
+    "materials": [
+      {
+        "product": "primer",
+        "unitcost": 3,
+        "coverageSquareFeetPerUnit": 400
+      },
+      {
+        "product": "polyurea",
+        "unitcost": 2,
+        "coverageSquareFeetPerUnit": 400
+      },
+      {
+        "product": "sil",
+        "unitcost": 2,
+        "coverageSquareFeetPerUnit": 400
+      }
+    ],
+    "numberOfPeople": 4,
+    "numberOfDays": 4,
+    "hoursWorkedPerDay": 8,
+    "laborDollarsPerHour": 35,
+    "numberHotelRooms": 0,
+    "numberHotelNights": 0,
+    "hotelDollarsPerNight": 0,
+    "foodDollarsPerDay": 25,
+    "numberOfVehicles": 4,
+    "milesPerVehicle": 640,
+    "dollarsPerMile": 1,
+    "miscellaneous": [      {
+        "name": "powerwash",
+        "cost": 100
+      },      {
+        "name": "homedepot",
+        "cost": 20
+      },      {
+        "name": "aircomp",
+        "cost": 300
+      }
+    ],
+    "multiplier": 0.40
+},
+{
+  "_id": 10,
+  "name": "Dattu",
+  "location": "St. Mary",
+  "squareFeet": 1200,
+  "materials": [
+    {
+      "product": "primer",
+      "unitcost": 3,
+      "coverageSquareFeetPerUnit": 300
+    },
+    {
+      "product": "polyurea",
+      "unitcost": 5,
+      "coverageSquareFeetPerUnit": 300
+    },
+    {
+      "product": "sil",
+      "unitcost": 9,
+      "coverageSquareFeetPerUnit": 300
+    },
+    {
+      "product": "Turf",
+      "unitcost": 12,
+      "coverageSquareFeetPerUnit": 300
+    }
+  ],
+  "numberOfPeople": 4,
+  "numberOfDays": 4,
+  "hoursWorkedPerDay": 8,
+  "laborDollarsPerHour": 35,
+  "numberHotelRooms": 0,
+  "numberHotelNights": 0,
+  "hotelDollarsPerNight": 0,
+  "foodDollarsPerDay": 25,
+  "numberOfVehicles": 4,
+  "milesPerVehicle": 640,
+  "dollarsPerMile": 1,
+  "miscellaneous": [      {
+      "name": "powerwash",
+      "cost": 100
+    },      {
+      "name": "homedepot",
+      "cost": 20
+    },      {
+      "name": "aircomp",
+      "cost": 300
+    }
+  ],
+  "multiplier": 0.40
+}
+  
+  ]
    
  
