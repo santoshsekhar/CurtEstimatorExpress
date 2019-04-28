@@ -27172,3 +27172,33 @@ ReferenceError: api is not defined
 2019-04-28T20:23:09.403Z - debug: GET /
 2019-04-28T20:23:09.878Z - debug: Request to /
 2019-04-28T20:23:10.578Z - debug: GET /coating
+2019-04-28T22:58:47.845Z - info: Environment isProduction =  true
+2019-04-28T22:58:48.133Z - debug: START routing
+2019-04-28T22:58:48.146Z - debug: END routing
+2019-04-28T22:58:48.222Z - info: Starting controllers/user.js.
+2019-04-28T22:58:48.223Z - debug: START user routing
+2019-04-28T22:58:48.223Z - debug: END user routing
+2019-04-28T22:58:48.224Z - info: Loaded routing.
+2019-04-28T22:58:48.680Z - info: START seeder.
+2019-04-28T22:58:48.686Z - debug: Registering cgeadmin@mail.com
+2019-04-28T22:58:48.692Z - debug: 10 estimates seeded
+2019-04-28T22:58:48.692Z - debug: 1 users registered
+2019-04-28T22:58:48.998Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-28T22:58:53.029Z - debug: GET /
+2019-04-28T22:58:53.036Z - debug: Request to /
+2019-04-28T22:58:53.074Z - debug: GET /css/main.css
+2019-04-28T22:58:53.075Z - debug: GET /css/404.css
+2019-04-28T22:58:53.075Z - debug: GET /images/homeicon1.png
+2019-04-28T22:58:53.076Z - debug: GET /images/logo.jpg
+2019-04-28T22:58:53.268Z - debug: GET /images/android-icon-192x192.png
+2019-04-28T22:58:53.272Z - debug: GET /images/favicon-96x96.png
+2019-04-28T22:58:53.273Z - debug: GET /images/favicon-32x32.png
+2019-04-28T22:58:53.274Z - debug: GET /images/favicon-16x16.png
+2019-04-28T22:58:55.772Z - debug: GET /login
+2019-04-28T22:58:57.940Z - debug: POST /login
+2019-04-28T22:58:58.077Z - error: 
+2019-04-28T22:58:58.087Z - debug: GET /
+2019-04-28T22:58:58.493Z - debug: Request to /
+2019-04-28T22:59:00.015Z - debug: GET /coating
+2019-04-28T22:59:02.173Z - debug: GET /logout
+2019-04-28T22:59:02.258Z - debug: GET /login
