@@ -27202,3 +27202,17 @@ ReferenceError: api is not defined
 2019-04-28T22:59:00.015Z - debug: GET /coating
 2019-04-28T22:59:02.173Z - debug: GET /logout
 2019-04-28T22:59:02.258Z - debug: GET /login
+2019-04-28T22:59:49.385Z - info: Environment isProduction =  true
+2019-04-28T22:59:49.505Z - debug: START routing
+2019-04-28T22:59:49.514Z - debug: END routing
+2019-04-28T22:59:49.545Z - info: Starting controllers/user.js.
+2019-04-28T22:59:49.545Z - debug: START user routing
+2019-04-28T22:59:49.546Z - debug: END user routing
+2019-04-28T22:59:49.546Z - info: Loaded routing.
+2019-04-28T22:59:49.894Z - info: START seeder.
+2019-04-28T22:59:49.899Z - debug: Registering cgeadmin@mail.com
+2019-04-28T22:59:49.905Z - debug: 10 estimates seeded
+2019-04-28T22:59:49.905Z - debug: 1 users registered
+2019-04-28T22:59:50.451Z - debug: User already exists:  cgeadmin@mail.com
+2019-04-28T22:59:51.877Z - debug: GET /
+2019-04-28T22:59:51.927Z - debug: Request to /
