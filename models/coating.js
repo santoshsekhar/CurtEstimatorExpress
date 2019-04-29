@@ -27,17 +27,17 @@ var Schema = mongoose.Schema
   default: [
     {
       product: 'A',
-      unitcost: 2,
+      unitcost: 20,
       coverageSquareFeetPerUnit: 300
     },
     {
       product: 'B',
-      unitcost: 2,
+      unitcost: 30,
       coverageSquareFeetPerUnit: 300
     },
     {
       product: 'C',
-      unitcost: 2,
+      unitcost: 40,
       coverageSquareFeetPerUnit: 300
     }
   ]
@@ -124,7 +124,7 @@ miscellaneous: {
  multiplier: {
   type: Number,
   required: true,
-  default: 0.40
+  default: 1.5
 },
 
 

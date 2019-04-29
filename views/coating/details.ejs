@@ -45,10 +45,10 @@
                      <td> Sqft/unit:</td>
                       <td> <%= material.coverageSquareFeetPerUnit %></td>
                    </tr>
-                   <td><% totMatCost+= material.coverageSquareFeetPerUnit*material.unitcost%>
+                   <td><% totMatCost+= (coating.squareFeet/material.coverageSquareFeetPerUnit)*material.unitcost%>
                    </td>
                  </div>
-                 <br/>
+                 
                  <% } %>
                  <tr>
                     <td><b>Total Material Cost :</td><b>
@@ -56,7 +56,7 @@
                       <%= totMatCost.toLocaleString(undefined, {maximumFractionDigits:2}) %></td>
                   </tr>
                  
-                   <br/>
+                   
                    <th>
                        <br>
                      </th>
@@ -149,20 +149,20 @@
                  <td><%=  parseFloat(coating.dollarsPerMile).toFixed(2) %></td>  
                  </tr>
                  <tr>
-                    <tr>
-                        <td>Multiplier:</td>
+                    <!-- <tr>
+                        <td>Multiplier:</td> -->
                         <!-- <td><%=  coating.dollarsPerMile %></td> -->
-                      <td><%=  parseFloat(coating.multiplier) %></td>  
-                      </tr>
+                      <!-- <td><%=  parseFloat(coating.multiplier) %></td>  
+                      </tr> -->
                       <tr>
                     <td><b>Total Vehicle Cost :</td><b>
                 <% totVehicleCost = coating.numberOfVehicles*coating.milesPerVehicle
-                  *coating.dollarsPerMile*coating.multiplier %>
+                  *coating.dollarsPerMile %>
                   <td>$
                       <%= totVehicleCost.toLocaleString(undefined, {maximumFractionDigits:2}) %></td>
                   </tr>
-                   <br/>
-                   <br/>
+                   
+                   
                    <th>
                        <br>
                      </th>
@@ -206,6 +206,16 @@
                     <% cost= totalCost/coating.squareFeet %>
                     <td>$ <%= cost.toLocaleString(undefined,{maximumFractionDigits:2})%></td>
                   </tr>
+                  <tr>
+                    <td>Multiplier:</td>
+                    <!-- <td><%=  coating.dollarsPerMile %></td> -->
+                  <td><%=  parseFloat(coating.multiplier) %></td>  
+                  <% bidCost = coating.multiplier * totalCost%>
+                  </tr>
+                  <tr>
+                    <td>Cost including multiplier </td>
+                    <td> $<%= bidCost.toLocaleString(undefined,{maximumFractionDigits:2}) %> </td>
+                  </tr>
                    
                     
 
@@ -214,8 +224,8 @@
 </div>
 </div>
 
-            <br/>
-            <br/>
+            
+            
             <form method="get" action="/coating">
               <input type="submit" value="Return to list" class="btn btn-caution" />
             </form>
