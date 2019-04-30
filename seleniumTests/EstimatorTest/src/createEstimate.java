@@ -7,9 +7,11 @@ public class createEstimate {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
+		// To include the web driver for chrome browser
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\s531503\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://curtestimator.herokuapp.com/");
+		//maximize the window on opening
 		driver.manage().window().maximize();
 		
 		
@@ -66,6 +68,8 @@ public class createEstimate {
 		driver.findElement(By.xpath("//*[@id=\"bs-example-navbar-collapse-1\"]/ul[2]/li/ul/li/a")).click();
 		Thread.sleep(2000);
 		
+		//close the web driver
+		driver.close();
 		
 
 	}
