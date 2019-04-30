@@ -7,9 +7,11 @@ public class index {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
+		// To include the web driver for chrome browser
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\s531503\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://curtestimator.herokuapp.com/");
+		//maximize window on opening
 		driver.manage().window().maximize();
 		
 		
@@ -44,6 +46,7 @@ public class index {
 		driver.findElement(By.xpath("/html/body/div/div/div/div/div/form[1]/input")).click();
 		Thread.sleep(3000);
 		
+		//close the web driver
 		driver.close();      
 
 
