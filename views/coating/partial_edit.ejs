@@ -1,4 +1,4 @@
-
+<!-- Page to display the form for creating an estimate -->
 <div class=row>
     <div class="col col-xs-12">
         <div class="form-group">
@@ -18,7 +18,7 @@
 </div>
 <hr>
 
-<!-- materials  -->
+<!-- materials cost -->
 <p></p>
 <div id="materialList">
         <h4>
@@ -78,7 +78,7 @@
   
 </h4>
 <hr>
-<!-- Labor  -->
+<!-- Labor  Cost-->
 <h4>
         Labor Cost Estimation
       </h4>
@@ -111,7 +111,7 @@
 </h4>
 <hr>
 
-<!-- Hotel  -->
+<!-- Hotel Cost -->
 <h4>
         Accommodation Cost Estimation
       </h4>
@@ -139,7 +139,8 @@
     <span id="hotelCost"></span>
 </h4>
 <hr>
-<!-- Food  -->
+
+<!-- Food Cost  -->
 <h4>
         Food Cost Estimation
       </h4>
@@ -167,7 +168,7 @@
     <span id="foodCost"></span>
 </h4>
 <hr>
-<!-- Vehicle  -->
+<!-- Vehicle Cost  -->
 <h4>
         Transportation Cost Estimation
       </h4>
@@ -198,7 +199,7 @@
 </h4>
 <hr>
 
-<!-- miscellaneous  -->
+<!-- Miscellaneous Cost-->
 <h4>
         Miscellaneous Cost Estimation
       </h4>
@@ -276,6 +277,7 @@ Total Price with multiplier
 
 <!-- PUT CLIENT SIDE CODE HERE -->
 <script>
+    // Method to calcualte the transport or vehicle cost
     function onVehicleCost() {
         var totalVehicle = 0;
         const numOfVehicles = parseInt($("input[name=numberOfVehicles]").val());
@@ -286,6 +288,7 @@ Total Price with multiplier
         $("#vehicleCost").html(totalVehicle.toCurrencyInt());
         totalCost();
     }
+    // Method to calcualte the food cost
     function onFoodCost() {
         var totalFood = 0;
         const numOfPeople = parseInt($("input[name=numberOfPeopleff]").val());
@@ -295,6 +298,7 @@ Total Price with multiplier
         $("#foodCost").html(totalFood.toCurrencyInt());
         totalCost();
     }
+    // Method to calcualte the hotel cost
     function onHotelCost() {
         var totalHotel = 0;
         const numOfHotelRoom = parseInt($("input[name=numberHotelRooms]").val());
@@ -305,7 +309,7 @@ Total Price with multiplier
         totalCost();
     }
 
-
+// Method to calcualte the material cost dynamically on chnge of inputs
     function onEstimateChange() {
         const newsqft = parseFloat($("input[name=squareFeet]").val());
         let numMaterials = parseInt($("#materialCount").html());
@@ -334,6 +338,7 @@ Total Price with multiplier
         totalCost();
     }
 
+// Method to calcualte the miscellaneous cost
     function onMissChange() {
        let numMisc = parseInt($("#miscellaneousCount").html());
                   let miscCost = 0;
@@ -348,6 +353,7 @@ Total Price with multiplier
                   totalCost();
                 }
 
+// Method to calcualte the labour cost
     function onLaborCost() {
         var totalLabor = 0;
         const numOfPeople = parseInt($("input[name=numberOfPeople]").val());
@@ -371,7 +377,7 @@ Total Price with multiplier
         onHotelCost();
     }
 
-    //Total Estimate Cost
+    //// Method to calcualte Total Estimate Cost
     function totalCost() {
         const newsqft = parseFloat($("input[name=squareFeet]").val());
         const materialCost = parseInt($("#materialCost").html().replace("$", "").replace(",", ""));
@@ -408,7 +414,7 @@ Total Price with multiplier
     Number.prototype.toCurrencyInt = function () {
         return toCurrencyInt(this);
     };
-    // extra materials
+    // Add extra materials and miscellaneous items dynamically
     function addInput(divName) {
     var count = 1; var num = 0; var mateormisc = "product";
     if (divName == "dynamicMiscellaneousInput") {

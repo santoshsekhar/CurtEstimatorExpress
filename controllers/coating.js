@@ -1,3 +1,4 @@
+// Handles CRUD operations on estimates
 
 const express = require('express')
 const mongoose = require('mongoose') 
@@ -10,25 +11,31 @@ const notfoundstring = 'coatings'
 const passport = require('../config/passportConfig.js')
 const router = express.Router()
 
- 
-api.get('/findall', passport.isAuthenticated, (req, res) => {
-  console.log(req.app.locals.coatings)
-  res.setHeader('Content-Type', 'application/json')
-  const data = req.app.locals.coatings.query
-  res.send(JSON.stringify(data))
-})
-api.get('/findone/:id', passport.isAuthenticated,(req, res) => {
-  res.setHeader('Content-Type', 'application/json')
-  const id = parseInt(req.params.id, 10) 
-  const data = req.app.locals.coatings.query
-  const item = find(data, { _id: id })
-  if (!item) { return res.end(notfoundstring) }
-  res.send(JSON.stringify(item))
-})
+
+// api.get('/findall', passport.isAuthenticated, (req, res) => {
+//   console.log(req.app.locals.coatings)
+//   res.setHeader('Content-Type', 'application/json')
+//   const data = req.app.locals.coatings.query
+//   res.send(JSON.stringify(data))
+// })
+// api.get('/findone/:id', passport.isAuthenticated,(req, res) => {
+//   res.setHeader('Content-Type', 'application/json')
+//   const id = parseInt(req.params.id, 10) 
+//   const data = req.app.locals.coatings.query
+//   const item = find(data, { _id: id })
+//   if (!item) { return res.end(notfoundstring) }
+//   res.send(JSON.stringify(item))
+// })
+
+
 // RESPOND WITH VIEWS  --------------------------------------------
+
+// Return index view to view all estimates
 api.get('/', passport.isAuthenticated, (req, res) => {
   res.render('coating/index.ejs')
 })
+
+// Return view to create estimate page
 api.get('/create',  (req, res) => {
   LOG.info(`Handling GET /create${req}`)
   const item = new Model()
@@ -41,7 +48,7 @@ api.get('/create',  (req, res) => {
     })
 })
 
-
+// Return view with delete page
 api.get('/delete/:id', passport.isAuthenticated, (req, res) => {
   LOG.info(`Handling GET /delete/:id ${req}`)
   const id = parseInt(req.params.id, 10) 
@@ -58,6 +65,7 @@ api.get('/delete/:id', passport.isAuthenticated, (req, res) => {
    
 })
 
+// Return view with details page
 api.get('/details/:id',  (req, res) => {
   LOG.info(`Handling GET /details/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
@@ -74,6 +82,7 @@ api.get('/details/:id',  (req, res) => {
     })    
 })
 
+// Return view with edit page
 api.get('/edit/:id', passport.isAuthenticated,(req, res) => {
   LOG.info(`Handling GET /edit/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
@@ -89,6 +98,7 @@ api.get('/edit/:id', passport.isAuthenticated,(req, res) => {
     })
 })
 
+// Save a new created estimate
 api.post('/save',  (req, res) => {
   LOG.info(`Handling POST ${req}`)
   LOG.debug(JSON.stringify(req.body))
@@ -144,7 +154,7 @@ api.post('/save',  (req, res) => {
   }
 })
 
-
+// Save a new estimate created by using an existing estimate
 api.post('/save/:id',  (req, res) => {
   LOG.info(`Handling SAVE request ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
@@ -200,6 +210,7 @@ api.post('/save/:id',  (req, res) => {
   return  res.redirect('/coatingedit')
 })
 
+// Return view with delete page for selected estimate
 api.post('/delete/:id',  (req, res) => {
   LOG.info(`Handling DELETE request ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
@@ -219,10 +230,12 @@ api.post('/delete/:id',  (req, res) => {
   return res.redirect('/coatingdel')
 })
 
+// Return view with select page that displays cards of all existig estimates
 api.get('/select',  function (req, res) {
   res.render('coating/select.ejs')
 })
 
+// Return view diplaying all the existing estimates in a card view
 api.get('/copyfrom/:id',(req,res)=>{
   LOG.info(`HandlingCOPYFROMrequest${req}`)
   const id=parseInt(req.params.id,10)//base10

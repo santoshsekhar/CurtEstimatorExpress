@@ -1,4 +1,4 @@
-
+// Seed data from local database onto the application
 const Datastore = require('nedb')
 const LOG = require('../utils/logger.js')
 const coatings = require('../data/coatings.json')
@@ -9,6 +9,8 @@ module.exports = (app) => {
   LOG.info('START seeder.')
   const db = {}
 
+  // Create data stores to store coatings and users data
+  
   db.coatings = new Datastore()
   db.users = new Datastore()
 

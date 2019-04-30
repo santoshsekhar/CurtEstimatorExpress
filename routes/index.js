@@ -45,13 +45,15 @@ router.get('/contact',  (req, res) =>{
             title: ''
           })   ;
         });
-        
+    
+// configure domain and api key required to send emails 
 router.post('/contact', (req, res) => {
     
-    var api_key = 'key-bf36947666ad7ed146a91951252116ed';
+var api_key = 'key-bf36947666ad7ed146a91951252116ed';
 var domain = 'sandbox035d72cee28e4d1dacab0a8ee9079584.mailgun.org';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
  
+// Configure what detials are supposed to be contained in a email
 var data = {
   from: 'Mailer <s531519@nwmissouri.edu>',
   to: 'itsmemailer@gmail.com',
@@ -86,6 +88,7 @@ mailgun.messages().send(data, function (error, body) {
 });
 })
 
+// 
 router.post('/forgot', (req, res) => {
     
     var api_key = 'key-bf36947666ad7ed146a91951252116ed';
@@ -109,6 +112,7 @@ mailgun.messages().send(data, function (error, body) {
 })
 
 
+// Route to redirect to coatings controller for handling estimates
 router.use('/coating',require('../controllers/coating.js'))   
  
     

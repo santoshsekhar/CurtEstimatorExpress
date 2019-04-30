@@ -1,3 +1,4 @@
+// Defines what information is required for a user
 const mongoose = require('mongoose')
 const bcrypt = require('bcrypt-nodejs')
 

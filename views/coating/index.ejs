@@ -1,4 +1,4 @@
-
+<!-- Page to display all estimates on opening with a card view -->
 <div class="container-fluid">
   <div class=row>
      <div class="col-md-12" style="color:white; text-align:center;border-radius: 10px;font-family:Trebuchet MS">
@@ -7,6 +7,7 @@
             </h4>
      </div>
      <br>
+     <!-- button to redirect to create estimate page -->
     <div class="col col-md-12">
       <a href="coating/create" class="btn btn-primary new">
         Create a new estimate
@@ -16,6 +17,7 @@
 
       <h2 >  Recent estimate entries</h2>
       <h3>
+        <!-- display the number of existing estimates -->
         <%= coatings.query.length %> estimates are available
       </h3>
       </div>
@@ -193,8 +195,11 @@
                           </table>
                           <br>
                           <br>
+                          <!-- button to redirect to delete page -->
                           <a class"delete_estimate" href="/coating/delete/<%= coating._id  %>" class="btn btn-danger"> Delete </a>
+                          <!-- button to redirect to detials page -->
                           <a href="/coating/details/<%= coating._id %>" class="btn btn-info"> Details </a>
+                          <!-- button to redirect to edit page -->
                           <a href="/coating/edit/<%= coating._id %>" class="btn btn-warning"> Edit </a>
            
                         </div>

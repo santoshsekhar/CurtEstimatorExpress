@@ -1,4 +1,4 @@
-
+// Setup logs file, to record all actions performed on application
 const winston = require('winston')
 const fs = require('fs')
 const path = require('path')

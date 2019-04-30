@@ -1,3 +1,4 @@
+<!-- Page diplaying the form required to create an estimate -->
 <div class="container-fluid">
   <div class=row>
     <div class="col col-md-12">
@@ -8,17 +9,13 @@
       
       <br>
 
+      <!-- Button to create an estimate from previous estimates -->
       <a href="../coating/select" class="btn btn-success new">
         Copy from existing estimate
       </a>
       <br>
       <br>
       
-
-
-
-
-
       <% maxID=0; for (var i=0; i < coatings.query.length; i++) {
       if(coatings.query[i]._id > maxID) { maxID=coatings.query[i]._id;   }
       var unitcost = coatings.query[i].unitcost;}%>
@@ -31,7 +28,7 @@
                 <input type="number" class="form-control" id="_id" name="_id" value="<%= maxID+1 %>" required readonly>
               </div>
 
-              
+              <!-- Common page displaying the fiells reqired for estimate -->
               <%include partial_edit.ejs%>
 
                 <div class="form-group">

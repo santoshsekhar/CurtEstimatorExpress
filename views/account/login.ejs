@@ -1,9 +1,10 @@
-
+<!-- Login page view  -->
 <div class="custom-container" ng-controller="UserLoginCtrl" class="col-md-6" >
   <div class="page-header" style="text-align:center; color:whitesmoke;">
     <h3>Sign In</h3>
   </div>
 
+  <!-- Feedback meesages displayed on basis of login functions -->
   <%if(messages.failure){%>
     <div class="alert alert-danger">
       <%=messages.failure%>
@@ -46,6 +47,7 @@
                       
                     </div>
                   </form>
+                  
                   
                   <form action='forgot' method="POST">
                     <button type="submit" name="submit" class="btn btn-danger">Forgot your password?</button>

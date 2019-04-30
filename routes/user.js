@@ -1,3 +1,4 @@
+// Configure routes needed to handle user login operatons
 const express = require('express')
 global.userController = require('../controllers/user.js')
 global.contactController = require('../controllers/contact')

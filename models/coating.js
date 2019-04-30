@@ -1,3 +1,4 @@
+// Defines what tyoe of data is required to create an estimate
 const mongoose = require('mongoose') 
 var Schema = mongoose.Schema
 

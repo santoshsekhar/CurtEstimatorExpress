@@ -1,4 +1,5 @@
-
+// For reference purpose used previous projects cg06 
+// Referred Mongo DB documentation for database setup
 // Module dependencies
 const express = require('express')
 const http = require('http')
@@ -161,3 +162,4 @@ app.listen(app.get('port'), () => {
 
 
 module.exports = app
+
