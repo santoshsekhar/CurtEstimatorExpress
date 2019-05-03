@@ -11,7 +11,7 @@ A sample starter app using:
 - jQuery library for DOM manipulation
 - BootStrap framework for responsive design
 - nedb In-memory database
-- Winston logger
+- Winston logger.
 
 # Prerequisites
 
